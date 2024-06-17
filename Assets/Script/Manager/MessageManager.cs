@@ -3,23 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MessageManager
+public class MessageManager : SingleTon<MessageManager>
 {
-    #region SingleTon
-    private static MessageManager _instance;
-    public static MessageManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = new MessageManager();
-            }
-            return _instance;
-        }
-    }
-    #endregion
-
     private Dictionary<Type, Delegate> _uiDic = new Dictionary<Type, Delegate>();
 
     private class MessageHandler<T> where T : MessageBase

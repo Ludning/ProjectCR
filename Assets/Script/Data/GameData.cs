@@ -21,4 +21,6 @@ public class GameData : ScriptableObject
 
     public string name;
     public string level;
+    
+    
 }
