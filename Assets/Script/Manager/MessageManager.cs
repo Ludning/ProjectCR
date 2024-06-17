@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MessageManager : MonoBehaviour
+public class MessageManager
 {
     #region SingleTon
     private static MessageManager _instance;
@@ -13,13 +13,7 @@ public class MessageManager : MonoBehaviour
         {
             if (_instance == null)
             {
-                GameObject go = GameObject.Find("UIManager");
-                if (go == null)
-                {
-                    go = new GameObject("UIManager");
-                    _instance = go.AddComponent<MessageManager>();
-                }
-                DontDestroyOnLoad(_instance);
+                _instance = new MessageManager();
             }
             return _instance;
         }
