@@ -16,14 +16,14 @@ namespace BehaviorDesigner.Runtime.Tasks.Unity.UnityInput
 
         public override TaskStatus OnUpdate()
         {
-            var axisValue = Input.GetAxis(axisName.Value);
+            /*var axisValue = Input.GetAxis(axisName.Value);
 
             // if variable set to none, assume multiplier of 1
             if (!multiplier.IsNone) {
                 axisValue *= multiplier.Value;
             }
 
-            storeResult.Value = axisValue;
+            storeResult.Value = axisValue;*/
             return TaskStatus.Success;
         }
 
