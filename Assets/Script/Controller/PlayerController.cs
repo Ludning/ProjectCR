@@ -1,0 +1,286 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
+
+public class PlayerController : MonoBehaviour
+{
+    #region Field & Property
+    //Data
+    [SerializeField] private PlayerCurveData CurveData;
+    [SerializeField] private PlayerControlData ControlData;
+    
+    //Move
+    private Vector3 _velocity;
+    private Vector3 _lastFixedPosition;
+    private Vector3 _nextFixedPosition;
+    private bool _isMove = false;
+    private bool _isRun = false;
+    private float _elapsedTime = 0f;
+    private float _speedFactor;
+    
+    //Rotation
+    private Vector2 _aimDirection;
+    private Vector2 _moveDirection;
+    private Quaternion _lastFixedRotation;
+    private Quaternion _nextFixedRotation;
+    private bool _isAim = false;
+    
+    //Component Reference
+    [SerializeField] private GroundChecker GroundChecker;
+    [SerializeField] private Camera MainCamera;
+    //[SerializeField] private Weapon.Weapon Weapon;
+    private Animator Animator;
+    
+    //Animation Move Hash
+    private readonly int Vertical = Animator.StringToHash("Vertical");
+    private readonly int Horizontal = Animator.StringToHash("Horizontal");
+    #endregion
+
+    #region MonoBehavior Function
+    void Start()
+    {
+        _lastFixedPosition = transform.position;
+        _lastFixedRotation = transform.rotation;
+        _nextFixedPosition = transform.position;
+        _nextFixedRotation = transform.rotation;
+
+        Animator = GetComponent<Animator>();
+    }
+    private void Update()
+    {
+        float interpolationAlpha = (Time.time - Time.fixedTime) / Time.fixedDeltaTime;
+        
+        transform.position = Vector3.MoveTowards(_lastFixedPosition, _nextFixedPosition, ControlData.MoveSpeed * interpolationAlpha);
+        transform.rotation = Quaternion.RotateTowards(_lastFixedRotation, _nextFixedRotation, ControlData.RotateSpeed * interpolationAlpha);
+    }
+    private void FixedUpdate()
+    {
+        //이전 방향, 회전 초기화
+        _lastFixedPosition = transform.position;
+        _lastFixedRotation = transform.rotation;
+            
+        _velocity = GetVelocity();
+        _speedFactor = GetMoveCurve();
+        
+        //현재 프레임 방향, 회전 초기화
+        _nextFixedPosition = transform.position + _velocity * (_speedFactor * ControlData.MoveSpeed * Time.fixedDeltaTime);
+        _nextFixedRotation = GetPlayerQuaternion();
+
+        SetAnimation();
+    }
+    
+    private void OnEnable()
+    {
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Move, OnMove);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Run, OnRun);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Attack, OnAttack);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Jump, OnJump);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Util, OnUtil);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Interaction, OnInteraction);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Skill, OnSkill);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.Special, OnSpecial);
+    }
+    private void OnDisable()
+    {
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Move, OnMove);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Run, OnRun);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Attack, OnAttack);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Jump, OnJump);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Util, OnUtil);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Interaction, OnInteraction);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Skill, OnSkill);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.Special, OnSpecial);
+    }
+    #endregion
+
+    #region Function
+
+    //캐릭터의 회전 반환
+    private Quaternion GetPlayerQuaternion()
+    {
+        if (_isAim == true)
+        {
+            Vector2 direction = GetAimDirection();
+            return Quaternion.LookRotation(new Vector3(direction.x, 0, direction.y));
+        }
+
+        return (_moveDirection != Vector2.zero)
+            ? Quaternion.LookRotation(new Vector3(_moveDirection.x, 0, _moveDirection.y))
+            : transform.rotation;
+    }
+    private Vector2 GetAimDirection()
+    {
+        if(MainCamera == null)
+            MainCamera = Camera.main;
+        // 마우스 위치를 기준으로 레이 생성
+        Ray ray = MainCamera.ScreenPointToRay(GetMousePosition());
+            
+        // 캐릭터의 높이 가져오기
+        float characterHeight = this.transform.position.y;
+            
+        // 평면 방정식을 통한 교차점 계산
+        if (CalculateIntersectionPoint(ray, characterHeight, out Vector3 hitPoint))
+        {
+            Vector3 aimDirection = hitPoint - this.transform.position;
+            return new Vector2(aimDirection.x, aimDirection.z);
+        }
+
+        return Vector2.zero;
+    }
+    // 평면 방정식을 통한 교차점 계산 함수
+    private bool CalculateIntersectionPoint(Ray ray, float height, out Vector3 hitPoint)
+    {
+        // 캐릭터 높이와 레이의 교차점을 수학적으로 계산
+        if (ray.direction.y != 0)
+        {
+            // 캐릭터 높이(y)와 레이의 기울기(d)로 교차점 z 위치 계산
+            float distance = (height - ray.origin.y) / ray.direction.y;
+            hitPoint = ray.origin + ray.direction * distance;
+            return true;
+        }
+        hitPoint = Vector3.zero;
+        return false;
+    }
+    private Vector2 GetMousePosition()
+    {
+        return Mouse.current.position.ReadValue();
+    }
+    //Velocity 계산
+    private Vector3 GetVelocity()
+    {
+        float velocityY = CalculateVelocityY();
+
+        Vector2 velocityXZ = CalculateVelocityXZ();
+        
+        return new Vector3(velocityXZ.x, velocityY, velocityXZ.y);
+    }
+
+    private float GetMoveCurve()
+    {
+        if (_isMove == false)
+        {
+            _elapsedTime = 0;
+            return 0f;
+        }
+        _elapsedTime += Time.fixedDeltaTime; // `FixedUpdate`에서 고정된 시간 간격 사용
+        float ratio = _elapsedTime / ControlData.CurveMaxTime;
+        ratio = (ratio > 1) ? 1 : ratio;
+        return CurveData.MoveCurve.Evaluate(ratio);
+    }
+    private void GetJumpCurve()
+    {
+        
+    }
+    private void GetFallCurve()
+    {
+        
+    }
+    private void SetAnimation()
+    {
+        if(Animator!= null)
+        {
+            Vector3 localDirection =
+                transform.InverseTransformDirection(new Vector3(_moveDirection.x, 0, _moveDirection.y));
+            localDirection *= ControlData.RunMultiply;
+                
+            Animator.SetFloat(Vertical, localDirection.z);
+            Animator.SetFloat(Horizontal, localDirection.x);
+        }
+    }
+    private Vector2 CalculateVelocityXZ()
+    {
+        float velocityX = _moveDirection.x;
+        float velocityZ = _moveDirection.y;
+        if (_isRun)
+        {
+            velocityX *= ControlData.RunMultiply;
+            velocityZ *= ControlData.RunMultiply;
+        }
+
+        return new Vector2(velocityX, velocityZ);
+    }
+    private float CalculateVelocityY()
+    {
+        float velocityY = 0;
+        if (!GroundChecker.IsGrounded() || _velocity.y > 0.1f)
+        {
+            velocityY = _velocity.y - ControlData.GravityValue * Time.fixedDeltaTime;
+        }
+        return velocityY;
+    }
+    #endregion
+
+
+    #region InputAction Function
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        _moveDirection = context.ReadValue<Vector2>();
+        if (context.started)
+        {
+            _isMove = true;
+        }
+        else if(context.performed)
+        {
+            
+        }
+        else if(context.canceled)
+        {
+            _isMove = false;
+        }
+    }
+    public void OnRun(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            _isRun = true;
+        }
+        else if(context.performed)
+        {
+            
+        }
+        else if(context.canceled)
+        {
+            _isRun = false;
+        }
+    }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        
+    }
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        
+    }
+    public void OnUtil(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            _isAim = true;
+        }
+        else if(context.performed)
+        {
+            
+        }
+        else if(context.canceled)
+        {
+            _isAim = false;
+        }
+    }
+    public void OnInteraction(InputAction.CallbackContext context)
+    {
+        
+    }
+    public void OnSkill(InputAction.CallbackContext context)
+    {
+        
+    }
+    public void OnSpecial(InputAction.CallbackContext context)
+    {
+        
+    }
+    #endregion
+    
+}

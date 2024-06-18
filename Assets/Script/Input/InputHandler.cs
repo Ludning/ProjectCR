@@ -21,7 +21,6 @@ public class InputHandler : SingleTonMono<InputHandler>
             inputAction.started += action;
             inputAction.performed += action;
             inputAction.canceled += action;
-            Debug.LogWarning("입력 액션 등록.");
         }
         else
         {
@@ -41,5 +40,15 @@ public class InputHandler : SingleTonMono<InputHandler>
         {
             Debug.LogWarning("입력 액션 참조가 유효하지 않습니다.");
         }
+    }
+
+    private void OnEnable()
+    {
+        playerInput.Player.Enable();
+    }
+
+    private void OnDisable()
+    {
+        playerInput.Player.Disable();
     }
 }

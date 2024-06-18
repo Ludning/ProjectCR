@@ -6,6 +6,7 @@ public enum InputActionMapType
 public enum InputActionType
 {
     Move,
+    Run,
     Jump,
     Attack,
     Util,
