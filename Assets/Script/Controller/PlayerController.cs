@@ -18,8 +18,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 _nextFixedPosition;
     private bool _isMove = false;
     private bool _isRun = false;
-    private float _elapsedTime = 0f;
-    private float _speedFactor;
+    private float _moveElapsedTime = 0f;
+    private float _moveSpeedFactor;
     
     //Rotation
     private Vector2 _aimDirection;
@@ -30,9 +30,11 @@ public class PlayerController : MonoBehaviour
     
     //Component Reference
     [SerializeField] private GroundChecker GroundChecker;
+    [SerializeField] private Rigidbody UnitRigidbody;
     [SerializeField] private Camera MainCamera;
+    [SerializeField] private CharacterController Controller;
+    [SerializeField] private Animator Animator;
     //[SerializeField] private Weapon.Weapon Weapon;
-    private Animator Animator;
     
     //Animation Move Hash
     private readonly int Vertical = Animator.StringToHash("Vertical");
@@ -52,21 +54,23 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         float interpolationAlpha = (Time.time - Time.fixedTime) / Time.fixedDeltaTime;
-        
-        transform.position = Vector3.MoveTowards(_lastFixedPosition, _nextFixedPosition, ControlData.MoveSpeed * interpolationAlpha);
-        transform.rotation = Quaternion.RotateTowards(_lastFixedRotation, _nextFixedRotation, ControlData.RotateSpeed * interpolationAlpha);
+        Controller.Move(Vector3.Lerp(_lastFixedPosition, _nextFixedPosition, interpolationAlpha) - transform.position);
+        transform.rotation = Quaternion.Slerp(_lastFixedRotation, _nextFixedRotation, interpolationAlpha);
     }
     private void FixedUpdate()
     {
         //이전 방향, 회전 초기화
         _lastFixedPosition = transform.position;
         _lastFixedRotation = transform.rotation;
-            
+        
+        //Curve를 통해 값을 업데이트
+        float fixedDeltaTime = Time.fixedDeltaTime;
+        OnFixedUpdateSpeedFactor(fixedDeltaTime);
+
         _velocity = GetVelocity();
-        _speedFactor = GetMoveCurve();
         
         //현재 프레임 방향, 회전 초기화
-        _nextFixedPosition = transform.position + _velocity * (_speedFactor * ControlData.MoveSpeed * Time.fixedDeltaTime);
+        _nextFixedPosition = transform.position + _velocity * (_moveSpeedFactor * ControlData.MoveSpeed * fixedDeltaTime);
         _nextFixedRotation = GetPlayerQuaternion();
 
         SetAnimation();
@@ -98,6 +102,7 @@ public class PlayerController : MonoBehaviour
 
     #region Function
 
+    #region Character Rotation
     //캐릭터의 회전 반환
     private Quaternion GetPlayerQuaternion()
     {
@@ -148,47 +153,17 @@ public class PlayerController : MonoBehaviour
     {
         return Mouse.current.position.ReadValue();
     }
+    #endregion
+    
+    #region Calculate Velocity
     //Velocity 계산
     private Vector3 GetVelocity()
     {
         float velocityY = CalculateVelocityY();
-
+        Debug.Log(velocityY);
         Vector2 velocityXZ = CalculateVelocityXZ();
         
         return new Vector3(velocityXZ.x, velocityY, velocityXZ.y);
-    }
-
-    private float GetMoveCurve()
-    {
-        if (_isMove == false)
-        {
-            _elapsedTime = 0;
-            return 0f;
-        }
-        _elapsedTime += Time.fixedDeltaTime; // `FixedUpdate`에서 고정된 시간 간격 사용
-        float ratio = _elapsedTime / ControlData.CurveMaxTime;
-        ratio = (ratio > 1) ? 1 : ratio;
-        return CurveData.MoveCurve.Evaluate(ratio);
-    }
-    private void GetJumpCurve()
-    {
-        
-    }
-    private void GetFallCurve()
-    {
-        
-    }
-    private void SetAnimation()
-    {
-        if(Animator!= null)
-        {
-            Vector3 localDirection =
-                transform.InverseTransformDirection(new Vector3(_moveDirection.x, 0, _moveDirection.y));
-            localDirection *= ControlData.RunMultiply;
-                
-            Animator.SetFloat(Vertical, localDirection.z);
-            Animator.SetFloat(Horizontal, localDirection.x);
-        }
     }
     private Vector2 CalculateVelocityXZ()
     {
@@ -199,18 +174,46 @@ public class PlayerController : MonoBehaviour
             velocityX *= ControlData.RunMultiply;
             velocityZ *= ControlData.RunMultiply;
         }
-
         return new Vector2(velocityX, velocityZ);
     }
     private float CalculateVelocityY()
     {
-        float velocityY = 0;
-        if (!GroundChecker.IsGrounded() || _velocity.y > 0.1f)
-        {
-            velocityY = _velocity.y - ControlData.GravityValue * Time.fixedDeltaTime;
-        }
-        return velocityY;
+        return (!GroundChecker.IsGrounded() || _velocity.y > 0.1f)
+            ? _velocity.y - ControlData.GravityValue * Time.fixedDeltaTime
+            : 0f;
     }
+    #endregion
+    
+    #region Move Curve Function
+    private void OnFixedUpdateSpeedFactor(float fixedDeltaTime)
+    {
+        float ratio = GetMoveCurveRatio(fixedDeltaTime);
+        _moveSpeedFactor = GetMoveCurveValue(ratio);
+    }
+    private float GetMoveCurveRatio(float fixedDeltaTime)
+    {
+        _moveElapsedTime = _isMove ? _moveElapsedTime + fixedDeltaTime : 0f;
+        return Mathf.Clamp01(_moveElapsedTime / ControlData.CurveMaxTime);
+    }
+    private float GetMoveCurveValue(float ratio)
+    {
+        return CurveData.MoveCurve.Evaluate(ratio);
+    }
+    #endregion
+    
+    private void SetAnimation()
+    {
+        if(Animator!= null)
+        {
+            Vector3 localDirection =
+                transform.InverseTransformDirection(new Vector3(_moveDirection.x, 0, _moveDirection.y));
+            localDirection *= ControlData.RunMultiply;
+            
+            Animator.SetFloat(Vertical, localDirection.z);
+            Animator.SetFloat(Horizontal, localDirection.x);
+        }
+    }
+    
     #endregion
 
 
@@ -252,7 +255,13 @@ public class PlayerController : MonoBehaviour
     }
     public void OnJump(InputAction.CallbackContext context)
     {
-        
+        if (context.started)
+        {
+            if (GroundChecker.IsGrounded())
+            {
+                _velocity.y += ControlData.JumpForce;
+            }
+        }
     }
     public void OnUtil(InputAction.CallbackContext context)
     {
