@@ -259,7 +259,7 @@ public class PlayerController : MonoBehaviour
         {
             if (GroundChecker.IsGrounded())
             {
-                _velocity.y += ControlData.JumpForce;
+                _velocity.y = ControlData.JumpForce;
             }
         }
     }
