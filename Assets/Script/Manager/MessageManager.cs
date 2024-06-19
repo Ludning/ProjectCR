@@ -7,7 +7,7 @@ public class MessageManager : SingleTon<MessageManager>
 {
     private Dictionary<Type, Delegate> _uiDic = new Dictionary<Type, Delegate>();
 
-    private class MessageHandler<T> where T : MessageBase
+    /*private class MessageHandler<T> where T : MessageBase
     {
         private readonly Action<T> _callback;
 
@@ -20,7 +20,7 @@ public class MessageManager : SingleTon<MessageManager>
         {
             _callback((T)message);
         }
-    }
+    }*/
     
     public bool RegisterCallback<T>(Action<T> messageCallback) where T : MessageBase
     {

@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 
-public class ViewModelBase : MonoBehaviour
+public class ViewModelBase
 {
+    public virtual void RefreshViewModel()
+    {
+        //GameLogicManager.Inst.RefreshCharacterInfo(tempId, vm.OnRefreshViewModel);
+    }
     public virtual void RegisterEventsOnEnable()
     {
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 
-public class ViewBase<TViewModel> : UIBase where TViewModel : ViewModelBase, new()
+public class ViewBase<TViewModel> : MonoBehaviour where TViewModel : ViewModelBase, new()
 {
     protected TViewModel _vm;
     private void OnEnable()
@@ -12,6 +12,7 @@ public class ViewBase<TViewModel> : UIBase where TViewModel : ViewModelBase, new
         {
             _vm = new TViewModel();
             _vm.PropertyChanged += OnPropertyChanged;
+            _vm.RegisterEventsOnEnable();
         }
     }
 
@@ -19,6 +20,7 @@ public class ViewBase<TViewModel> : UIBase where TViewModel : ViewModelBase, new
     {
         if (_vm != null)
         {
+            _vm.UnRegisterEventsOnDisable();
             _vm.PropertyChanged -= OnPropertyChanged;
             _vm = null;
         }
