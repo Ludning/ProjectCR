@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class WindowUIDragBar : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    [SerializeField] private WindowUIBase WindowUI;
     [SerializeField] private RectTransform WindowUITransform;
     private Vector2 offset = Vector2.zero;
     
@@ -23,7 +24,7 @@ public class WindowUIDragBar : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        // 드래그 시작 시 UI 요소의 위치를 저장하고 오프셋을 계산합니다.
+        WindowUI.OnHierarchyMoveToLast();
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             WindowUITransform, 
             eventData.position, 
@@ -34,10 +35,8 @@ public class WindowUIDragBar : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         Vector2 screenSize = new Vector2(Screen.width, Screen.height);
-        // 화면 경계를 벗어났는지 확인
         if (!IsWithinScreen(screenSize))
         {
-            // 가장 가까운 모서리로 UI 이동
             MoveToNearestCorner(screenSize);
         }
     }
