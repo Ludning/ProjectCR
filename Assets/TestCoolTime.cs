@@ -7,11 +7,16 @@ using UnityEngine;
 public class TestCoolTime : MonoBehaviour
 {
     private float[] _skillCoolTimes;
+    private float _bossHpRatio;
+    private float _playerHpRatio;
+    private float _playerMpRatio;
 
 
     public void OnClickStartCoolTime()
     {
         StartCoolTime().Forget();
+        StartPlayerStatueTest().Forget();
+        StartBossHpTest().Forget();
     }
 
     private async UniTaskVoid StartCoolTime()
@@ -31,15 +36,56 @@ public class TestCoolTime : MonoBehaviour
                     _skillCoolTimes[i] = 0;
                     count++;
                 }
-                //Debug.Log($"index : {i}, value : {_skillCoolTimes[i]}");
             }
             if(count>=4)
                 return;
             
-            SkillPanalMessage msg = new SkillPanalMessage()
+            SkillPanal_Message msg = new SkillPanal_Message()
             {
                 SkillImagePath = null,
                 SkillCoolTimeRatio = _skillCoolTimes
+            };
+            MessageManager.Instance.InvokeCallback(msg);
+            await UniTask.Delay(100);
+        }
+    }
+    
+    private async UniTaskVoid StartPlayerStatueTest()
+    {
+        _playerHpRatio = 1f;
+        _playerMpRatio = 1f;
+        while (true)
+        {
+            _playerHpRatio -= 0.01f;
+            _playerMpRatio -= 0.01f;
+            if (_playerHpRatio <= 0 && _playerMpRatio <= 0)
+                return;
+            
+            PlayerHp_Message msgHp = new PlayerHp_Message()
+            {
+                HpRatio = _playerHpRatio
+            };
+            PlayerMp_Message msgMp = new PlayerMp_Message()
+            {
+                MpRatio = _playerMpRatio
+            };
+            MessageManager.Instance.InvokeCallback(msgHp);
+            MessageManager.Instance.InvokeCallback(msgMp);
+            await UniTask.Delay(100);
+        }
+    }
+    private async UniTaskVoid StartBossHpTest()
+    {
+        _bossHpRatio = 1f;
+        while (true)
+        {
+            _bossHpRatio -= 0.01f;
+            if (_bossHpRatio <= 0)
+                return;
+            
+            BossHp_Message msg = new BossHp_Message()
+            {
+                HpRatio = _bossHpRatio
             };
             MessageManager.Instance.InvokeCallback(msg);
             await UniTask.Delay(100);

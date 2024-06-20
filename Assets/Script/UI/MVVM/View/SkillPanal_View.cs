@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Sirenix.Utilities;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class SkillPanalView : ViewBase<SkillPanal_ViewModel>
+public class SkillPanal_View : ViewBase<SkillPanal_ViewModel, SkillPanal_Message>
 {
-    [SerializeField] private List<Image> skillImage;
-    [SerializeField] private List<Image> skillCoolTimeSlider;
+    [SerializeField] private List<Image> skillImages;
+    [SerializeField] private List<Image> skillCoolTimeSliders;
     
     protected override void OnPropertyChanged(object sender, PropertyChangedEventArgs e)
     {
+        Debug.Log($"OnPropertyChanged");
         switch (e.PropertyName)
         {
             case nameof(_vm.SkillImagePaths):
@@ -37,13 +39,13 @@ public class SkillPanalView : ViewBase<SkillPanal_ViewModel>
     {
         if (ratios.IsNullOrEmpty())
             return;
-        if (skillCoolTimeSlider.Count != ratios.Length)
+        if (skillCoolTimeSliders.Count != ratios.Length)
             return;
         
         Debug.Log("스킬 쿨타임 셋업");
         for (int i = 0; i < ratios.Length; i++)
         {
-            skillCoolTimeSlider[i].fillAmount = ratios[i];
+            skillCoolTimeSliders[i].fillAmount = ratios[i];
         }
     }
 }

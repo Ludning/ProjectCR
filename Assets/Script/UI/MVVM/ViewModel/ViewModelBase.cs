@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 
-public class ViewModelBase
+public class ViewModelBase<TMessage> where TMessage : MessageBase
 {
     public virtual void RefreshViewModel()
     {
         //GameLogicManager.Inst.RefreshCharacterInfo(tempId, vm.OnRefreshViewModel);
     }
-    public virtual void RegisterEventsOnEnable()
+    public void RegisterEventsOnEnable()
     {
+        MessageManager.Instance.RegisterCallback<TMessage>(OnResponseMessage);
     }
-    public virtual void UnRegisterEventsOnDisable()
+    public void UnRegisterEventsOnDisable()
+    {
+        MessageManager.Instance.UnRegisterCallback<TMessage>();
+    }
+    protected virtual void OnResponseMessage(TMessage message)
     {
     }
     

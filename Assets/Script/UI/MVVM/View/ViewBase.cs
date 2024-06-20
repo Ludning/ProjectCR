@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 
-public class ViewBase<TViewModel> : MonoBehaviour where TViewModel : ViewModelBase, new()
+public class ViewBase<TViewModel, TMessage> : MonoBehaviour where TViewModel : ViewModelBase<TMessage>, new() where TMessage : MessageBase
 {
     protected TViewModel _vm;
     private void OnEnable()

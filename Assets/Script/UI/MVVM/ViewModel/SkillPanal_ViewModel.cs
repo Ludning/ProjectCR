@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SkillPanal_ViewModel : ViewModelBase
+public class SkillPanal_ViewModel : ViewModelBase<SkillPanal_Message>
 {
     private string[] _skillImagePaths;
     private float[] _skillCoolTimeRatios;
@@ -25,18 +25,8 @@ public class SkillPanal_ViewModel : ViewModelBase
             OnPropertyChanged(nameof(SkillCoolTimeRatios));
         }
     }
-    
-    
-    public override void RegisterEventsOnEnable()
-    {
-        MessageManager.Instance.RegisterCallback<SkillPanalMessage>(OnResponseSkillPanelData);
-    }
-    public override void UnRegisterEventsOnDisable()
-    {
-        MessageManager.Instance.UnRegisterCallback<SkillPanalMessage>();
-    }
 
-    private void OnResponseSkillPanelData(SkillPanalMessage message)
+    protected override void OnResponseMessage(SkillPanal_Message message)
     {
         SkillImagePaths = message.SkillImagePath;
         SkillCoolTimeRatios = message.SkillCoolTimeRatio;
