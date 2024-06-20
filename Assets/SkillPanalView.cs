@@ -12,14 +12,13 @@ public class SkillPanalView : ViewBase<SkillPanal_ViewModel>
     
     protected override void OnPropertyChanged(object sender, PropertyChangedEventArgs e)
     {
-        Debug.Log("OnPropertyChanged");
         switch (e.PropertyName)
         {
-            case nameof(_vm.SkillImagePath):
-                ChangeSkillIcon(_vm.SkillImagePath);
+            case nameof(_vm.SkillImagePaths):
+                ChangeSkillIcon(_vm.SkillImagePaths);
                 break;
-            case nameof(_vm.SkillCoolTimeRatio):
-                ChangeSkillCoolTime(_vm.SkillCoolTimeRatio);
+            case nameof(_vm.SkillCoolTimeRatios):
+                ChangeSkillCoolTime(_vm.SkillCoolTimeRatios);
                 break;
         }
     }
@@ -38,7 +37,7 @@ public class SkillPanalView : ViewBase<SkillPanal_ViewModel>
     {
         if (ratios.IsNullOrEmpty())
             return;
-        if (skillCoolTimeSlider.Count == ratios.Length)
+        if (skillCoolTimeSlider.Count != ratios.Length)
             return;
         
         Debug.Log("스킬 쿨타임 셋업");

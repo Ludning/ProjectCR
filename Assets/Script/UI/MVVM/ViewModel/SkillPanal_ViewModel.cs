@@ -5,8 +5,27 @@ using UnityEngine.UI;
 
 public class SkillPanal_ViewModel : ViewModelBase
 {
-    public string[] SkillImagePath;
-    public float[] SkillCoolTimeRatio;
+    private string[] _skillImagePaths;
+    private float[] _skillCoolTimeRatios;
+    public string[] SkillImagePaths
+    {
+        get => _skillImagePaths;
+        set
+        {
+            _skillImagePaths = value;
+            OnPropertyChanged(nameof(SkillImagePaths));
+        }
+    }
+    public float[] SkillCoolTimeRatios
+    {
+        get => _skillCoolTimeRatios;
+        set
+        {
+            _skillCoolTimeRatios = value;
+            OnPropertyChanged(nameof(SkillCoolTimeRatios));
+        }
+    }
+    
     
     public override void RegisterEventsOnEnable()
     {
@@ -19,7 +38,7 @@ public class SkillPanal_ViewModel : ViewModelBase
 
     private void OnResponseSkillPanelData(SkillPanalMessage message)
     {
-        SkillImagePath = message.SkillImagePath;
-        SkillCoolTimeRatio = message.SkillCoolTimeRatio;
+        SkillImagePaths = message.SkillImagePath;
+        SkillCoolTimeRatios = message.SkillCoolTimeRatio;
     }
 }
