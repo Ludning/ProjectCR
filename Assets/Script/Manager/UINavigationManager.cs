@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class UINavigationManager : SingleTonMono<UINavigationManager>
 {
-    private Dictionary<UI_Type, GameObject> UIDic = new Dictionary<UI_Type, GameObject>();
+    //private Dictionary<UI_Type, GameObject> UIDic = new Dictionary<UI_Type, GameObject>();
     
     
 }

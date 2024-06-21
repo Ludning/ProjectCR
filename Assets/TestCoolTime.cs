@@ -15,8 +15,21 @@ public class TestCoolTime : MonoBehaviour
     public void OnClickStartCoolTime()
     {
         StartCoolTime().Forget();
-        StartPlayerStatueTest().Forget();
+        //StartPlayerStatueTest().Forget();
         StartBossHpTest().Forget();
+
+        _playerHpRatio = 0.2f;
+        _playerMpRatio = 0.2f;
+        PlayerHp_Message msgHp = new PlayerHp_Message()
+        {
+            HpRatio = _playerHpRatio
+        };
+        PlayerMp_Message msgMp = new PlayerMp_Message()
+        {
+            MpRatio = _playerMpRatio
+        };
+        MessageManager.Instance.InvokeCallback(msgHp);
+        MessageManager.Instance.InvokeCallback(msgMp);
     }
 
     private async UniTaskVoid StartCoolTime()

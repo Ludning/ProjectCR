@@ -15,25 +15,15 @@ public class ItemSlotHighlighter : MonoBehaviour, IPointerEnterHandler, IPointer
     
     public void OnPointerEnter(PointerEventData eventData)
     {
-        // 마우스가 들어왔을 때의 동작
         if (colorTween != null && colorTween.IsActive())
-        {
-            colorTween.Kill(); // 이미 실행 중인 트윈이 있다면 중단하고 새로 시작합니다.
-        }
-
-        // Dotween을 사용하여 색상 변경을 부드럽게 처리합니다.
+            colorTween.Kill();
         colorTween = imageComponent.DOColor(hoverColor, tweenDuration);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        // 마우스가 나갔을 때의 동작
         if (colorTween != null && colorTween.IsActive())
-        {
-            colorTween.Kill(); // 이미 실행 중인 트윈이 있다면 중단하고 새로 시작합니다.
-        }
-
-        // Dotween을 사용하여 색상 변경을 부드럽게 처리합니다.
+            colorTween.Kill();
         colorTween = imageComponent.DOColor(normalColor, tweenDuration);
     }
 }

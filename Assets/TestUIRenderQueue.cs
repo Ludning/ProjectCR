@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class TestUIRenderQueue : MonoBehaviour
 {
-    [SerializeField] private GameObject UI;
-
     public void OnSetSort()
     {
-        UI.GetComponent<Renderer>().sortingOrder = 3;
+        UIManager.Instance.ShowPopupUIElement(PopupUIElementType.WindowUIBase);
     }
 }

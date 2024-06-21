@@ -14,7 +14,20 @@ public enum InputActionType
     Skill,
     Special,
 }
-public enum UI_Type
+public enum GameUIElementType
 {
-    
+    HpBar,
+    MpBar,
+    SkillPanel,
+    InventoryButton,
+    MenuButton,
+    Buff,
+    BossHpBar,
+}
+public enum PopupUIElementType
+{
+    WindowUIBase,
+    SkillTreeUI,
+    InventoryUI,
+    EquipmentUI,
 }
