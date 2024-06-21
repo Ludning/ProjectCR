@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "GameData", menuName = "Data/GameData")]
@@ -18,11 +20,66 @@ public class GameData : ScriptableObject
     //퀘스트 내용 데이터
     //아이템 데이터
     //스킬 데이터
-
-    public string name;
-    public string level;
     
-    /*
+    [TableList]
+    public List<LevelData> LevelData;
+    [TableList]
+    public List<SkillData> SkillData;
+    [TableList]
+    public List<MonsterData> MonsterData;
+    [TableList]
+    public List<EliteData> EliteData;
+    [TableList]
+    public List<BossData> BossData;
+
+}
+
+[Serializable]
+public struct LevelData
+{
+    [TableColumnWidth(1)]
+    public int level;
+    public int hp;
+    public int attack;
+    public int defence;
+    public int expRequired;
+}
+[Serializable]
+public struct SkillData 
+{
+    [TableColumnWidth(1)]
+    public int index;
+    public int skillName;
+}
+[Serializable]
+public struct MonsterData
+{
+    [TableColumnWidth(1)]
+    public int index;
+    public int monsterID;
+    public int hp;
+    public int level;
+}
+[Serializable]
+public struct EliteData
+{
+    [TableColumnWidth(1)]
+    public int index;
+    public int eliteID;
+    public int hp;
+    public int level;
+}
+[Serializable]
+public struct BossData
+{
+    [TableColumnWidth(1)]
+    public int index;
+    public int bossID;
+    public int hp;
+    public int level;
+}
+
+/*
 Zebra
 Wombat
 Wolf
@@ -158,4 +215,4 @@ ArcticFox
 Antelope
 Alpaca
      */
-}
+
