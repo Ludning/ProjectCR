@@ -17,8 +17,738 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 2b15348729677a646a715dce395884a2
   m_SerializeEntries:
-  - m_GUID: 0b205c7cf4573684c9e7b0404b12bfc0
-    m_Address: WindowUIBase
+  - m_GUID: 67211d0b86f9bcf4497b6fa82786ab81
+    m_Address: Assets/Prefab/UI/GameScene/PopupUI/EquipmentUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e5931f9ede410b47b855420bc1a7da5
+    m_Address: Assets/Prefab/UI/GameScene/PopupUI/InventoryUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b928b2d84699dbf48b21feab63e3b716
+    m_Address: Assets/Prefab/UI/GameScene/PopupUI/SkillTreeUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a73ec79e29c02f468380667e7f333f0
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/PlayerMpBar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 481397bff6cec0049955a98623b59d9a
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/PlayerHpBar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bafd6b9e875a6043a1f1889bde88455
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/SkillPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17f0e7ef83766b64fb34251beabe4e06
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/InventoryButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5d5fa0bca9cd7e44b5efef59fbebe1d
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/MenuButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dda61cd3f816b947a22ade48ccb26ad
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/BuffInfo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3756d51aee0ca2840b64357e373b6d22
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/BossHpBar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86d0ae4913c5e894c8e6db87f8241571
+    m_Address: Assets/Prefab/Unit/Player/Character3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e517acae5ef482478e39fd3e3fd0010
+    m_Address: Assets/Prefab/Unit/Player/Character2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c936039bf32e8b7448a9576f7f202ca2
+    m_Address: Assets/Prefab/Unit/Player/Character1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfdc888d417c3db448925701ed6ece53
+    m_Address: Assets/Prefab/Unit/Animal/Alpaca.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 162b96b2cc2b05640ac6e6fa4884fdd2
+    m_Address: Assets/Prefab/Unit/Animal/Antelope.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c232745e3b74d0a4e9684c5f31d13734
+    m_Address: Assets/Prefab/Unit/Animal/ArcticFox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db2f6ac926306094fa89569e95c5c2fd
+    m_Address: Assets/Prefab/Unit/Animal/Armadillo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19e91f7f647d6504e8cf26f219d05fa1
+    m_Address: Assets/Prefab/Unit/Animal/Arowana.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07748b7f5889a9546854b40fa59b4365
+    m_Address: Assets/Prefab/Unit/Animal/Baboon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3784ec6a113fd3644b2ad0e47d96d7fd
+    m_Address: Assets/Prefab/Unit/Animal/Badger.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901c028cb957a8d47832a7faf8b95942
+    m_Address: Assets/Prefab/Unit/Animal/Bat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7b88038dc142b348b752af4dd6f7132
+    m_Address: Assets/Prefab/Unit/Animal/Bear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60d3a034567d5cf40b52f20c24515032
+    m_Address: Assets/Prefab/Unit/Animal/Beaver.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b6c57f5cd5adc94a8909c4afe999af5
+    m_Address: Assets/Prefab/Unit/Animal/Beluga.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bbc1fb227e9eec4c8556abcd1bd8796
+    m_Address: Assets/Prefab/Unit/Animal/Bighorn.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ce9f7a3e7900e449b122dc58bd959ff
+    m_Address: Assets/Prefab/Unit/Animal/Bison.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db798f34e486d4e449008b262caf7ac2
+    m_Address: Assets/Prefab/Unit/Animal/Buffalo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f5352007f4a1ce4c930e1d52b421471
+    m_Address: Assets/Prefab/Unit/Animal/Bull.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a4e4117c302ef44eb3fd92feec48bfa
+    m_Address: Assets/Prefab/Unit/Animal/Camel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e531e3ec05aafc746b00c93dd424153e
+    m_Address: Assets/Prefab/Unit/Animal/Carp.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe716d651c9b0f946af5f1e07b52dfde
+    m_Address: Assets/Prefab/Unit/Animal/Cat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20bb7c3840febbb45be59497c2605a63
+    m_Address: Assets/Prefab/Unit/Animal/Chameleon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bea5183fbbd2714fac3688ef9411cf4
+    m_Address: Assets/Prefab/Unit/Animal/Cheetah.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ca45b3748ca73a4782f8bf3ee545da0
+    m_Address: Assets/Prefab/Unit/Animal/Chick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fc8a0e449656a84487cd714b0b70030
+    m_Address: Assets/Prefab/Unit/Animal/Chipmunk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db257dbe8f1afa04db6305d6b7561295
+    m_Address: Assets/Prefab/Unit/Animal/Clownfish.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fba2385e5b94f3040826818d4f28e6d8
+    m_Address: Assets/Prefab/Unit/Animal/Cobra.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75a00c3139b84864097300fc20c6fbb2
+    m_Address: Assets/Prefab/Unit/Animal/Cougar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c013cbd644efc2b4d8690f41087f3e59
+    m_Address: Assets/Prefab/Unit/Animal/Cow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f984bd499c14ae8478b36b934329336f
+    m_Address: Assets/Prefab/Unit/Animal/Coyote.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb2b9dd50730fac47adaaf59b027f7b7
+    m_Address: Assets/Prefab/Unit/Animal/Crab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 272393218a5ce2f46934ae3e2e2d3679
+    m_Address: Assets/Prefab/Unit/Animal/Crocodile.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d54dd2bb977812b428ff4541f995caf7
+    m_Address: Assets/Prefab/Unit/Animal/Crow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe53670b6a7ce34781e047c78cad48d
+    m_Address: Assets/Prefab/Unit/Animal/Deer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1f1ab77d09ac89418fd1c111320f3d9
+    m_Address: Assets/Prefab/Unit/Animal/Dog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d4ab5f37fe89814c85692c75a96993a
+    m_Address: Assets/Prefab/Unit/Animal/Dolphin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87937f210f86ae8498ed1d07faf51270
+    m_Address: Assets/Prefab/Unit/Animal/Donkey.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ab2a03c0f2b324fa5f71d9e52877ef
+    m_Address: Assets/Prefab/Unit/Animal/Dove.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20921d2664a31ba4eabf9129b62bd13a
+    m_Address: Assets/Prefab/Unit/Animal/Duck.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b49f66050eb46343a8cce38a1ec8f4e
+    m_Address: Assets/Prefab/Unit/Animal/Eagle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7010a0c4095d67a40bc269380a73d20c
+    m_Address: Assets/Prefab/Unit/Animal/Elephant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5321a2efb5fc10f409ba58ff9cecfb1d
+    m_Address: Assets/Prefab/Unit/Animal/Emu.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cec16c848a1e194c999c779ee948732
+    m_Address: Assets/Prefab/Unit/Animal/Ferret.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b71e6e653ceaa5142a33bcccf53b037c
+    m_Address: Assets/Prefab/Unit/Animal/Flamingo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2716a15fa2745b468ee0e747d79d868
+    m_Address: Assets/Prefab/Unit/Animal/Fox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e515eb964bb942b43994e1c7bcab3e0b
+    m_Address: Assets/Prefab/Unit/Animal/Frog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eeef3fd382a85c44b34c44c1c29008f
+    m_Address: Assets/Prefab/Unit/Animal/Gazelle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b6456581514ec3478437df7423f86f1
+    m_Address: Assets/Prefab/Unit/Animal/GilaMonster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30faa56ed5dce3b48b2cf3dee5cd3cd2
+    m_Address: Assets/Prefab/Unit/Animal/Giraffe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12e55fc2ac7d11a4cbb10eb261f0891c
+    m_Address: Assets/Prefab/Unit/Animal/Goat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4091f2d2ea79eb041a25fe959fa4986b
+    m_Address: Assets/Prefab/Unit/Animal/GoldenEagle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8e9d93ed7c31e44dadc16f1da28dcbf
+    m_Address: Assets/Prefab/Unit/Animal/Goldfish.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a035a8e5c763fd1488992dead1467333
+    m_Address: Assets/Prefab/Unit/Animal/Goose.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 700e8eeb06f094048b9328ba78dc1694
+    m_Address: Assets/Prefab/Unit/Animal/Gorilla.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ae0deeca87b527419f6b6f5345ba339
+    m_Address: Assets/Prefab/Unit/Animal/Hamster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 264a0b0b46985ec4caa94d7827e4175d
+    m_Address: Assets/Prefab/Unit/Animal/Hare.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afe7fa94df7b4dd4bbcf5df019770788
+    m_Address: Assets/Prefab/Unit/Animal/Hedgehog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 607bb5ffce5acee409f3a53a6087678a
+    m_Address: Assets/Prefab/Unit/Animal/Hen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 741ae97cbf50f4c47a05e6bb12687e52
+    m_Address: Assets/Prefab/Unit/Animal/Hippo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cdee8b35c257eb41b3b3ff72aec1c07
+    m_Address: Assets/Prefab/Unit/Animal/Hog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bd6ebca08a95d343a7a5e75ed8d1ef5
+    m_Address: Assets/Prefab/Unit/Animal/Hornbill.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdb7f16a035ef534a92de98c4d68a6c0
+    m_Address: Assets/Prefab/Unit/Animal/HornedLizard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b190ce5c6676c1646b8bc6a81a7b62f3
+    m_Address: Assets/Prefab/Unit/Animal/Horse.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8802443f7a33a7844ba2955b486e4de5
+    m_Address: Assets/Prefab/Unit/Animal/Husky.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d13bc44cd39b8e46a33c9066bc434c3
+    m_Address: Assets/Prefab/Unit/Animal/Hyena.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3015fdb233114de48bbcc5d69a6ea85c
+    m_Address: Assets/Prefab/Unit/Animal/Iguana.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bfb567cd071a0643aeca8488736e5c6
+    m_Address: Assets/Prefab/Unit/Animal/Jackal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3885698df3cc864591929c1951544b2
+    m_Address: Assets/Prefab/Unit/Animal/Kangaroo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee8c4dd7ccfd42f498b08f89f6f862f7
+    m_Address: Assets/Prefab/Unit/Animal/Kingfisher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13275480b25ae434e8a06c03789a3d7e
+    m_Address: Assets/Prefab/Unit/Animal/Koala.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d50d505beb840e40b4327c248df52fd
+    m_Address: Assets/Prefab/Unit/Animal/Kookaburra.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eea2f21df8f95448846dd6e7f16beb8
+    m_Address: Assets/Prefab/Unit/Animal/Lamb.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a25b1d0c8ae534eb34448214a9d9da
+    m_Address: Assets/Prefab/Unit/Animal/Lemur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6f7f8b635db1b43b6b86c7c64785a8
+    m_Address: Assets/Prefab/Unit/Animal/Lion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 238ac3175489d1e4d8dd2a7595875218
+    m_Address: Assets/Prefab/Unit/Animal/Lioness.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fbe6c845144e324e94e44fdacacf1f0
+    m_Address: Assets/Prefab/Unit/Animal/Llama.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3e2fde173ae9d844927e190edd51974
+    m_Address: Assets/Prefab/Unit/Animal/Lobster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b2c128dba76ce4aa4f8e0282a5cd64
+    m_Address: Assets/Prefab/Unit/Animal/Lynx.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aae20e2867eb9c47894b5e56c8ed1dc
+    m_Address: Assets/Prefab/Unit/Animal/Mallard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16afeb6ca49d14b4c93781cc9760bcbf
+    m_Address: Assets/Prefab/Unit/Animal/Manatee.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b3f0aec459f5c04fa6e236790d87e96
+    m_Address: Assets/Prefab/Unit/Animal/Marten.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb421e62603283047b058b8486107dce
+    m_Address: Assets/Prefab/Unit/Animal/Mice.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a39798adaf065034cae1a9dad68cac3e
+    m_Address: Assets/Prefab/Unit/Animal/Mole.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f618fd7b4f97b684db2646097b1f1352
+    m_Address: Assets/Prefab/Unit/Animal/Monkey.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70279c9a07c645747836d301bc33c25e
+    m_Address: Assets/Prefab/Unit/Animal/Moose.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c4e4731b6e7f1c4e9f7cffc5816aecf
+    m_Address: Assets/Prefab/Unit/Animal/Narwhal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed84d9aa64c48d348883c7f7d778d9d1
+    m_Address: Assets/Prefab/Unit/Animal/Orca.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e68a47f8f5aa834497d6fa8ca3bd762
+    m_Address: Assets/Prefab/Unit/Animal/Ostrich.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0befc4babe4dd37429af1b3145b40693
+    m_Address: Assets/Prefab/Unit/Animal/Owl.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bc3da038d2be704897c7666d2b5b545
+    m_Address: Assets/Prefab/Unit/Animal/Ox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49c9a349a3f5fd942b2ce4fa498ca169
+    m_Address: Assets/Prefab/Unit/Animal/Panda.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2c3cf2b4f5f7e44f955e9aec83653c5
+    m_Address: Assets/Prefab/Unit/Animal/Parrot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a73e6fe2fabb03449e52a280afb75ce
+    m_Address: Assets/Prefab/Unit/Animal/Peacock.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deeec229d609ec746aeff6159f176994
+    m_Address: Assets/Prefab/Unit/Animal/Pelican.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 323955819b3f4fe48ba43befc0f6040a
+    m_Address: Assets/Prefab/Unit/Animal/Penguin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7430e50a56f554d46a7f932668168721
+    m_Address: Assets/Prefab/Unit/Animal/Pig.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d61483bdb4cd85443a35bea2894611ac
+    m_Address: Assets/Prefab/Unit/Animal/Pigeon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2fa1021201004e44ab042b5cb87378c
+    m_Address: Assets/Prefab/Unit/Animal/Platypus.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4515b78cb8e2e3a439c436bf43896390
+    m_Address: Assets/Prefab/Unit/Animal/PolarBear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac8e82f41f777834caee1635b6ac82e6
+    m_Address: Assets/Prefab/Unit/Animal/Possum.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ffb07cc22dba1541a7f04c977202b0b
+    m_Address: Assets/Prefab/Unit/Animal/Pronghorn.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da8fb7236bae1a84d9d67ee00e99221e
+    m_Address: Assets/Prefab/Unit/Animal/Puffin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c03c9563e8c55c84397ba126a4bddc14
+    m_Address: Assets/Prefab/Unit/Animal/Python.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6682f57f7bd3f54c9d9cc0cd0cc3bfe
+    m_Address: Assets/Prefab/Unit/Animal/Quokka.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92ee12064f12985478cfe8b31acc5677
+    m_Address: Assets/Prefab/Unit/Animal/Rabbit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0e07b69d1a8c06449e1a4d5d32d13ca
+    m_Address: Assets/Prefab/Unit/Animal/Raccoon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bfd74759b813414099570d55ca106e8
+    m_Address: Assets/Prefab/Unit/Animal/Rattlesnake.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdf341141403f424b973acd9dd019997
+    m_Address: Assets/Prefab/Unit/Animal/RedPanda.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e90db56f32034f84cbe2e6271e109ae3
+    m_Address: Assets/Prefab/Unit/Animal/Reindeer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 559cef34ce710f642b9c251ba4b02a50
+    m_Address: Assets/Prefab/Unit/Animal/Rhino.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be013369bf2aa9149bbf137631a4f945
+    m_Address: Assets/Prefab/Unit/Animal/Rooster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74d4bba76be89994a8640242d468a729
+    m_Address: Assets/Prefab/Unit/Animal/Seahorse.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45cba86ce41d5704f9f78979d8953abc
+    m_Address: Assets/Prefab/Unit/Animal/Seal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa0b5519812e96644ba6ecbf405dd536
+    m_Address: Assets/Prefab/Unit/Animal/SeaOtter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07bf53aa573413049ba14cab59279b2c
+    m_Address: Assets/Prefab/Unit/Animal/Serval.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6124e968012a284dabc514fc7e17643
+    m_Address: Assets/Prefab/Unit/Animal/Sheep.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4ce4c859b13fef478a8966e1a83b8ae
+    m_Address: Assets/Prefab/Unit/Animal/Skunk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4af39a33a2141349a4cc9a10ca380d6
+    m_Address: Assets/Prefab/Unit/Animal/Sloth.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67be50f98388fe0488c0fc3b2c6e2bfd
+    m_Address: Assets/Prefab/Unit/Animal/Snake.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0748bd86cba57fa49bdce9c9215ed931
+    m_Address: Assets/Prefab/Unit/Animal/SnappingTurtle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e38b1c888e4675c4ea4f8165bb73f4db
+    m_Address: Assets/Prefab/Unit/Animal/SnowLeopard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 077a59432ec74db46842ad8bb8b808fe
+    m_Address: Assets/Prefab/Unit/Animal/SnowOwl.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc4f4a6726d6c1e45ba5807f8ab52316
+    m_Address: Assets/Prefab/Unit/Animal/SnowWeasel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb256ee925b0a6428e14cef6719610d
+    m_Address: Assets/Prefab/Unit/Animal/Squid.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7d90a1d4e053b74db14e0df6d9bf008
+    m_Address: Assets/Prefab/Unit/Animal/Squirrel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb6e5b1a9bc322442bdb702c01a47b0b
+    m_Address: Assets/Prefab/Unit/Animal/Swan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8126e14109e7f7c4095a731991b5aeea
+    m_Address: Assets/Prefab/Unit/Animal/Tapir.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58346108613cd0c4e927ece92eb90599
+    m_Address: Assets/Prefab/Unit/Animal/TasmanianDevil.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3d0f7fb71687e246b3995c30423bcec
+    m_Address: Assets/Prefab/Unit/Animal/Tiger.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a74bfcc0cbaf4f340bbc39f91b557692
+    m_Address: Assets/Prefab/Unit/Animal/Tortoise.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5555d955a28eae4d98a94532ff764f6
+    m_Address: Assets/Prefab/Unit/Animal/Toucan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f66c61a98c2f60a4da1bdac93d6944e0
+    m_Address: Assets/Prefab/Unit/Animal/Turkey.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa80041112520f343af6a0c5499049fb
+    m_Address: Assets/Prefab/Unit/Animal/Walrus.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f19d192bad4b64dbe0e7278bd1a285
+    m_Address: Assets/Prefab/Unit/Animal/Wildebeest.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93b069eaa1695fb4e9af0d5364eb14c1
+    m_Address: Assets/Prefab/Unit/Animal/Wolf.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2869d64391869864f964d501c80d0be5
+    m_Address: Assets/Prefab/Unit/Animal/Wombat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00638b44743197e42bf6baf745e41ba5
+    m_Address: Assets/Prefab/Unit/Animal/Zebra.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

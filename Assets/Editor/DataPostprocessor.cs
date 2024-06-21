@@ -5,18 +5,26 @@ using UnityEngine;
 
 public class DataPostprocessor : AssetPostprocessor
 {
+    const string dataXlsxPath = "Assets/Resource/Xlsx/GameData.xlsx";
+    const string addressXlsxPath = "Assets/Resource/Xlsx/AssetAddress.xlsx";
+    
     static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths, bool didDomainReload)
     {
         //이곳에서 추가되거나 수정된 파일에 대한 작업을 수행한다.
         foreach (string str in importedAssets)
         {
             Debug.Log("추가된 에셋: " + str);
-            string xlsxPath = "Assets/Resource/Xlsx/data.xlsx";
-            string jsonPath = "Assets/Resource/Json/data.json";
+            
+            if (str == dataXlsxPath)
+                DataConverter.ReadExcel(dataXlsxPath);
+            if (str == addressXlsxPath)
+                DataConverter.ReadExcel(addressXlsxPath);
+            
+            /*string jsonPath = "Assets/Resource/Json/data.json";
             if (str == xlsxPath)
                 DataConverter.ReadExcel(xlsxPath);
             if (str == jsonPath)
-                DataConverter.ReadJson(jsonPath);
+                DataConverter.ReadJson(jsonPath);*/
             /*
             var languageXlsxPath = "Assets/Resource/Xlsx/languageData.xlsx";
             if (str == languageXlsxPath)

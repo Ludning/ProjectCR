@@ -7,6 +7,6 @@ public class TestUIRenderQueue : MonoBehaviour
 {
     public void OnSetSort()
     {
-        UIManager.Instance.ShowPopupUIElement(PopupUIElementType.WindowUIBase);
+        //UIManager.Instance.ShowPopupUIElement(PopupUIElementType.WindowUIBase);
     }
 }

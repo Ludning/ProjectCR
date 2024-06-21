@@ -16,17 +16,16 @@ public enum InputActionType
 }
 public enum GameUIElementType
 {
-    HpBar,
-    MpBar,
+    PlayerHpBar,
+    PlayerMpBar,
     SkillPanel,
     InventoryButton,
     MenuButton,
-    Buff,
+    BuffInfo,
     BossHpBar,
 }
 public enum PopupUIElementType
 {
-    WindowUIBase,
     SkillTreeUI,
     InventoryUI,
     EquipmentUI,

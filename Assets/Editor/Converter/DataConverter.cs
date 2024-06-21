@@ -25,7 +25,7 @@ public class DataConverter
         using var reader = ExcelReaderFactory.CreateReader(stream);
         // 모든 시트 로드
         var tables = reader.AsDataSet().Tables;
-        
+
         var assetPath = "Assets/Resource/Data/GameData.asset";
         var gameDataType = typeof(GameData);
         var loadedAsset = AssetDatabase.LoadAssetAtPath<GameData>(assetPath);
@@ -35,11 +35,13 @@ public class DataConverter
             //제네릭타입 알아내기
             Type type = fieldInfo.FieldType.GetGenericArguments()[0];
             //함수 리플렉션 호출
-            var method = typeof(DataConverter).GetMethod(nameof(ReadDataFromXlsx), BindingFlags.Static | BindingFlags.Public)?.MakeGenericMethod(type);
+            var method = typeof(DataConverter)
+                .GetMethod(nameof(ReadDataFromXlsx), BindingFlags.Static | BindingFlags.Public)
+                ?.MakeGenericMethod(type);
             if (method == null) continue;
-            
+
             var data = method.Invoke(null, new object[] { fieldInfo.Name, tables });
-                
+
             if (loadedAsset == null)
             {
                 loadedAsset = ScriptableObject.CreateInstance<GameData>();
@@ -61,13 +63,13 @@ public class DataConverter
             Debug.LogError($"Xlsx 파일에 Sheet이름 : {sheetName} 이 존재하지 않습니다");
             return null;
         }
-        
+
         DataTable sheet = tables[sheetName];
         var dataType = typeof(T);
         List<T> ret = new List<T>();
-        
+
         Dictionary<int, string> columnTypeDic = new Dictionary<int, string>();
-        
+
         //0행의 데이터를 가져온다, 0행의 데이터는 자료형을 결정하기 떄문
         DataRow dataRow = sheet.Rows[0];
         for (int fieldColumn = 1; fieldColumn <= dataType.GetFields().Length; fieldColumn++)
@@ -79,7 +81,7 @@ public class DataConverter
             //columnTypeDic.Add(fieldColumn, val);
         }
 
-        
+
         //시트 이름 필터링 가능
         //Debug.Log($"Sheet[{sheetIndex}] Name: {sheet.TableName}");
 
@@ -98,10 +100,20 @@ public class DataConverter
         return ret;
     }
 
+    //파일이 있는지 확인
+    private static bool IsFileExists(string path)
+    {
 
+        Debug.Log("Path : " + path);
+        var isExist = File.Exists(path);
+        if (isExist == false)
+            Debug.LogError("파일이 존재하지 않습니다.");
 
-
-    public static void ReadCsv(string csvPath)
+        return isExist;
+    }
+    
+    
+    /*public static void ReadCsv(string csvPath)
     {
         Debug.Log("ReadExcel");
 
@@ -134,13 +146,12 @@ public class DataConverter
             reader.Dispose();
             reader.Close();
         }
-    }
-
-    public static void ReadJson(string jsonPath)
+    }*/
+    /*public static void ReadJson(string jsonPath)
     {
         //xlsx파일 주소
         //string xlsxPath = "Assets/Resource/Xlsx/data.json";
-        
+
         Debug.Log("ReadJson");
 
         if (IsFileExists(jsonPath) == false)
@@ -149,19 +160,7 @@ public class DataConverter
         using (var stream = File.Open(jsonPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
         {
             /*var data = await JsonSerializer.DeserializeAsync<YourDataType>(stream);
-            Debug.Log($"Name: {data.Name}, Age: {data.Age}");*/
+            Debug.Log($"Name: {data.Name}, Age: {data.Age}");#1#
         }
-    }
-
-    //파일이 있는지 확인
-    private static bool IsFileExists(string path)
-    {
-        
-        Debug.Log("Path : " + path);
-        var isExist = File.Exists(path);
-        if (isExist == false)
-            Debug.LogError("파일이 존재하지 않습니다.");
-        
-        return isExist;
-    }
+    }*/
 }
