@@ -37,7 +37,7 @@ public class GameData : ScriptableObject
 }
 
 [Serializable]
-public struct LevelData
+public class LevelData
 {
     [TableColumnWidth(40, false)]
     public int level;
@@ -47,14 +47,14 @@ public struct LevelData
     public int expRequired;
 }
 [Serializable]
-public struct SkillData 
+public class SkillData 
 {
     [TableColumnWidth(40, false)]
     public int index;
     public int skillName;
 }
 [Serializable]
-public struct PlayerData
+public class PlayerData
 {
     [TableColumnWidth(40, false)]
     public int index;
@@ -78,7 +78,7 @@ public struct PlayerData
     public string equipment_data;
 }
 [Serializable]
-public struct MonsterData
+public class MonsterData
 {
     [TableColumnWidth(40, false)]
     public int index;
@@ -87,7 +87,7 @@ public struct MonsterData
     public int level;
 }
 [Serializable]
-public struct EliteData
+public class EliteData
 {
     [TableColumnWidth(40, false)]
     public int index;
@@ -96,7 +96,7 @@ public struct EliteData
     public int level;
 }
 [Serializable]
-public struct BossData
+public class BossData
 {
     [TableColumnWidth(40, false)]
     public int index;

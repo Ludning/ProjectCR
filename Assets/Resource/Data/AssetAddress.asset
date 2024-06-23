@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d01a38f37924d449d816d03f71ca3e, type: 3}
+  m_Name: AssetAddress
+  m_EditorClassIdentifier: 
+  PopupUIAsset:
+  - name: SkillTreeUI
+    path: Assets/Prefab/UI/GameScene/PopupUI/SkillTreeUI.prefab
+  - name: InventoryUI
+    path: Assets/Prefab/UI/GameScene/PopupUI/InventoryUI.prefab
+  - name: EquipmentUI
+    path: Assets/Prefab/UI/GameScene/PopupUI/EquipmentUI.prefab
+  CharacterAsset:
+  - name: Character1
+    path: Assets/Prefab/Unit/Player/Character1.prefab
+  - name: Character2
+    path: Assets/Prefab/Unit/Player/Character2.prefab
+  - name: Character3
+    path: Assets/Prefab/Unit/Player/Character3.prefab
+  AnimalAsset:
+  - name: Zebra
+    path: Assets/Prefab/Unit/Animal/Zebra.prefab
+  - name: Wombat
+    path: Assets/Prefab/Unit/Animal/Wombat.prefab
+  - name: Wolf
+    path: Assets/Prefab/Unit/Animal/Wolf.prefab
+  - name: Wildebeest
+    path: Assets/Prefab/Unit/Animal/Wildebeest.prefa
+  - name: Walrus
+    path: Assets/Prefab/Unit/Animal/Walrus.prefab
+  - name: Turkey
+    path: Assets/Prefab/Unit/Animal/Turkey.prefab
+  - name: Toucan
+    path: Assets/Prefab/Unit/Animal/Toucan.prefab
+  - name: Tortoise
+    path: Assets/Prefab/Unit/Animal/Tortoise.prefab
+  - name: Tiger
+    path: Assets/Prefab/Unit/Animal/Tiger.prefab
+  - name: TasmanianD
+    path: Assets/Prefab/Unit/Animal/TasmanianDevil.p
+  - name: Tapir
+    path: Assets/Prefab/Unit/Animal/Tapir.prefab
+  - name: Swan
+    path: Assets/Prefab/Unit/Animal/Swan.prefab
+  - name: Squirrel
+    path: Assets/Prefab/Unit/Animal/Squirrel.prefab
+  - name: Squid
+    path: Assets/Prefab/Unit/Animal/Squid.prefab
+  - name: SnowWeasel
+    path: Assets/Prefab/Unit/Animal/SnowWeasel.prefa
+  - name: SnowOwl
+    path: Assets/Prefab/Unit/Animal/SnowOwl.prefab
+  - name: SnowLeopar
+    path: Assets/Prefab/Unit/Animal/SnowLeopard.pref
+  - name: SnappingTu
+    path: Assets/Prefab/Unit/Animal/SnappingTurtle.p
+  - name: Snake
+    path: Assets/Prefab/Unit/Animal/Snake.prefab
+  - name: Sloth
+    path: Assets/Prefab/Unit/Animal/Sloth.prefab
+  - name: Skunk
+    path: Assets/Prefab/Unit/Animal/Skunk.prefab
+  - name: Sheep
+    path: Assets/Prefab/Unit/Animal/Sheep.prefab
+  - name: Serval
+    path: Assets/Prefab/Unit/Animal/Serval.prefab
+  - name: SeaOtter
+    path: Assets/Prefab/Unit/Animal/SeaOtter.prefab
+  - name: Seal
+    path: Assets/Prefab/Unit/Animal/Seal.prefab
+  - name: Seahorse
+    path: Assets/Prefab/Unit/Animal/Seahorse.prefab
+  - name: Rooster
+    path: Assets/Prefab/Unit/Animal/Rooster.prefab
+  - name: Rhino
+    path: Assets/Prefab/Unit/Animal/Rhino.prefab
+  - name: Reindeer
+    path: Assets/Prefab/Unit/Animal/Reindeer.prefab
+  - name: RedPanda
+    path: Assets/Prefab/Unit/Animal/RedPanda.prefab
+  - name: Rattlesnak
+    path: Assets/Prefab/Unit/Animal/Rattlesnake.pref
+  - name: Raccoon
+    path: Assets/Prefab/Unit/Animal/Raccoon.prefab
+  - name: Rabbit
+    path: Assets/Prefab/Unit/Animal/Rabbit.prefab
+  - name: Quokka
+    path: Assets/Prefab/Unit/Animal/Quokka.prefab
+  - name: Python
+    path: Assets/Prefab/Unit/Animal/Python.prefab
+  - name: Puffin
+    path: Assets/Prefab/Unit/Animal/Puffin.prefab
+  - name: Pronghorn
+    path: Assets/Prefab/Unit/Animal/Pronghorn.prefab
+  - name: Possum
+    path: Assets/Prefab/Unit/Animal/Possum.prefab
+  - name: PolarBear
+    path: Assets/Prefab/Unit/Animal/PolarBear.prefab
+  - name: Platypus
+    path: Assets/Prefab/Unit/Animal/Platypus.prefab
+  - name: Pigeon
+    path: Assets/Prefab/Unit/Animal/Pigeon.prefab
+  - name: Pig
+    path: Assets/Prefab/Unit/Animal/Pig.prefab
+  - name: Penguin
+    path: Assets/Prefab/Unit/Animal/Penguin.prefab
+  - name: Pelican
+    path: Assets/Prefab/Unit/Animal/Pelican.prefab
+  - name: Peacock
+    path: Assets/Prefab/Unit/Animal/Peacock.prefab
+  - name: Parrot
+    path: Assets/Prefab/Unit/Animal/Parrot.prefab
+  - name: Panda
+    path: Assets/Prefab/Unit/Animal/Panda.prefab
+  - name: Ox
+    path: Assets/Prefab/Unit/Animal/Ox.prefab
+  - name: Owl
+    path: Assets/Prefab/Unit/Animal/Owl.prefab
+  - name: Ostrich
+    path: Assets/Prefab/Unit/Animal/Ostrich.prefab
+  - name: Orca
+    path: Assets/Prefab/Unit/Animal/Orca.prefab
+  - name: Narwhal
+    path: Assets/Prefab/Unit/Animal/Narwhal.prefab
+  - name: Moose
+    path: Assets/Prefab/Unit/Animal/Moose.prefab
+  - name: Monkey
+    path: Assets/Prefab/Unit/Animal/Monkey.prefab
+  - name: Mole
+    path: Assets/Prefab/Unit/Animal/Mole.prefab
+  - name: Mice
+    path: Assets/Prefab/Unit/Animal/Mice.prefab
+  - name: Marten
+    path: Assets/Prefab/Unit/Animal/Marten.prefab
+  - name: Manatee
+    path: Assets/Prefab/Unit/Animal/Manatee.prefab
+  - name: Mallard
+    path: Assets/Prefab/Unit/Animal/Mallard.prefab
+  - name: Lynx
+    path: Assets/Prefab/Unit/Animal/Lynx.prefab
+  - name: Lobster
+    path: Assets/Prefab/Unit/Animal/Lobster.prefab
+  - name: Llama
+    path: Assets/Prefab/Unit/Animal/Llama.prefab
+  - name: Lioness
+    path: Assets/Prefab/Unit/Animal/Lioness.prefab
+  - name: Lion
+    path: Assets/Prefab/Unit/Animal/Lion.prefab
+  - name: Lemur
+    path: Assets/Prefab/Unit/Animal/Lemur.prefab
+  - name: Lamb
+    path: Assets/Prefab/Unit/Animal/Lamb.prefab
+  - name: Kookaburra
+    path: Assets/Prefab/Unit/Animal/Kookaburra.prefa
+  - name: Koala
+    path: Assets/Prefab/Unit/Animal/Koala.prefab
+  - name: Kingfisher
+    path: Assets/Prefab/Unit/Animal/Kingfisher.prefa
+  - name: Kangaroo
+    path: Assets/Prefab/Unit/Animal/Kangaroo.prefab
+  - name: Jackal
+    path: Assets/Prefab/Unit/Animal/Jackal.prefab
+  - name: Iguana
+    path: Assets/Prefab/Unit/Animal/Iguana.prefab
+  - name: Hyena
+    path: Assets/Prefab/Unit/Animal/Hyena.prefab
+  - name: Husky
+    path: Assets/Prefab/Unit/Animal/Husky.prefab
+  - name: Horse
+    path: Assets/Prefab/Unit/Animal/Horse.prefab
+  - name: HornedLiza
+    path: Assets/Prefab/Unit/Animal/HornedLizard.pre
+  - name: Hornbill
+    path: Assets/Prefab/Unit/Animal/Hornbill.prefab
+  - name: Hog
+    path: Assets/Prefab/Unit/Animal/Hog.prefab
+  - name: Hippo
+    path: Assets/Prefab/Unit/Animal/Hippo.prefab
+  - name: Hen
+    path: Assets/Prefab/Unit/Animal/Hen.prefab
+  - name: Hedgehog
+    path: Assets/Prefab/Unit/Animal/Hedgehog.prefab
+  - name: Hare
+    path: Assets/Prefab/Unit/Animal/Hare.prefab
+  - name: Hamster
+    path: Assets/Prefab/Unit/Animal/Hamster.prefab
+  - name: Gorilla
+    path: Assets/Prefab/Unit/Animal/Gorilla.prefab
+  - name: Goose
+    path: Assets/Prefab/Unit/Animal/Goose.prefab
+  - name: Goldfish
+    path: Assets/Prefab/Unit/Animal/Goldfish.prefab
+  - name: GoldenEagl
+    path: Assets/Prefab/Unit/Animal/GoldenEagle.pref
+  - name: Goat
+    path: Assets/Prefab/Unit/Animal/Goat.prefab
+  - name: Giraffe
+    path: Assets/Prefab/Unit/Animal/Giraffe.prefab
+  - name: GilaMonste
+    path: Assets/Prefab/Unit/Animal/GilaMonster.pref
+  - name: Gazelle
+    path: Assets/Prefab/Unit/Animal/Gazelle.prefab
+  - name: Frog
+    path: Assets/Prefab/Unit/Animal/Frog.prefab
+  - name: Fox
+    path: Assets/Prefab/Unit/Animal/Fox.prefab
+  - name: Flamingo
+    path: Assets/Prefab/Unit/Animal/Flamingo.prefab
+  - name: Ferret
+    path: Assets/Prefab/Unit/Animal/Ferret.prefab
+  - name: Emu
+    path: Assets/Prefab/Unit/Animal/Emu.prefab
+  - name: Elephant
+    path: Assets/Prefab/Unit/Animal/Elephant.prefab
+  - name: Eagle
+    path: Assets/Prefab/Unit/Animal/Eagle.prefab
+  - name: Duck
+    path: Assets/Prefab/Unit/Animal/Duck.prefab
+  - name: Dove
+    path: Assets/Prefab/Unit/Animal/Dove.prefab
+  - name: Donkey
+    path: Assets/Prefab/Unit/Animal/Donkey.prefab
+  - name: Dolphin
+    path: Assets/Prefab/Unit/Animal/Dolphin.prefab
+  - name: Dog
+    path: Assets/Prefab/Unit/Animal/Dog.prefab
+  - name: Deer
+    path: Assets/Prefab/Unit/Animal/Deer.prefab
+  - name: Crow
+    path: Assets/Prefab/Unit/Animal/Crow.prefab
+  - name: Crocodile
+    path: Assets/Prefab/Unit/Animal/Crocodile.prefab
+  - name: Crab
+    path: Assets/Prefab/Unit/Animal/Crab.prefab
+  - name: Coyote
+    path: Assets/Prefab/Unit/Animal/Coyote.prefab
+  - name: Cow
+    path: Assets/Prefab/Unit/Animal/Cow.prefab
+  - name: Cougar
+    path: Assets/Prefab/Unit/Animal/Cougar.prefab
+  - name: Cobra
+    path: Assets/Prefab/Unit/Animal/Cobra.prefab
+  - name: Clownfish
+    path: Assets/Prefab/Unit/Animal/Clownfish.prefab
+  - name: Chipmunk
+    path: Assets/Prefab/Unit/Animal/Chipmunk.prefab
+  - name: Chick
+    path: Assets/Prefab/Unit/Animal/Chick.prefab
+  - name: Cheetah
+    path: Assets/Prefab/Unit/Animal/Cheetah.prefab
+  - name: Chameleon
+    path: Assets/Prefab/Unit/Animal/Chameleon.prefab
+  - name: Cat
+    path: Assets/Prefab/Unit/Animal/Cat.prefab
+  - name: Carp
+    path: Assets/Prefab/Unit/Animal/Carp.prefab
+  - name: Camel
+    path: Assets/Prefab/Unit/Animal/Camel.prefab
+  - name: Bull
+    path: Assets/Prefab/Unit/Animal/Bull.prefab
+  - name: Buffalo
+    path: Assets/Prefab/Unit/Animal/Buffalo.prefab
+  - name: Bison
+    path: Assets/Prefab/Unit/Animal/Bison.prefab
+  - name: Bighorn
+    path: Assets/Prefab/Unit/Animal/Bighorn.prefab
+  - name: Beluga
+    path: Assets/Prefab/Unit/Animal/Beluga.prefab
+  - name: Beaver
+    path: Assets/Prefab/Unit/Animal/Beaver.prefab
+  - name: Bear
+    path: Assets/Prefab/Unit/Animal/Bear.prefab
+  - name: Bat
+    path: Assets/Prefab/Unit/Animal/Bat.prefab
+  - name: Badger
+    path: Assets/Prefab/Unit/Animal/Badger.prefab
+  - name: Baboon
+    path: Assets/Prefab/Unit/Animal/Baboon.prefab
+  - name: Arowana
+    path: Assets/Prefab/Unit/Animal/Arowana.prefab
+  - name: Armadillo
+    path: Assets/Prefab/Unit/Animal/Armadillo.prefab
+  - name: ArcticFox
+    path: Assets/Prefab/Unit/Animal/ArcticFox.prefab
+  - name: Antelope
+    path: Assets/Prefab/Unit/Animal/Antelope.prefab
+  - name: Alpaca
+    path: Assets/Prefab/Unit/Animal/Alpaca.prefab

@@ -7,13 +7,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AssetAddressData", menuName = "Data/AssetAddressData")]
 public class AssetAddressData : ScriptableObject
 {
-    public List<AssetData> PupupUIAsset;
+    public List<AssetData> PopupUIAsset;
     public List<AssetData> CharacterAsset;
     public List<AssetData> AnimalAsset;
 }
 
 [Serializable]
-public struct AssetData
+public class AssetData
 {
     [TableColumnWidth(1)]
     public string name;

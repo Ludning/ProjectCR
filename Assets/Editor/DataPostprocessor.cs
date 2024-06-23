@@ -8,7 +8,7 @@ public class DataPostprocessor : AssetPostprocessor
     const string dataXlsxPath = "Assets/Resource/Xlsx/GameData.xlsx";
     const string addressXlsxPath = "Assets/Resource/Xlsx/AssetAddress.xlsx";
     const string dataAssetPath = "Assets/Resource/Data/GameData.asset";
-    const string addressAssetPath = "Assets/Resource/Data/GameData.asset";
+    const string addressAssetPath = "Assets/Resource/Data/AssetAddress.asset";
     
     static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths, bool didDomainReload)
     {
