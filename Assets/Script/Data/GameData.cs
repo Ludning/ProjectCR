@@ -26,6 +26,8 @@ public class GameData : ScriptableObject
     [TableList]
     public List<SkillData> SkillData;
     [TableList]
+    public List<PlayerData> PlayerData;
+    [TableList]
     public List<MonsterData> MonsterData;
     [TableList]
     public List<EliteData> EliteData;
@@ -37,7 +39,7 @@ public class GameData : ScriptableObject
 [Serializable]
 public struct LevelData
 {
-    [TableColumnWidth(1)]
+    [TableColumnWidth(40, false)]
     public int level;
     public int hp;
     public int attack;
@@ -47,14 +49,38 @@ public struct LevelData
 [Serializable]
 public struct SkillData 
 {
-    [TableColumnWidth(1)]
+    [TableColumnWidth(40, false)]
     public int index;
     public int skillName;
 }
 [Serializable]
+public struct PlayerData
+{
+    [TableColumnWidth(40, false)]
+    public int index;
+    
+    [TableColumnWidth(40)]
+    [VerticalGroup("Player Account"), LabelWidth(70)]
+    public string identification;
+    [VerticalGroup("Player Account"), LabelWidth(70)]
+    public string password;
+    [VerticalGroup("Player Account"), LabelWidth(70)]
+    public string nickname;
+    
+    [TableColumnWidth(80)]
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public string character;
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public int level;
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public string inventory_data;
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public string equipment_data;
+}
+[Serializable]
 public struct MonsterData
 {
-    [TableColumnWidth(1)]
+    [TableColumnWidth(40, false)]
     public int index;
     public int monsterID;
     public int hp;
@@ -63,7 +89,7 @@ public struct MonsterData
 [Serializable]
 public struct EliteData
 {
-    [TableColumnWidth(1)]
+    [TableColumnWidth(40, false)]
     public int index;
     public int eliteID;
     public int hp;
@@ -72,7 +98,7 @@ public struct EliteData
 [Serializable]
 public struct BossData
 {
-    [TableColumnWidth(1)]
+    [TableColumnWidth(40, false)]
     public int index;
     public int bossID;
     public int hp;

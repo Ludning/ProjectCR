@@ -7,6 +7,8 @@ public class DataPostprocessor : AssetPostprocessor
 {
     const string dataXlsxPath = "Assets/Resource/Xlsx/GameData.xlsx";
     const string addressXlsxPath = "Assets/Resource/Xlsx/AssetAddress.xlsx";
+    const string dataAssetPath = "Assets/Resource/Data/GameData.asset";
+    const string addressAssetPath = "Assets/Resource/Data/GameData.asset";
     
     static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths, bool didDomainReload)
     {
@@ -16,9 +18,9 @@ public class DataPostprocessor : AssetPostprocessor
             Debug.Log("추가된 에셋: " + str);
             
             if (str == dataXlsxPath)
-                DataConverter.ReadExcel(dataXlsxPath);
+                DataConverter.LoadExcel<GameData>(dataXlsxPath, dataAssetPath);
             if (str == addressXlsxPath)
-                DataConverter.ReadExcel(addressXlsxPath);
+                DataConverter.LoadExcel<AssetAddressData>(addressXlsxPath, addressAssetPath);
             
             /*string jsonPath = "Assets/Resource/Json/data.json";
             if (str == xlsxPath)

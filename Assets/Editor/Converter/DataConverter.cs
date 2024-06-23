@@ -8,11 +8,12 @@ using System.Text;
 using ExcelDataReader;
 using UnityEditor;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class DataConverter
 {
-    [MenuItem("DataConverter/ReadExcel")]
-    public static void ReadExcel(string xlsxPath)
+    [MenuItem("DataConverter/LoadExcel")]
+    public static void LoadExcel<T>(string xlsxPath, string assetPath) where T : ScriptableObject
     {
         Debug.Log("ReadExcel");
 
@@ -20,23 +21,19 @@ public class DataConverter
         if (IsFileExists(xlsxPath) == false)
             return;
 
-        using var stream = new FileStream(xlsxPath, FileMode.Open, FileAccess.Read);
-        // FileStream을 사용한 코드 작성
-        using var reader = ExcelReaderFactory.CreateReader(stream);
-        // 모든 시트 로드
-        var tables = reader.AsDataSet().Tables;
+        //엑셀파일로 부터 테이블 데이터 로드
+        var tables = GetTableFromXlsx(xlsxPath);
 
-        var assetPath = "Assets/Resource/Data/GameData.asset";
-        var gameDataType = typeof(GameData);
-        var loadedAsset = AssetDatabase.LoadAssetAtPath<GameData>(assetPath);
+        var assetType = typeof(T);
+        var loadedAsset = AssetDatabase.LoadAssetAtPath<T>(assetPath);
 
-        foreach (var fieldInfo in gameDataType.GetFields())
+        foreach (var fieldInfo in assetType.GetFields())
         {
             //제네릭타입 알아내기
             Type type = fieldInfo.FieldType.GetGenericArguments()[0];
             //함수 리플렉션 호출
             var method = typeof(DataConverter)
-                .GetMethod(nameof(ReadDataFromXlsx), BindingFlags.Static | BindingFlags.Public)
+                .GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)
                 ?.MakeGenericMethod(type);
             if (method == null) continue;
 
@@ -44,7 +41,7 @@ public class DataConverter
 
             if (loadedAsset == null)
             {
-                loadedAsset = ScriptableObject.CreateInstance<GameData>();
+                loadedAsset = ScriptableObject.CreateInstance<T>();
 
                 fieldInfo.SetValue(loadedAsset, data);
                 AssetDatabase.CreateAsset(loadedAsset, assetPath);
@@ -56,7 +53,16 @@ public class DataConverter
         }
     }
 
-    public static List<T> ReadDataFromXlsx<T>(string sheetName, DataTableCollection tables) where T : class, new()
+    private static DataTableCollection GetTableFromXlsx(string xlsxPath)
+    {
+        using var stream = new FileStream(xlsxPath, FileMode.Open, FileAccess.Read);
+        // FileStream을 사용한 코드 작성
+        using var reader = ExcelReaderFactory.CreateReader(stream);
+        // 모든 시트 로드
+        return reader.AsDataSet().Tables;
+    }
+
+    public static List<T> ReadDataFromTable<T>(string sheetName, DataTableCollection tables) where T : class, new()
     {
         if (tables.Contains(sheetName) == false)
         {
@@ -107,7 +113,7 @@ public class DataConverter
         Debug.Log("Path : " + path);
         var isExist = File.Exists(path);
         if (isExist == false)
-            Debug.LogError("파일이 존재하지 않습니다.");
+            Debug.LogError("Xlsx 파일이 존재하지 않습니다.");
 
         return isExist;
     }

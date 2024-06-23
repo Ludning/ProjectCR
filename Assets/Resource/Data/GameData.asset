@@ -12,27 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43bc0e7b60286844aa462453dd2ae321, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  LevelDatas:
-  - level: 0
-    hp: 0
-    attack: 0
-    defence: 0
-    expRequired: 0
-  SkillDatas:
-  - index: 0
-    skillName: 0
-  MonsterDatas:
-  - index: 0
-    monsterID: 0
-    hp: 0
-    level: 0
-  EliteDatas:
-  - index: 0
-    eliteID: 0
-    hp: 0
-    level: 0
-  BossDatas:
-  - index: 0
-    bossID: 0
-    hp: 0
-    level: 0
+  LevelData: []
+  SkillData: []
+  PlayerData: []
+  MonsterData: []
+  EliteData: []
+  BossData: []
