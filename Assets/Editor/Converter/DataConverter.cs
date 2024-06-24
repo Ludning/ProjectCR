@@ -56,12 +56,15 @@ public class DataConverter
     {
         var assetType = typeof(T);
         var fieldInfos = assetType.GetFields();
+        
         foreach (var fieldInfo in fieldInfos)
         {
             //제네릭타입 알아내기
-            Type type = fieldInfo.FieldType.GetGenericArguments()[0];
+            Type type = fieldInfo.FieldType.GetGenericArguments()[1];
+            Type keyType = fieldInfo.FieldType.GetGenericArguments()[0];
+            Debug.Log(keyType.Name);
             //함수 리플렉션 호출
-            var method = typeof(DataConverter).GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)?.MakeGenericMethod(type);
+            var method = typeof(DataConverter).GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)?.MakeGenericMethod(keyType, type);
             if (method == null) continue;
 
             var data = method.Invoke(null, new object[] { fieldInfo.Name, tables });
@@ -70,7 +73,7 @@ public class DataConverter
         }
     }
 
-    public static List<T> ReadDataFromTable<T>(string sheetName, DataTableCollection tables) where T : class, new()
+    public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : class, new()
     {
         if (tables.Contains(sheetName) == false)
         {
@@ -79,10 +82,10 @@ public class DataConverter
         }
 
         DataTable sheet = tables[sheetName];
-        var dataType = typeof(T);
+        var dataType = typeof(TValue);
         
         FieldInfo[] fieldInfos = dataType.GetFields();
-        List<T> ret = new List<T>();
+        Dictionary<TKey, TValue> ret = new Dictionary<TKey, TValue>();
         
         Dictionary<int, string> columnTypeDic = new Dictionary<int, string>();
 
@@ -94,12 +97,12 @@ public class DataConverter
                 break;
             columnTypeDic.Add(fieldColumn, val);
         }
-
+        
         for (var rowIndex = 1; rowIndex < sheet.Rows.Count; rowIndex++)
         {
             // 행 가져오기
             var dataRow = sheet.Rows[rowIndex];
-            T data = new T();
+            TValue data = new TValue();
             
             for (var columnIndex = 0; columnIndex < dataRow.ItemArray.Length; columnIndex++)
             {
@@ -126,7 +129,10 @@ public class DataConverter
                     fieldInfo.SetValue(data, Convert.ChangeType(item, type));
                 
             }
-            ret.Add(data);
+            // 키 값을 가져오기
+            TKey key = (TKey)fieldInfos[0].GetValue(data);
+            
+            ret[key] = data;
         }
         return ret;
         

@@ -20,282 +20,2546 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
-  LevelData:
-  - level: 1
-    hp: 100
-    attack: 100
-    defence: 0
-    expRequired: 100
-  - level: 2
-    hp: 150
-    attack: 120
-    defence: 2
-    expRequired: 120
-  - level: 3
-    hp: 200
-    attack: 140
-    defence: 4
-    expRequired: 140
-  - level: 4
-    hp: 250
-    attack: 160
-    defence: 6
-    expRequired: 160
-  - level: 5
-    hp: 300
-    attack: 180
-    defence: 8
-    expRequired: 180
-  - level: 6
-    hp: 350
-    attack: 200
-    defence: 10
-    expRequired: 200
-  - level: 7
-    hp: 400
-    attack: 220
-    defence: 12
-    expRequired: 220
-  - level: 8
-    hp: 450
-    attack: 240
-    defence: 14
-    expRequired: 240
-  - level: 9
-    hp: 500
-    attack: 260
-    defence: 16
-    expRequired: 260
-  - level: 10
-    hp: 550
-    attack: 300
-    defence: 20
-    expRequired: 300
-  - level: 11
-    hp: 600
-    attack: 340
-    defence: 24
-    expRequired: 340
-  - level: 12
-    hp: 650
-    attack: 380
-    defence: 28
-    expRequired: 380
-  - level: 13
-    hp: 700
-    attack: 420
-    defence: 32
-    expRequired: 420
-  - level: 14
-    hp: 750
-    attack: 460
-    defence: 36
-    expRequired: 460
-  - level: 15
-    hp: 800
-    attack: 500
-    defence: 40
-    expRequired: 500
-  - level: 16
-    hp: 850
-    attack: 540
-    defence: 44
-    expRequired: 540
-  - level: 17
-    hp: 900
-    attack: 580
-    defence: 48
-    expRequired: 580
-  - level: 18
-    hp: 950
-    attack: 620
-    defence: 52
-    expRequired: 620
-  - level: 19
-    hp: 1000
-    attack: 660
-    defence: 56
-    expRequired: 660
-  - level: 20
-    hp: 1050
-    attack: 750
-    defence: 65
-    expRequired: 800
-  - level: 21
-    hp: 1100
-    attack: 840
-    defence: 74
-    expRequired: 940
-  - level: 22
-    hp: 1150
-    attack: 930
-    defence: 83
-    expRequired: 1080
-  - level: 23
-    hp: 1200
-    attack: 1020
-    defence: 92
-    expRequired: 1220
-  - level: 24
-    hp: 1250
-    attack: 1110
-    defence: 101
-    expRequired: 1360
-  - level: 25
-    hp: 1300
-    attack: 1200
-    defence: 110
-    expRequired: 1500
-  - level: 26
-    hp: 1350
-    attack: 1290
-    defence: 119
-    expRequired: 1640
-  - level: 27
-    hp: 1400
-    attack: 1380
-    defence: 128
-    expRequired: 1780
-  - level: 28
-    hp: 1450
-    attack: 1470
-    defence: 137
-    expRequired: 1920
-  - level: 29
-    hp: 1500
-    attack: 1560
-    defence: 146
-    expRequired: 2060
-  - level: 30
-    hp: 1550
-    attack: 1800
-    defence: 170
-    expRequired: 2400
-  - level: 31
-    hp: 1600
-    attack: 2040
-    defence: 194
-    expRequired: 2740
-  - level: 32
-    hp: 1650
-    attack: 2280
-    defence: 218
-    expRequired: 3080
-  - level: 33
-    hp: 1700
-    attack: 2520
-    defence: 242
-    expRequired: 3420
-  - level: 34
-    hp: 1750
-    attack: 2760
-    defence: 266
-    expRequired: 3760
-  - level: 35
-    hp: 1800
-    attack: 3000
-    defence: 290
-    expRequired: 4100
-  - level: 36
-    hp: 1850
-    attack: 3240
-    defence: 314
-    expRequired: 4440
-  - level: 37
-    hp: 1900
-    attack: 3480
-    defence: 338
-    expRequired: 4780
-  - level: 38
-    hp: 1950
-    attack: 3720
-    defence: 362
-    expRequired: 5120
-  - level: 39
-    hp: 2000
-    attack: 3960
-    defence: 386
-    expRequired: 5460
-  - level: 40
-    hp: 2050
-    attack: 4500
-    defence: 400
-    expRequired: 6000
-  SkillData:
-  - index: 1
-    skillName: 11
-  ItemData:
-  - index: 1
-    itemName: 1
-    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
-    archetype: 
-    specificityRoll: 
-  - index: 2
-    itemName: 2
-    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
-    archetype: 
-    specificityRoll: 
-  - index: 3
-    itemName: 3
-    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
-    archetype: 
-    specificityRoll: 
-  PlayerData:
-  - index: 1
-    identification: 11
-    password: 11
-    nickname: "\uCD08\uBCF4\uC790"
-    character: Character1
-    level: 1
-    inventory_data: '{1}'
-    equipment_data: '{1}'
-  - index: 2
-    identification: 22
-    password: 22
-    nickname: "\uD1A0\uB07C\uAC85\uB4C0"
-    character: Character2
-    level: 40
-    inventory_data: '{0,1}'
-    equipment_data: '{0,1}'
-  - index: 3
-    identification: 33
-    password: 33
-    nickname: "\uB274\uBE44\uC5D0\uC694"
-    character: Character3
-    level: 40
-    inventory_data: '{0,0,1}'
-    equipment_data: '{0,0,1}'
-  MonsterData:
-  - index: 1
-    monsterID: 1
-    hp: 1
-    level: 1
-  EliteData:
-  - index: 1
-    eliteID: 1
-    hp: 1
-    level: 1
-  BossData:
-  - index: 1
-    bossID: 1
-    hp: 1
-    level: 1
-  ArchetypeData:
-  - index: 1
-    name: "\uAC80 \uD504\uB808\uC784"
-    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
-    itemType: 0
-  - index: 2
-    name: "\uD65C \uD504\uB808\uC784"
-    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
-    itemType: 1
-  - index: 3
-    name: "\uC2A4\uD0DC\uD504 \uD504\uB808\uC784"
-    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
-    itemType: 2
-  SpecificityData:
-  - index: 1
-    name: aa
-    description: aaaaaa
-    specificityType: 0
+    SerializationNodes:
+    - Name: LevelData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[LevelData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 40
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 1
+    - Name: hp
+      Entry: 3
+      Data: 100
+    - Name: attack
+      Entry: 3
+      Data: 100
+    - Name: defence
+      Entry: 3
+      Data: 0
+    - Name: expRequired
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 3|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 2
+    - Name: hp
+      Entry: 3
+      Data: 150
+    - Name: attack
+      Entry: 3
+      Data: 120
+    - Name: defence
+      Entry: 3
+      Data: 2
+    - Name: expRequired
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 4|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 3
+    - Name: hp
+      Entry: 3
+      Data: 200
+    - Name: attack
+      Entry: 3
+      Data: 140
+    - Name: defence
+      Entry: 3
+      Data: 4
+    - Name: expRequired
+      Entry: 3
+      Data: 140
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 5|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 4
+    - Name: hp
+      Entry: 3
+      Data: 250
+    - Name: attack
+      Entry: 3
+      Data: 160
+    - Name: defence
+      Entry: 3
+      Data: 6
+    - Name: expRequired
+      Entry: 3
+      Data: 160
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 6|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 5
+    - Name: hp
+      Entry: 3
+      Data: 300
+    - Name: attack
+      Entry: 3
+      Data: 180
+    - Name: defence
+      Entry: 3
+      Data: 8
+    - Name: expRequired
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 7|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 6
+    - Name: hp
+      Entry: 3
+      Data: 350
+    - Name: attack
+      Entry: 3
+      Data: 200
+    - Name: defence
+      Entry: 3
+      Data: 10
+    - Name: expRequired
+      Entry: 3
+      Data: 200
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 8|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 7
+    - Name: hp
+      Entry: 3
+      Data: 400
+    - Name: attack
+      Entry: 3
+      Data: 220
+    - Name: defence
+      Entry: 3
+      Data: 12
+    - Name: expRequired
+      Entry: 3
+      Data: 220
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 9|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 8
+    - Name: hp
+      Entry: 3
+      Data: 450
+    - Name: attack
+      Entry: 3
+      Data: 240
+    - Name: defence
+      Entry: 3
+      Data: 14
+    - Name: expRequired
+      Entry: 3
+      Data: 240
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 10|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 9
+    - Name: hp
+      Entry: 3
+      Data: 500
+    - Name: attack
+      Entry: 3
+      Data: 260
+    - Name: defence
+      Entry: 3
+      Data: 16
+    - Name: expRequired
+      Entry: 3
+      Data: 260
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 11|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 10
+    - Name: hp
+      Entry: 3
+      Data: 550
+    - Name: attack
+      Entry: 3
+      Data: 300
+    - Name: defence
+      Entry: 3
+      Data: 20
+    - Name: expRequired
+      Entry: 3
+      Data: 300
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 12|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 11
+    - Name: hp
+      Entry: 3
+      Data: 600
+    - Name: attack
+      Entry: 3
+      Data: 340
+    - Name: defence
+      Entry: 3
+      Data: 24
+    - Name: expRequired
+      Entry: 3
+      Data: 340
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 13|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 12
+    - Name: hp
+      Entry: 3
+      Data: 650
+    - Name: attack
+      Entry: 3
+      Data: 380
+    - Name: defence
+      Entry: 3
+      Data: 28
+    - Name: expRequired
+      Entry: 3
+      Data: 380
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 14|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 13
+    - Name: hp
+      Entry: 3
+      Data: 700
+    - Name: attack
+      Entry: 3
+      Data: 420
+    - Name: defence
+      Entry: 3
+      Data: 32
+    - Name: expRequired
+      Entry: 3
+      Data: 420
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 15|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 14
+    - Name: hp
+      Entry: 3
+      Data: 750
+    - Name: attack
+      Entry: 3
+      Data: 460
+    - Name: defence
+      Entry: 3
+      Data: 36
+    - Name: expRequired
+      Entry: 3
+      Data: 460
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: 16|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 15
+    - Name: hp
+      Entry: 3
+      Data: 800
+    - Name: attack
+      Entry: 3
+      Data: 500
+    - Name: defence
+      Entry: 3
+      Data: 40
+    - Name: expRequired
+      Entry: 3
+      Data: 500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 17|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 16
+    - Name: hp
+      Entry: 3
+      Data: 850
+    - Name: attack
+      Entry: 3
+      Data: 540
+    - Name: defence
+      Entry: 3
+      Data: 44
+    - Name: expRequired
+      Entry: 3
+      Data: 540
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: 18|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 17
+    - Name: hp
+      Entry: 3
+      Data: 900
+    - Name: attack
+      Entry: 3
+      Data: 580
+    - Name: defence
+      Entry: 3
+      Data: 48
+    - Name: expRequired
+      Entry: 3
+      Data: 580
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: 19|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 18
+    - Name: hp
+      Entry: 3
+      Data: 950
+    - Name: attack
+      Entry: 3
+      Data: 620
+    - Name: defence
+      Entry: 3
+      Data: 52
+    - Name: expRequired
+      Entry: 3
+      Data: 620
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: 20|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 19
+    - Name: hp
+      Entry: 3
+      Data: 1000
+    - Name: attack
+      Entry: 3
+      Data: 660
+    - Name: defence
+      Entry: 3
+      Data: 56
+    - Name: expRequired
+      Entry: 3
+      Data: 660
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: 21|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 20
+    - Name: hp
+      Entry: 3
+      Data: 1050
+    - Name: attack
+      Entry: 3
+      Data: 750
+    - Name: defence
+      Entry: 3
+      Data: 65
+    - Name: expRequired
+      Entry: 3
+      Data: 800
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: 22|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 21
+    - Name: hp
+      Entry: 3
+      Data: 1100
+    - Name: attack
+      Entry: 3
+      Data: 840
+    - Name: defence
+      Entry: 3
+      Data: 74
+    - Name: expRequired
+      Entry: 3
+      Data: 940
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: 23|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 22
+    - Name: hp
+      Entry: 3
+      Data: 1150
+    - Name: attack
+      Entry: 3
+      Data: 930
+    - Name: defence
+      Entry: 3
+      Data: 83
+    - Name: expRequired
+      Entry: 3
+      Data: 1080
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: 24|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 23
+    - Name: hp
+      Entry: 3
+      Data: 1200
+    - Name: attack
+      Entry: 3
+      Data: 1020
+    - Name: defence
+      Entry: 3
+      Data: 92
+    - Name: expRequired
+      Entry: 3
+      Data: 1220
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: 25|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 24
+    - Name: hp
+      Entry: 3
+      Data: 1250
+    - Name: attack
+      Entry: 3
+      Data: 1110
+    - Name: defence
+      Entry: 3
+      Data: 101
+    - Name: expRequired
+      Entry: 3
+      Data: 1360
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 26|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 25
+    - Name: hp
+      Entry: 3
+      Data: 1300
+    - Name: attack
+      Entry: 3
+      Data: 1200
+    - Name: defence
+      Entry: 3
+      Data: 110
+    - Name: expRequired
+      Entry: 3
+      Data: 1500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: 27|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 26
+    - Name: hp
+      Entry: 3
+      Data: 1350
+    - Name: attack
+      Entry: 3
+      Data: 1290
+    - Name: defence
+      Entry: 3
+      Data: 119
+    - Name: expRequired
+      Entry: 3
+      Data: 1640
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: 28|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 27
+    - Name: hp
+      Entry: 3
+      Data: 1400
+    - Name: attack
+      Entry: 3
+      Data: 1380
+    - Name: defence
+      Entry: 3
+      Data: 128
+    - Name: expRequired
+      Entry: 3
+      Data: 1780
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 7
+      Data: 29|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 28
+    - Name: hp
+      Entry: 3
+      Data: 1450
+    - Name: attack
+      Entry: 3
+      Data: 1470
+    - Name: defence
+      Entry: 3
+      Data: 137
+    - Name: expRequired
+      Entry: 3
+      Data: 1920
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: 30|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 29
+    - Name: hp
+      Entry: 3
+      Data: 1500
+    - Name: attack
+      Entry: 3
+      Data: 1560
+    - Name: defence
+      Entry: 3
+      Data: 146
+    - Name: expRequired
+      Entry: 3
+      Data: 2060
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: 31|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 30
+    - Name: hp
+      Entry: 3
+      Data: 1550
+    - Name: attack
+      Entry: 3
+      Data: 1800
+    - Name: defence
+      Entry: 3
+      Data: 170
+    - Name: expRequired
+      Entry: 3
+      Data: 2400
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 31
+    - Name: $v
+      Entry: 7
+      Data: 32|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 31
+    - Name: hp
+      Entry: 3
+      Data: 1600
+    - Name: attack
+      Entry: 3
+      Data: 2040
+    - Name: defence
+      Entry: 3
+      Data: 194
+    - Name: expRequired
+      Entry: 3
+      Data: 2740
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 33|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 32
+    - Name: hp
+      Entry: 3
+      Data: 1650
+    - Name: attack
+      Entry: 3
+      Data: 2280
+    - Name: defence
+      Entry: 3
+      Data: 218
+    - Name: expRequired
+      Entry: 3
+      Data: 3080
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33
+    - Name: $v
+      Entry: 7
+      Data: 34|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 33
+    - Name: hp
+      Entry: 3
+      Data: 1700
+    - Name: attack
+      Entry: 3
+      Data: 2520
+    - Name: defence
+      Entry: 3
+      Data: 242
+    - Name: expRequired
+      Entry: 3
+      Data: 3420
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 34
+    - Name: $v
+      Entry: 7
+      Data: 35|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 34
+    - Name: hp
+      Entry: 3
+      Data: 1750
+    - Name: attack
+      Entry: 3
+      Data: 2760
+    - Name: defence
+      Entry: 3
+      Data: 266
+    - Name: expRequired
+      Entry: 3
+      Data: 3760
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 35
+    - Name: $v
+      Entry: 7
+      Data: 36|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 35
+    - Name: hp
+      Entry: 3
+      Data: 1800
+    - Name: attack
+      Entry: 3
+      Data: 3000
+    - Name: defence
+      Entry: 3
+      Data: 290
+    - Name: expRequired
+      Entry: 3
+      Data: 4100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 36
+    - Name: $v
+      Entry: 7
+      Data: 37|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 36
+    - Name: hp
+      Entry: 3
+      Data: 1850
+    - Name: attack
+      Entry: 3
+      Data: 3240
+    - Name: defence
+      Entry: 3
+      Data: 314
+    - Name: expRequired
+      Entry: 3
+      Data: 4440
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 37
+    - Name: $v
+      Entry: 7
+      Data: 38|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 37
+    - Name: hp
+      Entry: 3
+      Data: 1900
+    - Name: attack
+      Entry: 3
+      Data: 3480
+    - Name: defence
+      Entry: 3
+      Data: 338
+    - Name: expRequired
+      Entry: 3
+      Data: 4780
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 38
+    - Name: $v
+      Entry: 7
+      Data: 39|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 38
+    - Name: hp
+      Entry: 3
+      Data: 1950
+    - Name: attack
+      Entry: 3
+      Data: 3720
+    - Name: defence
+      Entry: 3
+      Data: 362
+    - Name: expRequired
+      Entry: 3
+      Data: 5120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 39
+    - Name: $v
+      Entry: 7
+      Data: 40|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 39
+    - Name: hp
+      Entry: 3
+      Data: 2000
+    - Name: attack
+      Entry: 3
+      Data: 3960
+    - Name: defence
+      Entry: 3
+      Data: 386
+    - Name: expRequired
+      Entry: 3
+      Data: 5460
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 40
+    - Name: $v
+      Entry: 7
+      Data: 41|LevelData, Assembly-CSharp
+    - Name: level
+      Entry: 3
+      Data: 40
+    - Name: hp
+      Entry: 3
+      Data: 2050
+    - Name: attack
+      Entry: 3
+      Data: 4500
+    - Name: defence
+      Entry: 3
+      Data: 400
+    - Name: expRequired
+      Entry: 3
+      Data: 6000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SkillData
+      Entry: 7
+      Data: 42|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SkillData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 43|SkillData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: skillName
+      Entry: 1
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ItemData
+      Entry: 7
+      Data: 44|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 45|ItemData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: itemName
+      Entry: 1
+      Data: 1
+    - Name: description
+      Entry: 1
+      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    - Name: archetype
+      Entry: 1
+      Data: 
+    - Name: specificityRoll
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 46|ItemData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: itemName
+      Entry: 1
+      Data: 2
+    - Name: description
+      Entry: 1
+      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    - Name: archetype
+      Entry: 1
+      Data: 
+    - Name: specificityRoll
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 47|ItemData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 3
+    - Name: itemName
+      Entry: 1
+      Data: 3
+    - Name: description
+      Entry: 1
+      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    - Name: archetype
+      Entry: 1
+      Data: 
+    - Name: specificityRoll
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: PlayerData
+      Entry: 7
+      Data: 48|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[PlayerData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 49|PlayerData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: identification
+      Entry: 1
+      Data: 11
+    - Name: password
+      Entry: 1
+      Data: 11
+    - Name: nickname
+      Entry: 1
+      Data: "\uCD08\uBCF4\uC790"
+    - Name: character
+      Entry: 1
+      Data: Character1
+    - Name: level
+      Entry: 3
+      Data: 1
+    - Name: inventory_data
+      Entry: 1
+      Data: '{1}'
+    - Name: equipment_data
+      Entry: 1
+      Data: '{1}'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 50|PlayerData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: identification
+      Entry: 1
+      Data: 22
+    - Name: password
+      Entry: 1
+      Data: 22
+    - Name: nickname
+      Entry: 1
+      Data: "\uD1A0\uB07C\uAC85\uB4C0"
+    - Name: character
+      Entry: 1
+      Data: Character2
+    - Name: level
+      Entry: 3
+      Data: 40
+    - Name: inventory_data
+      Entry: 1
+      Data: '{0,1}'
+    - Name: equipment_data
+      Entry: 1
+      Data: '{0,1}'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 51|PlayerData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 3
+    - Name: identification
+      Entry: 1
+      Data: 33
+    - Name: password
+      Entry: 1
+      Data: 33
+    - Name: nickname
+      Entry: 1
+      Data: "\uB274\uBE44\uC5D0\uC694"
+    - Name: character
+      Entry: 1
+      Data: Character3
+    - Name: level
+      Entry: 3
+      Data: 40
+    - Name: inventory_data
+      Entry: 1
+      Data: '{0,0,1}'
+    - Name: equipment_data
+      Entry: 1
+      Data: '{0,0,1}'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MonsterData
+      Entry: 7
+      Data: 52|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[MonsterData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 53|MonsterData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: monsterID
+      Entry: 3
+      Data: 1
+    - Name: hp
+      Entry: 3
+      Data: 1
+    - Name: level
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: EliteData
+      Entry: 7
+      Data: 54|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[EliteData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 55|EliteData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: eliteID
+      Entry: 3
+      Data: 1
+    - Name: hp
+      Entry: 3
+      Data: 1
+    - Name: level
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BossData
+      Entry: 7
+      Data: 56|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[BossData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 57|BossData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: bossID
+      Entry: 3
+      Data: 1
+    - Name: hp
+      Entry: 3
+      Data: 1
+    - Name: level
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArchetypeData
+      Entry: 7
+      Data: 58|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 59|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: "\uC801\uC751\uD615"
+    - Name: description
+      Entry: 1
+      Data: "\uC2A4\uD15F \uBD84\uD3EC\uB3C4\uAC00 \uC77C\uC815\uD55C \uBC38\uB7F0\uC2A4
+        \uC7A1\uD78C \uD504\uB808\uC784"
+    - Name: itemType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 60|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: name
+      Entry: 1
+      Data: "\uACF5\uACA9\uC801"
+    - Name: description
+      Entry: 1
+      Data: "\uACF5\uACA9\uB825\uC774 \uB192\uC740 \uD504\uB808\uC784"
+    - Name: itemType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 61|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 3
+    - Name: name
+      Entry: 1
+      Data: "\uACBD\uB7C9"
+    - Name: description
+      Entry: 1
+      Data: "\uBB34\uAE30\uB97C \uB4E4\uACE0 \uC788\uC744\uC2DC \uAE30\uB3D9\uC131
+        \uC2A4\uD15F\uC5D0 +20\uC758 \uBCF4\uC815\uC744 \uC8FC\uB294 \uD504\uB808\uC784"
+    - Name: itemType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 62|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 4
+    - Name: name
+      Entry: 1
+      Data: "\uC815\uBC00"
+    - Name: description
+      Entry: 1
+      Data: "\uBB34\uAE30\uB97C \uB4E4\uACE0 \uC788\uC744\uC2DC \uD06C\uB9AC\uD2F0\uCEEC
+        \uD655\uB960\uC5D0 20%\uC758 \uBCF4\uC815\uC744 \uC8FC\uB294 \uC6D0\uD615"
+    - Name: itemType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 63|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 5
+    - Name: name
+      Entry: 1
+      Data: "\uC911\uB7C9"
+    - Name: description
+      Entry: 1
+      Data: "\uAE30\uB3D9\uC131 \uC2A4\uD15F\uC5D0 -20\uC758 \uBCF4\uC815\uC744 \uC8FC\uC9C0\uB9CC
+        \uACF5\uACA9\uB825\uACFC \uBB34\uB825\uD654 \uC218\uCE58\uAC00 \uB192\uC740
+        \uC6D0\uD615"
+    - Name: itemType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 64|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 6
+    - Name: name
+      Entry: 1
+      Data: "\uADF8\uB9BC\uC790"
+    - Name: description
+      Entry: 1
+      Data: "\uAC80 \uC5D0\uB108\uC9C0\uAC00 \uAC00\uB4DD \uCC2C \uC0C1\uD0DC\uC5D0\uC11C
+        \uAC15\uD55C \uACF5\uACA9\uC744 \uC218\uD589\uD558\uBA74 \uC790\uC2E0\uC774
+        \uD22C\uBA85 \uC0C1\uD0DC\uAC00 \uB418\uACE0, \uD3ED\uBC1C\uD558\uB294 \uACF5\uD5C8
+        \uD22C\uC0AC\uCCB4\uB97C \uBC1C\uC0AC\uD569\uB2C8\uB2E4."
+    - Name: itemType
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 65|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 7
+    - Name: name
+      Entry: 1
+      Data: "\uD3EC\uC2DD"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC \uACF5\uACA9\uB825
+        \uBCF4\uB108\uC2A4\uAC00 \uBD80\uC5EC\uB429\uB2C8\uB2E4. \uB354 \uAC15\uB825\uD55C
+        \uB300\uC0C1\uC744 \uCC98\uCE58\uD558\uBA74 \uBCF4\uB108\uC2A4\uC758 \uAC15\uB3C4\uC640
+        \uC9C0\uC18D \uC2DC\uAC04\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4. "
+    - Name: itemType
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 66|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 8
+    - Name: name
+      Entry: 1
+      Data: "\uC0AC\uB0E5\uAFBC"
+    - Name: description
+      Entry: 1
+      Data: "\uAC70\uB300\uD55C \uC911\uB7C9\uC758 \uD654\uC0B4\uC744 \uBC1C\uC0AC\uD558\uC5EC
+        \uB9C9\uB300\uD55C \uCDA9\uACA9\uD30C\uB97C \uBC1C\uC0DD\uC2DC\uCF1C \uC801\uC744
+        \uB4A4\uB85C \uBC00\uCCD0\uB0C5\uB2C8\uB2E4."
+    - Name: itemType
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 67|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 9
+    - Name: name
+      Entry: 1
+      Data: "\uC62C\uAC00\uBBF8"
+    - Name: description
+      Entry: 1
+      Data: "\uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC \uBC1C\uC0AC\uD560 \uC218 \uC788\uB294
+        \uC62C\uAC00\uBBF8\uC9C1\uACF5 \uD654\uC0B4\uC774 \uCD95\uC801\uB429\uB2C8\uB2E4.
+        \uC62C\uAC00\uBBF8\uC9C1\uACF5 \uD654\uC0B4\uC740 \uCDA9\uB3CC \uC2DC \uADFC\uCC98
+        \uB300\uC0C1\uC744 \uAD6C\uC18D\uC2DC\uD0A4\uB294 \uD568\uC815 \uD328\uD134\uC744
+        \uC0DD\uC131\uD569\uB2C8\uB2E4."
+    - Name: itemType
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 68|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 10
+    - Name: name
+      Entry: 1
+      Data: "\uBD84\uC5F4"
+    - Name: description
+      Entry: 1
+      Data: "\uBC1C\uC0AC \uC2DC \uC5EC\uB7EC \uAC1C\uC758 \uC5D0\uB108\uC9C0\uB85C
+        \uBD84\uC0B0\uB429\uB2C8\uB2E4. \uC644\uC804\uD788 \uCDA9\uC804\uD558\uBA74
+        \uBD84\uC0B0\uC774 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    - Name: itemType
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 69|ArchetypeData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 11
+    - Name: name
+      Entry: 1
+      Data: "\uBCC0\uD658"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74
+        \uB300\uC0C1\uC744 \uBD95\uAD34\uC2DC\uCF1C \uACF5\uD5C8 \uBCC0\uD658 \uAD6C\uCCB4\uB85C
+        \uB9CC\uB4ED\uB2C8\uB2E4."
+    - Name: itemType
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SpecificityData
+      Entry: 7
+      Data: 70|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 20
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 71|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: "\uBD88\uD654"
+    - Name: description
+      Entry: 1
+      Data: "\uB2E4\uB978 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC
+        \uD574\uB2F9 \uBB34\uAE30\uC758 \uC870\uC900 \uC18D\uB3C4, \uC815\uD655\uB3C4,
+        \uACF5\uC911 \uD6A8\uC728\uC774 \uC7A0\uC2DC \uB3D9\uC548 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 72|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: name
+      Entry: 1
+      Data: "\uC811\uADFC \uD68C\uD53C"
+    - Name: description
+      Entry: 1
+      Data: "\uAC00\uAE4C\uC774\uC5D0 \uC804\uD22C\uC6D0\uC774 \uC5C6\uC744 \uB54C
+        \uC7AC\uC7A5\uC804, \uC0AC\uAC70\uB9AC, \uC815\uD655\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 73|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 3
+    - Name: name
+      Entry: 1
+      Data: "\uBD88\uC548\uC815"
+    - Name: description
+      Entry: 1
+      Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uC8FC\uBCC0 \uB300\uC0C1\uC774
+        \uC77C\uCD09\uC989\uBC1C \uC0C1\uD0DC\uAC00 \uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 74|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 4
+    - Name: name
+      Entry: 1
+      Data: "\uBB3C\uB9AC \uC9C4\uB3D9"
+    - Name: description
+      Entry: 1
+      Data: "\uB300\uC0C1\uC5D0\uAC8C \uC9C0\uC18D\uC801\uC778 \uD53C\uD574\uB97C
+        \uC8FC\uBA74 \uC8FC\uBCC0 \uBAA8\uB4E0 \uB300\uC0C1\uC5D0\uAC8C \uD53C\uD574\uB97C
+        \uC8FC\uB294 \uCDA9\uACA9\uD30C\uB97C \uBC29\uCD9C\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 75|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 5
+    - Name: name
+      Entry: 1
+      Data: "\uC601\uC18D\uC801\uC778 \uC6C0\uC9C1\uC784"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB294 \uC0AC\uC6A9\uC790\uAC00 \uC774\uB3D9 \uC911\uC77C
+        \uB54C \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 76|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 6
+    - Name: name
+      Entry: 1
+      Data: "\uC9C0\uADFC\uAC70\uB9AC \uCC98\uD615"
+    - Name: description
+      Entry: 1
+      Data: "\uAC00\uAE4C\uC774\uC5D0 \uC804\uD22C\uC6D0\uC5D0\uAC8C \uD53C\uD574\uB97C
+        \uC8FC\uBA74 \uBB34\uB825\uD654 \uC218\uCE58\uC640 \uACF5\uACA9\uB825\uC774
+        \uB300\uD3ED \uC99D\uAC00\uD569\uB2C8\uB2E4. \uC7A0\uC2DC \uD6C4 \uB610\uB294
+        \uB2E4\uC74C \uACF5\uACA9 \uD6C4 \uB9CC\uB8CC\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 77|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 7
+    - Name: name
+      Entry: 1
+      Data: "\uBB18\uBE44"
+    - Name: description
+      Entry: 1
+      Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uD76C\uC0DD\uC790\uC758
+        \uC704\uCE58\uC5D0 \uC218\uC815\uC774 \uC0DD\uC131\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 78|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 8
+    - Name: name
+      Entry: 1
+      Data: "\uD569\uC8FC"
+    - Name: description
+      Entry: 1
+      Data: "\uC8FC\uC704\uC5D0 \uC544\uAD70\uC774 \uC788\uC744 \uB54C \uACF5\uACA9\uB825,
+        \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 79|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 9
+    - Name: name
+      Entry: 1
+      Data: "\uBB34\uD55C\uD55C \uC2AC\uD514"
+    - Name: description
+      Entry: 1
+      Data: "\uD300\uC5D0\uC11C \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC0B4\uC544\uB0A8\uC73C\uBA74,
+        \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560 \uB54C\uB9C8\uB2E4 \uB2A5\uB825\uC758
+        \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 80|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 10
+    - Name: name
+      Entry: 1
+      Data: "\uC5F0\uC1C4 \uBC18\uC751"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560
+        \uB54C\uB9C8\uB2E4 \uD53C\uD574\uB97C \uC8FC\uB294 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 81|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 11
+    - Name: name
+      Entry: 1
+      Data: "\uBAA8\uB450\uB97C \uC704\uD55C \uD558\uB098"
+    - Name: description
+      Entry: 1
+      Data: "\uC11C\uB85C \uB2E4\uB978 \uC138 \uBA85\uC5D0\uAC8C \uACF5\uACA9\uC744
+        \uC801\uC911\uC2DC\uD0A4\uBA74 \uC801\uC815 \uC9C0\uC18D \uC2DC\uAC04 \uB3D9\uC548
+        \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 82|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 12
+    - Name: name
+      Entry: 1
+      Data: "\uC694\uB3D9"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uC804\uD22C\uC6D0\uC744 \uCC98\uCE58\uD558\uBA74
+        \uC18C\uB7C9\uC758 \uAD81\uADF9\uAE30 \uC5D0\uB108\uC9C0\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 83|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 13
+    - Name: name
+      Entry: 1
+      Data: "\uC0BC\uD22C\uB825"
+    - Name: description
+      Entry: 1
+      Data: "\uB2A5\uB825\uC744 \uC0AC\uC6A9\uD558\uBA74 \uBB34\uAE30\uB97C \uC9D1\uC5B4\uB123\uC744
+        \uB54C\uAE4C\uC9C0 \uC774 \uBB34\uAE30\uC758 \uD53C\uD574 \uC720\uD615\uC774
+        \uB2A5\uB825\uACFC \uB3D9\uC77C\uD558\uAC8C \uBCC0\uACBD\uB429\uB2C8\uB2E4.."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 84|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 14
+    - Name: name
+      Entry: 1
+      Data: "\uBA54\uAC00\uB124\uC6B0\uB77C"
+    - Name: description
+      Entry: 1
+      Data: "\uC774\uC804\uC5D0 \uAC00\uD55C \uACF5\uACA9\uC758 \uD69F\uC218\uC5D0
+        \uB530\uB77C \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: 85|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 15
+    - Name: name
+      Entry: 1
+      Data: "\uB9F9\uACF5\uACA9"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74
+        \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 86|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 16
+    - Name: name
+      Entry: 1
+      Data: "\uBD84\uD574\uC131 \uD30C\uAD34 \uC7A5\uCE58"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uC801\uC744 \uBB34\uB825\uD654\uD558\uBA74,
+        \uC7A0\uC2DC \uB3D9\uC548 \uC801\uC774 \uD53C\uD574\uC5D0 \uCDE8\uC57D\uD574\uC9D1\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: 87|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 17
+    - Name: name
+      Entry: 1
+      Data: "\uC0AC\uAC70\uB9AC \uD655\uBCF4 \uC7A5\uCE58"
+    - Name: description
+      Entry: 1
+      Data: "\uC6D0\uAC70\uB9AC \uD22C\uC0AC\uCCB4\uC758 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: 88|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 18
+    - Name: name
+      Entry: 1
+      Data: "\uC900\uBE44"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uAD50\uCCB4\uD55C \uD6C4 \uBE60\uB974\uAC8C
+        \uACF5\uACA9\uD558\uBA74 \uCD94\uAC00 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: 89|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 19
+    - Name: name
+      Entry: 1
+      Data: "\uC555\uBC15"
+    - Name: description
+      Entry: 1
+      Data: "\uCCB4\uB825\uC774 \uAC10\uC18C\uD560 \uC218\uB85D \uBB34\uB825\uD654
+        \uC218\uCE58\uAC00 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: 90|SpecificityData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 20
+    - Name: name
+      Entry: 1
+      Data: "\uC640\uC77C\uB4DC\uCE74\uB4DC"
+    - Name: description
+      Entry: 1
+      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC \uB300\uC0C1\uC774
+        \uC788\uB294 \uC704\uCE58\uC5D0 \uC77C\uC815 \uD655\uB960\uB85C \uC2E4\uD5D8
+        \uD22C\uC0AC\uCCB4\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
+    - Name: specificityType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

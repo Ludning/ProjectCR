@@ -40,6 +40,7 @@ public enum PrefabType
 
 public enum ItemType
 {
+    Common,
     Blade,
     Bow,
     Staff,

@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "GameData", menuName = "Data/GameData")]
-public class GameData : ScriptableObject
+public class GameData : SerializedScriptableObject
 {
     //서버에 있어야 하는 데이터
     //레벨당 스펙 데이터
@@ -21,15 +21,15 @@ public class GameData : ScriptableObject
     //아이템 데이터
     //스킬 데이터
     
-    [TableList] public List<LevelData> LevelData;
-    [TableList] public List<SkillData> SkillData;
-    [TableList] public List<ItemData> ItemData;
-    [TableList] public List<PlayerData> PlayerData;
-    [TableList] public List<MonsterData> MonsterData;
-    [TableList] public List<EliteData> EliteData;
-    [TableList] public List<BossData> BossData;
-    [TableList] public List<ArchetypeData> ArchetypeData;
-    [TableList] public List<SpecificityData> SpecificityData;
+    [TableList] public Dictionary<int, LevelData> LevelData;
+    [TableList] public Dictionary<int, SkillData> SkillData;
+    [TableList] public Dictionary<int, ItemData> ItemData;
+    [TableList] public Dictionary<int, PlayerData> PlayerData;
+    [TableList] public Dictionary<int, MonsterData> MonsterData;
+    [TableList] public Dictionary<int, EliteData> EliteData;
+    [TableList] public Dictionary<int, BossData> BossData;
+    [TableList] public Dictionary<int, ArchetypeData> ArchetypeData;
+    [TableList] public Dictionary<int, SpecificityData> SpecificityData;
 }
 
 [Serializable]
