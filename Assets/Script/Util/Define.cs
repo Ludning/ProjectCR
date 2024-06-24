@@ -50,3 +50,31 @@ public enum SpecificityType
 {
     Test,
 }
+
+
+#region Skill
+
+public enum SkillType
+{
+    
+}
+public enum CostType
+{
+    
+}
+public enum TargetType
+{
+    
+}
+public enum TargetingType
+{
+    Auto,
+    CloseToMouse,
+    None,
+}
+public enum DamageCalculateType
+{
+    
+}
+
+#endregion
