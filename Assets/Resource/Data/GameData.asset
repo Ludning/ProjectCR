@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43bc0e7b60286844aa462453dd2ae321, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   LevelData:
   - level: 1
     hp: 100
@@ -216,6 +225,22 @@ MonoBehaviour:
   SkillData:
   - index: 1
     skillName: 11
+  ItemData:
+  - index: 1
+    itemName: 1
+    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    archetype: 
+    specificityRoll: 
+  - index: 2
+    itemName: 2
+    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    archetype: 
+    specificityRoll: 
+  - index: 3
+    itemName: 3
+    description: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    archetype: 
+    specificityRoll: 
   PlayerData:
   - index: 1
     identification: 11
@@ -256,3 +281,21 @@ MonoBehaviour:
     bossID: 1
     hp: 1
     level: 1
+  ArchetypeData:
+  - index: 1
+    name: "\uAC80 \uD504\uB808\uC784"
+    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
+    itemType: 0
+  - index: 2
+    name: "\uD65C \uD504\uB808\uC784"
+    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
+    itemType: 1
+  - index: 3
+    name: "\uC2A4\uD0DC\uD504 \uD504\uB808\uC784"
+    description: "\uD504\uB808\uC784\uC5D0 \uB300\uD55C \uC124\uBA85"
+    itemType: 2
+  SpecificityData:
+  - index: 1
+    name: aa
+    description: aaaaaa
+    specificityType: 0

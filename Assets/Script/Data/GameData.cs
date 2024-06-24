@@ -21,19 +21,15 @@ public class GameData : ScriptableObject
     //아이템 데이터
     //스킬 데이터
     
-    [TableList]
-    public List<LevelData> LevelData;
-    [TableList]
-    public List<SkillData> SkillData;
-    [TableList]
-    public List<PlayerData> PlayerData;
-    [TableList]
-    public List<MonsterData> MonsterData;
-    [TableList]
-    public List<EliteData> EliteData;
-    [TableList]
-    public List<BossData> BossData;
-
+    [TableList] public List<LevelData> LevelData;
+    [TableList] public List<SkillData> SkillData;
+    [TableList] public List<ItemData> ItemData;
+    [TableList] public List<PlayerData> PlayerData;
+    [TableList] public List<MonsterData> MonsterData;
+    [TableList] public List<EliteData> EliteData;
+    [TableList] public List<BossData> BossData;
+    [TableList] public List<ArchetypeData> ArchetypeData;
+    [TableList] public List<SpecificityData> SpecificityData;
 }
 
 [Serializable]
@@ -51,7 +47,17 @@ public class SkillData
 {
     [TableColumnWidth(40, false)]
     public int index;
-    public int skillName;
+    public string skillName;
+}
+[Serializable]
+public class ItemData 
+{
+    [TableColumnWidth(40, false)]
+    public int index;
+    public string itemName;
+    public string description;
+    public string archetype;
+    public string specificityRoll;
 }
 [Serializable]
 public class PlayerData
@@ -103,6 +109,25 @@ public class BossData
     public int bossID;
     public int hp;
     public int level;
+}
+
+[Serializable]
+public class ArchetypeData
+{
+    [TableColumnWidth(40, false)]
+    public int index;
+    public string name;
+    public string description;
+    public ItemType itemType;
+}
+[Serializable]
+public class SpecificityData
+{
+    [TableColumnWidth(40, false)]
+    public int index;
+    public string name;
+    public string description;
+    public SpecificityType specificityType;
 }
 
 /*

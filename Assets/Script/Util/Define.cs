@@ -30,3 +30,22 @@ public enum PopupUIElementType
     InventoryUI,
     EquipmentUI,
 }
+
+public enum PrefabType
+{
+    PopupUIAsset,
+    CharacterAsset,
+    AnimalAsset
+}
+
+public enum ItemType
+{
+    Blade,
+    Bow,
+    Staff,
+}
+
+public enum SpecificityType
+{
+    Test,
+}

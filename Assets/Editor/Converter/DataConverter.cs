@@ -28,34 +28,6 @@ public class DataConverter
         EditorUtility.SetDirty(asset);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
-
-        //var assetType = typeof(T);
-        //var loadedAsset = AssetDatabase.LoadAssetAtPath<T>(assetPath);
-
-        /*foreach (var fieldInfo in assetType.GetFields())
-        {
-            //제네릭타입 알아내기
-            Type type = fieldInfo.FieldType.GetGenericArguments()[0];
-            //함수 리플렉션 호출
-            var method = typeof(DataConverter)
-                .GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)
-                ?.MakeGenericMethod(type);
-            if (method == null) continue;
-
-            var data = method.Invoke(null, new object[] { fieldInfo.Name, tables });
-
-            if (loadedAsset == null)
-            {
-                loadedAsset = ScriptableObject.CreateInstance<T>();
-
-                fieldInfo.SetValue(loadedAsset, data);
-                AssetDatabase.CreateAsset(loadedAsset, assetPath);
-            }
-            else
-            {
-                fieldInfo.SetValue(loadedAsset, data);
-            }
-        }*/
     }
 
     //엑셀파일로 부터 테이블 데이터 로드
@@ -111,8 +83,6 @@ public class DataConverter
         
         FieldInfo[] fieldInfos = dataType.GetFields();
         List<T> ret = new List<T>();
-
-
         
         Dictionary<int, string> columnTypeDic = new Dictionary<int, string>();
 

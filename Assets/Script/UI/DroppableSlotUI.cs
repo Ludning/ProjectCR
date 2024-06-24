@@ -9,7 +9,7 @@ public class DroppableSlotUI : MonoBehaviour, IDropHandler
 
 	public void OnDrop(PointerEventData eventData)
 	{
-		if (eventData.pointerDrag != null)
+		if (eventData.pointerDrag != null && eventData.pointerDrag.GetComponent<DraggableItemUI>() != null)
 		{
 			eventData.pointerDrag.transform.SetParent(transform);
 			eventData.pointerDrag.GetComponent<RectTransform>().position = rect.position;

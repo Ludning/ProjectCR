@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d01a38f37924d449d816d03f71ca3e, type: 3}
   m_Name: AssetAddress
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   PopupUIAsset:
   - name: SkillTreeUI
     path: Assets/Prefab/UI/GameScene/PopupUI/SkillTreeUI.prefab
