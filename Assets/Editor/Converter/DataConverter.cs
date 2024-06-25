@@ -188,7 +188,7 @@ public class DataConverter
             //Key로 Value를 받아옴
             TValue data = ret.TryGetValue(key, out TValue value) ? value : new TValue();
 
-            //리스트 객체 생성
+            /*//리스트 객체 생성
             foreach (FieldInfo info in fieldInfos)
             {
                 //리스트일 경우
@@ -205,9 +205,9 @@ public class DataConverter
                         info.SetValue(data, listInstance);
                     }
                 }
-            }
+            }*/
             
-            FieldInfo[] columnFields = data.GetType().GetFields();
+            /*FieldInfo[] columnFields = data.GetType().GetFields();
             //FieldInfo fieldInfo = Array.Find(columnFields, fi => fi.Name == itemTypeName);
             foreach (FieldInfo columnField in columnFields)
             {
@@ -229,17 +229,101 @@ public class DataConverter
                 }
                 else if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(List<>))
                 {
+                    object genericInstance = columnField.GetValue(data);
+                    FieldInfo[] genericFields = type.GetGenericArguments()[0].GetFields();
+                    foreach (FieldInfo fi in genericFields)
+                    {
+                        
+                    }
                     if (columnTypeDic.TryGetValue(columnField.Name, out int index))
                         columnField.SetValue(data, Convert.ChangeType(dataRow[index], type));
                 }
-            }
+            }*/
+            SetFieldData<TValue>(columnTypeDic, dataRow, data);
 
             if (!ret.ContainsKey(key))
             {
                 ret.Add(key, data);
             }
+            prevKey = key;
         }
         return ret;
+    }
+
+    private static void SetFieldData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : class, new()
+    {
+        FieldInfo[] fieldInfos = data.GetType().GetFields();
+        foreach (FieldInfo fieldInfo in fieldInfos)
+        {
+            Type fieldType = fieldInfo.FieldType;
+            
+            //열거형 처리
+            if (fieldType.IsEnum)
+            {
+                if (columnTypeDic.TryGetValue(fieldInfo.Name, out int index))
+                    if(dataRow[index] != DBNull.Value)
+                        fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[index].ToString()));
+            }
+            //String 처리
+            else if (fieldType == typeof(string))
+            {
+                if (columnTypeDic.TryGetValue(fieldInfo.Name, out int index))
+                    if(dataRow[index] != DBNull.Value)
+                        fieldInfo.SetValue(data, dataRow[index].ToString());
+            }
+            //값 형식 처리
+            else if (fieldType.IsPrimitive)
+            {
+                if (columnTypeDic.TryGetValue(fieldInfo.Name, out int index))
+                    if(dataRow[index] != DBNull.Value)
+                        fieldInfo.SetValue(data, Convert.ChangeType(dataRow[index], fieldType));
+            }
+            //List<>처리
+            else if (fieldType.IsGenericType && fieldType.GetGenericTypeDefinition() == typeof(List<>))
+            {
+                //List<T>인스턴스 추출
+                object listInstance = fieldInfo.GetValue(data);
+                Type genericType = fieldType.GetGenericArguments()[0];
+                
+                //리스트가 null일 경우
+                if (listInstance == null)
+                {
+                    listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
+                    fieldInfo.SetValue(data, listInstance);
+                }
+                
+                
+                //제네릭 인스턴스 필드들 가져옴
+                FieldInfo[] genericFields = genericType.GetFields();
+                object genericInstance = Activator.CreateInstance(genericType);
+                
+                foreach (FieldInfo fi in genericFields)
+                {
+                    Type fiType = fi.FieldType;
+                    if (fiType.IsEnum)
+                    {
+                        if (columnTypeDic.TryGetValue(fi.Name, out int index))
+                            if(dataRow[index] != DBNull.Value)
+                                fi.SetValue(genericInstance, Enum.Parse(fiType, dataRow[index].ToString()));
+                    }
+                    else if (fiType == typeof(string))
+                    {
+                        if (columnTypeDic.TryGetValue(fi.Name, out int index))
+                            if(dataRow[index] != DBNull.Value)
+                                fi.SetValue(genericInstance, dataRow[index].ToString());
+                    }
+                    else if (fiType.IsPrimitive)
+                    {
+                        if (columnTypeDic.TryGetValue(fi.Name, out int index))
+                            if(dataRow[index] != DBNull.Value)
+                                fi.SetValue(genericInstance, Convert.ChangeType(dataRow[index], fiType));
+                    }
+                }
+                Type listType = typeof(List<>).MakeGenericType(genericType);
+                MethodInfo addMethod = listType.GetMethod("Add");
+                addMethod.Invoke(listInstance, new object[] { genericInstance });
+            }
+        }
     }
 
     /*public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : class, new()
@@ -496,7 +580,7 @@ public class DataConverter
 
     private static void RecordTypeName(Dictionary<string, int> columnTypeDic, FieldInfo[] fieldInfos, DataTable sheet)
     {
-        for (int fieldColumn = 0; fieldColumn < fieldInfos.Length; fieldColumn++)
+        for (int fieldColumn = 0; fieldColumn < sheet.Columns.Count; fieldColumn++)
         {
             string typeName = (string)(sheet.Rows[0].ItemArray[fieldColumn]);
             if (string.IsNullOrWhiteSpace(typeName))
