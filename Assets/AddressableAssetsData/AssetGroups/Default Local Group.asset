@@ -67,18 +67,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 86d0ae4913c5e894c8e6db87f8241571
-    m_Address: Assets/Prefab/Unit/Player/Character3.prefab
+  - m_GUID: c3093d3491c60dd4aae280534d352f03
+    m_Address: Assets/Prefab/Unit/Player/Character1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8e517acae5ef482478e39fd3e3fd0010
+  - m_GUID: 508cb932f93ceb84ea26164422f9dd92
     m_Address: Assets/Prefab/Unit/Player/Character2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c936039bf32e8b7448a9576f7f202ca2
-    m_Address: Assets/Prefab/Unit/Player/Character1.prefab
+  - m_GUID: c6df949b99c6e77438265035978c2baf
+    m_Address: Assets/Prefab/Unit/Player/Character3.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

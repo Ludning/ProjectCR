@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     
     //Component Reference
     [SerializeField] private GroundChecker GroundChecker;
-    [SerializeField] private Rigidbody UnitRigidbody;
+    //[SerializeField] private Rigidbody UnitRigidbody;
     [SerializeField] private Camera MainCamera;
     [SerializeField] private CharacterController Controller;
     [SerializeField] private Animator Animator;

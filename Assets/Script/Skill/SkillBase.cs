@@ -6,17 +6,22 @@ public class SkillBase
 {
     //스킬 효과
     //스킬 방식, 스킬 값, 효과 범위, 효과 지속 시간
-    private int _skillType;
+    private SkillType _skillType;
     private int _skillValue;
+    
+    private EffectType _effectType;
     private int _effectRange;
-    private int _effectㅇuration;
+    private int _effectDuration;
+    
     //자원 및 쿨타임
-    private int _costType;
+    private CostType _costType;
     private int _costValue;
     private float _coolTime;
+    
     //스킬 대상
-    private int _targetType;
-    private int _targetingType;
+    private TargetType _targetType;
+    
+    private TargetingType _targetingType;
     //조건 및 제한사항
     /*
     사용 조건: 스킬 사용을 위한 조건 (예: 특정 레벨 이상, 특정 스킬 선행 필요 등).

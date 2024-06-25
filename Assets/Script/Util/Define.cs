@@ -53,28 +53,63 @@ public enum SpecificityType
 
 
 #region Skill
-
 public enum SkillType
 {
-    
+    Active,
+    Passive,
+}
+public enum ProjectileType
+{
+    NonProjectile,
+    Projectile,
+}
+public enum SkillLogicType
+{
+    Test,
+}
+public enum DamageType
+{
+    Kinetic,
+    Stasis,
+    Strand,
+    Arc,
+    Solar,
+    Void,
+}
+public enum EffectType
+{
+    None,
+    Incineration,//소각
+    Bleeding,    //출혈
+    Poisoning,   //중독
+    //단절
+    //빙결
+    //
+}
+public enum BuffType
+{
+    Buff,
+    Debuff,
 }
 public enum CostType
 {
-    
+    None,
+    Hp,
+    Mp,
 }
 public enum TargetType
 {
-    
+    Enemy,
+    Friendly,
 }
 public enum TargetingType
 {
-    Auto,
-    CloseToMouse,
+    AutoTargeting,
+    NonTargeting,
     None,
 }
 public enum DamageCalculateType
 {
     
 }
-
 #endregion

@@ -48,7 +48,28 @@ public class SkillData
     [TableColumnWidth(40, false)]
     public int index;
     public string skillName;
+    public string description;
+    public List<SkillElement> SkillElement;
 }
+
+[Serializable]
+public class SkillElement
+{
+    public SkillType skillType;
+    public SkillLogicType skillLogicType;
+    public DamageType damageType;
+    public EffectType effectType;
+    public BuffType buffType;
+    public CostType costType;
+    public float skillValue;
+    public float skillRange;
+    public float costValue;
+    public TargetType targetType;
+    public TargetingType targetingType;
+    public int targetingCount;
+}
+
+
 [Serializable]
 public class ItemData 
 {
