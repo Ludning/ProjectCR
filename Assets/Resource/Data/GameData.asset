@@ -1299,7 +1299,7 @@ MonoBehaviour:
       Data: 0
     - Name: skillValue
       Entry: 4
-      Data: 1
+      Data: 100
     - Name: skillRange
       Entry: 4
       Data: 10
@@ -1314,7 +1314,7 @@ MonoBehaviour:
       Data: 1
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1344,7 +1344,7 @@ MonoBehaviour:
       Data: 2
     - Name: skillRange
       Entry: 4
-      Data: 10
+      Data: 11
     - Name: costValue
       Entry: 4
       Data: 10
@@ -1365,7 +1365,7 @@ MonoBehaviour:
       Data: 47|SkillElement, Assembly-CSharp
     - Name: skillType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillLogicType
       Entry: 3
       Data: 0
@@ -1377,16 +1377,16 @@ MonoBehaviour:
       Data: 1
     - Name: buffType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: costType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillValue
       Entry: 4
       Data: 3
     - Name: skillRange
       Entry: 4
-      Data: 10
+      Data: 13
     - Name: costValue
       Entry: 4
       Data: 10
@@ -1398,7 +1398,7 @@ MonoBehaviour:
       Data: 1
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 8
       Data: 
@@ -1407,7 +1407,7 @@ MonoBehaviour:
       Data: 48|SkillElement, Assembly-CSharp
     - Name: skillType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillLogicType
       Entry: 3
       Data: 0
@@ -1419,16 +1419,16 @@ MonoBehaviour:
       Data: 1
     - Name: buffType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: costType
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: skillValue
       Entry: 4
       Data: 4
     - Name: skillRange
       Entry: 4
-      Data: 10
+      Data: 3
     - Name: costValue
       Entry: 4
       Data: 10
@@ -1437,10 +1437,10 @@ MonoBehaviour:
       Data: 0
     - Name: targetingType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 5
     - Name: 
       Entry: 8
       Data: 
@@ -1449,7 +1449,7 @@ MonoBehaviour:
       Data: 49|SkillElement, Assembly-CSharp
     - Name: skillType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillLogicType
       Entry: 3
       Data: 0
@@ -1461,7 +1461,7 @@ MonoBehaviour:
       Data: 1
     - Name: buffType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: costType
       Entry: 3
       Data: 0
@@ -1470,7 +1470,7 @@ MonoBehaviour:
       Data: 5
     - Name: skillRange
       Entry: 4
-      Data: 10
+      Data: 6
     - Name: costValue
       Entry: 4
       Data: 10
@@ -1482,7 +1482,7 @@ MonoBehaviour:
       Data: 1
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 6
     - Name: 
       Entry: 8
       Data: 
@@ -1528,7 +1528,7 @@ MonoBehaviour:
       Data: 52|SkillElement, Assembly-CSharp
     - Name: skillType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillLogicType
       Entry: 3
       Data: 0
@@ -1561,7 +1561,7 @@ MonoBehaviour:
       Data: 1
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 7
     - Name: 
       Entry: 8
       Data: 
@@ -1570,7 +1570,7 @@ MonoBehaviour:
       Data: 53|SkillElement, Assembly-CSharp
     - Name: skillType
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: skillLogicType
       Entry: 3
       Data: 0
@@ -1603,7 +1603,7 @@ MonoBehaviour:
       Data: 1
     - Name: targetingCount
       Entry: 3
-      Data: 3
+      Data: 8
     - Name: 
       Entry: 8
       Data: 

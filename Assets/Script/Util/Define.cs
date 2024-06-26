@@ -51,7 +51,6 @@ public enum SpecificityType
     Test,
 }
 
-
 #region Skill
 public enum SkillType
 {
@@ -113,3 +112,9 @@ public enum DamageCalculateType
     
 }
 #endregion
+
+public enum DetectionRangeType
+{
+    Circle,
+    SemiCircle,
+}
