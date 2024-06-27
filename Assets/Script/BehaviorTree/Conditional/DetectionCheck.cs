@@ -6,6 +6,7 @@ using BehaviorDesigner.Runtime.Tasks;
 public class DetectionCheck : Conditional
 {
 	private DetectTarget DetectTarget;
+	public SharedTransform Target;
 	public override void OnAwake()
 	{
 		DetectTarget = gameObject.GetComponent<Animal>().DetectTarget;
@@ -16,11 +17,11 @@ public class DetectionCheck : Conditional
 	{
 		if (DetectTarget.TargetCount > 0)
 		{
-			Debug.Log("타겟 존재");
+			Target.Value = DetectTarget.Target;
 			return TaskStatus.Success;
 		}
 		
-		Debug.Log("타겟 없음");
+		Target.Value = null;
 		return TaskStatus.Failure;
 	}
 }

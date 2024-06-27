@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using BehaviorDesigner.Runtime.Tasks;
 using UnityEngine;
 
-public class AttackPattern : MonoBehaviour
+[TaskCategory("CustomAction")]
+public class AttackPattern : Action
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private string attackPattern = "짱쎈 박치기";
+    public override void OnAwake()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnStart()
     {
         
+    }
+    
+    public override TaskStatus OnUpdate()
+    {
+        Debug.Log($"공격패턴 시전! {attackPattern}");
+        return TaskStatus.Success;
+        return TaskStatus.Running;
     }
 }

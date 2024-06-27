@@ -170,6 +170,381 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &99629619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_Name
+      value: Alpaca (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1351570749}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99629626}
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99629625}
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99629624}
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 99629623}
+  m_SourcePrefab: {fileID: 100100000, guid: cfdc888d417c3db448925701ed6ece53, type: 3}
+--- !u!1 &99629620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+    type: 3}
+  m_PrefabInstance: {fileID: 99629619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &99629621 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7745149345189837222, guid: cfdc888d417c3db448925701ed6ece53,
+    type: 3}
+  m_PrefabInstance: {fileID: 99629619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99629622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
+    type: 3}
+  m_PrefabInstance: {fileID: 99629619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &99629623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99629620}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b1aea630a3db7fe409ec345898e7bd15,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8c2388ed-e852-45c9-b72c-e5abefeb5209
+    m_ActionName: Player/Walk[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnRun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ba4852cb-f8f7-4103-b63e-e2e83d212574
+    m_ActionName: Player/Run[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnRoll
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ecbe2c0b-0d9f-4d56-82ba-2b5d8c744f6a
+    m_ActionName: Player/Roll[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnSpin
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 920dd9af-0c87-406b-94b4-963d77279131
+    m_ActionName: Player/Spin[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnStun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: df016870-7b49-4ecd-8814-d1343b88b67a
+    m_ActionName: Player/Stun[/Keyboard/t]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnDamaged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e2fee57d-6963-4468-bab1-a9b5a3eda319
+    m_ActionName: Player/Damaged[/Keyboard/y]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnDie
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c1aea453-c580-439c-8380-d691a3fdbc44
+    m_ActionName: Player/Die[/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 99629626}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 33942a2f-332d-473e-9d9c-5fbc0640c1a2
+    m_ActionName: Player/Attack[/Keyboard/i]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!195 &99629624
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99629620}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 30
+  avoidancePriority: 50
+  m_AngularSpeed: 360
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &99629625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99629620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(104.553185,-31.1914864)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0.170211792,95.52723)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(3.84603882,118.461517)"},"ID":2,"Name":"Parallel","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-185.2203,183.601349)"},"ID":3,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-10.7692451,140.769241)"},"ID":4,"Name":"Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BeStunCheak","NodeData":{"Offset":"(-90.03201,115.338852)"},"ID":5,"Name":"Be
+        Stun Cheak","Instant":true,"SharedBoolisBeStun":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsBeStun","IsShared":true,"BooleanmValue":false}},{"Type":"PlayBeStagger","NodeData":{"Offset":"(48.8778076,128.716354)"},"ID":6,"Name":"Play
+        Be Stagger","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-1.88709259,188.601471)"},"ID":7,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(12.5641232,127.4359)"},"ID":8,"Name":"Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"BeHitCheak","NodeData":{"Offset":"(-24.3080959,116.086914)"},"ID":9,"Name":"Be
+        Hit Cheak","Instant":true,"SharedBoolisDamaged":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsDamaged","IsShared":true,"BooleanmValue":false}},{"Type":"PlayBeHit","NodeData":{"Offset":"(107.153465,120.094177)"},"ID":10,"Name":"Play
+        Be Hit","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(265.886017,198.461517)","Comment":"\ud0c0\uac9f\uc744
+        \uccb4\ud06c\ud558\uace0, \ucd94\uc801\ud558\ub294 \ub178\ub4dc"},"ID":11,"Name":"Sequence","Instant":true,"AbortTypeabortType":"Both","Children":[{"Type":"DetectionCheck","NodeData":{"Offset":"(-118.746094,120.162018)"},"ID":12,"Name":"\ud0c0\uac9f
+        \uac10\uc9c0 \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(45.87217,124.651627)"},"ID":13,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-63.0304375,135.1515)"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsTargetInAttackRange","NodeData":{"Offset":"(-70,141.428589)"},"ID":15,"Name":"\uacf5\uaca9\ubc94\uc704
+        \uac70\ub9ac \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},"Single_attackRange":5},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(75.7142944,141.428589)","Comment":"//TODO\n\uc870\uac74\uc5d0
+        \ub9de\ub294 \ud328\ud134\uc744\n\ud638\ucd9c\ud558\ub294 Selector\uc2a4\ud06c\ub9bd\ud2b8\ub97c
+        \n\ub9cc\ub4e4\uace0 \uad50\uccb4\ud574\uc57c\ud568"},"ID":16,"Name":"\ub79c\ub364
+        \uacf5\uaca9 \ud328\ud134 \uc2dc\uc804","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"AttackPattern","NodeData":{"Offset":"(-190,135.7143)"},"ID":17,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae301"},{"Type":"AttackPattern","NodeData":{"Offset":"(-60,135.7143)"},"ID":18,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae302"},{"Type":"AttackPattern","NodeData":{"Offset":"(79.60318,135.7143)"},"ID":19,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae303"}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(194.759186,100.588257)"},"ID":20,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TargetDistanceCheak","NodeData":{"Offset":"(143.621841,136.388947)"},"ID":21,"Name":"\ud0c0\uac9f
+        \uac70\ub9ac \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},"Single_attackRange":3},{"Type":"TrackingTarget","NodeData":{"Offset":"(299.710236,128.405792)"},"ID":22,"Name":"\ud0c0\uac9f
+        \ucd94\uc801","Instant":true,"SharedFloatspeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedFloatangularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":360},"SharedFloatarriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."}}]}]}]}]}]},"DetachedTasks":[{"Type":"PlayBeHit","NodeData":{"Offset":"(-510.380554,1408.31738)"},"ID":23,"Name":"\ud53c\uaca9
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true},{"Type":"PlayBeStagger","NodeData":{"Offset":"(-401.19928,1408.04578)"},"ID":24,"Name":"\ubb34\ub825\ud654
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true},{"Type":"BeHitCheak","NodeData":{"Offset":"(-293.360779,1405.68579)"},"ID":25,"Name":"\ud53c\uaca9
+        \uccb4\ud06c","Instant":true,"SharedBoolisDamaged":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-376.377869,1292.03088)"},"ID":26,"Name":"\uc560\ub2c8\uba54\uc774\uc158
+        Set Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-137.33287,1174.22473)","Comment":"\ub300\uae30,
+        \uc21c\ud68c \uad00\ub828 \ub178\ub4dc"},"ID":27,"Name":"Patrol Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-67.69478,130.796509)"},"ID":28,"Name":"\ub300\uae30
+        \uc2dc\uac04","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(51.0458221,192.804077)"},"ID":29,"Name":"\ub300\uae30","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-513.6654,1302.49121)"},"ID":30,"Name":"Selector","Instant":true,"AbortTypeabortType":"None"},{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-303.848022,1183.16125)"},"ID":31,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"BooleangraphLabel":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Cooldown","NodeData":{"Offset":"(-454.28125,1191.25586)"},"ID":32,"Name":"Cooldown","Instant":true,"SharedFloatduration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-388.147644,101.481552)"},"ID":33,"Name":"Selector","Instant":true,"AbortTypeabortType":"None"},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityNavMeshAgent.Move","NodeData":{"Offset":"(760,830.4347)"},"ID":34,"Name":"Move","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"IsShared":true},"SharedVector3offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}},{"Type":"BehaviorDesigner.Runtime.Tasks.ParallelComplete","NodeData":{"Offset":"(439.9995,180.000015)"},"ID":35,"Name":"Parallel
+        Complete","Instant":true,"AbortTypeabortType":"Both"},{"Type":"BehaviorDesigner.Runtime.Tasks.ParallelSelector","NodeData":{"Offset":"(399.2305,45.3846931)"},"ID":36,"Name":"Parallel
+        Selector","Instant":true,"AbortTypeabortType":"Both"}],"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsBeStun","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsDamaged","IsShared":true,"BooleanmValue":false}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.9
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &99629626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99629620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656959eb4981ea346ba5bf66f50c8c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectTarget: {fileID: 1351570748}
+  _animator: {fileID: 99629621}
 --- !u!1001 &353845453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,6 +631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alpaca
       objectReference: {fileID: 0}
+    - target: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7745149345199380038, guid: cfdc888d417c3db448925701ed6ece53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -317,15 +697,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 597865963}
-    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 597865966}
     - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 597865963}
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 597865967}
+    - targetCorrespondingSourceObject: {fileID: 7745149345199213156, guid: cfdc888d417c3db448925701ed6ece53,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597865969}
   m_SourcePrefab: {fileID: 100100000, guid: cfdc888d417c3db448925701ed6ece53, type: 3}
 --- !u!1 &597865962 stripped
 GameObject:
@@ -361,16 +745,39 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(104.553185,-31.1914864)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0.170207977,113.384361)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(0.851034164,130.658554)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BeHitCheak","NodeData":{"Offset":"(-312.116547,122.181923)"},"ID":3,"Name":"\ud53c\uaca9
-        \uccb4\ud06c","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-4.070284,154.51059)","Comment":"\ud0c0\uac9f\uc744
-        \uccb4\ud06c\ud558\uace0, \ucd94\uc801\ud558\ub294 \ub178\ub4dc"},"ID":4,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"DetectionCheck","NodeData":{"Offset":"(-156.199371,132.982529)"},"ID":5,"Name":"\ud0c0\uac9f
-        \uac10\uc9c0 \uccb4\ud06c","Instant":true},{"Type":"TargetDistanceCheak","NodeData":{"Offset":"(0.481737137,132.067657)"},"ID":6,"Name":"\ud0c0\uac9f
-        \uac70\ub9ac \uccb4\ud06c","Instant":true,"Single_attackRange":2},{"Type":"TrackingTarget","NodeData":{"Offset":"(155.790237,130.982529)"},"ID":7,"Name":"\ud0c0\uac9f
-        \ucd94\uc801","Instant":true,"SharedFloatspeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedFloatangularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":120},"SharedFloatarriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"SharedGameObjecttarget":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedVector3targetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(360.122,154.073242)","Comment":"\ub300\uae30,
-        \uc21c\ud68c \uad00\ub828 \ub178\ub4dc"},"ID":8,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(47.6898041,156.437531)"},"ID":9,"Name":"\ub300\uae30
-        \uc2dc\uac04","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(230.532974,128.701523)"},"ID":10,"Name":"\ub300\uae30","Instant":true}]}]}]},"DetachedTasks":[{"Type":"PlayBeHit","NodeData":{"Offset":"(-298.81485,486.477753)"},"ID":11,"Name":"\ud53c\uaca9
-        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true},{"Type":"PlayBeStagger","NodeData":{"Offset":"(-228.095154,665.693054)"},"ID":12,"Name":"\ubb34\ub825\ud654
-        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true}]}'
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(104.553185,-31.1914864)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0.170207977,113.384361)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(-85.83325,164.999954)"},"ID":2,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-100,160)"},"ID":3,"Name":"\uae30\uc808Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BeStunCheak","NodeData":{"Offset":"(-278.617,98.22005)"},"ID":4,"Name":"Be
+        Stun Cheak","Instant":true,"SharedBoolisBeStun":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsStun","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.PerformInterruption","NodeData":{"Offset":"(-163.746613,96.72327)"},"ID":5,"Name":"Perform
+        Interruption","Instant":true,"Interrupt[]interruptTasks":[11],"SharedBoolinterruptSuccess":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"PlayBeStagger","NodeData":{"Offset":"(-30,100)"},"ID":6,"Name":"\ubb34\ub825\ud654
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,250)"},"ID":7,"Name":"\ud53c\uaca9Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BeHitCheak","NodeData":{"Offset":"(-195.9974,134.97583)"},"ID":8,"Name":"Be
+        Hit Cheak","Instant":true,"SharedBoolisDamaged":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsDamaged","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.PerformInterruption","NodeData":{"Offset":"(-75.16139,126.129028)"},"ID":9,"Name":"Perform
+        Interruption","Instant":true,"Interrupt[]interruptTasks":[11],"SharedBoolinterruptSuccess":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"PlayBeHit","NodeData":{"Offset":"(35.802742,133.500381)"},"ID":10,"Name":"\ud53c\uaca9
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Interrupt","NodeData":{"Offset":"(190,150)"},"ID":11,"Name":"Interrupt","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(140.68959,120)","Comment":"\uac70\ub9ac\ub97c
+        \uccb4\ud06c\ud558\uace0, \uacf5\uaca9\ud558\ub294 \ub178\ub4dc"},"ID":12,"Name":"\uacf5\uaca9Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"DetectionCheck","NodeData":{"Offset":"(-104.501915,144.230713)"},"ID":13,"Name":"\ud0c0\uac9f
+        \uac10\uc9c0 \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(16.60924,174.73494)"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsTargetInAttackRange","NodeData":{"Offset":"(-78.77464,112.329666)"},"ID":15,"Name":"\uacf5\uaca9\ubc94\uc704
+        \uac70\ub9ac \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},"Single_attackRange":5},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(90.63709,112.329666)","Comment":"//TODO\n\uc870\uac74\uc5d0
+        \ub9de\ub294 \ud328\ud134\uc744\n\ud638\ucd9c\ud558\ub294 Selector\uc2a4\ud06c\ub9bd\ud2b8\ub97c
+        \n\ub9cc\ub4e4\uace0 \uad50\uccb4\ud574\uc57c\ud568"},"ID":16,"Name":"\ub79c\ub364
+        \uacf5\uaca9 \ud328\ud134 \uc2dc\uc804","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"AttackPattern","NodeData":{"Offset":"(-154.2859,105.411255)"},"ID":17,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae301"},{"Type":"AttackPattern","NodeData":{"Offset":"(-24.285881,105.411255)"},"ID":18,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae302"},{"Type":"AttackPattern","NodeData":{"Offset":"(115.317322,105.411255)"},"ID":19,"Name":"Attack
+        Pattern","Instant":true,"StringattackPattern":"\uc9f1\uc388 \ubc15\uce58\uae303"}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(299.496033,139.230759)","Comment":"\ud0c0\uac9f\uc744
+        \ucd94\uc801\ud558\ub294 \ub178\ub4dc"},"ID":20,"Name":"\ucd94\uc801Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"TargetDistanceCheak","NodeData":{"Offset":"(120,143.793182)"},"ID":21,"Name":"\ud0c0\uac9f
+        \uac70\ub9ac \uccb4\ud06c","Instant":true,"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},"Single_attackRange":2},{"Type":"TrackingTarget","NodeData":{"Offset":"(230,143.793182)"},"ID":22,"Name":"\ud0c0\uac9f
+        \ucd94\uc801","Instant":true,"SharedFloatspeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedFloatangularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":360},"SharedFloatarriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"SharedTransformTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."}}]}]}]}]}]},"DetachedTasks":[{"Type":"PlayBeHit","NodeData":{"Offset":"(-599.125549,1045.12549)"},"ID":23,"Name":"\ud53c\uaca9
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true},{"Type":"PlayBeStagger","NodeData":{"Offset":"(-489.9443,1044.85388)"},"ID":24,"Name":"\ubb34\ub825\ud654
+        \ud589\ub3d9 \uc7ac\uc0dd","Instant":true},{"Type":"BeHitCheak","NodeData":{"Offset":"(-382.105743,1042.4939)"},"ID":25,"Name":"\ud53c\uaca9
+        \uccb4\ud06c","Instant":true,"SharedBoolisDamaged":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-465.122925,928.839233)"},"ID":26,"Name":"\uc560\ub2c8\uba54\uc774\uc158
+        Set Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-266.987061,1036.48767)","Comment":"\ub300\uae30,
+        \uc21c\ud68c \uad00\ub828 \ub178\ub4dc"},"ID":27,"Name":"Patrol Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-67.69478,130.796509)"},"ID":28,"Name":"\ub300\uae30
+        \uc2dc\uac04","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Idle","NodeData":{"Offset":"(51.0458221,192.804077)"},"ID":29,"Name":"\ub300\uae30","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-602.410461,919.299561)"},"ID":30,"Name":"Selector","Instant":true,"AbortTypeabortType":"None"},{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-536.5325,823.217041)"},"ID":31,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"BooleangraphLabel":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Cooldown","NodeData":{"Offset":"(-336.8368,934.2007)"},"ID":32,"Name":"Cooldown","Instant":true,"SharedFloatduration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2}},{"Type":"BehaviorDesigner.Runtime.Tasks.SelectorEvaluator","NodeData":{"Offset":"(406.88916,188.619461)"},"ID":33,"Name":"Selector
+        Evaluator","Instant":true,"AbortTypeabortType":"None"},{"Type":"BehaviorDesigner.Runtime.Tasks.PrioritySelector","NodeData":{"Offset":"(543.4184,194.17485)"},"ID":34,"Name":"Priority
+        Selector","Instant":true,"AbortTypeabortType":"None"},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(190,240)"},"ID":35,"Name":"Selector","Instant":true,"AbortTypeabortType":"Both"}],"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"Target","IsShared":true,"Tooltip":"\ubaa9\ud45c\uc758
+        transform\ucc38\uc870\uc785\ub2c8\ub2e4."},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsStun","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsDamaged","IsShared":true,"BooleanmValue":false}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -401,6 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectTarget: {fileID: 1301512276}
+  _animator: {fileID: 597865968}
 --- !u!195 &597865967
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -423,6 +831,171 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &597865968 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7745149345189837222, guid: cfdc888d417c3db448925701ed6ece53,
+    type: 3}
+  m_PrefabInstance: {fileID: 597865961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &597865969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597865962}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b1aea630a3db7fe409ec345898e7bd15,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8c2388ed-e852-45c9-b72c-e5abefeb5209
+    m_ActionName: Player/Walk[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnRun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ba4852cb-f8f7-4103-b63e-e2e83d212574
+    m_ActionName: Player/Run[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnRoll
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ecbe2c0b-0d9f-4d56-82ba-2b5d8c744f6a
+    m_ActionName: Player/Roll[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnSpin
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 920dd9af-0c87-406b-94b4-963d77279131
+    m_ActionName: Player/Spin[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnStun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: df016870-7b49-4ecd-8814-d1343b88b67a
+    m_ActionName: Player/Stun[/Keyboard/t]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnDamaged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e2fee57d-6963-4468-bab1-a9b5a3eda319
+    m_ActionName: Player/Damaged[/Keyboard/y]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnDie
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c1aea453-c580-439c-8380-d691a3fdbc44
+    m_ActionName: Player/Die[/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 597865966}
+        m_TargetAssemblyTypeName: Animal, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 33942a2f-332d-473e-9d9c-5fbc0640c1a2
+    m_ActionName: Player/Attack[/Keyboard/i]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &790126552
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +1375,107 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e084e25aa7fd5c94380ceed701e78b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1351570747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 99629622}
+    m_Modifications:
+    - target: {fileID: 171565221773810729, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_Name
+      value: DetectCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 461096029253080567, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426168931034691681, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: _viewDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426168931034691681, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: _targetLayerMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 018501e87e129ea409968e32a378c306, type: 3}
+--- !u!114 &1351570748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4426168931034691681, guid: 018501e87e129ea409968e32a378c306,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351570747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e084e25aa7fd5c94380ceed701e78b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1351570749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4894537487926328864, guid: 018501e87e129ea409968e32a378c306,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351570747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3318537491543928579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -893,5 +1567,6 @@ SceneRoots:
   - {fileID: 1267674772}
   - {fileID: 1057719864}
   - {fileID: 597865961}
+  - {fileID: 99629619}
   - {fileID: 32919259}
   - {fileID: 353845453}

@@ -13,21 +13,18 @@ public class TrackingTarget : Action
         public SharedFloat angularSpeed = 120;
         [UnityEngine.Tooltip("The agent has arrived when the destination is less than the specified amount. This distance should be greater than or equal to the NavMeshAgent StoppingDistance.")]
         public SharedFloat arriveDistance = 0.2f;
-        [UnityEngine.Tooltip("The GameObject that the agent is seeking")]
-        public SharedGameObject target;
-        [UnityEngine.Tooltip("If target is null then use the target position")]
-        public SharedVector3 targetPosition;
-
+        
         // Component references
         protected UnityEngine.AI.NavMeshAgent navMeshAgent;
-        private DetectTarget DetectTarget;
+        
+        [UnityEngine.Tooltip("The GameObject that the agent is seeking")]
+        public SharedTransform Target;
         /// <summary>
         /// Cache the component references.
         /// </summary>
         public override void OnAwake()
         {
             navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-            DetectTarget = gameObject.GetComponent<Animal>().DetectTarget;
         }
 
         /// <summary>
@@ -43,37 +40,29 @@ public class TrackingTarget : Action
             navMeshAgent.isStopped = false;
 #endif
 
-            SetDestination(Target());
+            SetDestination(Target.Value.position);
         }
 
         // Seek the destination. Return success once the agent has reached the destination.
         // Return running if the agent hasn't reached the destination yet
         public override TaskStatus OnUpdate()
         {
+            
             if (HasArrived()) {
+                Debug.Log("HasArrived체크");
                 return TaskStatus.Success;
             }
 
-            SetDestination(Target());
-
+            Debug.Log("추적중");
+            SetDestination(Target.Value.position);
             return TaskStatus.Running;
         }
 
-        // Return targetPosition if target is null
-        private Vector3 Target()
-        {
-            if (DetectTarget.Target != null) {
-                //return target.Value.transform.position;
-                return DetectTarget.Target.position;
-            }
-            return targetPosition.Value;
-        }
-
         /// <summary>
-        /// Set a new pathfinding destination.
+        /// 길찾기 목적지 설정.
         /// </summary>
         /// <param name="destination">The destination to set.</param>
-        /// <returns>True if the destination is valid.</returns>
+        /// <returns>목적지가 유효하면 True</returns>
         private bool SetDestination(Vector3 destination)
         {
 #if UNITY_5_1 || UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5
@@ -85,12 +74,12 @@ public class TrackingTarget : Action
         }
 
         /// <summary>
-        /// Has the agent arrived at the destination?
+        /// 목적지에 도착했는지 확인
         /// </summary>
-        /// <returns>True if the agent has arrived at the destination.</returns>
+        /// <returns>목적지에 도착했다면 True</returns>
         private bool HasArrived()
         {
-            // The path hasn't been computed yet if the path is pending.
+            // 경로가 보류 중인 경우 경로가 아직 계산되지 않았습니다.
             float remainingDistance;
             if (navMeshAgent.pathPending) {
                 remainingDistance = float.PositiveInfinity;
@@ -102,7 +91,7 @@ public class TrackingTarget : Action
         }
 
         /// <summary>
-        /// Stop pathfinding.
+        /// 길찾기 중지.
         /// </summary>
         private void Stop()
         {

@@ -20,29 +20,27 @@ public class DetectTarget : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (((1 << other.gameObject.layer) & _targetLayerMask) != 0)
-        {
-            Debug.Log("타겟이 범위를 진입.");
-            _targetList.Add(other.transform);
-            if (Target == null)
-                Target = other.transform;
-        }
+        if (((1 << other.gameObject.layer) & _targetLayerMask) == 0) return;
+        
+        Debug.Log("타겟이 범위를 진입.");
+        _targetList.Add(other.transform);
+        if (Target == null)
+            Target = other.transform;
     }
     private void OnTriggerExit(Collider other)
     {
-        if (((1 << other.gameObject.layer) & _targetLayerMask) != 0)
+        if (((1 << other.gameObject.layer) & _targetLayerMask) == 0) return;
+        
+        Debug.Log("타겟이 범위를 벗어남.");
+        _targetList.Remove(other.transform);
+        if (_targetList.Count == 0)
         {
-            Debug.Log("타겟이 범위를 벗어남.");
-            _targetList.Remove(other.transform);
-            if (_targetList.Count == 0)
-            {
-                Target = null;
-            }
-            else if (Target == other.transform)
-            {
-                int index = Random.Range(0, _targetList.Count);
-                Target = _targetList[index];
-            }
+            Target = null;
+        }
+        else if (Target == other.transform)
+        {
+            int index = Random.Range(0, _targetList.Count);
+            Target = _targetList[index];
         }
     }
 

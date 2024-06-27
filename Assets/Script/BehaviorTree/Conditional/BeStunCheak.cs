@@ -5,9 +5,9 @@ using BehaviorDesigner.Runtime.Tasks;
 using UnityEngine;
 
 [TaskCategory("CustomConditional")]
-public class BeHitCheak : Conditional
+public class BeStunCheak : Conditional
 {
-    public SharedBool isDamaged = false;
+    public SharedBool isBeStun = false;
     public override void OnAwake()
     {
         
@@ -15,6 +15,6 @@ public class BeHitCheak : Conditional
 
     public override TaskStatus OnUpdate()
     {
-        return (isDamaged.Value == true) ? TaskStatus.Success : TaskStatus.Failure;
+        return (isBeStun.Value == true) ? TaskStatus.Success : TaskStatus.Failure;
     }
 }

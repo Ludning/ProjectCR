@@ -160,7 +160,6 @@ public class PlayerController : MonoBehaviour
     private Vector3 GetVelocity()
     {
         float velocityY = CalculateVelocityY();
-        Debug.Log(velocityY);
         Vector2 velocityXZ = CalculateVelocityXZ();
         
         return new Vector3(velocityXZ.x, velocityY, velocityXZ.y);
