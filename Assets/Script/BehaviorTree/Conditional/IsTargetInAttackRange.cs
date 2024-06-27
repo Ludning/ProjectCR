@@ -32,11 +32,9 @@ public class IsTargetInAttackRange : Conditional
         
         if (distance < RangeSquare)
         {
-            Debug.Log("공격 범위 안");
             return TaskStatus.Success;
         }
 		
-        Debug.Log("공격 범위 밖");
         return TaskStatus.Failure;
     }
 }
