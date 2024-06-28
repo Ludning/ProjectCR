@@ -124,6 +124,13 @@ public enum DetectionRangeType
     SemiCircle,
 }
 
+public enum AssetAddressType
+{
+    PopupUIAsset,
+    CharacterAsset,
+    AnimalAsset,
+}
+
 public enum UnitState
 {
     Idle,

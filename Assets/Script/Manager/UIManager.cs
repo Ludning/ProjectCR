@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class UIManager : SingleTon<UIManager>
 {
+    private Camera _mainCamera;
     private Canvas _uiCanvas;
-    private Transform _gameUI;
-    private Transform _monsterUI;
-    private Transform _popupUI;
+    private RectTransform _canvasRectTransform;
+    private Transform _gameUIParent;
+    private Transform _monsterUIParent;
+    private Transform _popupUIParent;
 
     private Dictionary<GameUIElementType, Transform> GameUIDic = new Dictionary<GameUIElementType, Transform>();
     private Dictionary<GameObject, Transform> MonsterUIDic = new Dictionary<GameObject, Transform>();
     private Dictionary<PopupUIElementType, Transform> PopupUIDic = new Dictionary<PopupUIElementType, Transform>();
 
+    public Camera MainMainCamera
+    {
+        get
+        {
+            if (_mainCamera == null)
+            {
+                _mainCamera = Camera.main;
+            }
+            return _mainCamera;
+        }
+    }
     public Canvas UICanvas
     {
         get
@@ -24,52 +37,64 @@ public class UIManager : SingleTon<UIManager>
             return _uiCanvas;
         }
     }
-    public Transform GameUI
+    public RectTransform CanvasRectTransform
     {
         get
         {
-            if (_gameUI == null)
+            if (_canvasRectTransform == null)
             {
-                _gameUI = UICanvas.transform.Find("GameUI");
+                _canvasRectTransform = UICanvas.GetComponent<RectTransform>();
             }
-            return _gameUI;
+            return _canvasRectTransform;
         }
     }
-    public Transform MonsterUI
+    public Transform GameUIParent
     {
         get
         {
-            if (_monsterUI == null)
+            if (_gameUIParent == null)
             {
-                _monsterUI = UICanvas.transform.Find("MonsterUI");
+                _gameUIParent = UICanvas.transform.Find("GameUI");
             }
-            return _monsterUI;
+            return _gameUIParent;
         }
     }
-    public Transform PopupUI
+    public Transform MonsterUIParent
     {
         get
         {
-            if (_popupUI == null)
+            if (_monsterUIParent == null)
             {
-                _popupUI = UICanvas.transform.Find("PopupUI");
+                _monsterUIParent = UICanvas.transform.Find("MonsterUI");
             }
-            return _popupUI;
+            return _monsterUIParent;
+        }
+    }
+    public Transform PopupUIParent
+    {
+        get
+        {
+            if (_popupUIParent == null)
+            {
+                _popupUIParent = UICanvas.transform.Find("PopupUI");
+            }
+            return _popupUIParent;
         }
     }
     
 
     public Transform ShowGameUIElement(GameUIElementType elementType)
     {
-        if (GameUI == null)
+        if (GameUIParent == null)
             return null;
         if (!GameUIDic.ContainsKey(elementType))
         {
-            Transform gameUIElement = GameUI.Find(elementType.ToString());
+            Transform gameUIElement = GameUIParent.Find(elementType.ToString());
             if (gameUIElement == null)
             {
                 GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(elementType.ToString());
-                gameUIElement = Object.Instantiate(prefab, GameUI).transform;
+                gameUIElement = PoolManager.Instance.GetGameObject(prefab).transform;
+                gameUIElement.SetParent(GameUIParent);
             }
             GameUIDic.Add(elementType, gameUIElement);
         }
@@ -77,35 +102,53 @@ public class UIManager : SingleTon<UIManager>
     }
     public Transform ShowPopupUIElement(PopupUIElementType elementType)
     {
-        if (PopupUI == null)
+        if (PopupUIParent == null)
             return null;
         if (!PopupUIDic.ContainsKey(elementType))
         {
-            Transform popupUIElement = PopupUI.Find(elementType.ToString());
+            Transform popupUIElement = PopupUIParent.Find(elementType.ToString());
             if (popupUIElement == null)
             {
                 GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(elementType.ToString());
-                popupUIElement = Object.Instantiate(prefab, PopupUI).transform;
+                popupUIElement = PoolManager.Instance.GetGameObject(prefab).transform;
+                popupUIElement.SetParent(PopupUIParent);
             }
             PopupUIDic.Add(elementType, popupUIElement);
         }
         return PopupUIDic[elementType];
     }
     
-    
-    public Transform ShowMonsterUIElement(GameObject owner, MonsterInfoUIType monsterUIType)
+    //중복되는 Type의 여러 UI인스턴스가 있으므로 owner를 key로 저장
+    public Transform ShowMonsterUIElement(GameObject owner, MonsterInfoUIType monsterUIType, int instanceID)
     {
-        if (MonsterUI == null)
+        if (MonsterUIParent == null)
             return null;
         if (!MonsterUIDic.ContainsKey(owner))
         {
-            Transform monsterUI = MonsterUI.Find(monsterUIType.ToString());
-            if (monsterUI == null)
-            {
-                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(monsterUIType.ToString());
-                monsterUI = Object.Instantiate(prefab, MonsterUI).transform;
-            }
+            Transform monsterUI = MonsterUIParent.Find(monsterUIType.ToString());
+
+            //TODO
+            //DataManager.Instance.GetPrefabAddress();
+            GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(monsterUIType.ToString());
+            monsterUI = PoolManager.Instance.GetGameObject(prefab).transform;
+            monsterUI.SetParent(MonsterUIParent);
+            monsterUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
             MonsterUIDic.Add(owner, monsterUI);
+        }
+
+        return MonsterUIDic[owner];
+    }
+    public Transform ReturnMonsterUIElement(GameObject owner)
+    {
+        if (MonsterUIDic.ContainsKey(owner))
+        {
+            Transform ui = MonsterUIDic[owner];
+            if (ui != null)
+            {
+                //pool로 반환
+                //PoolManager.Instance;
+                MonsterUIDic.Remove(owner);
+            }
         }
         return MonsterUIDic[owner];
     }

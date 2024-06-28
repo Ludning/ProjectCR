@@ -15,6 +15,22 @@ public class AssetAddressData : SerializedScriptableObject
     public Dictionary<string, AssetData> PopupUIAsset;
     public Dictionary<string, AssetData> CharacterAsset;
     public Dictionary<string, AssetData> AnimalAsset;
+
+    public string GetAddressPath(AssetAddressType type)
+    {
+        string path = "";
+        switch (type)
+        {
+            case AssetAddressType.PopupUIAsset:
+                break;
+            case AssetAddressType.CharacterAsset:
+                break;
+            case AssetAddressType.AnimalAsset:
+                break;
+        }
+
+        return path;
+    }
 }
 
 [Serializable]

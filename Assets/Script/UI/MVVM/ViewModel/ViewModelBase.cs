@@ -15,7 +15,7 @@ public class ViewModelBase<TMessage> where TMessage : MessageBase
     }
     public void UnRegisterEventsOnDisable()
     {
-        MessageManager.Instance.UnRegisterCallback<TMessage>();
+        MessageManager.Instance.UnRegisterCallback<TMessage>(OnResponseMessage);
     }
     protected virtual void OnResponseMessage(TMessage message)
     {

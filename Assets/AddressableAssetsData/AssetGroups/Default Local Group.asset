@@ -752,6 +752,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9c2e03e78cc82840ae5db11e1dbf532
+    m_Address: Assets/Prefab/UI/GameScene/GameUI/MonsterInfo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aec591e64c8d1764d82fade64fc165d9, type: 2}
   m_SchemaSet:
