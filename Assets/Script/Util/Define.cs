@@ -24,6 +24,11 @@ public enum GameUIElementType
     BuffInfo,
     BossHpBar,
 }
+public enum MonsterInfoUIType
+{
+    Monster,
+    Elite,
+}
 public enum PopupUIElementType
 {
     SkillTreeUI,
@@ -117,4 +122,12 @@ public enum DetectionRangeType
 {
     Circle,
     SemiCircle,
+}
+
+public enum UnitState
+{
+    Idle,
+    Stun,
+    Damaged,
+    Die,
 }

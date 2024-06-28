@@ -6,9 +6,11 @@ public class UIManager : SingleTon<UIManager>
 {
     private Canvas _uiCanvas;
     private Transform _gameUI;
+    private Transform _monsterUI;
     private Transform _popupUI;
 
     private Dictionary<GameUIElementType, Transform> GameUIDic = new Dictionary<GameUIElementType, Transform>();
+    private Dictionary<GameObject, Transform> MonsterUIDic = new Dictionary<GameObject, Transform>();
     private Dictionary<PopupUIElementType, Transform> PopupUIDic = new Dictionary<PopupUIElementType, Transform>();
 
     public Canvas UICanvas
@@ -33,6 +35,17 @@ public class UIManager : SingleTon<UIManager>
             return _gameUI;
         }
     }
+    public Transform MonsterUI
+    {
+        get
+        {
+            if (_monsterUI == null)
+            {
+                _monsterUI = UICanvas.transform.Find("MonsterUI");
+            }
+            return _monsterUI;
+        }
+    }
     public Transform PopupUI
     {
         get
@@ -44,6 +57,7 @@ public class UIManager : SingleTon<UIManager>
             return _popupUI;
         }
     }
+    
 
     public Transform ShowGameUIElement(GameUIElementType elementType)
     {
@@ -61,7 +75,6 @@ public class UIManager : SingleTon<UIManager>
         }
         return GameUIDic[elementType];
     }
-
     public Transform ShowPopupUIElement(PopupUIElementType elementType)
     {
         if (PopupUI == null)
@@ -77,5 +90,23 @@ public class UIManager : SingleTon<UIManager>
             PopupUIDic.Add(elementType, popupUIElement);
         }
         return PopupUIDic[elementType];
+    }
+    
+    
+    public Transform ShowMonsterUIElement(GameObject owner, MonsterInfoUIType monsterUIType)
+    {
+        if (MonsterUI == null)
+            return null;
+        if (!MonsterUIDic.ContainsKey(owner))
+        {
+            Transform monsterUI = MonsterUI.Find(monsterUIType.ToString());
+            if (monsterUI == null)
+            {
+                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(monsterUIType.ToString());
+                monsterUI = Object.Instantiate(prefab, MonsterUI).transform;
+            }
+            MonsterUIDic.Add(owner, monsterUI);
+        }
+        return MonsterUIDic[owner];
     }
 }

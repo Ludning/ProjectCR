@@ -5,19 +5,14 @@ using BehaviorDesigner.Runtime.Tasks;
 [TaskCategory("CustomConditional")]
 public class DetectionCheck : Conditional
 {
-	private DetectTarget DetectTarget;
+	public SharedDetectTarget DetectTarget;
 	public SharedTransform Target;
-	public override void OnAwake()
-	{
-		DetectTarget = gameObject.GetComponent<Animal>().DetectTarget;
-	}
-
 
 	public override TaskStatus OnUpdate()
 	{
-		if (DetectTarget.TargetCount > 0)
+		if (DetectTarget.Value.TargetCount > 0)
 		{
-			Target.Value = DetectTarget.Target;
+			Target.Value = DetectTarget.Value.Target;
 			return TaskStatus.Success;
 		}
 		

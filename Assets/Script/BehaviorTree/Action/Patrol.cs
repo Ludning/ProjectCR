@@ -4,8 +4,9 @@ using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
 using UnityEngine;
 
+
 [TaskCategory("CustomAction")]
-public class TrackingTarget : Action
+public class Patrol : Action
 {
     [UnityEngine.Tooltip("The speed of the agent")]
     public SharedFloat speed = 10;
@@ -21,11 +22,8 @@ public class TrackingTarget : Action
     public SharedNavmeshAgent navMeshAgent;
 
     [UnityEngine.Tooltip("The GameObject that the agent is seeking")]
-    public SharedTransform Target;
+    public SharedVector3 destination;
 
-    /// <summary>
-    /// Allow pathfinding to resume.
-    /// </summary>
     public override void OnStart()
     {
         navMeshAgent.Value.speed = speed.Value;
@@ -36,22 +34,15 @@ public class TrackingTarget : Action
         navMeshAgent.Value.isStopped = false;
 #endif
 
-        SetDestination(Target.Value.position);
+        SetDestination(destination.Value);
     }
 
-    // Seek the destination. Return success once the agent has reached the destination.
-    // Return running if the agent hasn't reached the destination yet
     public override TaskStatus OnUpdate()
     {
-
         if (HasArrived())
-        {
-            Debug.Log("HasArrived체크");
             return TaskStatus.Success;
-        }
 
-        Debug.Log("추적중");
-        SetDestination(Target.Value.position);
+        SetDestination(destination.Value);
         return TaskStatus.Running;
     }
 
@@ -77,22 +68,13 @@ public class TrackingTarget : Action
     private bool HasArrived()
     {
         // 경로가 보류 중인 경우 경로가 아직 계산되지 않았습니다.
-        float remainingDistance;
-        if (navMeshAgent.Value.pathPending)
-        {
-            remainingDistance = float.PositiveInfinity;
-        }
-        else
-        {
-            remainingDistance = navMeshAgent.Value.remainingDistance;
-        }
+        float remainingDistance = (navMeshAgent.Value.pathPending)
+            ? float.PositiveInfinity 
+            : navMeshAgent.Value.remainingDistance;
 
         return remainingDistance <= arriveDistance.Value;
     }
 
-    /// <summary>
-    /// 길찾기 중지.
-    /// </summary>
     private void Stop()
     {
         if (navMeshAgent.Value.hasPath)
@@ -105,17 +87,11 @@ public class TrackingTarget : Action
         }
     }
 
-    /// <summary>
-    /// The task has ended. Stop moving.
-    /// </summary>
     public override void OnEnd()
     {
         Stop();
     }
 
-    /// <summary>
-    /// The behavior tree has ended. Stop moving.
-    /// </summary>
     public override void OnBehaviorComplete()
     {
         Stop();
