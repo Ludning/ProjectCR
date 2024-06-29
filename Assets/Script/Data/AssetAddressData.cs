@@ -14,6 +14,7 @@ public class AssetAddressData : SerializedScriptableObject
     
     public Dictionary<string, AssetData> PopupUIAsset;
     public Dictionary<string, AssetData> CharacterAsset;
+    public Dictionary<string, AssetData> MonsterUIAsset;
     public Dictionary<string, AssetData> AnimalAsset;
 
     public string GetAddressPath(AssetAddressType type)
