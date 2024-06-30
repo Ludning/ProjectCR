@@ -126,8 +126,10 @@ public enum DetectionRangeType
 
 public enum AssetAddressType
 {
+    GameUIAsset,
     PopupUIAsset,
     CharacterAsset,
+    MonsterUIAsset,
     AnimalAsset,
 }
 

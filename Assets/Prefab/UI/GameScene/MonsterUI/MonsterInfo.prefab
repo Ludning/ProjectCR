@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105cf4e4fa72fd84d95a6b1a8a2cd8f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UITransform: {fileID: 7326776033791007854}
   MonsterHpSlider: {fileID: 3625902503682893589}
 --- !u!114 &3625902503682893589
 MonoBehaviour:

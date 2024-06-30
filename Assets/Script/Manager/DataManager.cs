@@ -31,16 +31,14 @@ public class DataManager : SingleTon<DataManager>
         }
     }
     
-    public string GetPrefabAddress(string name)
+    public string GetPrefabAddress(AssetAddressType type, string key)
     {
-        //TODO
-        //AssetAddressData.
-        return null;
+        return AssetAddressData.GetAddressPath(type, key);
     }
     
     public void GetGameData(string name)
     {
-        return ;
+        //return GameData.GetAddressPath(type, key);
     }
 
     

@@ -15,18 +15,19 @@ public class ResourceManager : SingleTon<ResourceManager>
     */
     
     private Dictionary<Type, Dictionary<string, Object>> _resourceDictionary = new Dictionary<Type, Dictionary<string, Object>>();
-    public T LoadResource<T>(string addressKey)
+    public T LoadResource<T>(AssetAddressType type, string addressKey)
     {
-        T resource = Addressables.LoadAssetAsync<T>(addressKey).WaitForCompletion();
+        string address = GetAddressFromDataManager(type, addressKey);
+        T resource = Addressables.LoadAssetAsync<T>(address).WaitForCompletion();
         if (resource == null)
             throw new System.NotImplementedException();
         return resource;
     }
-    public T LoadResourceWithCaching<T>(string addressKey)
+    public T LoadResourceWithCaching<T>(AssetAddressType type, string addressKey)
     {
         if(!_resourceDictionary.ContainsKey(typeof(T)))
             _resourceDictionary.Add(typeof(T), new Dictionary<string, Object>());
-        return LoadResourceWithCaching<T>(addressKey, _resourceDictionary[typeof(T)]);
+        return LoadResourceWithCaching<T>(type, addressKey, _resourceDictionary[typeof(T)]);
         
         /*
         if (typeof(T) == typeof(GameObject))
@@ -40,10 +41,10 @@ public class ResourceManager : SingleTon<ResourceManager>
         return LoadResourceWithCaching<T>(addressKey, resourceDict);*/
     }
     
-    private T LoadResourceWithCaching<T>(string addressKey, Dictionary<string, Object> resourceDict)
+    private T LoadResourceWithCaching<T>(AssetAddressType type, string addressKey, Dictionary<string, Object> resourceDict)
     {
         if(!resourceDict.ContainsKey(addressKey))
-            resourceDict.Add(addressKey, LoadResource<T>(addressKey));
+            resourceDict.Add(addressKey, LoadResource<T>(type, addressKey));
         return (T)resourceDict[addressKey];
         
         /*T resource;
@@ -54,5 +55,10 @@ public class ResourceManager : SingleTon<ResourceManager>
     
         resourceDict.Add(addressKey, resource);
         return resource;*/
+    }
+
+    private string GetAddressFromDataManager(AssetAddressType type, string addressKey)
+    {
+        return DataManager.Instance.GetPrefabAddress(type, addressKey);
     }
 }

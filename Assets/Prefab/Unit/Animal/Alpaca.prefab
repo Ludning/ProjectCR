@@ -210,7 +210,6 @@ GameObject:
   - component: {fileID: 2734982197539459232}
   - component: {fileID: 4039141539066896957}
   - component: {fileID: 6390696712332891434}
-  - component: {fileID: 3317461826876315144}
   m_Layer: 0
   m_Name: Alpaca
   m_TagString: Untagged
@@ -336,18 +335,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3317461826876315144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7745149345199213156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9562b8ee746e9904c8e9f676dcd77676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7745149345199213158
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7745149345199380036}
   - component: {fileID: 7745149345185548134}
+  - component: {fileID: 5491170207791764183}
   m_Layer: 0
   m_Name: Alpaca_LOD1
   m_TagString: Untagged
@@ -443,6 +431,23 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0.0018298007, z: 0.015405156}
     m_Extent: {x: 0.006187957, y: 0.013432022, z: 0.015405154}
   m_DirtyAABB: 0
+--- !u!114 &5491170207791764183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745149345199213158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9562b8ee746e9904c8e9f676dcd77676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headUIInterval: 3
+  minScale: 0.5
+  maxScale: 3
+  minDistance: 5
+  maxDistance: 50
 --- !u!1 &7745149345199213160
 GameObject:
   m_ObjectHideFlags: 0

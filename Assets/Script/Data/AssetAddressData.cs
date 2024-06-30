@@ -12,25 +12,38 @@ public class AssetAddressData : SerializedScriptableObject
     //public List<AssetData> AnimalAsset;
     
     
+    public Dictionary<string, AssetData> GameUIAsset;
     public Dictionary<string, AssetData> PopupUIAsset;
     public Dictionary<string, AssetData> CharacterAsset;
     public Dictionary<string, AssetData> MonsterUIAsset;
     public Dictionary<string, AssetData> AnimalAsset;
 
-    public string GetAddressPath(AssetAddressType type)
+    public string GetAddressPath(AssetAddressType type, string key)
     {
-        string path = "";
         switch (type)
         {
+            case AssetAddressType.GameUIAsset:
+                if (GameUIAsset.ContainsKey(key))
+                    return GameUIAsset[key].path;
+                break;
             case AssetAddressType.PopupUIAsset:
+                if (PopupUIAsset.ContainsKey(key))
+                    return PopupUIAsset[key].path;
                 break;
             case AssetAddressType.CharacterAsset:
+                if (CharacterAsset.ContainsKey(key))
+                    return CharacterAsset[key].path;
+                break;
+            case AssetAddressType.MonsterUIAsset:
+                if (MonsterUIAsset.ContainsKey(key))
+                    return MonsterUIAsset[key].path;
                 break;
             case AssetAddressType.AnimalAsset:
+                if (AnimalAsset.ContainsKey(key))
+                    return AnimalAsset[key].path;
                 break;
         }
-
-        return path;
+        return null;
     }
 }
 

@@ -15,7 +15,7 @@ public class UIManager : SingleTon<UIManager>
     private Dictionary<GameObject, Transform> MonsterUIDic = new Dictionary<GameObject, Transform>();
     private Dictionary<PopupUIElementType, Transform> PopupUIDic = new Dictionary<PopupUIElementType, Transform>();
 
-    public Camera MainMainCamera
+    public Camera MainCamera
     {
         get
         {
@@ -92,7 +92,7 @@ public class UIManager : SingleTon<UIManager>
             Transform gameUIElement = GameUIParent.Find(elementType.ToString());
             if (gameUIElement == null)
             {
-                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(elementType.ToString());
+                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.GameUIAsset, elementType.ToString());
                 gameUIElement = PoolManager.Instance.GetGameObject(prefab).transform;
                 gameUIElement.SetParent(GameUIParent);
             }
@@ -109,7 +109,7 @@ public class UIManager : SingleTon<UIManager>
             Transform popupUIElement = PopupUIParent.Find(elementType.ToString());
             if (popupUIElement == null)
             {
-                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(elementType.ToString());
+                GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.PopupUIAsset, elementType.ToString());
                 popupUIElement = PoolManager.Instance.GetGameObject(prefab).transform;
                 popupUIElement.SetParent(PopupUIParent);
             }
@@ -125,12 +125,12 @@ public class UIManager : SingleTon<UIManager>
             return null;
         if (!MonsterUIDic.ContainsKey(owner))
         {
-            Transform monsterUI = MonsterUIParent.Find(monsterUIType.ToString());
+            //Transform monsterUI = MonsterUIParent.Find(monsterUIType.ToString());
 
             //TODO
             //DataManager.Instance.GetPrefabAddress();
-            GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(monsterUIType.ToString());
-            monsterUI = PoolManager.Instance.GetGameObject(prefab).transform;
+            GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.MonsterUIAsset, monsterUIType.ToString());
+            Transform monsterUI = PoolManager.Instance.GetGameObject(prefab).transform;
             monsterUI.SetParent(MonsterUIParent);
             monsterUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
             MonsterUIDic.Add(owner, monsterUI);
@@ -138,18 +138,13 @@ public class UIManager : SingleTon<UIManager>
 
         return MonsterUIDic[owner];
     }
-    public Transform ReturnMonsterUIElement(GameObject owner)
+    public void ReturnMonsterUIElement(GameObject owner)
     {
-        if (MonsterUIDic.ContainsKey(owner))
+        if (MonsterUIDic.TryGetValue(owner, out Transform ui)) //.ContainsKey(owner))
         {
-            Transform ui = MonsterUIDic[owner];
             if (ui != null)
-            {
-                //pool로 반환
-                //PoolManager.Instance;
-                MonsterUIDic.Remove(owner);
-            }
+                PoolManager.Instance.ReturnToPool(ui.gameObject); //pool로 반환
+            MonsterUIDic.Remove(owner);
         }
-        return MonsterUIDic[owner];
     }
 }
