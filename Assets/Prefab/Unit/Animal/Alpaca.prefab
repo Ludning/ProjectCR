@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 2734982197539459232}
   - component: {fileID: 4039141539066896957}
   - component: {fileID: 6390696712332891434}
+  - component: {fileID: 4320080850234171038}
   m_Layer: 0
   m_Name: Alpaca
   m_TagString: Untagged
@@ -335,6 +336,29 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!136 &4320080850234171038
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745149345199213156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &7745149345199213158
 GameObject:
   m_ObjectHideFlags: 0
