@@ -12,6 +12,7 @@ public class AssetAddressData : SerializedScriptableObject
     //public List<AssetData> AnimalAsset;
     
     
+    public Dictionary<string, AssetData> UICoreAsset;
     public Dictionary<string, AssetData> GameUIAsset;
     public Dictionary<string, AssetData> PopupUIAsset;
     public Dictionary<string, AssetData> CharacterAsset;
@@ -22,6 +23,10 @@ public class AssetAddressData : SerializedScriptableObject
     {
         switch (type)
         {
+            case AssetAddressType.UICoreAsset:
+                if (UICoreAsset.ContainsKey(key))
+                    return UICoreAsset[key].path;
+                break;
             case AssetAddressType.GameUIAsset:
                 if (GameUIAsset.ContainsKey(key))
                     return GameUIAsset[key].path;

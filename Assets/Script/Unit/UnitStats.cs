@@ -8,6 +8,8 @@ public class UnitStats
 {
     #region Field & Property
     [SerializeField]
+    private int _level;
+    [SerializeField]
     private int _maxHp;
     [SerializeField]
     private int _damage;
@@ -16,28 +18,35 @@ public class UnitStats
     [SerializeField]
     private int _speed;
     
+
+    public int Level
+    {
+        get => _level;
+        set => _level = value;
+    }
+    
     public int MaxHp
     {
         get => _maxHp;
-        protected set => _maxHp = value;
+        set => _maxHp = value;
     }
 
     public int Damage
     {
         get => _damage;
-        protected set => _damage = value;
+        set => _damage = value;
     }
 
     public int Defense
     {
         get => _defense;
-        protected set => _defense = value;
+        set => _defense = value;
     }
 
     public int Speed
     {
         get => _speed;
-        protected set => _speed = value;
+        set => _speed = value;
     }
 
     #endregion

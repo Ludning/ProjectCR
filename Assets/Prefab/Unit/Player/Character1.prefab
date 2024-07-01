@@ -9,11 +9,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1377608229846723519}
+  - component: {fileID: 6295444716089752892}
   - component: {fileID: 2588813663626555826}
   - component: {fileID: 8657229909024867027}
   - component: {fileID: 3744420927662298067}
   - component: {fileID: 8063013725807695222}
-  m_Layer: 0
+  - component: {fileID: 3126378817611722995}
+  - component: {fileID: 5846918398430572555}
+  m_Layer: 7
   m_Name: Character1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,6 +39,53 @@ Transform:
   - {fileID: 6014321230249462939}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &6295444716089752892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f849411ec7d5aad4ebf06efcfbcd8c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _identification: 
+  _nickname: 
+  _stats:
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+    _level: 0
+    _maxMp: 0
+    _criticalChance: 0
+    _criticalMultiplier: 0
+    _hpRegen: 0
+    _mpRegen: 0
+    _exp: 0
+    _expRequired: 0
+  _finalStats:
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+    _level: 0
+    _maxMp: 0
+    _criticalChance: 0
+    _criticalMultiplier: 0
+    _hpRegen: 0
+    _mpRegen: 0
+    _hp: 0
+    _mp: 0
+  _inventoryData:
+    inventorySize: 30
+  _equipmentDatas:
+    mainWeapon: 0
+    subWeapon: 0
+    armor: 0
+    accessories: 0
 --- !u!114 &2588813663626555826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,7 +101,6 @@ MonoBehaviour:
   CurveData: {fileID: 11400000, guid: 4b2caf97a4e3fa449a4007428be6841a, type: 2}
   ControlData: {fileID: 11400000, guid: 99244b93552d0604b88e15dc8a61056c, type: 2}
   GroundChecker: {fileID: 8657229909024867027}
-  UnitRigidbody: {fileID: 0}
   MainCamera: {fileID: 0}
   Controller: {fileID: 8063013725807695222}
   Animator: {fileID: 4466773179763302881}
@@ -112,6 +161,64 @@ CharacterController:
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.82, z: 0}
+--- !u!114 &3126378817611722995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a0ac7c59005fa4ba0f234c076a24e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headUIInterval: 3
+  minScale: 0.5
+  maxScale: 3
+  minDistance: 5
+  maxDistance: 50
+--- !u!23 &5846918398430572555
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1589099441032636289
 PrefabInstance:
   m_ObjectHideFlags: 0

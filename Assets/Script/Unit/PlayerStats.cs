@@ -9,8 +9,6 @@ public class PlayerStats : UnitStats
 {
     #region Field & Property
     [SerializeField]
-    private int _level;
-    [SerializeField]
     private int _maxMp;
     [SerializeField]
     private float _criticalChance;
@@ -25,12 +23,6 @@ public class PlayerStats : UnitStats
     [SerializeField]
     private int _expRequired;
     
-    public int Level
-    {
-        get => _level;
-        protected set => _level = value;
-    }
-
     public int MaxMp
     {
         get => _maxMp;

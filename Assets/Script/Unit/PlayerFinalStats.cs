@@ -4,11 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class PlayerFinalStats : UnitStats
+public class PlayerFinalStats : UnitFinalStats
 {
     #region Field & Property
-    [SerializeField]
-    private int _level;
     [SerializeField]
     private int _maxMp;
     [SerializeField]
@@ -24,52 +22,47 @@ public class PlayerFinalStats : UnitStats
     [SerializeField]
     private int _mp;
 
-    public int Level
-    {
-        get => _level;
-        protected set => _level = value;
-    }
 
     public int MaxMp
     {
         get => _maxMp;
-        protected set => _maxMp = value;
+        set => _maxMp = value;
     }
 
     public float CriticalChance
     {
         get => _criticalChance;
-        protected set => _criticalChance = value;
+        set => _criticalChance = value;
     }
 
     public float CriticalMultiplier
     {
         get => _criticalMultiplier;
-        protected set => _criticalMultiplier = value;
+        set => _criticalMultiplier = value;
     }
 
     public float HpRegen
     {
         get => _hpRegen;
-        protected set => _hpRegen = value;
+        set => _hpRegen = value;
     }
 
     public float MpRegen
     {
         get => _mpRegen;
-        protected set => _mpRegen = value;
+        set => _mpRegen = value;
     }
 
     public int Hp
     {
         get => _hp;
-        protected set => _hp = value;
+        set => _hp = value;
     }
 
     public int Mp
     {
         get => _mp;
-        protected set => _mp = value;
+        set => _mp = value;
     }
     #endregion
 
@@ -80,7 +73,6 @@ public class PlayerFinalStats : UnitStats
         Damage = statsData.Damage;
         Defense = statsData.Defense;
         Speed = statsData.Speed;
-        Level = statsData.Level;
         CriticalChance = statsData.CriticalChance;
         CriticalMultiplier = statsData.CriticalMultiplier;
         HpRegen = statsData.HpRegen;

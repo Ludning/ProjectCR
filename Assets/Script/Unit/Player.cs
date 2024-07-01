@@ -3,28 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     public string _identification;
     public string _nickname;
+
+    [SerializeField] private Animator _animator;
     
-    [SerializeField]
-    private PlayerStats _stats;
-    [SerializeField]
-    private PlayerFinalStats _finalStats;
-    [SerializeField]
-    private InventoryData _inventoryData;
-    [SerializeField]
-    private EquipmentData _equipmentDatas;
-    [SerializeField]
-    private SkillTreeData _skillTreeData;
+    [SerializeField] private PlayerStats _stats;
+    [SerializeField] private PlayerFinalStats _currentStats;
+    [SerializeField] private InventoryData _inventoryData;
+    [SerializeField] private EquipmentData _equipmentDatas;
+    [SerializeField] private SkillTreeData _skillTreeData;
     
     private void Awake()
     {
         OnLoadPlayerData();
         OnInstallEquipment();
         
-        _finalStats.InitPlayerStat();
+        _currentStats.InitPlayerStat();
+    }
+
+    public void OnDamage(int damageValue)
+    {
+        _currentStats.Hp -= damageValue;
+        if (_currentStats.Hp <= 0)
+        {
+            _currentStats.Hp = 0;
+            OnDie();
+        }
+        PlayerHp_Message msg = new PlayerHp_Message()
+        {
+            HpRatio = (_currentStats.MaxHp != 0) ? _currentStats.Hp / (float)_currentStats.MaxHp : 0f
+        };
+        MessageManager.Instance.InvokeCallback(msg);
+    }
+
+    public void OnDie()
+    {
+        Debug.Log($"으앙{gameObject.name}주금");
     }
 
     private void OnLoadPlayerData()
@@ -43,8 +60,13 @@ public class Player : MonoBehaviour
     //장착중인 장비 스텟에 적용
     private void OnInstallEquipment()
     {
-        _finalStats = new PlayerFinalStats();
-        _finalStats.LoadData(_stats, _equipmentDatas);
+        _currentStats = new PlayerFinalStats();
+        _currentStats.LoadData(_stats, _equipmentDatas);
+    }
+    
+    private void OnInstallWeaponAnimation()
+    {
+        //_animator = ;
     }
 
     private void TestPlayerData()

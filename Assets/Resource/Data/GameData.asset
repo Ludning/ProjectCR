@@ -1893,11 +1893,15 @@ MonoBehaviour:
       Data: 
     - Name: MonsterData
       Entry: 7
-      Data: 62|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[MonsterData,
+      Data: 62|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
-      Entry: 9
-      Data: 1
+      Entry: 7
+      Data: 63|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 12
       Data: 1
@@ -1905,23 +1909,26 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
-      Data: 1
+      Entry: 1
+      Data: Alpaca
     - Name: $v
       Entry: 7
-      Data: 63|MonsterData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 1
-    - Name: monsterID
-      Entry: 3
-      Data: 1
-    - Name: hp
-      Entry: 3
-      Data: 1
+      Data: 64|MonsterData, Assembly-CSharp
+    - Name: monsterName
+      Entry: 1
+      Data: Alpaca
     - Name: level
       Entry: 3
       Data: 1
+    - Name: maxHp
+      Entry: 3
+      Data: 100
+    - Name: damage
+      Entry: 3
+      Data: 10
+    - Name: defense
+      Entry: 3
+      Data: 10
     - Name: 
       Entry: 8
       Data: 
@@ -1936,11 +1943,11 @@ MonoBehaviour:
       Data: 
     - Name: EliteData
       Entry: 7
-      Data: 64|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[EliteData,
+      Data: 65|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EliteData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 1
+      Data: 63
     - Name: 
       Entry: 12
       Data: 1
@@ -1948,23 +1955,26 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
+      Entry: 1
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 65|EliteData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 1
-    - Name: eliteID
-      Entry: 3
-      Data: 1
-    - Name: hp
-      Entry: 3
-      Data: 1
+      Data: 66|EliteData, Assembly-CSharp
+    - Name: monsterName
+      Entry: 6
+      Data: 
     - Name: level
       Entry: 3
       Data: 1
+    - Name: maxHp
+      Entry: 3
+      Data: 0
+    - Name: damage
+      Entry: 3
+      Data: 0
+    - Name: defense
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1979,11 +1989,11 @@ MonoBehaviour:
       Data: 
     - Name: BossData
       Entry: 7
-      Data: 66|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[BossData,
+      Data: 67|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BossData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 1
+      Data: 63
     - Name: 
       Entry: 12
       Data: 1
@@ -1991,23 +2001,26 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
+      Entry: 1
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 67|BossData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 1
-    - Name: bossID
-      Entry: 3
-      Data: 1
-    - Name: hp
-      Entry: 3
-      Data: 1
+      Data: 68|BossData, Assembly-CSharp
+    - Name: monsterName
+      Entry: 6
+      Data: 
     - Name: level
       Entry: 3
       Data: 1
+    - Name: maxHp
+      Entry: 3
+      Data: 0
+    - Name: damage
+      Entry: 3
+      Data: 0
+    - Name: defense
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -2022,7 +2035,7 @@ MonoBehaviour:
       Data: 
     - Name: ArchetypeData
       Entry: 7
-      Data: 68|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
+      Data: 69|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2038,7 +2051,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 69|ArchetypeData, Assembly-CSharp
+      Data: 70|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2066,7 +2079,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 70|ArchetypeData, Assembly-CSharp
+      Data: 71|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2093,7 +2106,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 71|ArchetypeData, Assembly-CSharp
+      Data: 72|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2121,7 +2134,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 72|ArchetypeData, Assembly-CSharp
+      Data: 73|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2149,7 +2162,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 73|ArchetypeData, Assembly-CSharp
+      Data: 74|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2178,7 +2191,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 74|ArchetypeData, Assembly-CSharp
+      Data: 75|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2208,7 +2221,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 75|ArchetypeData, Assembly-CSharp
+      Data: 76|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2238,7 +2251,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 76|ArchetypeData, Assembly-CSharp
+      Data: 77|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -2267,7 +2280,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 77|ArchetypeData, Assembly-CSharp
+      Data: 78|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -2298,7 +2311,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 78|ArchetypeData, Assembly-CSharp
+      Data: 79|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -2327,7 +2340,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 79|ArchetypeData, Assembly-CSharp
+      Data: 80|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -2356,7 +2369,7 @@ MonoBehaviour:
       Data: 
     - Name: SpecificityData
       Entry: 7
-      Data: 80|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
+      Data: 81|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2372,7 +2385,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 81|SpecificityData, Assembly-CSharp
+      Data: 82|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2401,7 +2414,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 82|SpecificityData, Assembly-CSharp
+      Data: 83|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2429,7 +2442,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 83|SpecificityData, Assembly-CSharp
+      Data: 84|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2457,7 +2470,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 84|SpecificityData, Assembly-CSharp
+      Data: 85|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2486,7 +2499,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 85|SpecificityData, Assembly-CSharp
+      Data: 86|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2514,7 +2527,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 86|SpecificityData, Assembly-CSharp
+      Data: 87|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2544,7 +2557,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 87|SpecificityData, Assembly-CSharp
+      Data: 88|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2572,7 +2585,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 88|SpecificityData, Assembly-CSharp
+      Data: 89|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -2600,7 +2613,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 89|SpecificityData, Assembly-CSharp
+      Data: 90|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -2629,7 +2642,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 90|SpecificityData, Assembly-CSharp
+      Data: 91|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -2657,7 +2670,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 91|SpecificityData, Assembly-CSharp
+      Data: 92|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -2686,7 +2699,7 @@ MonoBehaviour:
       Data: 12
     - Name: $v
       Entry: 7
-      Data: 92|SpecificityData, Assembly-CSharp
+      Data: 93|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 12
@@ -2714,7 +2727,7 @@ MonoBehaviour:
       Data: 13
     - Name: $v
       Entry: 7
-      Data: 93|SpecificityData, Assembly-CSharp
+      Data: 94|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 13
@@ -2743,7 +2756,7 @@ MonoBehaviour:
       Data: 14
     - Name: $v
       Entry: 7
-      Data: 94|SpecificityData, Assembly-CSharp
+      Data: 95|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 14
@@ -2771,7 +2784,7 @@ MonoBehaviour:
       Data: 15
     - Name: $v
       Entry: 7
-      Data: 95|SpecificityData, Assembly-CSharp
+      Data: 96|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 15
@@ -2799,7 +2812,7 @@ MonoBehaviour:
       Data: 16
     - Name: $v
       Entry: 7
-      Data: 96|SpecificityData, Assembly-CSharp
+      Data: 97|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 16
@@ -2827,7 +2840,7 @@ MonoBehaviour:
       Data: 17
     - Name: $v
       Entry: 7
-      Data: 97|SpecificityData, Assembly-CSharp
+      Data: 98|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 17
@@ -2854,7 +2867,7 @@ MonoBehaviour:
       Data: 18
     - Name: $v
       Entry: 7
-      Data: 98|SpecificityData, Assembly-CSharp
+      Data: 99|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 18
@@ -2882,7 +2895,7 @@ MonoBehaviour:
       Data: 19
     - Name: $v
       Entry: 7
-      Data: 99|SpecificityData, Assembly-CSharp
+      Data: 100|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 19
@@ -2910,7 +2923,7 @@ MonoBehaviour:
       Data: 20
     - Name: $v
       Entry: 7
-      Data: 100|SpecificityData, Assembly-CSharp
+      Data: 101|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 20

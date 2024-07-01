@@ -25,9 +25,9 @@ public class GameData : SerializedScriptableObject
     [TableList] public Dictionary<int, SkillData> SkillData;
     [TableList] public Dictionary<int, ItemData> ItemData;
     [TableList] public Dictionary<int, PlayerData> PlayerData;
-    [TableList] public Dictionary<int, MonsterData> MonsterData;
-    [TableList] public Dictionary<int, EliteData> EliteData;
-    [TableList] public Dictionary<int, BossData> BossData;
+    [TableList] public Dictionary<string, MonsterData> MonsterData;
+    [TableList] public Dictionary<string, EliteData> EliteData;
+    [TableList] public Dictionary<string, BossData> BossData;
     [TableList] public Dictionary<int, ArchetypeData> ArchetypeData;
     [TableList] public Dictionary<int, SpecificityData> SpecificityData;
 }
@@ -114,29 +114,29 @@ public class PlayerData
 [Serializable]
 public class MonsterData
 {
-    [TableColumnWidth(40, false)]
-    public int index;
-    public int monsterID;
-    public int hp;
+    public string monsterName;
     public int level;
+    public int maxHp;
+    public int damage;
+    public int defense;
 }
 [Serializable]
 public class EliteData
 {
-    [TableColumnWidth(40, false)]
-    public int index;
-    public int eliteID;
-    public int hp;
+    public string monsterName;
     public int level;
+    public int maxHp;
+    public int damage;
+    public int defense;
 }
 [Serializable]
 public class BossData
 {
-    [TableColumnWidth(40, false)]
-    public int index;
-    public int bossID;
-    public int hp;
+    public string monsterName;
     public int level;
+    public int maxHp;
+    public int damage;
+    public int defense;
 }
 
 [Serializable]

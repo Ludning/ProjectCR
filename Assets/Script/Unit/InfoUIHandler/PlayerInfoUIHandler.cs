@@ -8,7 +8,7 @@ public class PlayerInfoUIHandler : InfoUIHandler
     {
         Debug.LogWarning($"PlayerUI_Visible {gameObject.name}");
         Transform ui =
-            UIManager.Instance.ShowMiddleUIElement(gameObject, MiddleUIType.Monster, gameObject.GetInstanceID());
+            UIManager.Instance.ShowMiddleUIElement(gameObject, MiddleUIType.MonsterInfo, gameObject.GetInstanceID());
         _uiRect = ui.GetComponent<RectTransform>();
     }
 

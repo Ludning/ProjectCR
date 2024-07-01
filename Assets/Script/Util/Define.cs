@@ -14,6 +14,13 @@ public enum InputActionType
     Skill,
     Special,
 }
+
+#region UIType
+public enum UICoreType
+{
+    Canvas,
+    EventSystem,
+}
 public enum GameUIElementType
 {
     PlayerHpBar,
@@ -26,8 +33,8 @@ public enum GameUIElementType
 }
 public enum MiddleUIType
 {
-    Monster,
-    Elite,
+    MonsterInfo,
+    PlayerInfo,
 }
 public enum PopupUIElementType
 {
@@ -35,6 +42,8 @@ public enum PopupUIElementType
     InventoryUI,
     EquipmentUI,
 }
+#endregion
+
 
 public enum PrefabType
 {
@@ -42,7 +51,6 @@ public enum PrefabType
     CharacterAsset,
     AnimalAsset
 }
-
 public enum ItemType
 {
     Common,
@@ -50,7 +58,6 @@ public enum ItemType
     Bow,
     Staff,
 }
-
 public enum SpecificityType
 {
     Test,
@@ -126,6 +133,7 @@ public enum DetectionRangeType
 
 public enum AssetAddressType
 {
+    UICoreAsset,
     GameUIAsset,
     PopupUIAsset,
     CharacterAsset,
