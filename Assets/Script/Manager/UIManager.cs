@@ -8,7 +8,7 @@ public class UIManager : SingleTon<UIManager>
     private Canvas _uiCanvas;
     private RectTransform _canvasRectTransform;
     private Transform _gameUIParent;
-    private Transform _monsterUIParent;
+    private Transform _middleUIParent;
     private Transform _popupUIParent;
 
     private Dictionary<GameUIElementType, Transform> GameUIDic = new Dictionary<GameUIElementType, Transform>();
@@ -59,15 +59,15 @@ public class UIManager : SingleTon<UIManager>
             return _gameUIParent;
         }
     }
-    public Transform MonsterUIParent
+    public Transform MiddleUIParent
     {
         get
         {
-            if (_monsterUIParent == null)
+            if (_middleUIParent == null)
             {
-                _monsterUIParent = UICanvas.transform.Find("MonsterUI");
+                _middleUIParent = UICanvas.transform.Find("MiddleUI");
             }
-            return _monsterUIParent;
+            return _middleUIParent;
         }
     }
     public Transform PopupUIParent
@@ -119,9 +119,9 @@ public class UIManager : SingleTon<UIManager>
     }
     
     //중복되는 Type의 여러 UI인스턴스가 있으므로 owner를 key로 저장
-    public Transform ShowMonsterUIElement(GameObject owner, MonsterInfoUIType monsterUIType, int instanceID)
+    public Transform ShowMiddleUIElement(GameObject owner, MiddleUIType monsterUIType, int instanceID)
     {
-        if (MonsterUIParent == null)
+        if (MiddleUIParent == null)
             return null;
         if (!MonsterUIDic.ContainsKey(owner))
         {
@@ -129,11 +129,11 @@ public class UIManager : SingleTon<UIManager>
 
             //TODO
             //DataManager.Instance.GetPrefabAddress();
-            GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.MonsterUIAsset, monsterUIType.ToString());
-            Transform monsterUI = PoolManager.Instance.GetGameObject(prefab).transform;
-            monsterUI.SetParent(MonsterUIParent);
-            monsterUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
-            MonsterUIDic.Add(owner, monsterUI);
+            GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.MiddleUIAsset, monsterUIType.ToString());
+            Transform middleUI = PoolManager.Instance.GetGameObject(prefab).transform;
+            middleUI.SetParent(MiddleUIParent);
+            middleUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
+            MonsterUIDic.Add(owner, middleUI);
         }
 
         return MonsterUIDic[owner];

@@ -346,7 +346,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: MonsterUIAsset
+    - Name: MiddleUIAsset
       Entry: 7
       Data: 17|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib

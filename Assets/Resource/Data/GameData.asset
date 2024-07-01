@@ -47,13 +47,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 1
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 100
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 100
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 0
     - Name: expRequired
@@ -77,13 +77,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 2
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 150
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 120
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 2
     - Name: expRequired
@@ -107,13 +107,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 3
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 200
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 140
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 4
     - Name: expRequired
@@ -137,13 +137,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 4
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 250
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 160
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 6
     - Name: expRequired
@@ -167,13 +167,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 5
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 300
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 180
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 8
     - Name: expRequired
@@ -197,13 +197,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 6
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 350
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 200
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 10
     - Name: expRequired
@@ -227,13 +227,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 7
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 400
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 220
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 12
     - Name: expRequired
@@ -257,13 +257,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 8
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 450
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 240
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 14
     - Name: expRequired
@@ -287,13 +287,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 9
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 500
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 260
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 16
     - Name: expRequired
@@ -317,13 +317,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 10
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 550
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 300
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 20
     - Name: expRequired
@@ -347,13 +347,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 11
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 600
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 340
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 24
     - Name: expRequired
@@ -377,13 +377,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 12
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 650
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 380
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 28
     - Name: expRequired
@@ -407,13 +407,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 13
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 700
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 420
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 32
     - Name: expRequired
@@ -437,13 +437,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 14
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 750
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 460
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 36
     - Name: expRequired
@@ -467,13 +467,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 15
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 800
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 500
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 40
     - Name: expRequired
@@ -497,13 +497,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 16
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 850
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 540
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 44
     - Name: expRequired
@@ -527,13 +527,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 17
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 900
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 580
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 48
     - Name: expRequired
@@ -557,13 +557,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 18
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 950
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 620
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 52
     - Name: expRequired
@@ -587,13 +587,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 19
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1000
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 660
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 56
     - Name: expRequired
@@ -617,13 +617,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 20
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1050
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 750
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 65
     - Name: expRequired
@@ -647,13 +647,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 21
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1100
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 840
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 74
     - Name: expRequired
@@ -677,13 +677,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 22
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1150
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 930
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 83
     - Name: expRequired
@@ -707,13 +707,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 23
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1200
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1020
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 92
     - Name: expRequired
@@ -737,13 +737,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 24
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1250
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1110
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 101
     - Name: expRequired
@@ -767,13 +767,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 25
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1300
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1200
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 110
     - Name: expRequired
@@ -797,13 +797,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 26
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1350
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1290
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 119
     - Name: expRequired
@@ -827,13 +827,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 27
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1400
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1380
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 128
     - Name: expRequired
@@ -857,13 +857,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 28
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1450
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1470
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 137
     - Name: expRequired
@@ -887,13 +887,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 29
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1500
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1560
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 146
     - Name: expRequired
@@ -917,13 +917,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 30
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1550
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 1800
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 170
     - Name: expRequired
@@ -947,13 +947,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 31
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1600
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 2040
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 194
     - Name: expRequired
@@ -977,13 +977,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 32
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1650
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 2280
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 218
     - Name: expRequired
@@ -1007,13 +1007,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 33
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1700
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 2520
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 242
     - Name: expRequired
@@ -1037,13 +1037,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 34
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1750
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 2760
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 266
     - Name: expRequired
@@ -1067,13 +1067,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 35
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1800
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 3000
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 290
     - Name: expRequired
@@ -1097,13 +1097,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 36
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1850
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 3240
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 314
     - Name: expRequired
@@ -1127,13 +1127,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 37
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1900
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 3480
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 338
     - Name: expRequired
@@ -1157,13 +1157,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 38
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 1950
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 3720
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 362
     - Name: expRequired
@@ -1187,13 +1187,13 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 39
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 2000
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 3960
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 386
     - Name: expRequired
@@ -1217,18 +1217,18 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 40
-    - Name: hp
+    - Name: maxHp
       Entry: 3
       Data: 2050
-    - Name: attack
+    - Name: damage
       Entry: 3
       Data: 4500
-    - Name: defence
+    - Name: defense
       Entry: 3
       Data: 400
     - Name: expRequired
       Entry: 3
-      Data: 6000
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1768,10 +1768,19 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 1
+    - Name: exp
+      Entry: 3
+      Data: 0
     - Name: inventory_data
       Entry: 1
       Data: '{1}'
     - Name: equipment_data
+      Entry: 1
+      Data: '{1}'
+    - Name: ownedSkill_data
+      Entry: 1
+      Data: '{1}'
+    - Name: equipmentSkill_data
       Entry: 1
       Data: '{1}'
     - Name: 
@@ -1807,10 +1816,19 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 40
+    - Name: exp
+      Entry: 3
+      Data: 0
     - Name: inventory_data
       Entry: 1
       Data: '{0,1}'
     - Name: equipment_data
+      Entry: 1
+      Data: '{0,1}'
+    - Name: ownedSkill_data
+      Entry: 1
+      Data: '{0,1}'
+    - Name: equipmentSkill_data
       Entry: 1
       Data: '{0,1}'
     - Name: 
@@ -1846,10 +1864,19 @@ MonoBehaviour:
     - Name: level
       Entry: 3
       Data: 40
+    - Name: exp
+      Entry: 3
+      Data: 0
     - Name: inventory_data
       Entry: 1
       Data: '{0,0,1}'
     - Name: equipment_data
+      Entry: 1
+      Data: '{0,0,1}'
+    - Name: ownedSkill_data
+      Entry: 1
+      Data: '{0,0,1}'
+    - Name: equipmentSkill_data
       Entry: 1
       Data: '{0,0,1}'
     - Name: 

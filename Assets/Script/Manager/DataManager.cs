@@ -36,9 +36,9 @@ public class DataManager : SingleTon<DataManager>
         return AssetAddressData.GetAddressPath(type, key);
     }
     
-    public void GetGameData(string name)
+    public GameData GetGameData()
     {
-        //return GameData.GetAddressPath(type, key);
+        return GameData;
     }
 
     

@@ -1,11 +1,10 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimalInfoUIHandler : MonoBehaviour
+public class InfoUIHandler : MonoBehaviour
 {
-    private RectTransform monsterUI;
+    protected RectTransform _uiRect;
 
     public float headUIInterval = 3.0f;
     
@@ -16,28 +15,39 @@ public class AnimalInfoUIHandler : MonoBehaviour
     
     private void LateUpdate()
     {
-        // 체력바 UI의 위치 설정
-        if (monsterUI != null)
+        // UI의 위치 설정
+        if (_uiRect != null)
         {
-            monsterUI.anchoredPosition = GetCanvasPositionFromWorld();
-            monsterUI.localScale = GetHealthBarScale();
+            _uiRect.anchoredPosition = GetCanvasPositionFromWorld();
+            _uiRect.localScale = GetUIScale();
         }
     }
     
     private void OnBecameVisible()
     {
-        Debug.LogWarning($"OnBecameVisible {gameObject.name}");
-        Transform ui =
-            UIManager.Instance.ShowMonsterUIElement(gameObject, MonsterInfoUIType.Monster, gameObject.GetInstanceID());
-        monsterUI = ui.GetComponent<RectTransform>();
+        OnVisibleInstantiateUI();
     }
 
     private void OnBecameInvisible()
     {
+        OnInvisibleReturnToPoolUI();
+    }
+
+    protected virtual void OnVisibleInstantiateUI()
+    {
+        Debug.LogWarning($"InstantiateUI {gameObject.name}");
+        Transform ui =
+            UIManager.Instance.ShowMiddleUIElement(gameObject, MiddleUIType.Monster, gameObject.GetInstanceID());
+        _uiRect = ui.GetComponent<RectTransform>();
+    }
+
+    protected virtual void OnInvisibleReturnToPoolUI()
+    {
         Debug.LogWarning($"OnBecameInvisible {gameObject.name}");
         UIManager.Instance.ReturnMonsterUIElement(gameObject);
-        monsterUI = null;
+        _uiRect = null;
     }
+    
 
     
     private Vector2 GetCanvasPositionFromWorld()
@@ -55,14 +65,8 @@ public class AnimalInfoUIHandler : MonoBehaviour
         Vector3 upDir = UIManager.Instance.MainCamera.transform.up;
         return transform.position + upDir * headUIInterval;
     }
-    private Vector2 GetHealthBarScale()
+    private Vector2 GetUIScale()
     {
-        /*// 3. 카메라와 몬스터 간의 거리 계산
-        float distance = Vector3.Distance(UIManager.Instance.MainCamera.transform.position, transform.position);
-
-        // 4. 거리 기반 스케일 계산
-        float scale = Mathf.Clamp((maxDistance - distance) / (maxDistance - minDistance), minScale, maxScale);*/
-        
         float distance = Vector3.Distance(UIManager.Instance.MainCamera.transform.position, transform.position);
         // 거리를 범위 내로 제한
         distance = Mathf.Clamp(distance, minDistance, maxDistance);

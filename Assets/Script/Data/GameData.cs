@@ -37,9 +37,9 @@ public class LevelData
 {
     [TableColumnWidth(40, false)]
     public int level;
-    public int hp;
-    public int attack;
-    public int defence;
+    public int maxHp;
+    public int damage;
+    public int defense;
     public int expRequired;
 }
 [Serializable]
@@ -97,12 +97,19 @@ public class PlayerData
     [TableColumnWidth(80)]
     [VerticalGroup("Player Data"), LabelWidth(90)]
     public string character;
-    [VerticalGroup("Player Data"), LabelWidth(90)]
+    [VerticalGroup("Player Data"), LabelWidth(70)]
     public int level;
+    [VerticalGroup("Player Data"), LabelWidth(70)]
+    public int exp;
+    
     [VerticalGroup("Player Data"), LabelWidth(90)]
     public string inventory_data;
     [VerticalGroup("Player Data"), LabelWidth(90)]
     public string equipment_data;
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public string ownedSkill_data;
+    [VerticalGroup("Player Data"), LabelWidth(90)]
+    public string equipmentSkill_data;
 }
 [Serializable]
 public class MonsterData

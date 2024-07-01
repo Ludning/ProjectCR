@@ -24,7 +24,7 @@ public enum GameUIElementType
     BuffInfo,
     BossHpBar,
 }
-public enum MonsterInfoUIType
+public enum MiddleUIType
 {
     Monster,
     Elite,
@@ -129,7 +129,7 @@ public enum AssetAddressType
     GameUIAsset,
     PopupUIAsset,
     CharacterAsset,
-    MonsterUIAsset,
+    MiddleUIAsset,
     AnimalAsset,
 }
 

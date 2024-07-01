@@ -1,11 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 [Serializable]
-public class PlayerStats : UnitStats
+public class PlayerFinalStats : UnitStats
 {
     #region Field & Property
     [SerializeField]
@@ -21,10 +20,10 @@ public class PlayerStats : UnitStats
     [SerializeField]
     private float _mpRegen;
     [SerializeField]
-    private int _exp;
+    private int _hp;
     [SerializeField]
-    private int _expRequired;
-    
+    private int _mp;
+
     public int Level
     {
         get => _level;
@@ -61,38 +60,35 @@ public class PlayerStats : UnitStats
         protected set => _mpRegen = value;
     }
 
-    public int Exp
+    public int Hp
     {
-        get => _exp;
-        protected set => _exp = value;
-    }
-    public int ExpRequired
-    {
-        get => _expRequired;
-        protected set => _expRequired = value;
+        get => _hp;
+        protected set => _hp = value;
     }
 
+    public int Mp
+    {
+        get => _mp;
+        protected set => _mp = value;
+    }
     #endregion
 
-    public void LoadPlayerStatsData(PlayerData data)
+    public void LoadData(PlayerStats statsData, EquipmentData equipmentData)
     {
-        var levelStatDic = DataManager.Instance.GetGameData().LevelData;
-
-        if (levelStatDic.TryGetValue(data.level, out LevelData levelData) == false)
-        {
-            levelData = levelStatDic[1];
-        }
-
-        MaxHp = levelData.maxHp;
-        Damage = levelData.damage;
-        Defense = levelData.defense;
-        ExpRequired = levelData.expRequired;
-        
-        MaxMp = 100;
-        Speed = 0;
-        CriticalChance = 30;
-        CriticalMultiplier = 150;
-        HpRegen = 0;
-        MpRegen = 0;
+        MaxHp = statsData.MaxHp;
+        MaxMp = statsData.MaxMp;
+        Damage = statsData.Damage;
+        Defense = statsData.Defense;
+        Speed = statsData.Speed;
+        Level = statsData.Level;
+        CriticalChance = statsData.CriticalChance;
+        CriticalMultiplier = statsData.CriticalMultiplier;
+        HpRegen = statsData.HpRegen;
+        MpRegen = statsData.MpRegen;
+    }
+    public void InitPlayerStat()
+    {
+        Hp = MaxHp;
+        Mp = MaxMp;
     }
 }
