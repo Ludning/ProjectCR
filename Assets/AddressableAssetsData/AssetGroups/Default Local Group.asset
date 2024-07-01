@@ -753,7 +753,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e9c2e03e78cc82840ae5db11e1dbf532
-    m_Address: Assets/Prefab/UI/GameScene/MonsterUI/MonsterInfo.prefab
+    m_Address: Assets/Prefab/UI/GameScene/MiddleUI/MonsterInfo.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -764,6 +764,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 744550a75819e964197e67fca95afa9d
     m_Address: Assets/Prefab/UI/EventSystem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a95351a35fcbd346bc10c39518a9486
+    m_Address: Assets/Prefab/UI/GameScene/MiddleUI/PlayerInfo.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

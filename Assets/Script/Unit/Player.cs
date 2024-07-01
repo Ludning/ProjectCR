@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Player : MonoBehaviour, IDamageable
+public class  Player : MonoBehaviour, IDamageable
 {
     public string _identification;
     public string _nickname;
@@ -42,6 +42,15 @@ public class Player : MonoBehaviour, IDamageable
     public void OnDie()
     {
         Debug.Log($"으앙{gameObject.name}주금");
+    }
+
+    public int GetLevel()
+    {
+        return _stats.Level;
+    }
+    public string GetNickName()
+    {
+        return _nickname;
     }
 
     private void OnLoadPlayerData()

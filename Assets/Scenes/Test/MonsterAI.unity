@@ -364,23 +364,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: m_Bones.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: m_Bones.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: m_Bones.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4325855717637870146, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: m_Name
       value: Character1
       objectReference: {fileID: 0}
-    - target: {fileID: 4466773179763302881, guid: c3093d3491c60dd4aae280534d352f03,
+    - target: {fileID: 8680009722622725187, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
-      propertyPath: m_Controller
+      propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 9100000, guid: d6c8429d5a329dd4fa63a4d5cc554fa1, type: 2}
-    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: _animator
-      value: 
-      objectReference: {fileID: 1724549609}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3893691568923278105, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
+    - {fileID: 8766423020057469360, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
+    - {fileID: 6047751926509504499, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
+    - {fileID: 4515228916665508185, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
+    - {fileID: 1116067808904587883, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
@@ -1188,12 +1203,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfdc888d417c3db448925701ed6ece53, type: 3}
---- !u!95 &1724549609 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4466773179763302881, guid: c3093d3491c60dd4aae280534d352f03,
-    type: 3}
-  m_PrefabInstance: {fileID: 353845453}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1817122697
 PrefabInstance:
   m_ObjectHideFlags: 0

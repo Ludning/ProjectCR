@@ -16,7 +16,7 @@ public class AnimalInfoUIHandler : InfoUIHandler
     protected override void OnInvisibleReturnToPoolUI()
     {
         Debug.LogWarning($"OnBecameInvisible {gameObject.name}");
-        UIManager.Instance.ReturnMonsterUIElement(gameObject);
+        UIManager.Instance.ReturnMiddleUIElement(gameObject);
         _uiRect = null;
     }
 }

@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour
     
     //Component Reference
     [SerializeField] private GroundChecker GroundChecker;
-    //[SerializeField] private Rigidbody UnitRigidbody;
     [SerializeField] private Camera MainCamera;
     [SerializeField] private CharacterController Controller;
     [SerializeField] private Animator Animator;
@@ -39,6 +38,7 @@ public class PlayerController : MonoBehaviour
     //Animation Move Hash
     private readonly int Vertical = Animator.StringToHash("Vertical");
     private readonly int Horizontal = Animator.StringToHash("Horizontal");
+    private readonly int IsMove = Animator.StringToHash("IsMove");
     #endregion
 
     #region MonoBehavior Function
@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
         _lastFixedRotation = transform.rotation;
         _nextFixedPosition = transform.position;
         _nextFixedRotation = transform.rotation;
-
-        Animator = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -206,7 +204,9 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 localDirection =
                 transform.InverseTransformDirection(new Vector3(_moveDirection.x, 0, _moveDirection.y));
-            localDirection *= ControlData.RunMultiply;
+
+            if (_isRun == true)
+                localDirection *= 3;//ControlData.RunMultiply;
             
             Animator.SetFloat(Vertical, localDirection.z);
             Animator.SetFloat(Horizontal, localDirection.x);
@@ -223,6 +223,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             _isMove = true;
+            Animator.SetBool(IsMove, true);
         }
         else if(context.performed)
         {
@@ -231,6 +232,7 @@ public class PlayerController : MonoBehaviour
         else if(context.canceled)
         {
             _isMove = false;
+            Animator.SetBool(IsMove, false);
         }
     }
     public void OnRun(InputAction.CallbackContext context)

@@ -15,7 +15,7 @@ public class UIManager : SingleTon<UIManager>
     private Transform _popupUIParent;
 
     private Dictionary<GameUIElementType, Transform> GameUIDic = new Dictionary<GameUIElementType, Transform>();
-    private Dictionary<GameObject, Transform> MonsterUIDic = new Dictionary<GameObject, Transform>();
+    private Dictionary<GameObject, Transform> MiddleUIDic = new Dictionary<GameObject, Transform>();
     private Dictionary<PopupUIElementType, Transform> PopupUIDic = new Dictionary<PopupUIElementType, Transform>();
 
     public Camera MainCamera
@@ -172,11 +172,11 @@ public class UIManager : SingleTon<UIManager>
     }
 
     //중복되는 Type의 여러 UI인스턴스가 있으므로 owner를 key로 저장
-    public Transform ShowMiddleUIElement(GameObject owner, MiddleUIType monsterUIType, int instanceID)
+    public Transform ShowMiddleUIElement(GameObject owner, MiddleUIType middleUIType, int instanceID)
     {
         if (MiddleUIParent == null)
             return null;
-        if (!MonsterUIDic.ContainsKey(owner))
+        if (!MiddleUIDic.ContainsKey(owner))
         {
             //Transform monsterUI = MonsterUIParent.Find(monsterUIType.ToString());
 
@@ -184,23 +184,23 @@ public class UIManager : SingleTon<UIManager>
             //DataManager.Instance.GetPrefabAddress();
             GameObject prefab =
                 ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.MiddleUIAsset,
-                    monsterUIType.ToString());
+                    middleUIType.ToString());
             Transform middleUI = PoolManager.Instance.GetGameObject(prefab).transform;
             middleUI.SetParent(MiddleUIParent);
             middleUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
-            MonsterUIDic.Add(owner, middleUI);
+            MiddleUIDic.Add(owner, middleUI);
         }
 
-        return MonsterUIDic[owner];
+        return MiddleUIDic[owner];
     }
 
-    public void ReturnMonsterUIElement(GameObject owner)
+    public void ReturnMiddleUIElement(GameObject owner)
     {
-        if (MonsterUIDic.TryGetValue(owner, out Transform ui)) //.ContainsKey(owner))
+        if (MiddleUIDic.TryGetValue(owner, out Transform ui)) //.ContainsKey(owner))
         {
             if (ui != null)
                 PoolManager.Instance.ReturnToPool(ui.gameObject); //pool로 반환
-            MonsterUIDic.Remove(owner);
+            MiddleUIDic.Remove(owner);
         }
     }
 }

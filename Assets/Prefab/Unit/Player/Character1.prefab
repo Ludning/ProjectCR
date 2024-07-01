@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2588813663626555826}
   - component: {fileID: 8657229909024867027}
   - component: {fileID: 3744420927662298067}
+  - component: {fileID: 6204098839989553099}
   - component: {fileID: 8063013725807695222}
   - component: {fileID: 3126378817611722995}
   - component: {fileID: 5846918398430572555}
@@ -53,12 +54,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _identification: 
   _nickname: 
+  _animator: {fileID: 4466773179763302881}
   _stats:
+    _level: 0
     _maxHp: 0
     _damage: 0
     _defense: 0
     _speed: 0
-    _level: 0
     _maxMp: 0
     _criticalChance: 0
     _criticalMultiplier: 0
@@ -66,12 +68,11 @@ MonoBehaviour:
     _mpRegen: 0
     _exp: 0
     _expRequired: 0
-  _finalStats:
+  _currentStats:
     _maxHp: 0
     _damage: 0
     _defense: 0
     _speed: 0
-    _level: 0
     _maxMp: 0
     _criticalChance: 0
     _criticalMultiplier: 0
@@ -135,6 +136,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UnitAnimator: {fileID: 4466773179763302881}
+--- !u!114 &6204098839989553099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d4a66b5a52267428caae9923cd2fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _leftHand: {fileID: 8332813847951627239}
+  _rightHand: {fileID: 5977869519890689945}
 --- !u!143 &8063013725807695222
 CharacterController:
   m_ObjectHideFlags: 0
@@ -231,7 +246,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 4e44fe16fc31f9147a78894664d81120, type: 2}
+      objectReference: {fileID: 9100000, guid: d6c8429d5a329dd4fa63a4d5cc554fa1, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7908f1a2bde075d478e43a6e8b8277be,
         type: 3}
       propertyPath: m_RootOrder
@@ -303,9 +318,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1589099441032636289}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &5977869519890689945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4969780610311489560, guid: 7908f1a2bde075d478e43a6e8b8277be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1589099441032636289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6014321230249462939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 7908f1a2bde075d478e43a6e8b8277be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1589099441032636289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8332813847951627239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7325535312935482470, guid: 7908f1a2bde075d478e43a6e8b8277be,
     type: 3}
   m_PrefabInstance: {fileID: 1589099441032636289}
   m_PrefabAsset: {fileID: 0}

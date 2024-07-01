@@ -428,7 +428,7 @@ MonoBehaviour:
       Data: MonsterInfo
     - Name: path
       Entry: 1
-      Data: Assets/Prefab/UI/GameScene/MonsterUI/MonsterInfo.prefab
+      Data: Assets/Prefab/UI/GameScene/MiddleUI/MonsterInfo.prefab
     - Name: 
       Entry: 8
       Data: 
@@ -448,8 +448,8 @@ MonoBehaviour:
       Entry: 1
       Data: PlayerInfo
     - Name: path
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Assets/Prefab/UI/GameScene/MiddleUI/PlayerInfo.prefab
     - Name: 
       Entry: 8
       Data: 

@@ -35,32 +35,25 @@ public class InfoUIHandler : MonoBehaviour
 
     protected virtual void OnVisibleInstantiateUI()
     {
-        Debug.LogWarning($"InstantiateUI {gameObject.name}");
-        Transform ui =
-            UIManager.Instance.ShowMiddleUIElement(gameObject, MiddleUIType.MonsterInfo, gameObject.GetInstanceID());
-        _uiRect = ui.GetComponent<RectTransform>();
     }
-
     protected virtual void OnInvisibleReturnToPoolUI()
     {
-        Debug.LogWarning($"OnBecameInvisible {gameObject.name}");
-        UIManager.Instance.ReturnMonsterUIElement(gameObject);
-        _uiRect = null;
     }
-    
-
+    protected virtual void InitUIData()
+    {
+    }
     
     private Vector2 GetCanvasPositionFromWorld()
     {
-        Vector3 infoUIWorldPosition = GetWorldHealthBarPosition();
+        Vector3 infoUIWorldPosition = GetWorldInfoUIPosition();
         // 몬스터의 월드 좌표를 스크린 좌표로 변환
-        Vector3 monsterScreenPos = UIManager.Instance.MainCamera.WorldToScreenPoint(infoUIWorldPosition);
+        Vector3 middleScreenPos = UIManager.Instance.MainCamera.WorldToScreenPoint(infoUIWorldPosition);
         // 캔버스의 RectTransform을 가져옴
         RectTransform canvasRect = UIManager.Instance.CanvasRectTransform;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, monsterScreenPos, null, out var infoUICanvasPosition);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, middleScreenPos, null, out var infoUICanvasPosition);
         return infoUICanvasPosition;
     }
-    private Vector3 GetWorldHealthBarPosition()
+    private Vector3 GetWorldInfoUIPosition()
     {
         Vector3 upDir = UIManager.Instance.MainCamera.transform.up;
         return transform.position + upDir * headUIInterval;
