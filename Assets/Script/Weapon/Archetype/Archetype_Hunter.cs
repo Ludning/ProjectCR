@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //사냥꾼
-public class Archetype_Hunter
+public class Archetype_Hunter : Archetype
 {
 }

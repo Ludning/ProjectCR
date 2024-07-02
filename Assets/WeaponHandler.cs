@@ -6,18 +6,24 @@ using UnityEngine.Serialization;
 
 public class WeaponHandler : MonoBehaviour
 {
-    [SerializeField] private Transform _leftHand;
-    [SerializeField] private Transform _rightHand;
+    [SerializeField] private Player Owner;
+    [SerializeField] private Transform LeftHand;
+    [SerializeField] private Transform RightHand;
     
-    [SerializeField] Transform PrimaryWeapon;
-    [SerializeField] Transform SubWeapon;
+    [SerializeField] Weapon PrimaryWeapon;
+    [SerializeField] Weapon SubWeapon;
 
     private WeaponIndexType _currentWeaponIndex;
-    
+
+    private void FixedUpdate()
+    {
+        
+    }
+
     //무기를 1, 2번 키로 스왑시
     public void SwapWeapon(WeaponIndexType index)
     {
-        if (GetIndexWeapon(index) == null)
+        if (GetHoldWeapon(index) == null)
             return;
         if (_currentWeaponIndex == index)
             return;
@@ -25,7 +31,8 @@ public class WeaponHandler : MonoBehaviour
         SetActiveCurrentWeapon();
     }
 
-    public Transform GetIndexWeapon(WeaponIndexType index)
+    //현재 무기 반환
+    public Weapon GetHoldWeapon(WeaponIndexType index)
     {
         switch (index)
         {
@@ -37,35 +44,49 @@ public class WeaponHandler : MonoBehaviour
                 return null;
         }
     }
-    //무기를 인벤토리등에서 변경시
-    public void SetIndexWeapon(WeaponIndexType index, Transform weaponTransform)
+    //비소지 무기 반환
+    public Weapon GetFreeWeapon(WeaponIndexType index)
     {
         switch (index)
         {
             case WeaponIndexType.Primary:
-                weaponTransform.SetParent(_rightHand);
-                PrimaryWeapon = weaponTransform;
+                return SubWeapon;
+            case WeaponIndexType.Secondary:
+                return PrimaryWeapon;
+            default:
+                return null;
+        }
+    }
+    
+    //무기를 인벤토리등에서 변경시
+    public void EquipmentIndexWeapon(WeaponIndexType index, Transform weaponTransform)
+    {
+        switch (index)
+        {
+            case WeaponIndexType.Primary:
+                weaponTransform.SetParent(RightHand);
+                PrimaryWeapon = weaponTransform.GetComponent<Weapon>();
+                PrimaryWeapon.InitWeapon(Owner, this);
                 break;
             case WeaponIndexType.Secondary:
-                weaponTransform.SetParent(_rightHand);
-                SubWeapon = weaponTransform;
+                weaponTransform.SetParent(RightHand);
+                SubWeapon = weaponTransform.GetComponent<Weapon>();
+                SubWeapon.InitWeapon(Owner, this);
                 break;
         }
         SetActiveCurrentWeapon();
     }
     
+    //현재 무기 활성화, 나머지 무기 비활성화
     private void SetActiveCurrentWeapon()
     {
-        if (_currentWeaponIndex == WeaponIndexType.Primary)
-        {
-            PrimaryWeapon.gameObject.SetActive(true);
-            SubWeapon.gameObject.SetActive(false);
-        }
-        else
-        {
-            PrimaryWeapon.gameObject.SetActive(false);
-            SubWeapon.gameObject.SetActive(true);
-        }
+        Weapon holdWeapon = GetHoldWeapon(_currentWeaponIndex);
+        holdWeapon.ReceptionWeaponHandlerEvent(WeaponHandlerEvent.HoldWeapon);
+        holdWeapon.gameObject.SetActive(true);
+        
+        Weapon freeWeapon = GetFreeWeapon(_currentWeaponIndex);
+        freeWeapon.ReceptionWeaponHandlerEvent(WeaponHandlerEvent.FreeWeapon);
+        freeWeapon.gameObject.SetActive(false);
     }
 
     #region Editor Function
@@ -76,10 +97,10 @@ public class WeaponHandler : MonoBehaviour
 
     private void CacheHandTransforms()
     {
-        _leftHand = FindBoneTransform("Bip001 L Hand_WeaponBone");
-        _rightHand = FindBoneTransform("Bip001 R Hand_WeaponBone");
+        LeftHand = FindBoneTransform("Bip001 L Hand_WeaponBone");
+        RightHand = FindBoneTransform("Bip001 R Hand_WeaponBone");
 
-        if (_leftHand != null && _rightHand != null)
+        if (LeftHand != null && RightHand != null)
         {
             Debug.Log("왼손과 오른손 본이 성공적으로 캐싱되었습니다.");
         }

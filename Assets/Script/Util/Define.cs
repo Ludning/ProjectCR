@@ -1,14 +1,77 @@
+using System;
 
 
 #region Weapon
-
+[Flags]
+public enum WeaponHandlerEvent
+{
+    None = 0,
+    HoldWeapon = 1 << 0,
+    FreeWeapon = 1 << 1,
+    
+    Attack = 1 << 2,
+    EnergyAttack = 1 << 3,
+    
+    HitEnemy = 1 << 4,
+    KillEnemy = 1 << 5,
+    KillMonster = 1 << 6,
+    KillElite = 1 << 7,
+    KillBoss = 1 << 8,
+    
+    ShotProjectile = 1 << 9,
+}
 public enum WeaponIndexType
 {
     Primary,
     Secondary,
 }
-
+public enum WeaponType
+{
+    Common,
+    Blade,
+    Bow,
+    Staff,
+}
+public enum ArchetypeType
+{
+    Adaptive,
+    Aggressive,
+    LightWeight,
+    Precision,
+    Heavy,
+    Shadow,
+    Predation,
+    Hunter,
+    Lasso,
+    Cleavage,
+    Conversion,
+}
+public enum SpecificityType
+{
+    Discord,
+    AvoidAccess,
+    Instability,
+    PhysicalVibration,
+    PermanentMovement,
+    CloseRangeExecution,
+    Tombstone,
+    Ensemble,
+    InfiniteSadness,
+    ChainReaction,
+    OneForAll,
+    Fluctuation,
+    OsmoticPower,
+    Meganeura,
+    Onslaught,
+    DegradableDestructionDevice,
+    RangeSecuringDevice,
+    Preparation,
+    Pressure,
+    Wildcard,
+}
 #endregion
+
+#region InputAction
 public enum InputActionMapType
 {
     Player,
@@ -24,7 +87,15 @@ public enum InputActionType
     Skill,
     Special,
 }
-
+#endregion
+#region PrefabType
+public enum PrefabType
+{
+    PopupUIAsset,
+    CharacterAsset,
+    AnimalAsset
+}
+#endregion
 #region UIType
 public enum UICoreType
 {
@@ -53,26 +124,6 @@ public enum PopupUIElementType
     EquipmentUI,
 }
 #endregion
-
-
-public enum PrefabType
-{
-    PopupUIAsset,
-    CharacterAsset,
-    AnimalAsset
-}
-public enum ItemType
-{
-    Common,
-    Blade,
-    Bow,
-    Staff,
-}
-public enum SpecificityType
-{
-    Test,
-}
-
 #region Skill
 public enum SkillType
 {
@@ -134,13 +185,7 @@ public enum DamageCalculateType
     
 }
 #endregion
-
-public enum DetectionRangeType
-{
-    Circle,
-    SemiCircle,
-}
-
+#region Address
 public enum AssetAddressType
 {
     UICoreAsset,
@@ -153,7 +198,8 @@ public enum AssetAddressType
     WeaponAnimationClipAsset,
     SkillAnimationClipAsset,
 }
-
+#endregion
+#region State
 public enum UnitState
 {
     Idle,
@@ -161,3 +207,4 @@ public enum UnitState
     Damaged,
     Die,
 }
+#endregion

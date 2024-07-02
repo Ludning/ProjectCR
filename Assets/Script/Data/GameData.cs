@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "GameData", menuName = "Data/GameData")]
 public class GameData : SerializedScriptableObject
@@ -141,18 +142,21 @@ public class ArchetypeData
 {
     [TableColumnWidth(40, false)]
     public int index;
+    public ArchetypeType archetypeType;
     public string name;
     public string description;
-    public ItemType itemType;
+    public WeaponType weaponType;
+    public string archetypeEffect;
 }
 [Serializable]
 public class SpecificityData
 {
     [TableColumnWidth(40, false)]
     public int index;
+    public SpecificityType specificityType;
     public string name;
     public string description;
-    public SpecificityType specificityType;
+    public string specificityEffect;
 }
 
 /*

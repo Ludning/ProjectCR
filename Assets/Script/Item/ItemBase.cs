@@ -5,7 +5,7 @@ using UnityEngine;
 public class ItemBase
 {
     public int index;
-    public ItemType itemType;
+    public WeaponType WeaponType;
     public ArchetypeBase Archetype;
     public List<SpecificityBase> Specificity;
 }

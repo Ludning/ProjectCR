@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //변환
-public class Archetype_Conversion
+public class Archetype_Conversion : Archetype
 {
     
 }

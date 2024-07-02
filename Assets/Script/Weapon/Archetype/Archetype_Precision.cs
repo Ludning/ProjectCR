@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //정밀
-public class Archetype_Precision
+public class Archetype_Precision : Archetype
 {
+    
 }

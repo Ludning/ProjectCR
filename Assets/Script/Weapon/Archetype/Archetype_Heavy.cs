@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //중량
-public class Archetype_Heavy
+public class Archetype_Heavy : Archetype
 {
 }
