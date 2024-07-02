@@ -3,7 +3,7 @@ using System;
 
 #region Weapon
 [Flags]
-public enum WeaponHandlerEvent
+public enum WeaponCondition
 {
     None = 0,
     HoldWeapon = 1 << 0,
@@ -19,6 +19,26 @@ public enum WeaponHandlerEvent
     KillBoss = 1 << 8,
     
     ShotProjectile = 1 << 9,
+    OtherWeaponKillEnemy = 1 << 10,
+}
+
+public enum RecordName
+{
+    LassoArrow,
+    NearbyEnemy,
+    NearbyAlly,
+}
+public enum RecordType
+{
+    None,
+    Stack,
+    Value,
+}
+
+public enum WeaponEffectType
+{
+    IncreasedStat,
+    
 }
 public enum WeaponIndexType
 {
@@ -31,6 +51,15 @@ public enum WeaponType
     Blade,
     Bow,
     Staff,
+}
+
+public enum ComparisonType
+{
+    More,
+    Over,
+    Below,
+    Under,
+    Same,
 }
 public enum ArchetypeType
 {

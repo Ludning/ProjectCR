@@ -9,8 +9,8 @@ public class Weapon : MonoBehaviour
     private Player Owner;
     private WeaponHandler Handler;
     
-    private List<WeaponEffect> _archetypeEffects;
-    private List<WeaponEffect> _specificityEffects;
+    private List<WeaponLogic> _archetypeConditionEffects;
+    private List<WeaponLogic> _specificityConditionEffects;
 
     public void InitWeapon(Player owner, WeaponHandler handler)
     {
@@ -18,10 +18,27 @@ public class Weapon : MonoBehaviour
         Handler = handler;
     }
 
-    public void ReceptionWeaponHandlerEvent(WeaponHandlerEvent type)
+    public void ReceptionWeaponHandlerEvent(WeaponCondition type)
     {
         //_archetypeEffects.ReceptionArchetypeEvent(type);
     }
+
+    #region WeaponLogic
+    public void OnAttack()
+    {
+        
+    }
+    public void OnSubAttack()
+    {
+        
+    }
+    public void OnAim()
+    {
+        
+    }
+    #endregion
+    
+    
     
     
     #region Temp
