@@ -1,4 +1,14 @@
 
+
+#region Weapon
+
+public enum WeaponIndexType
+{
+    Primary,
+    Secondary,
+}
+
+#endregion
 public enum InputActionMapType
 {
     Player,
@@ -139,6 +149,9 @@ public enum AssetAddressType
     CharacterAsset,
     MiddleUIAsset,
     AnimalAsset,
+    WeaponAsset,
+    WeaponAnimationClipAsset,
+    SkillAnimationClipAsset,
 }
 
 public enum UnitState

@@ -5,13 +5,13 @@ using UnityEngine;
 public class UnitFinalStats
 {
     #region Field & Property
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _maxHp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _damage;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _defense;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _speed;
     
     public int MaxHp

@@ -64,6 +64,15 @@ public class  Player : MonoBehaviour, IDamageable
         //웹서버에 _identification 로 데이터를 받아옴
         //TODO
         TestPlayerData();
+        
+        Debug.Log(GetNickName());
+        PlayerInfo_Message msg = new PlayerInfo_Message()
+        {
+            ID = gameObject.GetInstanceID(),
+            Level = GetLevel(),
+            NickName = GetNickName()
+        };
+        MessageManager.Instance.InvokeCallback(msg);
     }
 
     //장착중인 장비 스텟에 적용
@@ -80,11 +89,12 @@ public class  Player : MonoBehaviour, IDamageable
 
     private void TestPlayerData()
     {
+        //TODO
         GameData gameData = DataManager.Instance.GetGameData();
-        PlayerData data = gameData.PlayerData[3];
+        PlayerData data = gameData.PlayerData[_identification];
         
         _nickname = data.nickname;
-        _stats.LoadPlayerStatsData(data);
+        _stats.LoadPlayerStatsData(data, data.level);
         _inventoryData.LoadData(data.inventory_data);
         _equipmentDatas.LoadData(data.equipment_data);
         _skillTreeData.LoadData(data.ownedSkill_data, data.equipmentSkill_data);

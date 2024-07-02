@@ -24,7 +24,7 @@ public class GameData : SerializedScriptableObject
     [TableList] public Dictionary<int, LevelData> LevelData;
     [TableList] public Dictionary<int, SkillData> SkillData;
     [TableList] public Dictionary<int, ItemData> ItemData;
-    [TableList] public Dictionary<int, PlayerData> PlayerData;
+    [TableList] public Dictionary<string, PlayerData> PlayerData;
     [TableList] public Dictionary<string, MonsterData> MonsterData;
     [TableList] public Dictionary<string, EliteData> EliteData;
     [TableList] public Dictionary<string, BossData> BossData;
@@ -83,9 +83,6 @@ public class ItemData
 [Serializable]
 public class PlayerData
 {
-    [TableColumnWidth(40, false)]
-    public int index;
-    
     [TableColumnWidth(40)]
     [VerticalGroup("Player Account"), LabelWidth(70)]
     public string identification;

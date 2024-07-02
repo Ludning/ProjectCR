@@ -18,6 +18,10 @@ public class AssetAddressData : SerializedScriptableObject
     public Dictionary<string, AssetData> CharacterAsset;
     public Dictionary<string, AssetData> MiddleUIAsset;
     public Dictionary<string, AssetData> AnimalAsset;
+    
+    public Dictionary<string, AssetData> WeaponAsset;
+    public Dictionary<string, AssetData> WeaponAnimationClipAsset;
+    public Dictionary<string, AssetData> SkillAnimationClipAsset;
 
     public string GetAddressPath(AssetAddressType type, string key)
     {
@@ -46,6 +50,19 @@ public class AssetAddressData : SerializedScriptableObject
             case AssetAddressType.AnimalAsset:
                 if (AnimalAsset.ContainsKey(key))
                     return AnimalAsset[key].path;
+                break;
+            
+            case AssetAddressType.WeaponAsset:
+                if (WeaponAsset.ContainsKey(key))
+                    return WeaponAsset[key].path;
+                break;
+            case AssetAddressType.WeaponAnimationClipAsset:
+                if (WeaponAnimationClipAsset.ContainsKey(key))
+                    return WeaponAnimationClipAsset[key].path;
+                break;
+            case AssetAddressType.SkillAnimationClipAsset:
+                if (SkillAnimationClipAsset.ContainsKey(key))
+                    return SkillAnimationClipAsset[key].path;
                 break;
         }
         return null;

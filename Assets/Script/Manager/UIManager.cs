@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
+using Object = UnityEngine.Object;
 
 public class UIManager : SingleTon<UIManager>
 {
@@ -187,10 +189,13 @@ public class UIManager : SingleTon<UIManager>
                     middleUIType.ToString());
             Transform middleUI = PoolManager.Instance.GetGameObject(prefab).transform;
             middleUI.SetParent(MiddleUIParent);
-            middleUI.GetComponent<MonsterInfo_View>().SetId(instanceID);
+            
+            ISetAbleMiddleViewId middleViewId = middleUI.GetComponent<ISetAbleMiddleViewId>();
+            if(middleViewId != null)
+                middleViewId.SetId(instanceID);
+            
             MiddleUIDic.Add(owner, middleUI);
         }
-
         return MiddleUIDic[owner];
     }
 

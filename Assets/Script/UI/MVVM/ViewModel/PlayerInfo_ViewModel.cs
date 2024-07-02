@@ -16,12 +16,21 @@ public class PlayerInfo_ViewModel : ViewModelBase<PlayerInfo_Message>
     public int Level
     {
         get => _level;
-        set => _level = value;
+        set
+        { 
+            _level = value;
+            OnPropertyChanged(nameof(Level));
+        } 
     }
+
     public string NickName
     {
         get => _nickName;
-        set => _nickName = value;
+        set
+        {
+            _nickName = value;
+            OnPropertyChanged(nameof(NickName));
+        }
     }
 
     protected override void OnResponseMessage(PlayerInfo_Message message)

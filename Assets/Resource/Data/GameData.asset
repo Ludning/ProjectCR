@@ -1649,7 +1649,7 @@ MonoBehaviour:
       Data: 1
     - Name: itemName
       Entry: 1
-      Data: 1
+      Data: Axe1
     - Name: description
       Entry: 1
       Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
@@ -1733,11 +1733,15 @@ MonoBehaviour:
       Data: 
     - Name: PlayerData
       Entry: 7
-      Data: 58|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[PlayerData,
+      Data: 58|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[PlayerData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
-      Entry: 9
-      Data: 1
+      Entry: 7
+      Data: 59|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 12
       Data: 3
@@ -1745,14 +1749,11 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
-      Data: 1
+      Entry: 1
+      Data: 11
     - Name: $v
       Entry: 7
-      Data: 59|PlayerData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 1
+      Data: 60|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 11
@@ -1793,14 +1794,11 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
-      Data: 2
+      Entry: 1
+      Data: 22
     - Name: $v
       Entry: 7
-      Data: 60|PlayerData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 2
+      Data: 61|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 22
@@ -1841,14 +1839,11 @@ MonoBehaviour:
       Entry: 7
       Data: 
     - Name: $k
-      Entry: 3
-      Data: 3
+      Entry: 1
+      Data: 33
     - Name: $v
       Entry: 7
-      Data: 61|PlayerData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 3
+      Data: 62|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 33
@@ -1893,15 +1888,11 @@ MonoBehaviour:
       Data: 
     - Name: MonsterData
       Entry: 7
-      Data: 62|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
+      Data: 63|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
-      Entry: 7
-      Data: 63|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
-        mscorlib]], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
+      Entry: 9
+      Data: 59
     - Name: 
       Entry: 12
       Data: 1
@@ -1947,7 +1938,7 @@ MonoBehaviour:
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 63
+      Data: 59
     - Name: 
       Entry: 12
       Data: 1
@@ -1993,7 +1984,7 @@ MonoBehaviour:
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 63
+      Data: 59
     - Name: 
       Entry: 12
       Data: 1

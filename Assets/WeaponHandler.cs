@@ -1,11 +1,72 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class WeaponHandler : MonoBehaviour
 {
     [SerializeField] private Transform _leftHand;
     [SerializeField] private Transform _rightHand;
+    
+    [SerializeField] Transform PrimaryWeapon;
+    [SerializeField] Transform SubWeapon;
+
+    private WeaponIndexType _currentWeaponIndex;
+    
+    //무기를 1, 2번 키로 스왑시
+    public void SwapWeapon(WeaponIndexType index)
+    {
+        if (GetIndexWeapon(index) == null)
+            return;
+        if (_currentWeaponIndex == index)
+            return;
+        _currentWeaponIndex = index;
+        SetActiveCurrentWeapon();
+    }
+
+    public Transform GetIndexWeapon(WeaponIndexType index)
+    {
+        switch (index)
+        {
+            case WeaponIndexType.Primary:
+                return PrimaryWeapon;
+            case WeaponIndexType.Secondary:
+                return SubWeapon;
+            default:
+                return null;
+        }
+    }
+    //무기를 인벤토리등에서 변경시
+    public void SetIndexWeapon(WeaponIndexType index, Transform weaponTransform)
+    {
+        switch (index)
+        {
+            case WeaponIndexType.Primary:
+                weaponTransform.SetParent(_rightHand);
+                PrimaryWeapon = weaponTransform;
+                break;
+            case WeaponIndexType.Secondary:
+                weaponTransform.SetParent(_rightHand);
+                SubWeapon = weaponTransform;
+                break;
+        }
+        SetActiveCurrentWeapon();
+    }
+    
+    private void SetActiveCurrentWeapon()
+    {
+        if (_currentWeaponIndex == WeaponIndexType.Primary)
+        {
+            PrimaryWeapon.gameObject.SetActive(true);
+            SubWeapon.gameObject.SetActive(false);
+        }
+        else
+        {
+            PrimaryWeapon.gameObject.SetActive(false);
+            SubWeapon.gameObject.SetActive(true);
+        }
+    }
 
     #region Editor Function
     void OnValidate()

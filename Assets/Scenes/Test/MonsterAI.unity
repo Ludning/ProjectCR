@@ -364,38 +364,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
+    - target: {fileID: 3126378817611722995, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
-      propertyPath: m_Bones.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: m_Bones.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2095838119996931697, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: m_Bones.Array.data[3]
-      value: 
+      propertyPath: headUIInterval
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4325855717637870146, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: m_Name
       value: Character1
       objectReference: {fileID: 0}
-    - target: {fileID: 8680009722622725187, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3893691568923278105, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
-    - {fileID: 8766423020057469360, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
-    - {fileID: 6047751926509504499, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
-    - {fileID: 4515228916665508185, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
-    - {fileID: 1116067808904587883, guid: c3093d3491c60dd4aae280534d352f03, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3093d3491c60dd4aae280534d352f03, type: 3}

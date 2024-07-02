@@ -7,19 +7,19 @@ using UnityEngine;
 public class PlayerFinalStats : UnitFinalStats
 {
     #region Field & Property
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _maxMp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _criticalChance;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _criticalMultiplier;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _hpRegen;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _mpRegen;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _hp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _mp;
 
 

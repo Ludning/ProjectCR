@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerInfo_View : ViewBase<PlayerInfo_ViewModel, PlayerInfo_Message>
+public class PlayerInfo_View : ViewBase<PlayerInfo_ViewModel, PlayerInfo_Message>, ISetAbleMiddleViewId
 {
     [SerializeField] private TextMeshProUGUI LevelText;
     [SerializeField] private TextMeshProUGUI PlayerNameText;

@@ -7,48 +7,42 @@ using UnityEngine;
 public class UnitStats
 {
     #region Field & Property
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _level;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _maxHp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _damage;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _defense;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _speed;
     
-
     public int Level
     {
         get => _level;
         set => _level = value;
     }
-    
     public int MaxHp
     {
         get => _maxHp;
         set => _maxHp = value;
     }
-
     public int Damage
     {
         get => _damage;
         set => _damage = value;
     }
-
     public int Defense
     {
         get => _defense;
         set => _defense = value;
     }
-
     public int Speed
     {
         get => _speed;
         set => _speed = value;
     }
-
     #endregion
 
 

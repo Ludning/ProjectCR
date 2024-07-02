@@ -3292,3 +3292,1017 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: WeaponAsset
+      Entry: 7
+      Data: 158|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 46
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe1H_Basic
+    - Name: $v
+      Entry: 7
+      Data: 159|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe1H_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe1H_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe1H_Epic
+    - Name: $v
+      Entry: 7
+      Data: 160|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe1H_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe1H_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe1H_Medium
+    - Name: $v
+      Entry: 7
+      Data: 161|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe1H_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe1H_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe2H_Basic
+    - Name: $v
+      Entry: 7
+      Data: 162|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe2H_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe2H_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe2H_Epic
+    - Name: $v
+      Entry: 7
+      Data: 163|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe2H_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe2H_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Axe2H_Medium
+    - Name: $v
+      Entry: 7
+      Data: 164|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Axe2H_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/Axe2H_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: AxeBasic1_2
+    - Name: $v
+      Entry: 7
+      Data: 165|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: AxeBasic1_2
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/AxeBasic1_2.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: AxeBasic2_1
+    - Name: $v
+      Entry: 7
+      Data: 166|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: AxeBasic2_1
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/AxeBasic2_1.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: AxeEvolving3_3_2
+    - Name: $v
+      Entry: 7
+      Data: 167|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: AxeEvolving3_3_2
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Axe/AxeEvolving3_3_2.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bow_Basic
+    - Name: $v
+      Entry: 7
+      Data: 168|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Bow_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Bow/Bow_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bow_Epic
+    - Name: $v
+      Entry: 7
+      Data: 169|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Bow_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Bow/Bow_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bow_Medium
+    - Name: $v
+      Entry: 7
+      Data: 170|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Bow_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Bow/Bow_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hammer1_1_3
+    - Name: $v
+      Entry: 7
+      Data: 171|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Hammer1_1_3
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Hammer1_1_3.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace1H_Basic
+    - Name: $v
+      Entry: 7
+      Data: 172|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace1H_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace1H_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace1H_Epic
+    - Name: $v
+      Entry: 7
+      Data: 173|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace1H_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace1H_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace1H_Medium
+    - Name: $v
+      Entry: 7
+      Data: 174|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace1H_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace1H_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace2H_Basic
+    - Name: $v
+      Entry: 7
+      Data: 175|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace2H_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace2H_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace2H_Epic
+    - Name: $v
+      Entry: 7
+      Data: 176|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace2H_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace2H_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mace2H_Medium
+    - Name: $v
+      Entry: 7
+      Data: 177|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Mace2H_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Mace/Mace2H_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wand_Basic
+    - Name: $v
+      Entry: 7
+      Data: 178|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Wand_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Wand/Wand_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wand_Epic
+    - Name: $v
+      Entry: 7
+      Data: 179|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Wand_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Wand/Wand_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Wand_Medium
+    - Name: $v
+      Entry: 7
+      Data: 180|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Wand_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Wand/Wand_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff2_2_6
+    - Name: $v
+      Entry: 7
+      Data: 181|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff2_2_6
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff2_2_6.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff4_1_1
+    - Name: $v
+      Entry: 7
+      Data: 182|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff4_1_1
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff4_1_1.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff5_1_1
+    - Name: $v
+      Entry: 7
+      Data: 183|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff5_1_1
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff5_1_1.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff_Basic
+    - Name: $v
+      Entry: 7
+      Data: 184|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff_Basic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff_Basic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff_Epic
+    - Name: $v
+      Entry: 7
+      Data: 185|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff_Epic
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff_Epic.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff_Medium
+    - Name: $v
+      Entry: 7
+      Data: 186|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff_Medium
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Staff/Staff_Medium.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword1_1_3
+    - Name: $v
+      Entry: 7
+      Data: 187|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword1_1_3
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword1_1_3.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword1_Silver
+    - Name: $v
+      Entry: 7
+      Data: 188|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword1_Silver
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword1_Silver.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword2_3_3
+    - Name: $v
+      Entry: 7
+      Data: 189|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword2_3_3
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword2_3_3.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword2_Yellow
+    - Name: $v
+      Entry: 7
+      Data: 190|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword2_Yellow
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword2_Yellow.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword3_1_3
+    - Name: $v
+      Entry: 7
+      Data: 191|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword3_1_3
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword3_1_3.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword3_Red
+    - Name: $v
+      Entry: 7
+      Data: 192|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword3_Red
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword3_Red.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword4_Red
+    - Name: $v
+      Entry: 7
+      Data: 193|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword4_Red
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword4_Red.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword5_3_2
+    - Name: $v
+      Entry: 7
+      Data: 194|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword5_3_2
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword5_3_2.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword5_Gold
+    - Name: $v
+      Entry: 7
+      Data: 195|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword5_Gold
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword5_Gold.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword6_Red
+    - Name: $v
+      Entry: 7
+      Data: 196|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword6_Red
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword6_Red.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword7_Blue
+    - Name: $v
+      Entry: 7
+      Data: 197|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword7_Blue
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword7_Blue.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword8_Gold
+    - Name: $v
+      Entry: 7
+      Data: 198|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword8_Gold
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword8_Gold.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword9_Red
+    - Name: $v
+      Entry: 7
+      Data: 199|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword9_Red
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword9_Red.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword10_Dark
+    - Name: $v
+      Entry: 7
+      Data: 200|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword10_Dark
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword10_Dark.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword12_Purple
+    - Name: $v
+      Entry: 7
+      Data: 201|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword12_Purple
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword12_Purple.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword13_Cyan
+    - Name: $v
+      Entry: 7
+      Data: 202|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword13_Cyan
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword13_Cyan.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword14_Red
+    - Name: $v
+      Entry: 7
+      Data: 203|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword14_Red
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword14_Red.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sword15_Lava
+    - Name: $v
+      Entry: 7
+      Data: 204|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Sword15_Lava
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Weapon/Sword/Sword15_Lava.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WeaponAnimationClipAsset
+      Entry: 7
+      Data: 205|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SkillAnimationClipAsset
+      Entry: 7
+      Data: 206|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

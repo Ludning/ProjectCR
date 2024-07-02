@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f849411ec7d5aad4ebf06efcfbcd8c3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _identification: 
+  _identification: 11
   _nickname: 
   _animator: {fileID: 4466773179763302881}
   _stats:
@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _leftHand: {fileID: 8332813847951627239}
   _rightHand: {fileID: 5977869519890689945}
+  PrimaryWeapon: {fileID: 0}
+  SubWeapon: {fileID: 0}
 --- !u!143 &8063013725807695222
 CharacterController:
   m_ObjectHideFlags: 0
@@ -193,6 +195,7 @@ MonoBehaviour:
   maxScale: 3
   minDistance: 5
   maxDistance: 50
+  PlayerComponent: {fileID: 6295444716089752892}
 --- !u!23 &5846918398430572555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -308,7 +311,12 @@ PrefabInstance:
       value: Archer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2307169430425001112, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}
+    - {fileID: 8044848197347083825, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}
+    - {fileID: 5035151721040257138, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}
+    - {fileID: -6294680690320554280, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}
+    - {fileID: -7390252748177666582, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7908f1a2bde075d478e43a6e8b8277be, type: 3}

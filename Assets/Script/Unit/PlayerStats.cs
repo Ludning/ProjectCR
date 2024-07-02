@@ -8,19 +8,19 @@ using UnityEngine;
 public class PlayerStats : UnitStats
 {
     #region Field & Property
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _maxMp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _criticalChance;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _criticalMultiplier;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _hpRegen;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private float _mpRegen;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _exp;
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int _expRequired;
     
     public int MaxMp
@@ -66,15 +66,16 @@ public class PlayerStats : UnitStats
 
     #endregion
 
-    public void LoadPlayerStatsData(PlayerData data)
+    public void LoadPlayerStatsData(PlayerData data, int level)
     {
         var levelStatDic = DataManager.Instance.GetGameData().LevelData;
 
         if (levelStatDic.TryGetValue(data.level, out LevelData levelData) == false)
         {
-            levelData = levelStatDic[1];
+            levelData = levelStatDic[level];
         }
 
+        Level = level;
         MaxHp = levelData.maxHp;
         Damage = levelData.damage;
         Defense = levelData.defense;

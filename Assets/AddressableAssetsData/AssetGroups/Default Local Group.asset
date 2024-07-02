@@ -772,6 +772,256 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bc7374590c05c548a74f7ac0f9d3867
+    m_Address: Assets/Prefab/Weapon/Axe/Axe1H_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06e336cea81443049b037d333d3c8a1e
+    m_Address: Assets/Prefab/Weapon/Axe/Axe1H_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b3688cdb5b31e418b3b6662d9d4deb
+    m_Address: Assets/Prefab/Weapon/Axe/Axe1H_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2734dd51f8a6f144c821f2cec96400eb
+    m_Address: Assets/Prefab/Weapon/Axe/Axe2H_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96c4a3ba7cb8de74580f5e32fa1c02b5
+    m_Address: Assets/Prefab/Weapon/Axe/Axe2H_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ddfa5448538c2c45a0336550ccbda8f
+    m_Address: Assets/Prefab/Weapon/Axe/Axe2H_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b23bef2dc6f31b42ad5d20273ea5085
+    m_Address: Assets/Prefab/Weapon/Axe/AxeBasic1_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f30c318cfc858e44f8c445a1b24b9834
+    m_Address: Assets/Prefab/Weapon/Axe/AxeBasic2_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ed86e0c45cf05f4ca718cb823a5bccd
+    m_Address: Assets/Prefab/Weapon/Axe/AxeEvolving3_3_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a731e84488344e4493c837948c2d9b3
+    m_Address: Assets/Prefab/Weapon/Bow/Bow_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d86f62a47c509114c81d06b212346fc4
+    m_Address: Assets/Prefab/Weapon/Bow/Bow_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7388d056cf6f114abca6cd1f3251635
+    m_Address: Assets/Prefab/Weapon/Bow/Bow_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e72517c9c9599274e9b5dcb0cb0174df
+    m_Address: Assets/Prefab/Weapon/Mace/Hammer1_1_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 334181429fd08314496dc82d3aad3dd0
+    m_Address: Assets/Prefab/Weapon/Mace/Mace1H_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 104d84b9313c89d4ebfa17715b640dc9
+    m_Address: Assets/Prefab/Weapon/Mace/Mace1H_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f44b37f3455c1458898354482b4001
+    m_Address: Assets/Prefab/Weapon/Mace/Mace1H_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1129952d65bb394db1563ac647fa169
+    m_Address: Assets/Prefab/Weapon/Mace/Mace2H_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d07103f4a2a7b134987f3ab74d000acd
+    m_Address: Assets/Prefab/Weapon/Mace/Mace2H_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced7848c81b48c742bf69c50ea810ddf
+    m_Address: Assets/Prefab/Weapon/Mace/Mace2H_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb5acb2124b72b34fbf8264f2ebf1c5b
+    m_Address: Assets/Prefab/Weapon/Wand/Wand_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c087117aa3226449a099a13d2a5f9b0
+    m_Address: Assets/Prefab/Weapon/Wand/Wand_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 323aacd955f0ef44b89f50b2c0f770e1
+    m_Address: Assets/Prefab/Weapon/Wand/Wand_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a44e797802bc96b48a42e54a3b6971ff
+    m_Address: Assets/Prefab/Weapon/Staff/Staff2_2_6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e7c10338a5ef11419386053115e966c
+    m_Address: Assets/Prefab/Weapon/Staff/Staff4_1_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4992e0c61a826b4f8a23f97beb4bd06
+    m_Address: Assets/Prefab/Weapon/Staff/Staff5_1_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2d807bb5543ed641ad49076fa046839
+    m_Address: Assets/Prefab/Weapon/Staff/Staff_Basic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd56ee7cd3793a742989577649a36249
+    m_Address: Assets/Prefab/Weapon/Staff/Staff_Epic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c5f8670f64714442adddcaa05d73991
+    m_Address: Assets/Prefab/Weapon/Staff/Staff_Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9673edf355dc1c479c7447a5984e2c6
+    m_Address: Assets/Prefab/Weapon/Sword/Sword1_1_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 635b9c60fe8860a4e9a5ab1a4658720f
+    m_Address: Assets/Prefab/Weapon/Sword/Sword1_Silver.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f79f9c1451b2ff4cae82a093b7546c2
+    m_Address: Assets/Prefab/Weapon/Sword/Sword2_3_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8ab3275b4dd1724ea174a727f8f3378
+    m_Address: Assets/Prefab/Weapon/Sword/Sword2_Yellow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04484c04b565796448f9d10865c8eb45
+    m_Address: Assets/Prefab/Weapon/Sword/Sword3_1_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d74b089bebb949a43bbc45b6cefe79eb
+    m_Address: Assets/Prefab/Weapon/Sword/Sword3_Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54c8c9f221349f5478057c6aa027be04
+    m_Address: Assets/Prefab/Weapon/Sword/Sword4_Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c129ba3b3668a346ba85665eb81a136
+    m_Address: Assets/Prefab/Weapon/Sword/Sword5_3_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a61cc2f98bbdd214e89c42bd0ae3cc90
+    m_Address: Assets/Prefab/Weapon/Sword/Sword5_Gold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a0917aa8d5a96c4dac34dd56cf9cc3b
+    m_Address: Assets/Prefab/Weapon/Sword/Sword6_Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446537a5e4bab814fb6203cbd4680b71
+    m_Address: Assets/Prefab/Weapon/Sword/Sword7_Blue.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7193085109a5a7348b773a9d48156fa9
+    m_Address: Assets/Prefab/Weapon/Sword/Sword8_Gold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4edc3603e15f0884b937810156617f74
+    m_Address: Assets/Prefab/Weapon/Sword/Sword9_Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84fe35b914023748b06fd3b37dceaa4
+    m_Address: Assets/Prefab/Weapon/Sword/Sword10_Dark.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d876f71e74b8f8c4f9be7bf1137f38cc
+    m_Address: Assets/Prefab/Weapon/Sword/Sword12_Purple.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 608076c565a36b346b63e557cd6af9eb
+    m_Address: Assets/Prefab/Weapon/Sword/Sword13_Cyan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6c8429d5a329dd4fa63a4d5cc554fa1
+    m_Address: Assets/Resource/Animator/Player.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6c4ffb4d9b01e6438aee492ee60e489
+    m_Address: Assets/Prefab/Weapon/Sword/Sword14_Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a0f6562a4a6e114699762a3c1115ec5
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Archer.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94dd89f1e98ccb04baed4351ae2f4046
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Mage.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be6e208e25d68ea4f95135b602895e3e
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Warrior.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97d88fb9a3565d84daf5fff081fcbb91
+    m_Address: Assets/Prefab/Weapon/Sword/Sword15_Lava.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aec591e64c8d1764d82fade64fc165d9, type: 2}
   m_SchemaSet:
