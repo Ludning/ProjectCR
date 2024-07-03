@@ -10,9 +10,8 @@ public class SkillData : IParserable
     public int index;
     public string skillName;
     public string description;
-    public List<SkillElement> SkillElement;
-    public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
+    public List<SkillElementData> SkillElement;
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

@@ -4,7 +4,7 @@ using System.Data;
 using UnityEngine.Serialization;
 
 [Serializable]
-public class SkillElement : IParserable
+public class SkillElementData : IParserable
 {
     public SkillType skillType;
     public SkillLogicType skillLogicType;
@@ -20,6 +20,6 @@ public class SkillElement : IParserable
     public int targetingCount;
     public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
     {
-        throw new NotImplementedException();
+        
     }
 }

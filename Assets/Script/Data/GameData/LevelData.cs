@@ -14,8 +14,7 @@ public class LevelData : IParserable
     public int damage;
     public int defense;
     public int expRequired;
-    public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

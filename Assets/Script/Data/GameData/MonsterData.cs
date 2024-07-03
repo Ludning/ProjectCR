@@ -11,8 +11,7 @@ public class MonsterData : IParserable
     public int maxHp;
     public int damage;
     public int defense;
-    public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

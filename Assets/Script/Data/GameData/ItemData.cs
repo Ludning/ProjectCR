@@ -12,8 +12,7 @@ public class ItemData : IParserable
     public string description;
     public string archetype;
     public string specificityRoll;
-    public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

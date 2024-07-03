@@ -75,7 +75,7 @@ public class DataConverter
         }
     }
     
-    public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : class, new()
+    public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : IParserable, new()
     {
         if (tables.Contains(sheetName) == false)
         {
@@ -101,7 +101,6 @@ public class DataConverter
             if (dataRow == sheet.Rows[0])
                 continue;
 
-            #region Key 체크
             TKey key;
             object keyObject = dataRow.ItemArray[0];
             if (keyObject != DBNull.Value)
@@ -110,13 +109,13 @@ public class DataConverter
                 key = prevKey;
             else
                 continue;
-            #endregion
             
             //Key로 Value를 받아옴
             TValue data = ret.TryGetValue(key, out TValue value) ? value : new TValue();
 
-            SetFieldData<TValue>(columnTypeDic, dataRow, data);
-
+            //SetFieldData<TValue>(columnTypeDic, dataRow, data);
+            StringParserHelper.SetParserData<TValue>(columnTypeDic, dataRow, data);
+            
             if (!ret.ContainsKey(key))
             {
                 ret.Add(key, data);
@@ -126,7 +125,7 @@ public class DataConverter
         return ret;
     }
 
-    private static void SetFieldData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : class, new()
+    private static void SetFieldData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable, new()
     {
         FieldInfo[] fieldInfos = data.GetType().GetFields();
         foreach (FieldInfo fieldInfo in fieldInfos)

@@ -13,8 +13,7 @@ public class SpecificityData : IParserable
     public string description;
     public string effect;
     public string record;
-    public void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

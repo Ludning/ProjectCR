@@ -10,13 +10,27 @@ public enum ConditionType
     None,
     Trigger,
     RequestRecordValue,
+    RandomChance,
 }
 
 public enum EffectType
 {
-    SetRecordValues,
+    SetRecordValue,
+    SetRecordValueByReference,
+    SetRecordDuration,
     IncreasedStat,
     SpawnObject,
+    SpawnProjectile,
+    ProjectilePushForce,
+    ProjectilePushRange,
+    ChangeAttackProjectile,
+    ProjectileCount,
+    ChargeMinAngle,
+    ChargeMaxAngle,
+    SetDebuffTarget,
+    ChangeWeaponDamageType,
+    ChangeWeaponDamageTypeByReference,
+    CooldownReduction,
 }
 public enum IncreasedStatType
 {
@@ -36,18 +50,40 @@ public enum WeaponTrigger
     FreeWeapon = 1 << 1,
     
     Attack = 1 << 2,
-    EnergyAttack = 1 << 3,
+    SubAttack = 1 << 3,
+    Aim = 1 << 4,
+    EnergyAttack = 1 << 5,
     
-    HitEnemy = 1 << 4,
-    KillEnemy = 1 << 5,
-    KillMonster = 1 << 6,
-    KillElite = 1 << 7,
-    KillBoss = 1 << 8,
+    HitEnemy = 1 << 6,
+    KillEnemy = 1 << 7,
+    KillMonster = 1 << 8,
+    KillElite = 1 << 9,
+    KillBoss = 1 << 10,
     
-    ShotProjectile = 1 << 9,
-    OtherWeaponKillEnemy = 1 << 10,
+    ShotProjectile = 1 << 11,
+    OtherWeaponKillEnemy = 1 << 12,
+    
+    UseSkill = 1 << 13,
+    UseSpecial = 1 << 14,
+    
+    NearEnemyAttack = 1 << 15,
+    HasNearEnemy = 1 << 16,
+    LastSurvivor = 1 << 17,
+    AliveTeamMember = 1 << 18,
+    HitOtherEnemy = 1 << 19,
+    
+    HoldWeaponStaggerEnemy = 1 << 20,
+    OwnerHpChanged = 1 << 21,
 }
 
+public enum RecordPropertyType
+{
+    RecordName,
+    RecordType,
+    RecordLimit,
+    Duration,
+    RecordResetValue,
+}
 public enum RecordName
 {
     LassoArrow,

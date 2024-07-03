@@ -30,9 +30,8 @@ public class PlayerData : IParserable
     public string ownedSkill_data;
     [VerticalGroup("Player Data"), LabelWidth(90)]
     public string equipmentSkill_data;
-
-    public void SetParserData(Dictionary<string, int> columnTypeDic, DataRow dataRow)
+    
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
     {
-        throw new NotImplementedException();
     }
 }

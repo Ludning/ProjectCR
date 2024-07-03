@@ -15,9 +15,7 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 0}
-    - {fileID: 0}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -48,19 +46,19 @@ MonoBehaviour:
       Data: 2|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 100
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 100
+      Data: 0
     - Name: defense
       Entry: 3
       Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 100
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -78,19 +76,19 @@ MonoBehaviour:
       Data: 3|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 150
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 120
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 120
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -108,19 +106,19 @@ MonoBehaviour:
       Data: 4|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 200
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 140
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 140
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -138,19 +136,19 @@ MonoBehaviour:
       Data: 5|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 250
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 160
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 6
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 160
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -168,19 +166,19 @@ MonoBehaviour:
       Data: 6|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 5
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 300
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 180
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 8
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 180
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -198,19 +196,19 @@ MonoBehaviour:
       Data: 7|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 6
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 350
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 200
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 10
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 200
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -228,19 +226,19 @@ MonoBehaviour:
       Data: 8|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 7
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 400
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 220
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 12
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 220
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -258,19 +256,19 @@ MonoBehaviour:
       Data: 9|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 8
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 450
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 240
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 14
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 240
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -288,19 +286,19 @@ MonoBehaviour:
       Data: 10|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 9
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 500
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 260
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 16
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 260
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -318,19 +316,19 @@ MonoBehaviour:
       Data: 11|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 10
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 550
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 300
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 20
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 300
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -348,19 +346,19 @@ MonoBehaviour:
       Data: 12|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 11
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 600
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 340
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 24
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 340
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -378,19 +376,19 @@ MonoBehaviour:
       Data: 13|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 12
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 650
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 380
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 28
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 380
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -408,19 +406,19 @@ MonoBehaviour:
       Data: 14|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 13
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 700
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 420
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 32
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 420
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -438,19 +436,19 @@ MonoBehaviour:
       Data: 15|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 14
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 750
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 460
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 36
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 460
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -468,19 +466,19 @@ MonoBehaviour:
       Data: 16|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 15
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 800
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 500
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 40
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 500
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -498,19 +496,19 @@ MonoBehaviour:
       Data: 17|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 16
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 850
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 540
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 44
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 540
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -528,19 +526,19 @@ MonoBehaviour:
       Data: 18|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 17
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 900
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 580
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 48
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 580
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -558,19 +556,19 @@ MonoBehaviour:
       Data: 19|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 18
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 950
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 620
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 52
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 620
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -588,19 +586,19 @@ MonoBehaviour:
       Data: 20|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 19
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1000
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 660
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 56
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 660
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -618,19 +616,19 @@ MonoBehaviour:
       Data: 21|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 20
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1050
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 750
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 65
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 800
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -648,19 +646,19 @@ MonoBehaviour:
       Data: 22|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 21
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1100
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 840
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 74
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 940
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -678,19 +676,19 @@ MonoBehaviour:
       Data: 23|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 22
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1150
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 930
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 83
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1080
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -708,19 +706,19 @@ MonoBehaviour:
       Data: 24|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 23
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1200
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1020
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 92
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1220
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -738,19 +736,19 @@ MonoBehaviour:
       Data: 25|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 24
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1250
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1110
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 101
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1360
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -768,19 +766,19 @@ MonoBehaviour:
       Data: 26|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 25
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1300
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1200
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 110
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1500
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -798,19 +796,19 @@ MonoBehaviour:
       Data: 27|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 26
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1350
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1290
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 119
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1640
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -828,19 +826,19 @@ MonoBehaviour:
       Data: 28|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 27
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1400
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1380
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 128
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1780
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -858,19 +856,19 @@ MonoBehaviour:
       Data: 29|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 28
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1450
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1470
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 137
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 1920
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -888,19 +886,19 @@ MonoBehaviour:
       Data: 30|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 29
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1500
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1560
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 146
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 2060
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -918,19 +916,19 @@ MonoBehaviour:
       Data: 31|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 30
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1550
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 1800
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 170
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 2400
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -948,19 +946,19 @@ MonoBehaviour:
       Data: 32|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 31
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1600
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 2040
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 194
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 2740
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -978,19 +976,19 @@ MonoBehaviour:
       Data: 33|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 32
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1650
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 2280
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 218
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 3080
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1008,19 +1006,19 @@ MonoBehaviour:
       Data: 34|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 33
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1700
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 2520
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 242
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 3420
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1038,19 +1036,19 @@ MonoBehaviour:
       Data: 35|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 34
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1750
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 2760
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 266
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 3760
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1068,19 +1066,19 @@ MonoBehaviour:
       Data: 36|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 35
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1800
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 3000
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 290
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 4100
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1098,19 +1096,19 @@ MonoBehaviour:
       Data: 37|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 36
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1850
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 3240
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 314
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 4440
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1128,19 +1126,19 @@ MonoBehaviour:
       Data: 38|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 37
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1900
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 3480
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 338
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 4780
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1158,19 +1156,19 @@ MonoBehaviour:
       Data: 39|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 38
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 1950
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 3720
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 362
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 5120
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1188,19 +1186,19 @@ MonoBehaviour:
       Data: 40|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 39
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 2000
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 3960
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 386
+      Data: 0
     - Name: expRequired
       Entry: 3
-      Data: 5460
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1218,16 +1216,16 @@ MonoBehaviour:
       Data: 41|LevelData, Assembly-CSharp
     - Name: level
       Entry: 3
-      Data: 40
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 2050
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 4500
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 400
+      Data: 0
     - Name: expRequired
       Entry: 3
       Data: 0
@@ -1264,235 +1262,15 @@ MonoBehaviour:
       Data: 43|SkillData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: skillName
-      Entry: 1
-      Data: 11
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC2A4\uD0AC \uC124\uBA85"
+      Entry: 6
+      Data: 
     - Name: SkillElement
-      Entry: 7
-      Data: 44|System.Collections.Generic.List`1[[SkillElement, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 45|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 0
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 0
-    - Name: costType
-      Entry: 3
-      Data: 0
-    - Name: skillValue
-      Entry: 4
-      Data: 100
-    - Name: skillRange
-      Entry: 4
-      Data: 10
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 46|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 0
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 0
-    - Name: costType
-      Entry: 3
-      Data: 0
-    - Name: skillValue
-      Entry: 4
-      Data: 2
-    - Name: skillRange
-      Entry: 4
-      Data: 11
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 47|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 1
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 1
-    - Name: costType
-      Entry: 3
-      Data: 1
-    - Name: skillValue
-      Entry: 4
-      Data: 3
-    - Name: skillRange
-      Entry: 4
-      Data: 13
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 48|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 1
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 1
-    - Name: costType
-      Entry: 3
-      Data: 2
-    - Name: skillValue
-      Entry: 4
-      Data: 4
-    - Name: skillRange
-      Entry: 4
-      Data: 3
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 0
-    - Name: targetingCount
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 49|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 1
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 1
-    - Name: costType
-      Entry: 3
-      Data: 0
-    - Name: skillValue
-      Entry: 4
-      Data: 5
-    - Name: skillRange
-      Entry: 4
-      Data: 6
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8
@@ -1508,112 +1286,18 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 50|SkillData, Assembly-CSharp
+      Data: 44|SkillData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: skillName
-      Entry: 1
-      Data: 22
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: 123
+      Entry: 6
+      Data: 
     - Name: SkillElement
-      Entry: 7
-      Data: 51|System.Collections.Generic.List`1[[SkillElement, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 52|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 1
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 0
-    - Name: costType
-      Entry: 3
-      Data: 0
-    - Name: skillValue
-      Entry: 4
-      Data: 100
-    - Name: skillRange
-      Entry: 4
-      Data: 10
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 7
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 53|SkillElement, Assembly-CSharp
-    - Name: skillType
-      Entry: 3
-      Data: 1
-    - Name: skillLogicType
-      Entry: 3
-      Data: 0
-    - Name: damageType
-      Entry: 3
-      Data: 0
-    - Name: statusAbnormalityType
-      Entry: 3
-      Data: 0
-    - Name: buffType
-      Entry: 3
-      Data: 0
-    - Name: costType
-      Entry: 3
-      Data: 0
-    - Name: skillValue
-      Entry: 4
-      Data: 50
-    - Name: skillRange
-      Entry: 4
-      Data: 10
-    - Name: costValue
-      Entry: 4
-      Data: 10
-    - Name: targetType
-      Entry: 3
-      Data: 0
-    - Name: targetingType
-      Entry: 3
-      Data: 1
-    - Name: targetingCount
-      Entry: 3
-      Data: 8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8
@@ -1629,7 +1313,7 @@ MonoBehaviour:
       Data: 
     - Name: ItemData
       Entry: 7
-      Data: 54|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemData,
+      Data: 45|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -1645,16 +1329,16 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 55|ItemData, Assembly-CSharp
+      Data: 46|ItemData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: itemName
-      Entry: 1
-      Data: Axe1
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+      Entry: 6
+      Data: 
     - Name: archetype
       Entry: 6
       Data: 
@@ -1675,16 +1359,16 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 56|ItemData, Assembly-CSharp
+      Data: 47|ItemData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: itemName
-      Entry: 1
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+      Entry: 6
+      Data: 
     - Name: archetype
       Entry: 6
       Data: 
@@ -1705,16 +1389,16 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 57|ItemData, Assembly-CSharp
+      Data: 48|ItemData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: itemName
-      Entry: 1
-      Data: 3
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+      Entry: 6
+      Data: 
     - Name: archetype
       Entry: 6
       Data: 
@@ -1735,11 +1419,11 @@ MonoBehaviour:
       Data: 
     - Name: PlayerData
       Entry: 7
-      Data: 58|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[PlayerData,
+      Data: 49|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[PlayerData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 59|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      Data: 50|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
         mscorlib]], mscorlib
     - Name: 
       Entry: 8
@@ -1755,37 +1439,37 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 60|PlayerData, Assembly-CSharp
+      Data: 51|PlayerData, Assembly-CSharp
     - Name: identification
-      Entry: 1
-      Data: 11
+      Entry: 6
+      Data: 
     - Name: password
-      Entry: 1
-      Data: 11
+      Entry: 6
+      Data: 
     - Name: nickname
-      Entry: 1
-      Data: "\uCD08\uBCF4\uC790"
+      Entry: 6
+      Data: 
     - Name: character
-      Entry: 1
-      Data: Character1
+      Entry: 6
+      Data: 
     - Name: level
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: exp
       Entry: 3
       Data: 0
     - Name: inventory_data
-      Entry: 1
-      Data: '{1}'
+      Entry: 6
+      Data: 
     - Name: equipment_data
-      Entry: 1
-      Data: '{1}'
+      Entry: 6
+      Data: 
     - Name: ownedSkill_data
-      Entry: 1
-      Data: '{1}'
+      Entry: 6
+      Data: 
     - Name: equipmentSkill_data
-      Entry: 1
-      Data: '{1}'
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1800,37 +1484,37 @@ MonoBehaviour:
       Data: 22
     - Name: $v
       Entry: 7
-      Data: 61|PlayerData, Assembly-CSharp
+      Data: 52|PlayerData, Assembly-CSharp
     - Name: identification
-      Entry: 1
-      Data: 22
+      Entry: 6
+      Data: 
     - Name: password
-      Entry: 1
-      Data: 22
+      Entry: 6
+      Data: 
     - Name: nickname
-      Entry: 1
-      Data: "\uD1A0\uB07C\uAC85\uB4C0"
+      Entry: 6
+      Data: 
     - Name: character
-      Entry: 1
-      Data: Character2
+      Entry: 6
+      Data: 
     - Name: level
       Entry: 3
-      Data: 40
+      Data: 0
     - Name: exp
       Entry: 3
       Data: 0
     - Name: inventory_data
-      Entry: 1
-      Data: '{0,1}'
+      Entry: 6
+      Data: 
     - Name: equipment_data
-      Entry: 1
-      Data: '{0,1}'
+      Entry: 6
+      Data: 
     - Name: ownedSkill_data
-      Entry: 1
-      Data: '{0,1}'
+      Entry: 6
+      Data: 
     - Name: equipmentSkill_data
-      Entry: 1
-      Data: '{0,1}'
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1845,37 +1529,37 @@ MonoBehaviour:
       Data: 33
     - Name: $v
       Entry: 7
-      Data: 62|PlayerData, Assembly-CSharp
+      Data: 53|PlayerData, Assembly-CSharp
     - Name: identification
-      Entry: 1
-      Data: 33
+      Entry: 6
+      Data: 
     - Name: password
-      Entry: 1
-      Data: 33
+      Entry: 6
+      Data: 
     - Name: nickname
-      Entry: 1
-      Data: "\uB274\uBE44\uC5D0\uC694"
+      Entry: 6
+      Data: 
     - Name: character
-      Entry: 1
-      Data: Character3
+      Entry: 6
+      Data: 
     - Name: level
       Entry: 3
-      Data: 40
+      Data: 0
     - Name: exp
       Entry: 3
       Data: 0
     - Name: inventory_data
-      Entry: 1
-      Data: '{0,0,1}'
+      Entry: 6
+      Data: 
     - Name: equipment_data
-      Entry: 1
-      Data: '{0,0,1}'
+      Entry: 6
+      Data: 
     - Name: ownedSkill_data
-      Entry: 1
-      Data: '{0,0,1}'
+      Entry: 6
+      Data: 
     - Name: equipmentSkill_data
-      Entry: 1
-      Data: '{0,0,1}'
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1890,11 +1574,11 @@ MonoBehaviour:
       Data: 
     - Name: MonsterData
       Entry: 7
-      Data: 63|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
+      Data: 54|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 59
+      Data: 50
     - Name: 
       Entry: 12
       Data: 1
@@ -1906,84 +1590,28 @@ MonoBehaviour:
       Data: Alpaca
     - Name: $v
       Entry: 7
-      Data: 64|MonsterData, Assembly-CSharp
+      Data: 55|MonsterData, Assembly-CSharp
     - Name: monsterName
-      Entry: 1
-      Data: Alpaca
+      Entry: 6
+      Data: 
     - Name: MonsterType
       Entry: 3
       Data: 0
     - Name: level
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: maxHp
       Entry: 3
-      Data: 100
+      Data: 0
     - Name: damage
       Entry: 3
-      Data: 10
+      Data: 0
     - Name: defense
       Entry: 3
-      Data: 10
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: EliteData
-      Entry: 7
-      Data: 65|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EliteData,
-        Assembly-CSharp]], mscorlib
-    - Name: comparer
-      Entry: 9
-      Data: 59
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: 1
-    - Name: $v
-      Entry: 10
       Data: 0
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: BossData
-      Entry: 7
-      Data: 66|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BossData,
-        Assembly-CSharp]], mscorlib
-    - Name: comparer
-      Entry: 9
-      Data: 59
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: 1
-    - Name: $v
-      Entry: 10
-      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -1995,7 +1623,7 @@ MonoBehaviour:
       Data: 
     - Name: ArchetypeData
       Entry: 7
-      Data: 67|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
+      Data: 56|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2011,7 +1639,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 68|ArchetypeData, Assembly-CSharp
+      Data: 57|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2028,6 +1656,55 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 58|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 59|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:7)
+    - Name: 
+      Entry: 1
+      Data: (Type:Speed|Value:7)
+    - Name: 
+      Entry: 1
+      Data: (Type:CriticalChance|Value:7)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2042,7 +1719,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 69|ArchetypeData, Assembly-CSharp
+      Data: 61|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2058,6 +1735,49 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 63|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2072,7 +1792,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 70|ArchetypeData, Assembly-CSharp
+      Data: 65|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2089,6 +1809,49 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 66|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 67|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:Speed|Value:20)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2103,7 +1866,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 71|ArchetypeData, Assembly-CSharp
+      Data: 69|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2120,6 +1883,49 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 70|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 71|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 72|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:CriticalChance|Value:20)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2134,7 +1940,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 72|ArchetypeData, Assembly-CSharp
+      Data: 73|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2152,6 +1958,55 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 74|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 75|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 76|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 1
+      Data: (Type:Speed|Value:-20)
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:10)
+    - Name: 
+      Entry: 1
+      Data: (Type:Stagger|Value:30)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2166,7 +2021,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 73|ArchetypeData, Assembly-CSharp
+      Data: 77|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2183,6 +2038,37 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 1
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 78|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 79|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 8
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2197,7 +2083,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 74|ArchetypeData, Assembly-CSharp
+      Data: 80|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2216,6 +2102,251 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 1
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 82|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 256
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Value:1)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 84|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 512
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 85|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Value:2)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1024
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Value:3)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 90|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:10)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 91|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 7
+      Data: 92|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Comparison:Same|Value:2)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 93|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:15)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 7
+      Data: 95|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:Predation|Comparison:Same|Value:3)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 96|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 7
+      Data: 97|System.Collections.Generic.List`1[[WeaponRecordData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 98|WeaponRecordData, Assembly-CSharp
+    - Name: RecordName
+      Entry: 1
+      Data: Predation
+    - Name: RecordType
+      Entry: 3
+      Data: 0
+    - Name: RecordLimit
+      Entry: 4
+      Data: 3
+    - Name: Duration
+      Entry: 4
+      Data: 5
+    - Name: RecordResetValue
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2230,7 +2361,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 75|ArchetypeData, Assembly-CSharp
+      Data: 99|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -2248,6 +2379,37 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 2
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 100|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 101|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 64
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2262,7 +2424,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 76|ArchetypeData, Assembly-CSharp
+      Data: 102|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -2282,6 +2444,95 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 2
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 103|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 104|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 128
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 105|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 4
+    - Name: conditionDatas
+      Entry: 7
+      Data: 106|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: (RecordName:LassoArrow|Comparison:More|Value:1)
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectDatas
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 7
+      Data: 107|System.Collections.Generic.List`1[[WeaponRecordData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 108|WeaponRecordData, Assembly-CSharp
+    - Name: RecordName
+      Entry: 1
+      Data: LassoArrow
+    - Name: RecordType
+      Entry: 3
+      Data: 0
+    - Name: RecordLimit
+      Entry: 4
+      Data: 5
+    - Name: Duration
+      Entry: 4
+      Data: 0
+    - Name: RecordResetValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2296,7 +2547,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 77|ArchetypeData, Assembly-CSharp
+      Data: 109|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -2314,6 +2565,37 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 3
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 110|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 111|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 2048
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2328,7 +2610,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 78|ArchetypeData, Assembly-CSharp
+      Data: 112|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -2346,6 +2628,49 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 3
+    - Name: conditionEffectDatas
+      Entry: 7
+      Data: 113|System.Collections.Generic.List`1[[WeaponConditionEffectData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 114|WeaponConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 128
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 115|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: VoidSphere
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDatas
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2360,7 +2685,7 @@ MonoBehaviour:
       Data: 
     - Name: SpecificityData
       Entry: 7
-      Data: 79|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
+      Data: 116|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2376,21 +2701,19 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 80|SpecificityData, Assembly-CSharp
+      Data: 117|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: specificityType
       Entry: 3
       Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBD88\uD654"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uB2E4\uB978 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC
-        \uD574\uB2F9 \uBB34\uAE30\uC758 \uCE58\uBA85\uD0C0\uB370\uBBF8\uC9C0\uAC00
-        \uC7A0\uC2DC \uB3D9\uC548 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2411,20 +2734,19 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 81|SpecificityData, Assembly-CSharp
+      Data: 118|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC811\uADFC \uD68C\uD53C"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uAC00\uAE4C\uC774\uC5D0 \uC804\uD22C\uC6D0\uC774 \uC5C6\uC744 \uB54C
-        \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2445,20 +2767,19 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 82|SpecificityData, Assembly-CSharp
+      Data: 119|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBD88\uC548\uC815"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uC8FC\uBCC0 \uB300\uC0C1\uC774
-        \uC77C\uCD09\uC989\uBC1C \uC0C1\uD0DC\uAC00 \uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2479,21 +2800,19 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 83|SpecificityData, Assembly-CSharp
+      Data: 120|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBB3C\uB9AC \uC9C4\uB3D9"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uB300\uC0C1\uC5D0\uAC8C \uC9C0\uC18D\uC801\uC778 \uD53C\uD574\uB97C
-        \uC8FC\uBA74 \uC8FC\uBCC0 \uBAA8\uB4E0 \uB300\uC0C1\uC5D0\uAC8C \uD53C\uD574\uB97C
-        \uC8FC\uB294 \uCDA9\uACA9\uD30C\uB97C \uBC29\uCD9C\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2514,20 +2833,19 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 84|SpecificityData, Assembly-CSharp
+      Data: 121|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 5
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC601\uC18D\uC801\uC778 \uC6C0\uC9C1\uC784"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB294 \uC0AC\uC6A9\uC790\uAC00 \uC774\uB3D9 \uC911\uC77C
-        \uB54C \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2548,22 +2866,19 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 85|SpecificityData, Assembly-CSharp
+      Data: 122|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 6
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 5
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC9C0\uADFC\uAC70\uB9AC \uCC98\uD615"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uAC00\uAE4C\uC774\uC5D0 \uC804\uD22C\uC6D0\uC5D0\uAC8C \uD53C\uD574\uB97C
-        \uC8FC\uBA74 \uBB34\uB825\uD654 \uC218\uCE58\uC640 \uACF5\uACA9\uB825\uC774
-        \uB300\uD3ED \uC99D\uAC00\uD569\uB2C8\uB2E4. \uC7A0\uC2DC \uD6C4 \uB610\uB294
-        \uB2E4\uC74C \uACF5\uACA9 \uD6C4 \uB9CC\uB8CC\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2584,20 +2899,19 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 86|SpecificityData, Assembly-CSharp
+      Data: 123|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 7
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 6
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBB18\uBE44"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uD76C\uC0DD\uC790\uC758
-        \uC704\uCE58\uC5D0 \uC218\uC815\uC774 \uC0DD\uC131\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2618,20 +2932,19 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 87|SpecificityData, Assembly-CSharp
+      Data: 124|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 8
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 7
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uD569\uC8FC"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC8FC\uC704\uC5D0 \uC544\uAD70\uC774 \uC788\uC744 \uB54C \uACF5\uACA9\uB825,
-        \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2652,21 +2965,19 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 88|SpecificityData, Assembly-CSharp
+      Data: 125|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 9
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 8
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBB34\uD55C\uD55C \uC2AC\uD514"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uD300\uC5D0\uC11C \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC0B4\uC544\uB0A8\uC73C\uBA74,
-        \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560 \uB54C\uB9C8\uB2E4 \uB2A5\uB825\uC758
-        \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2687,20 +2998,19 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 89|SpecificityData, Assembly-CSharp
+      Data: 126|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 10
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 9
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC5F0\uC1C4 \uBC18\uC751"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560
-        \uB54C\uB9C8\uB2E4 \uD53C\uD574\uB97C \uC8FC\uB294 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2721,21 +3031,19 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 90|SpecificityData, Assembly-CSharp
+      Data: 127|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 11
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 10
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBAA8\uB450\uB97C \uC704\uD55C \uD558\uB098"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC11C\uB85C \uB2E4\uB978 \uC138 \uBA85\uC5D0\uAC8C \uACF5\uACA9\uC744
-        \uC801\uC911\uC2DC\uD0A4\uBA74 \uC801\uC815 \uC9C0\uC18D \uC2DC\uAC04 \uB3D9\uC548
-        \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2756,20 +3064,19 @@ MonoBehaviour:
       Data: 12
     - Name: $v
       Entry: 7
-      Data: 91|SpecificityData, Assembly-CSharp
+      Data: 128|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 12
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 11
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC694\uB3D9"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uC804\uD22C\uC6D0\uC744 \uCC98\uCE58\uD558\uBA74
-        \uAD81\uADF9\uAE30 \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2790,21 +3097,19 @@ MonoBehaviour:
       Data: 13
     - Name: $v
       Entry: 7
-      Data: 92|SpecificityData, Assembly-CSharp
+      Data: 129|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 13
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 12
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC0BC\uD22C\uB825"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uB2A5\uB825\uC744 \uC0AC\uC6A9\uD558\uBA74 \uBB34\uAE30\uB97C \uC9D1\uC5B4\uB123\uC744
-        \uB54C\uAE4C\uC9C0 \uC774 \uBB34\uAE30\uC758 \uD53C\uD574 \uC720\uD615\uC774
-        \uB2A5\uB825\uACFC \uB3D9\uC77C\uD558\uAC8C \uBCC0\uACBD\uB429\uB2C8\uB2E4.."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2825,21 +3130,19 @@ MonoBehaviour:
       Data: 14
     - Name: $v
       Entry: 7
-      Data: 93|SpecificityData, Assembly-CSharp
+      Data: 130|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 14
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 13
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBA54\uAC00\uB124\uC6B0\uB77C"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774\uC804\uC5D0 \uAC00\uD55C \uACF5\uACA9\uC758 \uD69F\uC218\uC5D0
-        \uB530\uB77C \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4, \uCD5C\uB300
-        10\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2860,21 +3163,19 @@ MonoBehaviour:
       Data: 15
     - Name: $v
       Entry: 7
-      Data: 94|SpecificityData, Assembly-CSharp
+      Data: 131|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 15
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 14
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uB9F9\uACF5\uACA9"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74
-        \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4, \uCD5C\uB300
-        5\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2895,20 +3196,19 @@ MonoBehaviour:
       Data: 16
     - Name: $v
       Entry: 7
-      Data: 95|SpecificityData, Assembly-CSharp
+      Data: 132|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 16
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 15
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uBD84\uD574\uC131 \uD30C\uAD34 \uC7A5\uCE58"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uC801\uC744 \uBB34\uB825\uD654\uD558\uBA74,
-        \uC7A0\uC2DC \uB3D9\uC548 \uC801\uC774 \uD53C\uD574\uC5D0 \uCDE8\uC57D\uD574\uC9D1\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2929,19 +3229,19 @@ MonoBehaviour:
       Data: 17
     - Name: $v
       Entry: 7
-      Data: 96|SpecificityData, Assembly-CSharp
+      Data: 133|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 17
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 16
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC0AC\uAC70\uB9AC \uD655\uBCF4 \uC7A5\uCE58"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC6D0\uAC70\uB9AC \uD22C\uC0AC\uCCB4\uC758 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2962,21 +3262,19 @@ MonoBehaviour:
       Data: 18
     - Name: $v
       Entry: 7
-      Data: 97|SpecificityData, Assembly-CSharp
+      Data: 134|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 18
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 17
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC900\uBE44"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uAD50\uCCB4\uD55C \uD6C4 \uBE60\uB974\uAC8C
-        \uACF5\uACA9\uD558\uBA74 \uCD94\uAC00 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4.
-        \uC9C0\uC18D\uC2DC\uAC04 3\uCD08."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -2997,20 +3295,19 @@ MonoBehaviour:
       Data: 19
     - Name: $v
       Entry: 7
-      Data: 98|SpecificityData, Assembly-CSharp
+      Data: 135|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 19
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 18
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC555\uBC15"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uCCB4\uB825\uC774 \uAC10\uC18C\uD560 \uC218\uB85D \uBB34\uB825\uD654
-        \uC218\uCE58\uAC00 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 
@@ -3031,21 +3328,19 @@ MonoBehaviour:
       Data: 20
     - Name: $v
       Entry: 7
-      Data: 99|SpecificityData, Assembly-CSharp
+      Data: 136|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 20
+      Data: 0
     - Name: specificityType
       Entry: 3
-      Data: 19
+      Data: 0
     - Name: name
-      Entry: 1
-      Data: "\uC640\uC77C\uB4DC\uCE74\uB4DC"
+      Entry: 6
+      Data: 
     - Name: description
-      Entry: 1
-      Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC \uB300\uC0C1\uC774
-        \uC788\uB294 \uC704\uCE58\uC5D0 \uC77C\uC815 \uD655\uB960\uB85C \uC2E4\uD5D8
-        \uD22C\uC0AC\uCCB4\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
+      Entry: 6
+      Data: 
     - Name: effect
       Entry: 6
       Data: 

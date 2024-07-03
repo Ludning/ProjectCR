@@ -15,10 +15,10 @@ public class ArchetypeData : IParserable
     public string description;
     public WeaponType weaponType;
     
-    private List<WeaponConditionEffectData> conditionEffectDatas;
-    private List<WeaponRecordData> recordDatas;
+    public List<WeaponConditionEffectData> conditionEffectDatas;
+    public List<WeaponRecordData> recordDatas;
     
-    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data) where T : IParserable
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T dataInstance)
     {
         // 변수의 이름을 가져오기 위해 변수가 있는 클래스의 타입을 알아야 합니다.
         
@@ -36,12 +36,12 @@ public class ArchetypeData : IParserable
             switch (keyValuePair.Key)
             {
                 case "conditionEffectDatas":
-                    listInstance = fieldInfo.GetValue(data);
+                    listInstance = fieldInfo.GetValue(dataInstance);
                     genericType = fieldType.GetGenericArguments()[0];
                     if (listInstance == null)
                     {
                         listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                        fieldInfo.SetValue(data, listInstance);
+                        fieldInfo.SetValue(dataInstance, listInstance);
                     }
 
                     string conditionEffectCellData = dataRow[keyValuePair.Value].ToString();
@@ -50,98 +50,32 @@ public class ArchetypeData : IParserable
                     {
                         WeaponConditionEffectData.SetParserData(listInstance, genericType, conditionEffect);
                     }
-                    //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
                     break;
                 case "recordDatas":
-                    listInstance = fieldInfo.GetValue(data);
+                    listInstance = fieldInfo.GetValue(dataInstance);
                     genericType = fieldType.GetGenericArguments()[0];
                     if (listInstance == null)
                     {
                         listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                        fieldInfo.SetValue(data, listInstance);
+                        fieldInfo.SetValue(dataInstance, listInstance);
                     }
-                    WeaponRecordData.SetParserData(data, genericType, dataRow[keyValuePair.Value].ToString());
-                    //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
+                    
+                    string recordEffectCellData = dataRow[keyValuePair.Value].ToString();
+                    var recordEffects = StringParserHelper.BracesParser(recordEffectCellData);
+                    foreach (var conditionEffect in recordEffects)
+                    {
+                        WeaponRecordData.SetParserData(listInstance, genericType, conditionEffect);
+                    }
                     break;
                 default:
-                {
-                    BuiltInTypeParser<T>(fieldType, fieldInfo, dataRow[keyValuePair.Value], data);
+                    StringParserHelper.BuiltInTypeParser<T>(dataInstance, fieldType, fieldInfo.Name, dataRow[keyValuePair.Value]);
                     break;
-                }
             }
         }
     }
-
-    /*public static void ParserWeaponConditionEffectData<T>(T listInstance, Type genericType, string parserableData)
-    {
-        FieldInfo[] genericFields = genericType.GetFields();
-        object genericInstance = Activator.CreateInstance(genericType);
-        
-        switch (keyValuePair.Key)
-        {
-            case "conditionEffectDatas":
-                listInstance = fieldInfo.GetValue(data);
-                genericType = fieldType.GetGenericArguments()[0];
-                if (listInstance == null)
-                {
-                    listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                    fieldInfo.SetValue(data, listInstance);
-                }
-                ParserWeaponConditionEffectData(listInstance, genericType, dataRow[keyValuePair.Value].ToString());
-                //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
-                break;
-            case "recordDatas":
-                listInstance = fieldInfo.GetValue(data);
-                genericType = fieldType.GetGenericArguments()[0];
-                if (listInstance == null)
-                {
-                    listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                    fieldInfo.SetValue(data, listInstance);
-                }
-                ParserWeaponRecordData(data, genericType, dataRow[keyValuePair.Value].ToString());
-                //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
-                break;
-            default:
-            {
-                BuiltInTypeParser<T>(fieldType, fieldInfo, dataRow[keyValuePair.Value], data);
-                break;
-            }
-        }
-        
-        /*foreach (FieldInfo fi in genericFields)
-        {
-            Type fiType = fi.FieldType;
-            if (fiType.IsEnum)
-            {
-                if (columnTypeDic.TryGetValue(fi.Name, out int index))
-                    if(dataRow[index] != DBNull.Value)
-                        fi.SetValue(genericInstance, Enum.Parse(fiType, dataRow[index].ToString()));
-            }
-            else if (fiType == typeof(string))
-            {
-                if (columnTypeDic.TryGetValue(fi.Name, out int index))
-                    if(dataRow[index] != DBNull.Value)
-                        fi.SetValue(genericInstance, dataRow[index].ToString());
-            }
-            else if (fiType.IsPrimitive)
-            {
-                if (columnTypeDic.TryGetValue(fi.Name, out int index))
-                    if(dataRow[index] != DBNull.Value)
-                        fi.SetValue(genericInstance, Convert.ChangeType(dataRow[index], fiType));
-            }
-        }#1#
-        Type listType = typeof(List<>).MakeGenericType(genericType);
-        MethodInfo addMethod = listType.GetMethod("Add");
-        addMethod.Invoke(listInstance, new object[] { genericInstance });
-    }
-    public static void ParserWeaponRecordData<T>(T listData, Type genericType, string parserableData)
-    {
-        FieldInfo[] genericFields = genericType.GetFields();
-        object genericInstance = Activator.CreateInstance(genericType);
-    }*/
 }
 [Serializable]
-public class WeaponConditionEffectData : IParserable
+public class WeaponConditionEffectData
 {
     public WeaponTrigger trigger;
     public List<string> conditionDatas;
@@ -150,46 +84,24 @@ public class WeaponConditionEffectData : IParserable
     
     public static void SetParserData<T>(T listInstance, Type genericType, string parserableData)
     {
-        //FieldInfo[] genericFields = genericType.GetFields();
         object genericInstance = Activator.CreateInstance(genericType);
         
-        //FieldInfo fieldInfo = typeof(T).GetField(keyValuePair.Key, BindingFlags.Public | BindingFlags.Instance);
-        //Type fieldType = fieldInfo.FieldType;
-        
-        /*FieldInfo[] fieldInfos = genericInstance.GetType().GetFields();
-        foreach (FieldInfo fieldInfo in fieldInfos)
-        {
-            if(string.IsNullOrWhiteSpace(parserableData))
-                continue;
-            
-            switch (fieldInfo.Name)
-            {
-                case "trigger":
-                    
-                    break;
-                case "conditionDatas":
-                    break;
-                case "effectDatas":
-                    break;
-            }
-        }*/
         
         var effectUnits = StringParserHelper.CommaParser(parserableData);
         foreach (var effectUnit in effectUnits)
         {
             var conditionAndEffects = StringParserHelper.FirstColonParser(effectUnit);
-            Debug.Log(conditionAndEffects.Key);
-            Debug.Log(conditionAndEffects.Value);
+            Debug.Log($"{conditionAndEffects.Key}, {conditionAndEffects.Value}");
 
             if (Enum.TryParse<ConditionType>(conditionAndEffects.Key, out ConditionType conditionResult))
             {
                 switch (conditionResult)
                 {
                     case ConditionType.Trigger:
-                        SetValueToEnumFlag<WeaponConditionEffectData, WeaponTrigger>(genericInstance, "trigger", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToEnumFlag<WeaponConditionEffectData, WeaponTrigger>(genericInstance, "trigger", conditionAndEffects.Value);
                         break;
                     case ConditionType.RequestRecordValue:
-                        SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "conditionDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "conditionDatas", conditionAndEffects.Value);
                         break;
                 }
             }
@@ -197,19 +109,19 @@ public class WeaponConditionEffectData : IParserable
             {
                 switch (effectResult)
                 {
-                    case EffectType.SetRecordValues:
-                        SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                    case EffectType.SetRecordValue:
+                        StringParserHelper.SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
                         break;
                     case EffectType.IncreasedStat:
-                        SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
                         break;
                     case EffectType.SpawnObject:
-                        SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToList<WeaponConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
                         break;
                 }
             }
             
-            switch (conditionAndEffects.Key)
+            /*switch (conditionAndEffects.Key)
             {
                 case "Trigger":
                     var triggers = StringParserHelper.PipeParser(conditionAndEffects.Value);
@@ -232,41 +144,8 @@ public class WeaponConditionEffectData : IParserable
                 case "effectDatas":
                     
                     break;
-            }
+            }*/
         }
-        /*object exIistInstance;
-        Type exGenericType;
-        
-        switch (keyValuePair.Key)
-        {
-            case "conditionDatas":
-                listInstance = fieldInfo.GetValue(data);
-                genericType = fieldType.GetGenericArguments()[0];
-                if (listInstance == null)
-                {
-                    listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                    fieldInfo.SetValue(data, listInstance);
-                }
-                ParserWeaponConditionEffectData(listInstance, genericType, dataRow[keyValuePair.Value].ToString());
-                //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
-                break;
-            case "effectDatas":
-                listInstance = fieldInfo.GetValue(data);
-                genericType = fieldType.GetGenericArguments()[0];
-                if (listInstance == null)
-                {
-                    listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                    fieldInfo.SetValue(data, listInstance);
-                }
-                ParserWeaponRecordData(data, genericType, dataRow[keyValuePair.Value].ToString());
-                //fieldInfo.SetValue(data, Enum.Parse(fieldType, dataRow[keyValuePair.Value].ToString()));
-                break;
-            default:
-            {
-                BuiltInTypeParser<T>(fieldType, fieldInfo, dataRow[keyValuePair.Value], data);
-                break;
-            }
-        }*/
         
         Type listType = typeof(List<>).MakeGenericType(genericType);
         MethodInfo addMethod = listType.GetMethod("Add");
@@ -276,15 +155,25 @@ public class WeaponConditionEffectData : IParserable
 [Serializable]
 public class WeaponRecordData : IParserable
 {
-    public string recordName;
-    public RecordType recordType;
-    public float recordLimit;
-    public float duration;
-    public int recordResetValue;
-    
-    public static void SetParserData<T>(T listData, Type genericType, string parserableData)
+    public string RecordName;
+    public RecordType RecordType;
+    public float RecordLimit;
+    public float Duration;
+    public int RecordResetValue;
+
+    public static void SetParserData<T>(T listInstance, Type genericType, string parserableData)
     {
-        FieldInfo[] genericFields = genericType.GetFields();
         object genericInstance = Activator.CreateInstance(genericType);
+        var recordUnits = StringParserHelper.CommaParser(parserableData);
+        foreach (var recordUnit in recordUnits)
+        {
+            var keyValuePair = StringParserHelper.FirstColonParser(recordUnit);
+            Type fieldType = typeof(WeaponRecordData).GetField(keyValuePair.Key).FieldType;
+            StringParserHelper.BuiltInTypeParser<WeaponRecordData>(genericInstance, fieldType, keyValuePair.Key, keyValuePair.Value);
+        }
+
+        Type listType = typeof(List<>).MakeGenericType(genericType);
+        MethodInfo addMethod = listType.GetMethod("Add");
+        addMethod.Invoke(listInstance, new object[] { genericInstance });
     }
 }

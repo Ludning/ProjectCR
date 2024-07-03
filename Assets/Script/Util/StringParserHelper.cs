@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 public static class StringParserHelper
 {
-
+    #region SignProcessing
     /// <summary>
     /// { } 파싱
     /// </summary>
@@ -98,13 +101,89 @@ public static class StringParserHelper
         
         return trimmedArr.ToList();
     }
-    
-    public static void ParserWeaponConditionEffectData(string parserableData)
+    #endregion
+
+    #region DataProcessing
+    public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T data)
     {
-        
+        MethodInfo methodInfo = typeof(T).GetMethod("SetParserData", BindingFlags.Public | BindingFlags.Static);
+        Type[] genericArguments = { typeof(T) };
+        MethodInfo constructedMethod = methodInfo.MakeGenericMethod(genericArguments);
+        if (constructedMethod != null)
+        {
+            object[] parameters = new object[] { columnTypeDic, dataRow, data };
+            constructedMethod.Invoke(null, parameters);
+        }
     }
-    public static void ParserWeaponRecordData(string parserableData)
+
+    public static void BuiltInTypeParser<T>(object instance, Type fieldType, string fieldName, object cellData)
     {
-        
+        var fieldInfo = typeof(T).GetField(fieldName);
+        //열거형 처리
+        if (fieldType.IsEnum)
+        {
+            fieldInfo.SetValue(instance, Enum.Parse(fieldType, cellData.ToString()));
+        }
+        //String 처리
+        else if (fieldType == typeof(string))
+        {
+            fieldInfo.SetValue(instance, cellData.ToString());
+        }
+        //값 형식 처리
+        else if (fieldType.IsPrimitive)
+        {
+            Debug.Log($"{cellData}, {fieldType.Name}");
+            if("all".Equals(cellData))
+                fieldInfo.SetValue(instance, Convert.ChangeType("-1", fieldType));
+            else
+                fieldInfo.SetValue(instance, Convert.ChangeType(cellData, fieldType));
+        }
     }
+
+    public static void SetValueToEnum<TData, TEnum>(object genericInstance, string fieldName, string parserableData) where TEnum : struct, Enum
+    {
+        if (Enum.TryParse<TEnum>(parserableData, out TEnum enumValue))
+        {
+            FieldInfo enumFieldInfo = typeof(TData).GetField(fieldName);
+            enumFieldInfo.SetValue(genericInstance, enumValue);
+        }
+        else
+        {
+            throw new ArgumentException($"Failed to parse '{parserableData}' to enum type {typeof(TEnum)}.");
+        }
+    }
+    public static void SetValueToEnumFlag<TData, TEnum>(object genericInstance, string fieldName, string parserableData) where TEnum : struct, Enum
+    {
+        var triggers = StringParserHelper.PipeParser(parserableData);
+        TEnum enumFlag = default(TEnum); // 초기화
+
+        foreach (var trigger in triggers)
+        {
+            if (Enum.TryParse<TEnum>(trigger, out TEnum parsedTrigger))
+            {
+                enumFlag = (TEnum)Enum.ToObject(typeof(TEnum), Convert.ToInt32(enumFlag) | Convert.ToInt32(parsedTrigger));
+            }
+        }
+        
+        FieldInfo enumFieldInfo = typeof(TData).GetField(fieldName);
+        enumFieldInfo.SetValue(genericInstance, enumFlag);
+    }
+    public static void SetValueToList<T>(object instance, Type genericType, string fieldName, string data)
+    {
+        FieldInfo fieldInfo = typeof(T).GetField(fieldName);
+        var listInstance = fieldInfo.GetValue(instance);
+        var listGenericType = fieldInfo.FieldType.GetGenericArguments()[0];
+        if (listInstance == null)
+        {
+            listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(listGenericType));
+            fieldInfo.SetValue(instance, listInstance);
+        }
+        
+        Type listType = typeof(List<>).MakeGenericType(genericType);
+        MethodInfo addMethod = listType.GetMethod("Add");
+        
+        object valueToAdd = Convert.ChangeType(data, listGenericType);
+        addMethod.Invoke(listInstance, new object[] { valueToAdd });
+    }
+    #endregion
 }
