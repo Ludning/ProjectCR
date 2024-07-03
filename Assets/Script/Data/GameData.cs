@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -33,131 +34,17 @@ public class GameData : SerializedScriptableObject
     [TableList] public Dictionary<int, SpecificityData> SpecificityData;
 }
 
-[Serializable]
-public class LevelData
-{
-    [TableColumnWidth(40, false)]
-    public int level;
-    public int maxHp;
-    public int damage;
-    public int defense;
-    public int expRequired;
-}
-[Serializable]
-public class SkillData 
-{
-    [TableColumnWidth(40, false)]
-    public int index;
-    public string skillName;
-    public string description;
-    public List<SkillElement> SkillElement;
-}
-
-[Serializable]
-public class SkillElement
-{
-    public SkillType skillType;
-    public SkillLogicType skillLogicType;
-    public DamageType damageType;
-    public EffectType effectType;
-    public BuffType buffType;
-    public CostType costType;
-    public float skillValue;
-    public float skillRange;
-    public float costValue;
-    public TargetType targetType;
-    public TargetingType targetingType;
-    public int targetingCount;
-}
 
 
-[Serializable]
-public class ItemData 
-{
-    [TableColumnWidth(40, false)]
-    public int index;
-    public string itemName;
-    public string description;
-    public string archetype;
-    public string specificityRoll;
-}
-[Serializable]
-public class PlayerData
-{
-    [TableColumnWidth(40)]
-    [VerticalGroup("Player Account"), LabelWidth(70)]
-    public string identification;
-    [VerticalGroup("Player Account"), LabelWidth(70)]
-    public string password;
-    [VerticalGroup("Player Account"), LabelWidth(70)]
-    public string nickname;
-    
-    [TableColumnWidth(80)]
-    [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string character;
-    [VerticalGroup("Player Data"), LabelWidth(70)]
-    public int level;
-    [VerticalGroup("Player Data"), LabelWidth(70)]
-    public int exp;
-    
-    [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string inventory_data;
-    [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string equipment_data;
-    [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string ownedSkill_data;
-    [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string equipmentSkill_data;
-}
-[Serializable]
-public class MonsterData
-{
-    public string monsterName;
-    public int level;
-    public int maxHp;
-    public int damage;
-    public int defense;
-}
-[Serializable]
-public class EliteData
-{
-    public string monsterName;
-    public int level;
-    public int maxHp;
-    public int damage;
-    public int defense;
-}
-[Serializable]
-public class BossData
-{
-    public string monsterName;
-    public int level;
-    public int maxHp;
-    public int damage;
-    public int defense;
-}
 
-[Serializable]
-public class ArchetypeData
-{
-    [TableColumnWidth(40, false)]
-    public int index;
-    public ArchetypeType archetypeType;
-    public string name;
-    public string description;
-    public WeaponType weaponType;
-    public string archetypeEffect;
-}
-[Serializable]
-public class SpecificityData
-{
-    [TableColumnWidth(40, false)]
-    public int index;
-    public SpecificityType specificityType;
-    public string name;
-    public string description;
-    public string specificityEffect;
-}
+
+
+
+
+
+
+
+
 
 /*
 Zebra

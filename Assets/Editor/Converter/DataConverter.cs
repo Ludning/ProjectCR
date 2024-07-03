@@ -74,79 +74,6 @@ public class DataConverter
             fieldInfo.SetValue(loadedAsset, data);
         }
     }
-
-    /*public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : class, new()
-    {
-        Debug.Log(sheetName);
-        var data = new Dictionary<TKey, TValue>();
-        if (!tables.Contains(sheetName))
-        {
-            throw new ArgumentException($"Sheet {sheetName} does not exist.");
-        }
-        
-        DataTable table = tables[sheetName];
-        TKey previousKey = default(TKey);
-
-        foreach (DataRow row in table.Rows)
-        {
-            if (row == table.Rows[0])
-                continue;
-            
-            // 첫 번째 컬럼의 데이터를 TKey로 설정
-            TKey key;
-            TValue value;
-            if (previousKey.Equals(default(TKey)) && row[0] == DBNull.Value)
-                key = previousKey;
-            else
-                key = (TKey)Convert.ChangeType(row[0], typeof(TKey));
-
-            value = data.TryGetValue(key, out TValue val) ? val : new TValue();
-            
-            //Debug.Log(key.ToString());
-
-            // 나머지 컬럼의 데이터를 필드로 매핑
-            foreach (var field in typeof(TValue).GetFields(BindingFlags.Public | BindingFlags.Instance))
-            {
-                if (table.Columns.Contains(field.Name))
-                {
-                    var columnValue = row[field.Name];
-                    if (columnValue != DBNull.Value)
-                    {
-                        if (field.FieldType == typeof(List<SkillElement>))
-                        {
-                            var element = new SkillElement();
-                            var elementFields = element.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance);
-                            foreach (var elementField in elementFields)
-                            {
-                                if (table.Columns.Contains(elementField.Name))
-                                {
-                                    var elementValue = row[elementField.Name];
-                                    if (elementValue != DBNull.Value)
-                                    {
-                                        elementField.SetValue(element, Convert.ChangeType(elementValue, elementField.FieldType));
-                                    }
-                                }
-                            }
-
-                            var list = (List<SkillElement>)field.GetValue(value) ?? new List<SkillElement>();
-                            list.Add(element);
-                            field.SetValue(value, list);
-                        }
-                        else
-                        {
-                            field.SetValue(value, Convert.ChangeType(columnValue, field.FieldType));
-                        }
-                    }
-                }
-            }
-            if (!data.ContainsKey(key))
-            {
-                data.Add(key, value);
-            }
-            previousKey = key;
-        }
-        return data;
-    }*/
     
     public static Dictionary<TKey, TValue> ReadDataFromTable<TKey, TValue>(string sheetName, DataTableCollection tables) where TValue : class, new()
     {
@@ -188,57 +115,6 @@ public class DataConverter
             //Key로 Value를 받아옴
             TValue data = ret.TryGetValue(key, out TValue value) ? value : new TValue();
 
-            /*//리스트 객체 생성
-            foreach (FieldInfo info in fieldInfos)
-            {
-                //리스트일 경우
-                if (info.FieldType.IsGenericType && info.FieldType.GetGenericTypeDefinition() == typeof(List<>))
-                {
-                    //리스트가 null일 경우
-                    if (info.GetValue(data) == null)
-                    {
-                        // GenericArgument로 타입을 가져옵니다.
-                        Type elementType = info.FieldType.GetGenericArguments()[0];
-                        // 인스턴스를 생성합니다.
-                        object listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(elementType));
-                        Debug.Log("List 객체가 생성되었습니다. type: " + listInstance.GetType());
-                        info.SetValue(data, listInstance);
-                    }
-                }
-            }*/
-            
-            /*FieldInfo[] columnFields = data.GetType().GetFields();
-            //FieldInfo fieldInfo = Array.Find(columnFields, fi => fi.Name == itemTypeName);
-            foreach (FieldInfo columnField in columnFields)
-            {
-                Type type = columnField.FieldType;
-                if (type.IsEnum)
-                {
-                    if (columnTypeDic.TryGetValue(columnField.Name, out int index))
-                        columnField.SetValue(data, Enum.Parse(type, dataRow[index].ToString()));
-                }
-                else if (type == typeof(string))
-                {
-                    if (columnTypeDic.TryGetValue(columnField.Name, out int index))
-                        columnField.SetValue(data, dataRow[index].ToString());
-                }
-                else if (type.IsPrimitive)
-                {
-                    if (columnTypeDic.TryGetValue(columnField.Name, out int index))
-                        columnField.SetValue(data, Convert.ChangeType(dataRow[index], type));
-                }
-                else if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(List<>))
-                {
-                    object genericInstance = columnField.GetValue(data);
-                    FieldInfo[] genericFields = type.GetGenericArguments()[0].GetFields();
-                    foreach (FieldInfo fi in genericFields)
-                    {
-                        
-                    }
-                    if (columnTypeDic.TryGetValue(columnField.Name, out int index))
-                        columnField.SetValue(data, Convert.ChangeType(dataRow[index], type));
-                }
-            }*/
             SetFieldData<TValue>(columnTypeDic, dataRow, data);
 
             if (!ret.ContainsKey(key))
@@ -283,6 +159,7 @@ public class DataConverter
             {
                 //List<T>인스턴스 추출
                 object listInstance = fieldInfo.GetValue(data);
+                //T의 타입
                 Type genericType = fieldType.GetGenericArguments()[0];
                 
                 //리스트가 null일 경우

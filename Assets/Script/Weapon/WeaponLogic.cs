@@ -1,13 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class WeaponLogic
 {
-    private WeaponCondition _condition;
+    private WeaponTrigger _trigger;
     private int _cost;
-    private WeaponRecord _weaponRecord;
-    private WeaponEffect _weaponEffect;
+    private List<WeaponEffect> _weaponEffect;
 
     public void RecordData(int data)
     {

@@ -10,7 +10,9 @@ public class Weapon : MonoBehaviour
     private WeaponHandler Handler;
     
     private List<WeaponLogic> _archetypeConditionEffects;
+    private Dictionary<string, WeaponRecord> _archetypeRecord;
     private List<WeaponLogic> _specificityConditionEffects;
+    private Dictionary<string, WeaponRecord> _specificityRecord;
 
     public void InitWeapon(Player owner, WeaponHandler handler)
     {
@@ -18,7 +20,7 @@ public class Weapon : MonoBehaviour
         Handler = handler;
     }
 
-    public void ReceptionWeaponHandlerEvent(WeaponCondition type)
+    public void ReceptionWeaponHandlerEvent(WeaponTrigger type)
     {
         //_archetypeEffects.ReceptionArchetypeEvent(type);
     }

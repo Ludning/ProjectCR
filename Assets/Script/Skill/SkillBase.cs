@@ -9,7 +9,7 @@ public class SkillBase
     private SkillType _skillType;
     private int _skillValue;
     
-    private EffectType _effectType;
+    private StatusAbnormalityType _statusAbnormalityType;
     private int _effectRange;
     private int _effectDuration;
     

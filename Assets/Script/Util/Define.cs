@@ -2,8 +2,34 @@ using System;
 
 
 #region Weapon
+
+#region WeaponData
+
+public enum ConditionType
+{
+    None,
+    Trigger,
+    RequestRecordValue,
+}
+
+public enum EffectType
+{
+    SetRecordValues,
+    IncreasedStat,
+    SpawnObject,
+}
+public enum IncreasedStatType
+{
+    Damage,
+    Speed,
+    CriticalChance,
+    CriticalMultiplier,
+    Stagger,
+    ProjectileSpeed,
+}
+#endregion
 [Flags]
-public enum WeaponCondition
+public enum WeaponTrigger
 {
     None = 0,
     HoldWeapon = 1 << 0,
@@ -30,16 +56,10 @@ public enum RecordName
 }
 public enum RecordType
 {
-    None,
     Stack,
     Value,
 }
 
-public enum WeaponEffectType
-{
-    IncreasedStat,
-    
-}
 public enum WeaponIndexType
 {
     Primary,
@@ -78,11 +98,11 @@ public enum ArchetypeType
 public enum SpecificityType
 {
     Discord,
-    AvoidAccess,
+    KeepAway,
     Instability,
     PhysicalVibration,
     PermanentMovement,
-    CloseRangeExecution,
+    ExecutionRound,
     Tombstone,
     Ensemble,
     InfiniteSadness,
@@ -177,7 +197,7 @@ public enum DamageType
     Solar,
     Void,
 }
-public enum EffectType
+public enum StatusAbnormalityType
 {
     None,
     Incineration,//소각
@@ -228,7 +248,8 @@ public enum AssetAddressType
     SkillAnimationClipAsset,
 }
 #endregion
-#region State
+
+#region Unit
 public enum UnitState
 {
     Idle,
@@ -236,4 +257,14 @@ public enum UnitState
     Damaged,
     Die,
 }
+
+
+#region Monster
+public enum MonsterType
+{
+    Normal,
+    Elite,
+    Boss,
+}
+#endregion
 #endregion

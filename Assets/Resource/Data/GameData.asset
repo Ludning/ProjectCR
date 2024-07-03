@@ -15,7 +15,9 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -1288,9 +1290,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 0
@@ -1330,9 +1332,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 0
@@ -1372,9 +1374,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 1
@@ -1414,9 +1416,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 1
@@ -1456,9 +1458,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 1
@@ -1535,9 +1537,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 0
@@ -1577,9 +1579,9 @@ MonoBehaviour:
     - Name: damageType
       Entry: 3
       Data: 0
-    - Name: effectType
+    - Name: statusAbnormalityType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buffType
       Entry: 3
       Data: 0
@@ -1908,6 +1910,9 @@ MonoBehaviour:
     - Name: monsterName
       Entry: 1
       Data: Alpaca
+    - Name: MonsterType
+      Entry: 3
+      Data: 0
     - Name: level
       Entry: 3
       Data: 1
@@ -1949,26 +1954,8 @@ MonoBehaviour:
       Entry: 1
       Data: 1
     - Name: $v
-      Entry: 7
-      Data: 66|EliteData, Assembly-CSharp
-    - Name: monsterName
-      Entry: 6
-      Data: 
-    - Name: level
-      Entry: 3
-      Data: 1
-    - Name: maxHp
-      Entry: 3
+      Entry: 10
       Data: 0
-    - Name: damage
-      Entry: 3
-      Data: 0
-    - Name: defense
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1980,7 +1967,7 @@ MonoBehaviour:
       Data: 
     - Name: BossData
       Entry: 7
-      Data: 67|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BossData,
+      Data: 66|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[BossData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -1995,26 +1982,8 @@ MonoBehaviour:
       Entry: 1
       Data: 1
     - Name: $v
-      Entry: 7
-      Data: 68|BossData, Assembly-CSharp
-    - Name: monsterName
-      Entry: 6
-      Data: 
-    - Name: level
-      Entry: 3
+      Entry: 10
       Data: 1
-    - Name: maxHp
-      Entry: 3
-      Data: 0
-    - Name: damage
-      Entry: 3
-      Data: 0
-    - Name: defense
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2026,7 +1995,7 @@ MonoBehaviour:
       Data: 
     - Name: ArchetypeData
       Entry: 7
-      Data: 69|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
+      Data: 67|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2042,7 +2011,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 70|ArchetypeData, Assembly-CSharp
+      Data: 68|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2055,13 +2024,10 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC2A4\uD15F \uBD84\uD3EC\uB3C4\uAC00 \uC77C\uC815\uD55C \uBC38\uB7F0\uC2A4
-        \uC7A1\uD78C \uD504\uB808\uC784"
+        \uC7A1\uD78C \uC6D0\uD615"
     - Name: weaponType
       Entry: 3
       Data: 0
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HoldWeapon,IncreasedDamage:8,IncreasedSpeed:8,IncreasedCriticalChance:8}'
     - Name: 
       Entry: 8
       Data: 
@@ -2076,7 +2042,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 71|ArchetypeData, Assembly-CSharp
+      Data: 69|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2088,13 +2054,10 @@ MonoBehaviour:
       Data: "\uACF5\uACA9\uC801"
     - Name: description
       Entry: 1
-      Data: "\uACF5\uACA9\uB825\uC774 \uB192\uC740 \uD504\uB808\uC784"
+      Data: "\uACF5\uACA9\uB825\uC774 \uB192\uC740 \uC6D0\uD615"
     - Name: weaponType
       Entry: 3
       Data: 0
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HoldWeapon,IncreasedDamage:20}'
     - Name: 
       Entry: 8
       Data: 
@@ -2109,7 +2072,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 72|ArchetypeData, Assembly-CSharp
+      Data: 70|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2122,13 +2085,10 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uBB34\uAE30\uB97C \uB4E4\uACE0 \uC788\uC744\uC2DC \uAE30\uB3D9\uC131
-        \uC2A4\uD15F\uC5D0 +20\uC758 \uBCF4\uC815\uC744 \uC8FC\uB294 \uD504\uB808\uC784"
+        \uC2A4\uD15F\uC5D0 +20\uC758 \uBCF4\uC815\uC744 \uC8FC\uB294 \uC6D0\uD615"
     - Name: weaponType
       Entry: 3
       Data: 0
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HoldWeapon,IncreasedSpeed:20}'
     - Name: 
       Entry: 8
       Data: 
@@ -2143,7 +2103,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 73|ArchetypeData, Assembly-CSharp
+      Data: 71|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2160,9 +2120,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HoldWeapon,IncreasedCriticalChance:20}'
     - Name: 
       Entry: 8
       Data: 
@@ -2177,7 +2134,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 74|ArchetypeData, Assembly-CSharp
+      Data: 72|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2195,9 +2152,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 0
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HoldWeapon,IncreasedSpeed:-20,IncreasedDamage:10,IncreasedStaggerValue:30}'
     - Name: 
       Entry: 8
       Data: 
@@ -2212,7 +2166,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 75|ArchetypeData, Assembly-CSharp
+      Data: 73|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2229,9 +2183,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 1
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:SubAttackHitEnemy,Condition:FullWeaponEnergy,PaymentWeaponEnergy:Full,SpawnProjectile:VoidProjectile,ProjectileDamage:60}'
     - Name: 
       Entry: 8
       Data: 
@@ -2246,7 +2197,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 76|ArchetypeData, Assembly-CSharp
+      Data: 74|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2265,9 +2216,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 1
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:KillMonster,IncreasedDamage:10,AddStack:1,Duration:5,MaxStack:5}{Condition:KillElite,IncreasedDamage:10,AddStack:3,Duration:10,MaxStack:5}{Condition:KillBoss,IncreasedDamage:10,AddStack:5,Duration:15,MaxStack:5}'
     - Name: 
       Entry: 8
       Data: 
@@ -2282,7 +2230,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 77|ArchetypeData, Assembly-CSharp
+      Data: 75|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -2300,9 +2248,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 2
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:HitEnemy,ProjectilePushForce:10,ProjectilePushRange:5}'
     - Name: 
       Entry: 8
       Data: 
@@ -2317,7 +2262,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 78|ArchetypeData, Assembly-CSharp
+      Data: 76|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -2337,9 +2282,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 2
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:KillEnemy,GetStack:1,MaxStack:3}{Condition:HitEnemy,Condition:HasStack,PayStack:1,SendStatusEffect:Fettered}'
     - Name: 
       Entry: 8
       Data: 
@@ -2354,7 +2296,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 79|ArchetypeData, Assembly-CSharp
+      Data: 77|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -2372,9 +2314,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 3
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:ShotProjectile,ProjectileCount:5,ChargeMinAngle:60,ChargeMaxAngle:10}'
     - Name: 
       Entry: 8
       Data: 
@@ -2389,7 +2328,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 80|ArchetypeData, Assembly-CSharp
+      Data: 78|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -2407,9 +2346,6 @@ MonoBehaviour:
     - Name: weaponType
       Entry: 3
       Data: 3
-    - Name: archetypeEffect
-      Entry: 1
-      Data: '{Condition:KillEnemy,SpawnObject:VoidSphere}'
     - Name: 
       Entry: 8
       Data: 
@@ -2424,7 +2360,7 @@ MonoBehaviour:
       Data: 
     - Name: SpecificityData
       Entry: 7
-      Data: 81|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
+      Data: 79|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2440,7 +2376,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 82|SpecificityData, Assembly-CSharp
+      Data: 80|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2455,9 +2391,12 @@ MonoBehaviour:
       Data: "\uB2E4\uB978 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC
         \uD574\uB2F9 \uBB34\uAE30\uC758 \uCE58\uBA85\uD0C0\uB370\uBBF8\uC9C0\uAC00
         \uC7A0\uC2DC \uB3D9\uC548 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: '{IncreasedCriticalMultiplier:40,Duration:3}'
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2472,7 +2411,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 83|SpecificityData, Assembly-CSharp
+      Data: 81|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2486,9 +2425,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uAC00\uAE4C\uC774\uC5D0 \uC804\uD22C\uC6D0\uC774 \uC5C6\uC744 \uB54C
         \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: '{IncreasedSpeed:20}'
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2503,7 +2445,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 84|SpecificityData, Assembly-CSharp
+      Data: 82|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2517,7 +2459,10 @@ MonoBehaviour:
       Entry: 1
       Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uC8FC\uBCC0 \uB300\uC0C1\uC774
         \uC77C\uCD09\uC989\uBC1C \uC0C1\uD0DC\uAC00 \uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
       Entry: 6
       Data: 
     - Name: 
@@ -2534,7 +2479,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 85|SpecificityData, Assembly-CSharp
+      Data: 83|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2549,9 +2494,12 @@ MonoBehaviour:
       Data: "\uB300\uC0C1\uC5D0\uAC8C \uC9C0\uC18D\uC801\uC778 \uD53C\uD574\uB97C
         \uC8FC\uBA74 \uC8FC\uBCC0 \uBAA8\uB4E0 \uB300\uC0C1\uC5D0\uAC8C \uD53C\uD574\uB97C
         \uC8FC\uB294 \uCDA9\uACA9\uD30C\uB97C \uBC29\uCD9C\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: '{Explosion:60,Duration:3}'
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2566,7 +2514,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 86|SpecificityData, Assembly-CSharp
+      Data: 84|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2580,9 +2528,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB294 \uC0AC\uC6A9\uC790\uAC00 \uC774\uB3D9 \uC911\uC77C
         \uB54C \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 10
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2597,7 +2548,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 87|SpecificityData, Assembly-CSharp
+      Data: 85|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2613,9 +2564,12 @@ MonoBehaviour:
         \uC8FC\uBA74 \uBB34\uB825\uD654 \uC218\uCE58\uC640 \uACF5\uACA9\uB825\uC774
         \uB300\uD3ED \uC99D\uAC00\uD569\uB2C8\uB2E4. \uC7A0\uC2DC \uD6C4 \uB610\uB294
         \uB2E4\uC74C \uACF5\uACA9 \uD6C4 \uB9CC\uB8CC\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 40
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2630,7 +2584,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 88|SpecificityData, Assembly-CSharp
+      Data: 86|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2644,9 +2598,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74 \uD76C\uC0DD\uC790\uC758
         \uC704\uCE58\uC5D0 \uC218\uC815\uC774 \uC0DD\uC131\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 0
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2661,7 +2618,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 89|SpecificityData, Assembly-CSharp
+      Data: 87|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -2675,9 +2632,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uC8FC\uC704\uC5D0 \uC544\uAD70\uC774 \uC788\uC744 \uB54C \uACF5\uACA9\uB825,
         \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 10
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2692,7 +2652,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 90|SpecificityData, Assembly-CSharp
+      Data: 88|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -2707,9 +2667,12 @@ MonoBehaviour:
       Data: "\uD300\uC5D0\uC11C \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC0B4\uC544\uB0A8\uC73C\uBA74,
         \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560 \uB54C\uB9C8\uB2E4 \uB2A5\uB825\uC758
         \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 10
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2724,7 +2687,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 91|SpecificityData, Assembly-CSharp
+      Data: 89|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -2738,9 +2701,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD560
         \uB54C\uB9C8\uB2E4 \uD53C\uD574\uB97C \uC8FC\uB294 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 40
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2755,7 +2721,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 92|SpecificityData, Assembly-CSharp
+      Data: 90|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -2770,9 +2736,12 @@ MonoBehaviour:
       Data: "\uC11C\uB85C \uB2E4\uB978 \uC138 \uBA85\uC5D0\uAC8C \uACF5\uACA9\uC744
         \uC801\uC911\uC2DC\uD0A4\uBA74 \uC801\uC815 \uC9C0\uC18D \uC2DC\uAC04 \uB3D9\uC548
         \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 40,4
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2787,7 +2756,7 @@ MonoBehaviour:
       Data: 12
     - Name: $v
       Entry: 7
-      Data: 93|SpecificityData, Assembly-CSharp
+      Data: 91|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 12
@@ -2800,10 +2769,13 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB85C \uC804\uD22C\uC6D0\uC744 \uCC98\uCE58\uD558\uBA74
-        \uC18C\uB7C9\uC758 \uAD81\uADF9\uAE30 \uC5D0\uB108\uC9C0\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 5
+        \uAD81\uADF9\uAE30 \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2818,7 +2790,7 @@ MonoBehaviour:
       Data: 13
     - Name: $v
       Entry: 7
-      Data: 94|SpecificityData, Assembly-CSharp
+      Data: 92|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 13
@@ -2833,9 +2805,12 @@ MonoBehaviour:
       Data: "\uB2A5\uB825\uC744 \uC0AC\uC6A9\uD558\uBA74 \uBB34\uAE30\uB97C \uC9D1\uC5B4\uB123\uC744
         \uB54C\uAE4C\uC9C0 \uC774 \uBB34\uAE30\uC758 \uD53C\uD574 \uC720\uD615\uC774
         \uB2A5\uB825\uACFC \uB3D9\uC77C\uD558\uAC8C \uBCC0\uACBD\uB429\uB2C8\uB2E4.."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 0
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2850,7 +2825,7 @@ MonoBehaviour:
       Data: 14
     - Name: $v
       Entry: 7
-      Data: 95|SpecificityData, Assembly-CSharp
+      Data: 93|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 14
@@ -2863,10 +2838,14 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC774\uC804\uC5D0 \uAC00\uD55C \uACF5\uACA9\uC758 \uD69F\uC218\uC5D0
-        \uB530\uB77C \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 1
+        \uB530\uB77C \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4, \uCD5C\uB300
+        10\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2881,7 +2860,7 @@ MonoBehaviour:
       Data: 15
     - Name: $v
       Entry: 7
-      Data: 96|SpecificityData, Assembly-CSharp
+      Data: 94|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 15
@@ -2894,10 +2873,14 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0\uB97C \uAE30\uB85D\uD558\uBA74
-        \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 15
+        \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4, \uCD5C\uB300
+        5\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2912,7 +2895,7 @@ MonoBehaviour:
       Data: 16
     - Name: $v
       Entry: 7
-      Data: 97|SpecificityData, Assembly-CSharp
+      Data: 95|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 16
@@ -2926,9 +2909,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB85C \uC801\uC744 \uBB34\uB825\uD654\uD558\uBA74,
         \uC7A0\uC2DC \uB3D9\uC548 \uC801\uC774 \uD53C\uD574\uC5D0 \uCDE8\uC57D\uD574\uC9D1\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 30
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2943,7 +2929,7 @@ MonoBehaviour:
       Data: 17
     - Name: $v
       Entry: 7
-      Data: 98|SpecificityData, Assembly-CSharp
+      Data: 96|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 17
@@ -2956,9 +2942,12 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC6D0\uAC70\uB9AC \uD22C\uC0AC\uCCB4\uC758 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 40
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2973,7 +2962,7 @@ MonoBehaviour:
       Data: 18
     - Name: $v
       Entry: 7
-      Data: 99|SpecificityData, Assembly-CSharp
+      Data: 97|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 18
@@ -2986,10 +2975,14 @@ MonoBehaviour:
     - Name: description
       Entry: 1
       Data: "\uC774 \uBB34\uAE30\uB85C \uAD50\uCCB4\uD55C \uD6C4 \uBE60\uB974\uAC8C
-        \uACF5\uACA9\uD558\uBA74 \uCD94\uAC00 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 80
+        \uACF5\uACA9\uD558\uBA74 \uCD94\uAC00 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4.
+        \uC9C0\uC18D\uC2DC\uAC04 3\uCD08."
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3004,7 +2997,7 @@ MonoBehaviour:
       Data: 19
     - Name: $v
       Entry: 7
-      Data: 100|SpecificityData, Assembly-CSharp
+      Data: 98|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 19
@@ -3018,9 +3011,12 @@ MonoBehaviour:
       Entry: 1
       Data: "\uCCB4\uB825\uC774 \uAC10\uC18C\uD560 \uC218\uB85D \uBB34\uB825\uD654
         \uC218\uCE58\uAC00 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 10,10
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3035,7 +3031,7 @@ MonoBehaviour:
       Data: 20
     - Name: $v
       Entry: 7
-      Data: 101|SpecificityData, Assembly-CSharp
+      Data: 99|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 20
@@ -3050,9 +3046,12 @@ MonoBehaviour:
       Data: "\uC774 \uBB34\uAE30\uB85C \uACB0\uC815\uD0C0 \uAE30\uB85D \uC2DC \uB300\uC0C1\uC774
         \uC788\uB294 \uC704\uCE58\uC5D0 \uC77C\uC815 \uD655\uB960\uB85C \uC2E4\uD5D8
         \uD22C\uC0AC\uCCB4\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
-    - Name: specificityEffect
-      Entry: 1
-      Data: 0
+    - Name: effect
+      Entry: 6
+      Data: 
+    - Name: record
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 

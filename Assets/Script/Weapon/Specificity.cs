@@ -14,7 +14,7 @@ public class Specificity
             case SpecificityType.Discord:
                 archetypeInstance = new Specificity_Discord();
                 break;
-            case SpecificityType.AvoidAccess:
+            case SpecificityType.KeepAway:
                 archetypeInstance = new Specificity_AvoidAccess();
                 break;
             case SpecificityType.Instability:
@@ -26,7 +26,7 @@ public class Specificity
             case SpecificityType.PermanentMovement:
                 archetypeInstance = new Specificity_PermanentMovement();
                 break;
-            case SpecificityType.CloseRangeExecution:
+            case SpecificityType.ExecutionRound:
                 archetypeInstance = new Specificity_CloseRangeExecution();
                 break;
             case SpecificityType.Tombstone:
