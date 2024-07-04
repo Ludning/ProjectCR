@@ -81,11 +81,11 @@ public class WeaponHandler : MonoBehaviour
     private void SetActiveCurrentWeapon()
     {
         Weapon holdWeapon = GetHoldWeapon(_currentWeaponIndex);
-        holdWeapon.ReceptionWeaponHandlerEvent(WeaponTrigger.HoldWeapon);
+        holdWeapon.ReceptionWeaponHandlerEvent(Trigger.HoldWeapon);
         holdWeapon.gameObject.SetActive(true);
         
         Weapon freeWeapon = GetFreeWeapon(_currentWeaponIndex);
-        freeWeapon.ReceptionWeaponHandlerEvent(WeaponTrigger.FreeWeapon);
+        freeWeapon.ReceptionWeaponHandlerEvent(Trigger.FreeWeapon);
         freeWeapon.gameObject.SetActive(false);
     }
 

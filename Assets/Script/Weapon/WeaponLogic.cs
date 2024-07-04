@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class WeaponLogic
 {
-    private WeaponTrigger _trigger;
+    private Trigger _trigger;
     private int _cost;
-    private List<WeaponEffect> _weaponEffect;
+    private List<EffectModule> _weaponEffect;
 
     public void RecordData(int data)
     {

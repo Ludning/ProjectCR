@@ -9,7 +9,7 @@ public class SkillElementData : IParserable
     public SkillType skillType;
     public SkillLogicType skillLogicType;
     public DamageType damageType;
-    [FormerlySerializedAs("effectType")] public StatusAbnormalityType statusAbnormalityType;
+    public StatusAbnormalityType statusAbnormalityType;
     public BuffType buffType;
     public CostType costType;
     public float skillValue;

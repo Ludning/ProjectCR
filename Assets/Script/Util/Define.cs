@@ -5,6 +5,11 @@ using System;
 
 #region WeaponData
 
+public enum ReferenceType
+{
+    PlayerHP,
+    PlayerMP,
+}
 public enum ConditionType
 {
     None,
@@ -43,7 +48,7 @@ public enum IncreasedStatType
 }
 #endregion
 [Flags]
-public enum WeaponTrigger
+public enum Trigger
 {
     None = 0,
     HoldWeapon = 1 << 0,
@@ -111,6 +116,7 @@ public enum WeaponType
 
 public enum ComparisonType
 {
+    Null,
     More,
     Over,
     Below,
