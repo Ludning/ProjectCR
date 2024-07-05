@@ -12,7 +12,6 @@ public class SpecificityData : IParserable
     public SpecificityType specificityType;
     public string name;
     public string description;
-    
     public List<ConditionEffectData> conditionEffectDatas;
     public List<RecordData> recordDatas;
     public List<ReferenceData> referenceDatas;

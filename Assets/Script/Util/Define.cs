@@ -5,6 +5,11 @@ using System;
 
 #region WeaponData
 
+public enum DataModuleType
+{
+    Record,
+    Reference,
+}
 public enum ReferenceType
 {
     PlayerHP,
@@ -97,8 +102,8 @@ public enum RecordName
 }
 public enum RecordType
 {
-    Stack,
-    Value,
+    Int,
+    Float,
 }
 
 public enum WeaponIndexType

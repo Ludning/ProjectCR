@@ -185,5 +185,109 @@ public static class StringParserHelper
         object valueToAdd = Convert.ChangeType(data, listGenericType);
         addMethod.Invoke(listInstance, new object[] { valueToAdd });
     }
+    public static void SetValueToKeyValue<T>(object instance, string fieldName, string keyString, string valueString)
+    {
+        // 인스턴스의 필드 정보 가져오기
+        FieldInfo fieldInfo = typeof(T).GetField(fieldName, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+        if (fieldInfo == null)
+        {
+            throw new ArgumentException($"Field '{fieldName}' not found in type '{typeof(T)}'.");
+        }
+
+        // 필드의 현재 값 가져오기
+        var listInstance = fieldInfo.GetValue(instance);
+
+        // 필드가 null인 경우 초기화
+        if (listInstance == null)
+        {
+            listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(typeof(KeyValuePair<string, string>)));
+            fieldInfo.SetValue(instance, listInstance);
+        }
+
+        // 리스트 타입과 Add 메서드 가져오기
+        var listType = listInstance.GetType();
+        MethodInfo addMethod = listType.GetMethod("Add");
+
+        if (addMethod == null)
+        {
+            throw new InvalidOperationException("Add method not found on list type.");
+        }
+
+        // KeyValuePair<string, string> 생성
+        var keyValuePairType = typeof(KeyValuePair<string, string>);
+        var keyValuePair = Activator.CreateInstance(keyValuePairType, keyString, valueString);
+
+        // 리스트에 KeyValuePair 추가
+        addMethod.Invoke(listInstance, new object[] { keyValuePair });
+    }
+    public static void SetValueToDictionary<T>(object instance, string fieldName, string keyString, string valueString)
+    {
+        // 인스턴스의 필드 정보 가져오기
+        FieldInfo fieldInfo = typeof(T).GetField(fieldName, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+        if (fieldInfo == null)
+        {
+            throw new ArgumentException($"Field '{fieldName}' not found in type '{typeof(T)}'.");
+        }
+
+        // 필드의 현재 값 가져오기
+        var dictionaryInstance = fieldInfo.GetValue(instance);
+
+        // 필드가 null인 경우 초기화
+        if (dictionaryInstance == null)
+        {
+            dictionaryInstance = Activator.CreateInstance(typeof(Dictionary<,>).MakeGenericType(typeof(string), typeof(string)));
+            fieldInfo.SetValue(instance, dictionaryInstance);
+        }
+
+        // Dictionary 타입 가져오기
+        var dictionaryType = dictionaryInstance.GetType();
+        MethodInfo addMethod = dictionaryType.GetMethod("Add");
+
+        if (addMethod == null)
+        {
+            throw new InvalidOperationException("Add method not found on dictionary type.");
+        }
+
+        // Dictionary에 키-값 추가
+        addMethod.Invoke(dictionaryInstance, new object[] { keyString, valueString });
+    }
+    public static void SetValueToKeyValueData<T>(object instance, string fieldName, string keyString, string valueString)
+    {
+        // 인스턴스의 필드 정보 가져오기
+        FieldInfo fieldInfo = typeof(T).GetField(fieldName, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+        if (fieldInfo == null)
+        {
+            throw new ArgumentException($"Field '{fieldName}' not found in type '{typeof(T)}'.");
+        }
+
+        // 필드의 현재 값 가져오기
+        var listInstance = fieldInfo.GetValue(instance);
+
+        // 필드가 null인 경우 초기화
+        if (listInstance == null)
+        {
+            listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(typeof(KeyValueData<string, string>)));
+            fieldInfo.SetValue(instance, listInstance);
+        }
+
+        // 리스트 타입과 Add 메서드 가져오기
+        var listType = listInstance.GetType();
+        MethodInfo addMethod = listType.GetMethod("Add");
+
+        if (addMethod == null)
+        {
+            throw new InvalidOperationException("Add method not found on list type.");
+        }
+
+        // KeyValueData<string, string> 생성
+        var keyValuePairType = typeof(KeyValueData<,>).MakeGenericType(typeof(string), typeof(string));
+        var keyValuePair = Activator.CreateInstance(keyValuePairType, keyString, valueString);
+
+        // 리스트에 KeyValueData 추가
+        addMethod.Invoke(listInstance, new object[] { keyValuePair });
+    }
     #endregion
 }

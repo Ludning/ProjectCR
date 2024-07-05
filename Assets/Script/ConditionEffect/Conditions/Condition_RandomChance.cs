@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Condition_RandomChance : ConditionModule
 {
-    private int _maxRange = int.MaxValue;
-    private int _chancePercent = int.MaxValue;
-    public override void InitData(string conditionData)
+    private int? _maxRange = null;
+    private int? _chancePercent = null;
+    public override void InitData(string conditionData, Mediator mediator)
     {
         string data = StringParserHelper.ParenthesesParser(conditionData);
         List<string> dataStrings = StringParserHelper.PipeParser(data);
@@ -24,15 +24,15 @@ public class Condition_RandomChance : ConditionModule
             }
         }
 
-        if (_maxRange == int.MaxValue)
+        if (_maxRange.HasValue == false)
             _maxRange = 100;
-        if (_chancePercent == int.MaxValue)
+        if (_chancePercent.HasValue == false)
             _chancePercent = 50;
     }
 
     public override bool CheakCondition()
     {
-        int value = Random.Range(0, _maxRange);
+        int value = Random.Range(0, _maxRange.Value);
         return (value < _chancePercent) ? true : false;
     }
 }

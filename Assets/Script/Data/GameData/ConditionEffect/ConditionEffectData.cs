@@ -1,14 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 
 [Serializable]
 public class ConditionEffectData
 {
     public Trigger trigger;
-    public List<string> conditionDatas;
-    public List<string> effectDatas;
+    [ShowInInspector]
+    public List<KeyValueData<string, string>> conditionDatas;
+    public List<KeyValueData<string, string>> effectDatas;
     
     
     public static void SetParserData<T>(T listInstance, Type genericType, string parserableData)
@@ -30,7 +33,8 @@ public class ConditionEffectData
                         StringParserHelper.SetValueToEnumFlag<ConditionEffectData, Trigger>(genericInstance, "trigger", conditionAndEffects.Value);
                         break;
                     case ConditionType.RequestRecordValue:
-                        StringParserHelper.SetValueToList<ConditionEffectData>(genericInstance, typeof(string), "conditionDatas", conditionAndEffects.Value);
+                        //StringParserHelper.SetValueToList<ConditionEffectData>(genericInstance, typeof(string), "conditionDatas", effectUnit);
+                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "conditionDatas", conditionAndEffects.Key, conditionAndEffects.Value);
                         break;
                 }
             }
@@ -39,13 +43,13 @@ public class ConditionEffectData
                 switch (effectResult)
                 {
                     case EffectType.SetRecordValue:
-                        StringParserHelper.SetValueToList<ConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
                         break;
                     case EffectType.IncreasedStat:
-                        StringParserHelper.SetValueToList<ConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
                         break;
                     case EffectType.SpawnObject:
-                        StringParserHelper.SetValueToList<ConditionEffectData>(genericInstance, typeof(string), "effectDatas", conditionAndEffects.Value);
+                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
                         break;
                 }
             }

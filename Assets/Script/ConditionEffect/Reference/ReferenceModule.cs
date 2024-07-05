@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ReferenceModule
+public class ReferenceModule
 {
-    public abstract void InitData(string referenceData);
-
-    public abstract void AddValueToRecord<T>(T value);
+    private string _referenceName;
+    public void InitData(ReferenceData referenceData)
+    {
+        
+    }
+    public int GetValue()
+    {
+        return 1;
+    }
 }

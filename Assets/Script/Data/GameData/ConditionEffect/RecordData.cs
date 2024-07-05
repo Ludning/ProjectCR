@@ -7,9 +7,9 @@ public class RecordData : IParserable
 {
     public string RecordName;
     public RecordType RecordType;
-    public float RecordLimit;
+    public string RecordLimit;
     public float Duration;
-    public int RecordResetValue;
+    public string RecordResetValue;
 
     public static void SetParserData<T>(T listInstance, Type genericType, string parserableData)
     {

@@ -1287,13 +1287,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 46|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 46|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:OneEnemyHitCount|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -1329,14 +1340,14 @@ MonoBehaviour:
       Entry: 3
       Data: 1
     - Name: RecordLimit
-      Entry: 4
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1480,13 +1491,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 57|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 57|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SpawnObject
+    - Name: Value
       Entry: 1
       Data: (ObjectName:SkillEffect|DamageType:Kinetic|DamageValue:10|Abnormality:None)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -1961,19 +1983,50 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 75|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 75|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:7)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Speed|Value:7)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:CriticalChance|Value:7)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2043,13 +2096,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 79|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 79|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2120,13 +2184,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 83|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 83|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Speed|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2197,13 +2272,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 87|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 87|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:CriticalChance|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2275,19 +2361,50 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 91|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 91|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Speed|Value:-20)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:10)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Stagger|Value:30)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2425,13 +2542,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 98|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 98|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2452,13 +2580,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 100|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 100|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Value:2)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2479,13 +2618,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 102|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 102|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Value:3)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2503,13 +2653,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 104|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 104|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2518,13 +2679,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 105|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 105|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2542,13 +2714,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 107|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 107|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Comparison:Same|Value:2)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2557,13 +2740,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 108|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 108|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:15)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2581,13 +2775,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 110|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 110|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Predation|Comparison:Same|Value:3)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2596,13 +2801,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 111|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 111|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2635,14 +2851,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 3
     - Name: Duration
       Entry: 4
       Data: 5
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -2782,16 +2998,27 @@ MonoBehaviour:
       Data: 120|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 121|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 121|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:LassoArrow|Comparison:More|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -2827,14 +3054,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 5
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2963,13 +3190,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 130|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 130|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SpawnObject
+    - Name: Value
       Entry: 1
       Data: VoidSphere
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3066,13 +3304,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 136|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 136|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Discord|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3081,13 +3330,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 137|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 137|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:CriticalMultiplier|Value:40
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3120,14 +3380,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 1
     - Name: Duration
       Entry: 4
       Data: 5
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -3201,13 +3461,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 144|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 144|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:KeepAway|Value:0)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3225,13 +3496,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 146|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 146|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:NearbyEnemy|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3240,13 +3522,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 147|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 147|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:CriticalChance|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3279,14 +3572,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3345,13 +3638,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 153|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 153|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SpawnObject
+    - Name: Value
       Entry: 1
       Data: Crystal
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3432,13 +3736,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 158|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 158|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:OneEnemyHitCount|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3447,13 +3762,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 159|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 159|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SpawnObject
+    - Name: Value
       Entry: 1
       Data: Tremors
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3486,14 +3812,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 5
     - Name: Duration
       Entry: 4
       Data: 5
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -3552,13 +3878,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 165|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 165|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Speed|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3591,14 +3928,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 1
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3656,13 +3993,24 @@ MonoBehaviour:
       Data: 32768
     - Name: conditionDatas
       Entry: 7
-      Data: 171|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 171|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:ExecutionRound|Comparison:Same|Value:0)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3671,13 +4019,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 172|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 172|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:ExecutionRound|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3695,13 +4054,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 174|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 174|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:ExecutionRound|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3710,19 +4080,50 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 175|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 175|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:ExecutionRound|Value:0)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:10)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Stagger|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3755,14 +4156,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 1
     - Name: Duration
       Entry: 4
       Data: 5
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -3880,13 +4281,24 @@ MonoBehaviour:
       Data: 65536
     - Name: conditionDatas
       Entry: 7
-      Data: 184|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 184|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:NearbyAlly|Comparison:More|Value:0)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3895,13 +4307,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 185|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 185|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:NearbyAlly|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3919,13 +4342,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 187|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 187|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:NearbyEnemy|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3934,16 +4368,37 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 188|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 188|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Stagger|Value:10)
     - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Stagger|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3976,14 +4431,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4043,13 +4498,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 194|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 194|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:SurvivorCount|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4070,13 +4536,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 196|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 196|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:SurvivorCount|Value:0)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4094,13 +4571,24 @@ MonoBehaviour:
       Data: 128
     - Name: conditionDatas
       Entry: 7
-      Data: 198|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 198|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:SurvivorCount|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4136,14 +4624,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4292,14 +4780,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 3
     - Name: Duration
       Entry: 4
       Data: 3
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -4421,13 +4909,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 215|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 215|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:OsmoticPower|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4448,13 +4947,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 217|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 217|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:OsmoticPower|Value:0)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4487,14 +4997,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 1
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4569,13 +5079,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 224|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 224|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:3)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4608,14 +5129,14 @@ MonoBehaviour:
       Entry: 3
       Data: 1
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 10
     - Name: Duration
       Entry: 4
       Data: 3
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -4700,16 +5221,16 @@ MonoBehaviour:
       Data: Onslaught
     - Name: RecordType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 5
     - Name: Duration
       Entry: 4
       Data: 3
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -4829,13 +5350,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 238|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 238|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:ProjectileSpeed|Value:10)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4904,13 +5436,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 242|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 242|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Preparation|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4928,13 +5471,24 @@ MonoBehaviour:
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 244|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 244|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: RequestRecordValue
+    - Name: Value
       Entry: 1
       Data: (RecordName:Preparation|Comparison:Same|Value:1)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4943,13 +5497,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 245|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 245|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:40)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -4982,14 +5547,14 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: RecordLimit
-      Entry: 4
+      Entry: 1
       Data: 1
     - Name: Duration
       Entry: 4
       Data: 2
     - Name: RecordResetValue
-      Entry: 3
-      Data: -1
+      Entry: 1
+      Data: all
     - Name: 
       Entry: 8
       Data: 
@@ -5048,13 +5613,24 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 251|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 251|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
       Entry: 1
       Data: (Type:Damage|Value:40)
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -5087,14 +5663,14 @@ MonoBehaviour:
       Entry: 3
       Data: 1
     - Name: RecordLimit
-      Entry: 4
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: Duration
       Entry: 4
       Data: 0
     - Name: RecordResetValue
-      Entry: 3
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 

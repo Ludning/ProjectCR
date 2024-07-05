@@ -4,6 +4,6 @@ using UnityEngine;
 
 public abstract class ConditionModule
 {
-    public abstract void InitData(string conditionData);
+    public abstract void InitData(string conditionData, Mediator mediator);
     public abstract bool CheakCondition();
 }
