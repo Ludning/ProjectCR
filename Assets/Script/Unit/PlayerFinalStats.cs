@@ -21,48 +21,55 @@ public class PlayerFinalStats : UnitFinalStats
     private int _hp;
     [SerializeField, ReadOnly]
     private int _mp;
-
+    [SerializeField, ReadOnly]
+    private int _stagger;
+    [SerializeField, ReadOnly]
+    private int _projectileSpeed;
 
     public int MaxMp
     {
         get => _maxMp;
         set => _maxMp = value;
     }
-
     public float CriticalChance
     {
         get => _criticalChance;
         set => _criticalChance = value;
     }
-
     public float CriticalMultiplier
     {
         get => _criticalMultiplier;
         set => _criticalMultiplier = value;
     }
-
     public float HpRegen
     {
         get => _hpRegen;
         set => _hpRegen = value;
     }
-
     public float MpRegen
     {
         get => _mpRegen;
         set => _mpRegen = value;
     }
-
     public int Hp
     {
         get => _hp;
         set => _hp = value;
     }
-
     public int Mp
     {
         get => _mp;
         set => _mp = value;
+    }
+    public int Stagger
+    {
+        get => _stagger;
+        set => _stagger = value;
+    }
+    public int ProjectileSpeed
+    {
+        get => _projectileSpeed;
+        set => _projectileSpeed = value;
     }
     #endregion
 
@@ -77,6 +84,8 @@ public class PlayerFinalStats : UnitFinalStats
         CriticalMultiplier = statsData.CriticalMultiplier;
         HpRegen = statsData.HpRegen;
         MpRegen = statsData.MpRegen;
+        Stagger = statsData.Stagger;
+        ProjectileSpeed = statsData.ProjectileSpeed;
     }
     public void InitPlayerStat()
     {

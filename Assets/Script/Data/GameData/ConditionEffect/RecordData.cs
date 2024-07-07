@@ -6,10 +6,11 @@ using System.Reflection;
 public class RecordData : IParserable
 {
     public string RecordName;
-    public RecordType RecordType;
-    public string RecordLimit;
+    public int RecordLimit;
     public float Duration;
-    public string RecordResetValue;
+    public int RecordResetValue;
+    public bool NoRecordDuration = false;
+    public bool IsRecordResetAll = false;
 
     public static void SetParserData<T>(T listInstance, Type genericType, string parserableData)
     {

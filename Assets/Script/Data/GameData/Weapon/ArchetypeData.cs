@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
 using Sirenix.OdinInspector;
-using UnityEngine;
 
 [Serializable]
 public class ArchetypeData : IParserable

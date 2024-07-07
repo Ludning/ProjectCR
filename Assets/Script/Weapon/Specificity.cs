@@ -12,18 +12,26 @@ public class Specificity : Mediator
     
     public void InitData(SpecificityData archetypeData)
     {
-        //TODO
-        /*ConditionEffectModule cem = new ConditionEffectModule();
-        cem.InitData(archetypeData, this);
-        _conditionEffectModules.Add(cem);
+        foreach (var recordData in archetypeData.recordDatas)
+        {
+            RecordModule recordModule = new RecordModule();
+            recordModule.InitData(recordData);
+            _recordModules.Add(recordData.RecordName, recordModule);
+        }
 
-        RecordModule<int> intRecord = new RecordModule<int>();
-        intRecord.InitData(archetypeData);
-        _recordModules.Add(" ",intRecord);
+        foreach (var referenceData in archetypeData.referenceDatas)
+        {
+            ReferenceModule referenceModule = new ReferenceModule();
+            referenceModule.InitData(referenceData);
+            _referenceModules.Add(referenceData.ReferenceName, referenceModule);
+        }
         
-        ReferenceModule<int> intReference = new ReferenceModule<int>();
-        intReference.InitData(archetypeData);
-        _referenceModules.Add(" ",intReference);*/
+        foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
+        {
+            ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
+            conditionEffectModule.InitData(conditionEffectData, this);
+            _conditionEffectModules.Add(conditionEffectModule);
+        }
     }
     public void OnUpdate()
     {
@@ -40,7 +48,7 @@ public class Specificity : Mediator
         }
     }
 
-    public override int DataTransfer(string name, DataModuleType type)
+    public override int GetData(string name, DataModuleType type)
     {
         switch (type)
         {
@@ -54,5 +62,35 @@ public class Specificity : Mediator
                 break;
         }
         return int.MaxValue;
+    }
+    public override void AddRecordData(string name, int value, RecordDataType type)
+    {
+        if (_recordModules.TryGetValue(name, out RecordModule recordModule))
+        {
+            switch (type)
+            {
+                case RecordDataType.Value:
+                    recordModule.AddValue(value);
+                    break;
+                case RecordDataType.Duration:
+                    recordModule.AddDuration(value);
+                    break;
+            }
+        }
+    }
+    public override void SetRecordData(string name, int value, RecordDataType type)
+    {
+        if (_recordModules.TryGetValue(name, out RecordModule recordModule))
+        {
+            switch (type)
+            {
+                case RecordDataType.Value:
+                    recordModule.SetValue(value);
+                    break;
+                case RecordDataType.Duration:
+                    recordModule.SetDuration(value);
+                    break;
+            }
+        }
     }
 }

@@ -11,6 +11,7 @@ public class ConditionEffectData
     public Trigger trigger;
     [ShowInInspector]
     public List<KeyValueData<string, string>> conditionDatas;
+    [ShowInInspector]
     public List<KeyValueData<string, string>> effectDatas;
     
     
@@ -40,7 +41,8 @@ public class ConditionEffectData
             }
             else if (Enum.TryParse<EffectType>(conditionAndEffects.Key, out EffectType effectResult))
             {
-                switch (effectResult)
+                StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
+                /*switch (effectResult)
                 {
                     case EffectType.SetRecordValue:
                         StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
@@ -51,7 +53,20 @@ public class ConditionEffectData
                     case EffectType.SpawnObject:
                         StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
                         break;
-                }
+                    /*case EffectType.SetRecordValueByReference,
+                    case EffectType.SetRecordDuration,
+                    case EffectType.SpawnProjectile,
+                    case EffectType.ProjectilePushForce,
+                    case EffectType.ProjectilePushRange,
+                    case EffectType.ChangeAttackProjectile,
+                    case EffectType.ProjectileCount,
+                    case EffectType.ChargeMinAngle,
+                    case EffectType.ChargeMaxAngle,
+                    case EffectType.SetDebuffTarget,
+                    case EffectType.ChangeWeaponDamageType,
+                    case EffectType.ChangeWeaponDamageTypeByReference,
+                    case EffectType.CooldownReduction,#1#
+                }*/
             }
             
             /*switch (conditionAndEffects.Key)

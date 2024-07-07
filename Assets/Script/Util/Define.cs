@@ -5,6 +5,11 @@ using System;
 
 #region WeaponData
 
+public enum RecordDataType
+{
+    Value,
+    Duration
+}
 public enum DataModuleType
 {
     Record,
@@ -14,6 +19,12 @@ public enum ReferenceType
 {
     PlayerHP,
     PlayerMP,
+}
+
+public enum InitDataType
+{
+    None,
+    InitAnimator,
 }
 public enum ConditionType
 {
@@ -26,10 +37,10 @@ public enum ConditionType
 public enum EffectType
 {
     SetRecordValue,
-    SetRecordValueByReference,
-    SetRecordDuration,
     IncreasedStat,
     SpawnObject,
+    SetRecordValueByReference,
+    SetRecordDuration,
     SpawnProjectile,
     ProjectilePushForce,
     ProjectilePushRange,
@@ -208,6 +219,15 @@ public enum GameUIElementType
     BuffInfo,
     BossHpBar,
 }
+
+public enum StateType
+{
+    Attack,
+    SubAttack,
+    Aim,
+    Skill,
+    Special,
+}
 public enum MiddleUIType
 {
     MonsterInfo,
@@ -225,6 +245,14 @@ public enum SkillType
 {
     Active,
     Passive,
+}
+
+public enum SkillSlotType
+{
+    Normal,
+    Util,
+    Skill,
+    Special,
 }
 public enum ProjectileType
 {
@@ -259,6 +287,10 @@ public enum BuffType
     Buff,
     Debuff,
 }
+public enum DebuffType
+{
+    Weak,
+}
 public enum CostType
 {
     None,
@@ -291,6 +323,7 @@ public enum AssetAddressType
     MiddleUIAsset,
     AnimalAsset,
     WeaponAsset,
+    ObjectAsset,
     WeaponAnimationClipAsset,
     SkillAnimationClipAsset,
 }

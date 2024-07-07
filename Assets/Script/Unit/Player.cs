@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,9 @@ public class  Player : MonoBehaviour, IDamageable
     [SerializeField] private InventoryData _inventoryData;
     [SerializeField] private EquipmentData _equipmentDatas;
     [SerializeField] private SkillTreeData _skillTreeData;
+
+    [SerializeField] private GameObject _projectilePrefab;
+    [SerializeField] private GameObject _overrideProjectilePrefab = null;
     
     private void Awake()
     {
@@ -51,6 +55,44 @@ public class  Player : MonoBehaviour, IDamageable
     public string GetNickName()
     {
         return _nickname;
+    }
+
+    public void AddStats(IncreasedStatType type, int value)
+    {
+        switch (type)
+        {
+            case IncreasedStatType.Damage:
+                _currentStats.Damage += value;
+                break;
+            case IncreasedStatType.Speed:
+                _currentStats.Speed += value;
+                break;
+            case IncreasedStatType.CriticalChance:
+                _currentStats.CriticalChance += value;
+                break;
+            case IncreasedStatType.CriticalMultiplier:
+                _currentStats.CriticalMultiplier += value;
+                break;
+            case IncreasedStatType.Stagger:
+                _currentStats.Stagger += value;
+                break;
+            case IncreasedStatType.ProjectileSpeed:
+                _currentStats.ProjectileSpeed += value;
+                break;
+        }
+    }
+
+    public void SetOverrideProjectilePrefab(string prefabName = "")
+    {
+        if (string.IsNullOrWhiteSpace(prefabName))
+        {
+            _overrideProjectilePrefab = null;
+        }
+        else
+        {
+            GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.ObjectAsset, prefabName);
+            _overrideProjectilePrefab = prefab;
+        }
     }
 
     private void OnLoadPlayerData()

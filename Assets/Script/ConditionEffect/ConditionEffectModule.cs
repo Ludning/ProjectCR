@@ -21,46 +21,42 @@ public class ConditionEffectModule
         _mediator = mediator;
 
         _trigger = conditionEffectData.trigger;
-        /*foreach (var conditionData in conditionEffectData.conditionDatas)
+        foreach (var conditionData in conditionEffectData.conditionDatas)
         {
-            ConditionModule condition;
-            switch (conditionData.Key)
+            ConditionModule condition = conditionData.Key switch
             {
-                case "RandomChance":
-                    condition = new Condition_RandomChance();
-                    condition.InitData(conditionData.Value, _mediator);
-                    break;
-                case "RequestRecordValue":
-                    condition = new Condition_RequestRecordValue<>();
-                    condition.InitData(conditionData.Value, _mediator);
-                    break;
-                case "RequestReference":
-                    condition = new Condition_RequestReference<>();
-                    condition.InitData(conditionData.Value, _mediator);
-                    break;
-            }
+                "RandomChance" => new Condition_RandomChance(),
+                "RequestRecordValue" => new Condition_RequestRecordValue(),
+                "RequestReference" => new Condition_RequestReference(),
+                _ => null
+            };
             if(condition == null)
                 return;
             condition.InitData(conditionData.Value, _mediator);
             _conditionModules.Add(condition);
-        }*/
-        foreach (var effectDatas in conditionEffectData.effectDatas)
-        {
-            EffectModule effectModule;
-            switch (effectDatas.Key)
-            {
-                
-            }
-
-            //EffectModule effectModule = new EffectModule();
-            //effectModule.InitData(effectDatas);
-            //_effectModules.Add(effectModule);
         }
         
-        
-        //EffectModule effectModule = new EffectModule();
-        //effectModule.InitData(referenceData);
-        //_effectModules.Add(effectModule);
+        foreach (var effectDatas in conditionEffectData.effectDatas)
+        {
+            EffectModule effectModule = effectDatas.Key switch
+            {
+                "IncreasedStat" => new Effect_IncreasedStat(),
+                "AddRecordValue" => new Effect_AddRecordValue(),
+                "ChangeAttackProjectile" => new Effect_ChangeAttackProjectile(),
+                "CooldownReduction" => new Effect_CooldownReduction(),
+                "ChangeWeaponDamageTypeByReference" => new Effect_ChangeWeaponDamageTypeByReference(),
+                "PushTarger" => new Effect_PushTarger(),
+                "SetDebuffTarget" => new Effect_SetDebuffTarget(),
+                "SetRecordDuration" => new Effect_SetRecordDuration(),
+                "SetRecordValue" => new Effect_SetRecordValue(),
+                "SpawnObject" => new Effect_SpawnObject(),
+                _ => null
+            };
+            if(effectModule == null)
+                return;
+            effectModule.InitData(effectDatas.Value, _mediator);
+            _effectModules.Add(effectModule);
+        }
     }
     public void CheakTrigger(Trigger trigger)
     {

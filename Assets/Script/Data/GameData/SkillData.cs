@@ -12,10 +12,11 @@ public class SkillData : IParserable
     public string skillName;
     public string description;
     public SkillType skillType;
+    public SkillSlotType skillSlotType;
+    public InitData initDatas;
     public List<ConditionEffectData> conditionEffectDatas;
     public List<RecordData> recordDatas;
     public List<ReferenceData> referenceDatas;
-    public float coolTime;
     public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T dataInstance) where T : IParserable
     {
         // 변수의 이름을 가져오기 위해 변수가 있는 클래스의 타입을 알아야 합니다.
@@ -32,6 +33,16 @@ public class SkillData : IParserable
             
             switch (keyValuePair.Key)
             {
+                case "initDatas":
+                    object instance = fieldInfo.GetValue(dataInstance);
+                    if (instance == null)
+                    {
+                        instance = Activator.CreateInstance(typeof(InitData));
+                        fieldInfo.SetValue(dataInstance, instance);
+                    }
+                    string initCellData = dataRow[keyValuePair.Value].ToString();
+                    InitData.SetParserData(instance, initCellData);
+                    break;
                 case "conditionEffectDatas":
                     listInstance = fieldInfo.GetValue(dataInstance);
                     genericType = fieldType.GetGenericArguments()[0];
@@ -56,7 +67,6 @@ public class SkillData : IParserable
                         listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
                         fieldInfo.SetValue(dataInstance, listInstance);
                     }
-                    
                     string recordEffectCellData = dataRow[keyValuePair.Value].ToString();
                     var recordEffects = StringParserHelper.BracesParser(recordEffectCellData);
                     foreach (var conditionEffect in recordEffects)

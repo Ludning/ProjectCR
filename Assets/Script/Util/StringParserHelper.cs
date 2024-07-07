@@ -133,9 +133,9 @@ public static class StringParserHelper
         else if (fieldType.IsPrimitive)
         {
             Debug.Log($"{cellData}, {fieldType.Name}");
-            if("all".Equals(cellData))
+            /*if("all".Equals(cellData))
                 fieldInfo.SetValue(instance, Convert.ChangeType("-1", fieldType));
-            else
+            else*/
                 fieldInfo.SetValue(instance, Convert.ChangeType(cellData, fieldType));
         }
     }

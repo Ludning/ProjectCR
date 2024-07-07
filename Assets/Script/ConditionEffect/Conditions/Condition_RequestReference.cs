@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Condition_RequestReference<T> : ConditionModule where T : struct
+public class Condition_RequestReference : ConditionModule
 {
     private Mediator _mediator;
     
@@ -41,6 +41,6 @@ public class Condition_RequestReference<T> : ConditionModule where T : struct
     
     private int DataRequest(string message)
     {
-        return _mediator.DataTransfer(message, DataModuleType.Reference);
+        return _mediator.GetData(message, DataModuleType.Reference);
     }
 }

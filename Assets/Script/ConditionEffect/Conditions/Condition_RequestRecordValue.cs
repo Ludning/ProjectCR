@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
 
-public class Condition_RequestRecordValue<T> : ConditionModule where T : struct
+public class Condition_RequestRecordValue : ConditionModule
 {
     private Mediator _mediator;
     
     private string _targetRecordName;
     private ComparisonType _comparisonType;
-    private T? _comparisonValue;
+    private int _comparisonValue;
     public override void InitData(string conditionData, Mediator mediator)
     {
         _mediator = mediator;
@@ -29,9 +29,7 @@ public class Condition_RequestRecordValue<T> : ConditionModule where T : struct
                     _comparisonType = Enum.Parse<ComparisonType>(keyValueData.Value);
                     break;
                 case "Value":
-                    TypeConverter converter = TypeDescriptor.GetConverter(typeof(T));
-                    if (converter != null && converter.IsValid(keyValueData.Value))
-                        _comparisonValue = (T)converter.ConvertFromString(keyValueData.Value);
+                    _comparisonValue = int.Parse(keyValueData.Value);
                     break;
             }
         }
@@ -41,8 +39,6 @@ public class Condition_RequestRecordValue<T> : ConditionModule where T : struct
         if (string.IsNullOrWhiteSpace(_targetRecordName) == true)
             throw new System.NotImplementedException();
         if (_comparisonType == ComparisonType.Null)
-            throw new System.NotImplementedException();
-        if (_comparisonValue.HasValue == false)
             throw new System.NotImplementedException();
     }
 
@@ -58,6 +54,6 @@ public class Condition_RequestRecordValue<T> : ConditionModule where T : struct
     
     private int DataRequest(string message)
     {
-        return _mediator.DataTransfer(message, DataModuleType.Record);
+        return _mediator.GetData(message, DataModuleType.Record);
     }
 }

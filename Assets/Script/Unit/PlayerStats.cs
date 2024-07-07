@@ -22,6 +22,11 @@ public class PlayerStats : UnitStats
     private int _exp;
     [SerializeField, ReadOnly]
     private int _expRequired;
+
+    [SerializeField, ReadOnly]
+    private int _stagger;
+    [SerializeField, ReadOnly]
+    private int _projectileSpeed;
     
     public int MaxMp
     {
@@ -63,7 +68,16 @@ public class PlayerStats : UnitStats
         get => _expRequired;
         protected set => _expRequired = value;
     }
-
+    public int Stagger
+    {
+        get => _stagger;
+        protected set => _stagger = value;
+    }
+    public int ProjectileSpeed
+    {
+        get => _projectileSpeed;
+        protected set => _projectileSpeed = value;
+    }
     #endregion
 
     public void LoadPlayerStatsData(PlayerData data, int level)
@@ -82,10 +96,13 @@ public class PlayerStats : UnitStats
         ExpRequired = levelData.expRequired;
         
         MaxMp = 100;
-        Speed = 0;
+        Speed = 100;
         CriticalChance = 30;
         CriticalMultiplier = 150;
         HpRegen = 0;
         MpRegen = 0;
+        
+        Stagger = 100;
+        ProjectileSpeed = 100;
     }
 }

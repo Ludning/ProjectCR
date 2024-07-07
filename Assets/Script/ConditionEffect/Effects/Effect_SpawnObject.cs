@@ -2,16 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Effect_SpawnObject : MonoBehaviour
+public class Effect_SpawnObject : EffectModule
 {
-    // Start is called before the first frame update
-    void Start()
+    private Mediator _mediator;
+
+    [SerializeField, ReadOnly]
+    private string _objectName;
+    public override void InitData(string effectData, Mediator mediator)
     {
-        
+        _mediator = mediator;
+
+        _objectName = effectData;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void InvokeEffect()
+    {
+        GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.ObjectAsset, _objectName);
+        PoolManager.Instance.GetGameObject(prefab, _mediator.Owner.transform.position);
+    }
+
+    public override void CancelEffect()
     {
         
     }

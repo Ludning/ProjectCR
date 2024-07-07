@@ -1,32 +1,30 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
-public class Archetype : Mediator
+public class Ability : Mediator
 {
     private List<ConditionEffectModule> _conditionEffectModules;
     private Dictionary<string, RecordModule> _recordModules;
     private Dictionary<string, ReferenceModule> _referenceModules;
-
-    public void InitData(ArchetypeData archetypeData)
+    
+    public void InitData(SkillData skillData)
     {
-        foreach (var recordData in archetypeData.recordDatas)
+        foreach (var recordData in skillData.recordDatas)
         {
             RecordModule recordModule = new RecordModule();
             recordModule.InitData(recordData);
             _recordModules.Add(recordData.RecordName, recordModule);
         }
 
-        foreach (var referenceData in archetypeData.referenceDatas)
+        foreach (var referenceData in skillData.referenceDatas)
         {
             ReferenceModule referenceModule = new ReferenceModule();
             referenceModule.InitData(referenceData);
             _referenceModules.Add(referenceData.ReferenceName, referenceModule);
         }
         
-        foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
+        foreach (var conditionEffectData in skillData.conditionEffectDatas)
         {
             ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
             conditionEffectModule.InitData(conditionEffectData, this);
@@ -47,6 +45,7 @@ public class Archetype : Mediator
             conditionEffectModule.CheakTrigger(trigger);
         }
     }
+
     public override int GetData(string name, DataModuleType type)
     {
         switch (type)
@@ -72,7 +71,7 @@ public class Archetype : Mediator
                     recordModule.AddValue(value);
                     break;
                 case RecordDataType.Duration:
-                    recordModule.AddValue(value);
+                    recordModule.AddDuration(value);
                     break;
             }
         }

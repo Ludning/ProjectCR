@@ -6,7 +6,7 @@ using UnityEngine;
 
 public abstract class EffectModule
 {
-    public abstract void InitData(string effectData);
+    public abstract void InitData(string effectData, Mediator mediator);
     public abstract void InvokeEffect();
     public abstract void CancelEffect();
 }

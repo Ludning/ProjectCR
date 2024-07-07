@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1377608229846723519}
   - component: {fileID: 6295444716089752892}
   - component: {fileID: 2588813663626555826}
+  - component: {fileID: 7255054985178059070}
   - component: {fileID: 8657229909024867027}
   - component: {fileID: 3744420927662298067}
   - component: {fileID: 6204098839989553099}
@@ -68,6 +69,8 @@ MonoBehaviour:
     _mpRegen: 0
     _exp: 0
     _expRequired: 0
+    _stagger: 0
+    _projectileSpeed: 0
   _currentStats:
     _maxHp: 0
     _damage: 0
@@ -80,6 +83,8 @@ MonoBehaviour:
     _mpRegen: 0
     _hp: 0
     _mp: 0
+    _stagger: 0
+    _projectileSpeed: 0
   _inventoryData:
     inventorySize: 30
   _equipmentDatas:
@@ -87,6 +92,8 @@ MonoBehaviour:
     subWeapon: 0
     armor: 0
     accessories: 0
+  _projectilePrefab: {fileID: 0}
+  _overrideProjectilePrefab: {fileID: 0}
 --- !u!114 &2588813663626555826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +112,18 @@ MonoBehaviour:
   MainCamera: {fileID: 0}
   Controller: {fileID: 8063013725807695222}
   Animator: {fileID: 4466773179763302881}
+--- !u!114 &7255054985178059070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e5ecbdd5f1c6b43a7342f535efc4c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8657229909024867027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,8 +167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d4a66b5a52267428caae9923cd2fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftHand: {fileID: 8332813847951627239}
-  _rightHand: {fileID: 5977869519890689945}
+  Owner: {fileID: 0}
+  LeftHand: {fileID: 8332813847951627239}
+  RightHand: {fileID: 5977869519890689945}
   PrimaryWeapon: {fileID: 0}
   SubWeapon: {fileID: 0}
 --- !u!143 &8063013725807695222
