@@ -10,8 +10,10 @@ public class Specificity : Mediator
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
     private Dictionary<string, ReferenceModule> _referenceModules = new Dictionary<string, ReferenceModule>();
     
-    public void InitData(SpecificityData archetypeData)
+    public void InitData(SpecificityData archetypeData, Player owner)
     {
+        Owner = owner;
+        
         if (archetypeData.recordDatas != null)
         {
             foreach (var recordData in archetypeData.recordDatas)

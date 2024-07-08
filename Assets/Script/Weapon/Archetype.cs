@@ -10,8 +10,10 @@ public class Archetype : Mediator
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
     private Dictionary<string, ReferenceModule> _referenceModules = new Dictionary<string, ReferenceModule>();
 
-    public void InitData(ArchetypeData archetypeData)
+    public void InitData(ArchetypeData archetypeData, Player owner)
     {
+        Owner = owner;
+        
         if (archetypeData.recordDatas != null)
         {
             foreach (var recordData in archetypeData.recordDatas)

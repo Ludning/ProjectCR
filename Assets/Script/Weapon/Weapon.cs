@@ -13,9 +13,14 @@ public class Weapon
     private Archetype _archetype;
     [SerializeField, ReadOnly]
     private Specificity _specificity;
+    
+    private bool _isInitialized = false;
 
     public void OnUpdate()
     {
+        if(_isInitialized == false)
+            return;
+        
         if(_archetype != null)
             _archetype.OnUpdate();
         if(_specificity != null)
@@ -32,17 +37,21 @@ public class Weapon
         if(data.ArchetypeData.TryGetValue(item.archetypeID, out ArchetypeData archetypeData))
         {
             _archetype = new Archetype();
-            _archetype.InitData(archetypeData);
+            _archetype.InitData(archetypeData, owner);
         }
         if(data.SpecificityData.TryGetValue(item.specificityID, out SpecificityData specificityData))
         {
             _specificity = new Specificity();
-            _specificity.InitData(specificityData);
+            _specificity.InitData(specificityData, owner);
         }
+
+        _isInitialized = true;
     }
 
     public void UnInstallWeapon()
     {
+        _isInitialized = false;
+        
         if (_archetype != null)
         {
             Archetype tempArchetype = _archetype;
@@ -59,6 +68,9 @@ public class Weapon
 
     public void ReceptionHandlerEvent(Trigger trigger)
     {
+        if(_isInitialized == false)
+            return;
+        
         _archetype.CheakTrigger(trigger);
         _specificity.CheakTrigger(trigger);
     }

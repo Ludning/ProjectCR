@@ -440,6 +440,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 22100000, guid: e11d5abf0ab1aaf429e09aa637f0aad5,
         type: 2}
+    - target: {fileID: 6204098839989553099, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: Owner
+      value: 
+      objectReference: {fileID: 1332584670}
     - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: weaponHandler

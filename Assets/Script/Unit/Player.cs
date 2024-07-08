@@ -124,7 +124,7 @@ public class  Player : MonoBehaviour, IDamageable
     //장비 아이템 변경
     public void SwapWeapon(WeaponIndexType weaponIndexType)
     {
-        weaponHandler.SwapWeapon(WeaponIndexType.Primary);
+        weaponHandler.SwapWeapon(weaponIndexType);
     }
     
     //장비 아이템 변경

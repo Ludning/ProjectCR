@@ -8,7 +8,7 @@ using Object = UnityEngine.Object;
 public class WeaponHandler : MonoBehaviour
 {
     #region Field & Property
-    [SerializeField, ReadOnly] private Player Owner;
+    [SerializeField] private Player Owner;
     [SerializeField, ReadOnly] private Transform LeftHand;
     [SerializeField, ReadOnly] private Transform RightHand;
     
@@ -90,7 +90,6 @@ public class WeaponHandler : MonoBehaviour
     {
         EquipmentIndexWeapon(data.MainWeapon, ItemSlotType.MainWeapon);
         EquipmentIndexWeapon(data.SubWeapon, ItemSlotType.SubWeapon);
-        SetActiveCurrentWeapon();
     }
 
     //무기를 1, 2번 키로 스왑시
@@ -115,7 +114,6 @@ public class WeaponHandler : MonoBehaviour
             if (weaponModelPrefab == null)
                 return;
             GameObject weaponModel = Object.Instantiate(weaponModelPrefab, RightHand);
-            
             switch (slotType)
             {
                 case ItemSlotType.MainWeapon:

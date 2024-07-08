@@ -5,6 +5,9 @@ using UnityEngine;
 public class ConditionEffectModule
 {
     private Mediator _mediator;
+
+
+    private bool _isActive = false;
     
     //트리거 조건
     private Trigger _trigger;
@@ -91,16 +94,24 @@ public class ConditionEffectModule
     }
     public void InvokeEffect()
     {
-        foreach (var effectModule in _effectModules)
+        if (_isActive == false)
         {
-            effectModule.InvokeEffect();
+            foreach (var effectModule in _effectModules)
+            {
+                effectModule.InvokeEffect();
+            }
+            _isActive = true;
         }
     }
     public void CancelEffect()
     {
-        foreach (var effectModule in _effectModules)
+        if (_isActive == true)
         {
-            effectModule.CancelEffect();
+            foreach (var effectModule in _effectModules)
+            {
+                effectModule.CancelEffect();
+            }
+            _isActive = false;
         }
     }
 }
