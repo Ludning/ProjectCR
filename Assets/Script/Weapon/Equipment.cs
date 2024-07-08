@@ -3,55 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon
+public class Equipment
 {
-    [SerializeField, ReadOnly] 
-    private Player Owner;
-    private WeaponHandler Handler;
-    
     [SerializeField, ReadOnly]
     private Archetype _archetype;
     [SerializeField, ReadOnly]
     private Specificity _specificity;
     
-    private bool _isInitialized = false;
 
-    public void OnUpdate()
+    public void Install(Item item)
     {
-        if(_isInitialized == false)
-            return;
-        
-        if(_archetype != null)
-            _archetype.OnUpdate();
-        if(_specificity != null)
-            _specificity.OnUpdate();
-    }
-
-
-    public void InitWeapon(Player owner, WeaponHandler handler, Item item)
-    {
-        Owner = owner;
-        Handler = handler;
-
         GameData data = DataManager.Instance.GetGameData();
         if(data.ArchetypeData.TryGetValue(item.archetypeID, out ArchetypeData archetypeData))
         {
             _archetype = new Archetype();
-            _archetype.InitData(archetypeData, owner);
+            _archetype.InitData(archetypeData);
         }
         if(data.SpecificityData.TryGetValue(item.specificityID, out SpecificityData specificityData))
         {
             _specificity = new Specificity();
-            _specificity.InitData(specificityData, owner);
+            _specificity.InitData(specificityData);
         }
-
-        _isInitialized = true;
     }
 
-    public void UnInstallWeapon()
+    public void UnInstall()
     {
-        _isInitialized = false;
-        
         if (_archetype != null)
         {
             Archetype tempArchetype = _archetype;
@@ -68,9 +44,6 @@ public class Weapon
 
     public void ReceptionHandlerEvent(Trigger trigger)
     {
-        if(_isInitialized == false)
-            return;
-        
         _archetype.CheakTrigger(trigger);
         _specificity.CheakTrigger(trigger);
     }

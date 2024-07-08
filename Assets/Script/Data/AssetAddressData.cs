@@ -13,6 +13,10 @@ public class AssetAddressData : SerializedScriptableObject
     public Dictionary<string, AssetData> GameUIAsset;
     public Dictionary<string, AssetData> MiddleUIAsset;
     public Dictionary<string, AssetData> PopupUIAsset;
+    public Dictionary<string, AssetData> ElementUIAsset;
+    public Dictionary<string, AssetData> SpriteAsset;
+    
+    
     public Dictionary<string, AssetData> CharacterAsset;
     public Dictionary<string, AssetData> AnimalAsset;
     
@@ -36,6 +40,14 @@ public class AssetAddressData : SerializedScriptableObject
             case AssetAddressType.PopupUIAsset:
                 if (PopupUIAsset.ContainsKey(key))
                     return PopupUIAsset[key].path;
+                break;
+            case AssetAddressType.ElementUIAsset:
+                if (ElementUIAsset.ContainsKey(key))
+                    return ElementUIAsset[key].path;
+                break;
+            case AssetAddressType.SpriteAsset:
+                if (SpriteAsset.ContainsKey(key))
+                    return SpriteAsset[key].path;
                 break;
             case AssetAddressType.CharacterAsset:
                 if (CharacterAsset.ContainsKey(key))

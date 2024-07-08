@@ -305,11 +305,11 @@ public class PlayerController : MonoBehaviour
 
             if (keyName == "1")
             {
-                Player.SwapWeapon(WeaponIndexType.Primary);
+                PlayerManager.Instance.SwapWeapon(WeaponIndexType.Primary);
             }
             else if (keyName == "2")
             {
-                Player.SwapWeapon(WeaponIndexType.Secondary);
+                PlayerManager.Instance.SwapWeapon(WeaponIndexType.Secondary);
             }
         }
     }

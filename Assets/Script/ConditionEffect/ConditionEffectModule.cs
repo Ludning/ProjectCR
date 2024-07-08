@@ -6,13 +6,12 @@ public class ConditionEffectModule
 {
     private Mediator _mediator;
 
-
-    private bool _isActive = false;
-    
     //트리거 조건
     private Trigger _trigger;
+
     //컨디션 조건
     private List<ConditionModule> _conditionModules = new List<ConditionModule>();
+
     //효과
     private List<EffectModule> _effectModules = new List<EffectModule>();
 
@@ -35,7 +34,7 @@ public class ConditionEffectModule
                     "RequestReference" => new Condition_RequestReference(),
                     _ => null
                 };
-                if(condition == null)
+                if (condition == null)
                     return;
                 condition.InitData(conditionData.Value, _mediator);
                 _conditionModules.Add(condition);
@@ -55,18 +54,18 @@ public class ConditionEffectModule
                     "ChangeWeaponDamageTypeByReference" => new Effect_ChangeWeaponDamageTypeByReference(),
                     "PushTarger" => new Effect_PushTarger(),
                     "SetDebuffTarget" => new Effect_SetDebuffTarget(),
-                    "SetRecordDuration" => new Effect_SetRecordDuration(),
                     "SetRecordValue" => new Effect_SetRecordValue(),
                     "SpawnObject" => new Effect_SpawnObject(),
                     _ => null
                 };
-                if(effectModule == null)
+                if (effectModule == null)
                     return;
                 effectModule.InitData(effectDatas.Value, _mediator);
                 _effectModules.Add(effectModule);
             }
         }
     }
+
     public void CheakTrigger(Trigger trigger)
     {
         if (((trigger & _trigger) == _trigger) && CheakCondition())
@@ -74,7 +73,8 @@ public class ConditionEffectModule
         else
             CancelEffect();
     }
-    public void OnUpdate()
+
+    public void OnChangedRecordData()
     {
         if (_trigger != Trigger.None)
             return;
@@ -83,6 +83,7 @@ public class ConditionEffectModule
         else
             CancelEffect();
     }
+
     private bool CheakCondition()
     {
         foreach (var conditionModule in _conditionModules)
@@ -90,28 +91,23 @@ public class ConditionEffectModule
             if (conditionModule.CheakCondition() == false)
                 return false;
         }
+
         return true;
     }
+
     public void InvokeEffect()
     {
-        if (_isActive == false)
+        foreach (var effectModule in _effectModules)
         {
-            foreach (var effectModule in _effectModules)
-            {
-                effectModule.InvokeEffect();
-            }
-            _isActive = true;
+            effectModule.InvokeEffect();
         }
     }
+
     public void CancelEffect()
     {
-        if (_isActive == true)
+        foreach (var effectModule in _effectModules)
         {
-            foreach (var effectModule in _effectModules)
-            {
-                effectModule.CancelEffect();
-            }
-            _isActive = false;
+            effectModule.CancelEffect();
         }
     }
 }

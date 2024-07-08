@@ -24,16 +24,16 @@ public class SkillController : MonoBehaviour
         switch (type)
         {
             case SkillSlotType.Normal:
-                _normalAttack.InitData(data, owner);
+                _normalAttack.InitData(data);
                 break;
             case SkillSlotType.Util:
-                _util.InitData(data, owner);
+                _util.InitData(data);
                 break;
             case SkillSlotType.Skill:
-                _skill.InitData(data, owner);
+                _skill.InitData(data);
                 break;
             case SkillSlotType.Special:
-                _special.InitData(data, owner);
+                _special.InitData(data);
                 break;
         }
     }

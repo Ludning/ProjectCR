@@ -30,9 +30,14 @@ public class PlayerInfoUIHandler : InfoUIHandler
         PlayerInfo_Message msg = new PlayerInfo_Message()
         {
             ID = gameObject.GetInstanceID(),
-            Level = PlayerComponent.GetLevel(),
-            NickName = PlayerComponent.GetNickName()
+            Level = PlayerComponent.Level,
+            NickName = PlayerComponent.NickName
         };
         MessageManager.Instance.InvokeCallback(msg);
+    }
+
+    public void ChangePlayerInfo()
+    {
+        InitUIData();
     }
 }

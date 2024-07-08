@@ -12,33 +12,18 @@ public class WeaponHandler : MonoBehaviour
     [SerializeField, ReadOnly] private Transform LeftHand;
     [SerializeField, ReadOnly] private Transform RightHand;
     
-    [SerializeField, ReadOnly] Weapon PrimaryWeapon;
-    [SerializeField, ReadOnly] Weapon SubWeapon;
     [SerializeField, ReadOnly] GameObject PrimaryWeaponModel;
     [SerializeField, ReadOnly] GameObject SubWeaponModel;
 
-    [SerializeField, ReadOnly] private WeaponIndexType _currentWeaponIndex;
+    [SerializeField] private GameObject _projectilePrefab;
+    [SerializeField] private GameObject _overrideProjectilePrefab = null;
     
-    public Weapon HoldWeapon
-    {
-        get
-        {
-            switch (_currentWeaponIndex)
-            {
-                case WeaponIndexType.Primary:
-                    return PrimaryWeapon;
-                case WeaponIndexType.Secondary:
-                    return SubWeapon;
-                default:
-                    return null;
-            }
-        }
-    }
+    
     public GameObject HoldWeaponModel
     {
         get
         {
-            switch (_currentWeaponIndex)
+            switch (PlayerManager.Instance.CurrentWeaponIndex)
             {
                 case WeaponIndexType.Primary:
                     return PrimaryWeaponModel;
@@ -49,26 +34,12 @@ public class WeaponHandler : MonoBehaviour
             }
         }
     }
-    public Weapon FreeWeapon
-    {
-        get
-        {
-            switch (_currentWeaponIndex)
-            {
-                case WeaponIndexType.Primary:
-                    return SubWeapon;
-                case WeaponIndexType.Secondary:
-                    return PrimaryWeapon;
-                default:
-                    return null;
-            }
-        }
-    }
+    
     public GameObject FreeWeaponModel
     {
         get
         {
-            switch (_currentWeaponIndex)
+            switch (PlayerManager.Instance.CurrentWeaponIndex)
             {
                 case WeaponIndexType.Primary:
                     return SubWeaponModel;
@@ -80,30 +51,8 @@ public class WeaponHandler : MonoBehaviour
         }
     }
     #endregion
-    private void FixedUpdate()
-    {
-        PrimaryWeapon?.OnUpdate();
-        SubWeapon?.OnUpdate();
-    }
-
-    public void InitWeaponData(EquipmentData data)
-    {
-        EquipmentIndexWeapon(data.MainWeapon, ItemSlotType.MainWeapon);
-        EquipmentIndexWeapon(data.SubWeapon, ItemSlotType.SubWeapon);
-    }
-
-    //무기를 1, 2번 키로 스왑시
-    public void SwapWeapon(WeaponIndexType index)
-    {
-        if (FreeWeapon == null)
-            return;
-        if (_currentWeaponIndex == index)
-            return;
-        _currentWeaponIndex = index;
-        SetActiveCurrentWeapon();
-    }
-
-
+    
+    
     //무기를 인벤토리등에서 변경시
     public void EquipmentIndexWeapon(Item item, ItemSlotType slotType)
     {
@@ -117,39 +66,34 @@ public class WeaponHandler : MonoBehaviour
             switch (slotType)
             {
                 case ItemSlotType.MainWeapon:
-                    Destroy(PrimaryWeaponModel);
+                    if(PrimaryWeaponModel != null)
+                        Destroy(PrimaryWeaponModel);
                     PrimaryWeaponModel = weaponModel;
-                    if (PrimaryWeapon == null)
-                        PrimaryWeapon = new Weapon();
-                    PrimaryWeapon.UnInstallWeapon();
-                    PrimaryWeapon.InitWeapon(Owner, this, item);
                     break;
                 case ItemSlotType.SubWeapon:
-                    Destroy(SubWeaponModel);
+                    if(SubWeaponModel != null)
+                        Destroy(SubWeaponModel);
                     SubWeaponModel = weaponModel;
-                    if (SubWeapon == null)
-                        SubWeapon = new Weapon();
-                    SubWeapon.UnInstallWeapon();
-                    SubWeapon.InitWeapon(Owner, this, item);
                     break;
             }
         }
-        SetActiveCurrentWeapon();
     }
-    
-    //현재 무기 활성화, 나머지 무기 비활성화
-    private void SetActiveCurrentWeapon()
+    //무기 애니메이션 적용
+    private void OnInstallWeaponAnimation(Item item, ItemSlotType slotType)
     {
-        if (HoldWeapon != null)
+        //_animator = ;
+        //animatorController.SetAnimationClipByWeaponType();
+    }
+    public void SetOverrideProjectilePrefab(string prefabName = "")
+    {
+        if (string.IsNullOrWhiteSpace(prefabName))
         {
-            HoldWeapon.ReceptionHandlerEvent(Trigger.HoldWeapon);
-            HoldWeaponModel.gameObject.SetActive(true);
+            _overrideProjectilePrefab = null;
         }
-
-        if (FreeWeapon != null)
+        else
         {
-            FreeWeapon.ReceptionHandlerEvent(Trigger.FreeWeapon);
-            FreeWeaponModel.gameObject.SetActive(false);
+            GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.SpawnableAsset, prefabName);
+            _overrideProjectilePrefab = prefab;
         }
     }
 

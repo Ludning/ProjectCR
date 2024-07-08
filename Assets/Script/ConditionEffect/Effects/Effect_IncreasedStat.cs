@@ -33,11 +33,11 @@ public class Effect_IncreasedStat : EffectModule
 
     public override void InvokeEffect()
     {
-        _mediator.Owner.AddStats(_type, _value);
+        PlayerManager.Instance.AddStats(_type, _value);
     }
 
     public override void CancelEffect()
     {
-        _mediator.Owner.AddStats(_type, -_value);
+        PlayerManager.Instance.AddStats(_type, -_value);
     }
 }

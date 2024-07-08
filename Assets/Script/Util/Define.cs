@@ -5,11 +5,6 @@ using System;
 
 #region WeaponData
 
-public enum RecordDataType
-{
-    Value,
-    Duration
-}
 public enum DataModuleType
 {
     Record,
@@ -335,6 +330,8 @@ public enum AssetAddressType
     UICoreAsset,
     GameUIAsset,
     PopupUIAsset,
+    ElementUIAsset,
+    SpriteAsset,
     CharacterAsset,
     MiddleUIAsset,
     AnimalAsset,

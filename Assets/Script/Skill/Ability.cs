@@ -11,21 +11,19 @@ public class Ability : Mediator
     [SerializeField, ReadOnly]
     private Dictionary<string, ReferenceModule> _referenceModules;
     
-    public void InitData(SkillData skillData, Player owner)
+    public void InitData(SkillData skillData)
     {
-        Owner = owner;
-        
         foreach (var recordData in skillData.recordDatas)
         {
             RecordModule recordModule = new RecordModule();
-            recordModule.InitData(recordData);
+            recordModule.InitData(recordData, this);
             _recordModules.Add(recordData.RecordName, recordModule);
         }
 
         foreach (var referenceData in skillData.referenceDatas)
         {
             ReferenceModule referenceModule = new ReferenceModule();
-            referenceModule.InitData(referenceData);
+            referenceModule.InitData(referenceData, this);
             _referenceModules.Add(referenceData.ReferenceName, referenceModule);
         }
         
@@ -38,10 +36,8 @@ public class Ability : Mediator
     }
     public void OnUpdate()
     {
-        foreach (var recordModule in _recordModules.Values)
-            recordModule.OnUpdate();
         foreach (var conditionEffectModule in _conditionEffectModules)
-            conditionEffectModule.OnUpdate();
+            conditionEffectModule.OnChangedRecordData();
     }
     public void SetTrigger(Trigger trigger)
     {
@@ -57,7 +53,7 @@ public class Ability : Mediator
         {
             case DataModuleType.Record:
                 if (_recordModules.TryGetValue(name, out RecordModule recordModule))
-                    return recordModule.GetValue();
+                    return recordModule.RecordValue;
                 break;
             case DataModuleType.Reference:
                 if (_referenceModules.TryGetValue(name, out ReferenceModule referenceModule))
@@ -66,34 +62,23 @@ public class Ability : Mediator
         }
         return int.MaxValue;
     }
-    public override void AddRecordData(string name, int value, RecordDataType type)
+    public override void AddRecordData(string name, int value)
     {
         if (_recordModules.TryGetValue(name, out RecordModule recordModule))
         {
-            switch (type)
-            {
-                case RecordDataType.Value:
-                    recordModule.AddValue(value);
-                    break;
-                case RecordDataType.Duration:
-                    recordModule.AddDuration(value);
-                    break;
-            }
+            recordModule.RecordValue += value;
         }
     }
-    public override void SetRecordData(string name, int value, RecordDataType type)
+    public override void SetRecordData(string name, int value)
     {
         if (_recordModules.TryGetValue(name, out RecordModule recordModule))
         {
-            switch (type)
-            {
-                case RecordDataType.Value:
-                    recordModule.SetValue(value);
-                    break;
-                case RecordDataType.Duration:
-                    recordModule.SetDuration(value);
-                    break;
-            }
+            recordModule.RecordValue = value;
         }
+    }
+    public override void OnChangedRecordData()
+    {
+        foreach (var conditionEffectModule in _conditionEffectModules)
+            conditionEffectModule.OnChangedRecordData();
     }
 }

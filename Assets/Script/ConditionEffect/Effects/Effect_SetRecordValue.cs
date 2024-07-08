@@ -33,7 +33,7 @@ public class Effect_SetRecordValue : EffectModule
 
     public override void InvokeEffect()
     {
-        _mediator.SetRecordData(_recordName, _value, RecordDataType.Value);
+        _mediator.SetRecordData(_recordName, _value);
     }
 
     public override void CancelEffect()

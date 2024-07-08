@@ -18,11 +18,11 @@ public class Effect_ChangeAttackProjectile : EffectModule
 
     public override void InvokeEffect()
     {
-        _mediator.Owner.SetOverrideProjectilePrefab(_projectileName);
+        PlayerManager.Instance.Player.WeaponHandler.SetOverrideProjectilePrefab(_projectileName);
     }
 
     public override void CancelEffect()
     {
-        _mediator.Owner.SetOverrideProjectilePrefab();
+        PlayerManager.Instance.Player.WeaponHandler.SetOverrideProjectilePrefab();
     }
 }

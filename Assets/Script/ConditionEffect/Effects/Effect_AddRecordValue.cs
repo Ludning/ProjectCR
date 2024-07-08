@@ -33,7 +33,7 @@ public class Effect_AddRecordValue : EffectModule
 
     public override void InvokeEffect()
     {
-        _mediator.AddRecordData(_recordName, _value, RecordDataType.Value);
+        _mediator.AddRecordData(_recordName, _value);
     }
 
     public override void CancelEffect()

@@ -10,16 +10,14 @@ public class Archetype : Mediator
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
     private Dictionary<string, ReferenceModule> _referenceModules = new Dictionary<string, ReferenceModule>();
 
-    public void InitData(ArchetypeData archetypeData, Player owner)
+    public void InitData(ArchetypeData archetypeData)
     {
-        Owner = owner;
-        
         if (archetypeData.recordDatas != null)
         {
             foreach (var recordData in archetypeData.recordDatas)
             {
                 RecordModule recordModule = new RecordModule();
-                recordModule.InitData(recordData);
+                recordModule.InitData(recordData, this);
                 _recordModules.Add(recordData.RecordName, recordModule);
             }
         }
@@ -29,7 +27,7 @@ public class Archetype : Mediator
             foreach (var referenceData in archetypeData.referenceDatas)
             {
                 ReferenceModule referenceModule = new ReferenceModule();
-                referenceModule.InitData(referenceData);
+                referenceModule.InitData(referenceData, this);
                 _referenceModules.Add(referenceData.ReferenceName, referenceModule);
             }
         }
@@ -55,13 +53,12 @@ public class Archetype : Mediator
         _recordModules.Clear();
         _referenceModules.Clear();
     }
-    public void OnUpdate()
+    /*public void OnUpdate()
     {
-        foreach (var recordModule in _recordModules.Values)
-            recordModule.OnUpdate();
         foreach (var conditionEffectModule in _conditionEffectModules)
             conditionEffectModule.OnUpdate();
-    }
+    }*/
+    
     public void CheakTrigger(Trigger trigger)
     {
         foreach (var conditionEffectModule in _conditionEffectModules)
@@ -75,7 +72,7 @@ public class Archetype : Mediator
         {
             case DataModuleType.Record:
                 if (_recordModules.TryGetValue(name, out RecordModule recordModule))
-                    return recordModule.GetValue();
+                    return recordModule.RecordValue;
                 break;
             case DataModuleType.Reference:
                 if (_referenceModules.TryGetValue(name, out ReferenceModule referenceModule))
@@ -84,34 +81,23 @@ public class Archetype : Mediator
         }
         return int.MaxValue;
     }
-    public override void AddRecordData(string name, int value, RecordDataType type)
+    public override void AddRecordData(string name, int value)
     {
         if (_recordModules.TryGetValue(name, out RecordModule recordModule))
         {
-            switch (type)
-            {
-                case RecordDataType.Value:
-                    recordModule.AddValue(value);
-                    break;
-                case RecordDataType.Duration:
-                    recordModule.AddValue(value);
-                    break;
-            }
+            recordModule.RecordValue += value;
         }
     }
-    public override void SetRecordData(string name, int value, RecordDataType type)
+    public override void SetRecordData(string name, int value)
     {
         if (_recordModules.TryGetValue(name, out RecordModule recordModule))
         {
-            switch (type)
-            {
-                case RecordDataType.Value:
-                    recordModule.SetValue(value);
-                    break;
-                case RecordDataType.Duration:
-                    recordModule.SetDuration(value);
-                    break;
-            }
+            recordModule.RecordValue = value;
         }
+    }
+    public override void OnChangedRecordData()
+    {
+        foreach (var conditionEffectModule in _conditionEffectModules)
+            conditionEffectModule.OnChangedRecordData();
     }
 }

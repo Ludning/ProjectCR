@@ -14,6 +14,7 @@ public class ItemData : IParserable
     public string archetype;
     public string specificityRoll;
     public string prefabPathName;
+    public string iconPathName;
     public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T dataInstance) where T : IParserable
     {
         foreach (KeyValuePair<string, int> keyValuePair in columnTypeDic)

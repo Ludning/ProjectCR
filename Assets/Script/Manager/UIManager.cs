@@ -163,13 +163,13 @@ public class UIManager : SingleTon<UIManager>
                 GameObject prefab =
                     ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.PopupUIAsset,
                         elementType.ToString());
-                popupUIElement = PoolManager.Instance.GetGameObject(prefab).transform;
-                popupUIElement.SetParent(PopupUIParent);
+                popupUIElement = Object.Instantiate(prefab).transform;//PoolManager.Instance.GetGameObject(prefab).transform;
+                popupUIElement.SetParent(PopupUIParent, false);
             }
 
             PopupUIDic.Add(elementType, popupUIElement);
         }
-
+        PopupUIDic[elementType].gameObject.SetActive(true);
         return PopupUIDic[elementType];
     }
 

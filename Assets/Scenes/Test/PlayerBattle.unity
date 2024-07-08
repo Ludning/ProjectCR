@@ -434,6 +434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character1
       objectReference: {fileID: 0}
+    - target: {fileID: 4325855717637870146, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4466773179763302881, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: m_Controller
@@ -447,9 +452,19 @@ PrefabInstance:
       objectReference: {fileID: 1332584670}
     - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
+      propertyPath: WeaponHandler
+      value: 
+      objectReference: {fileID: 1332584665}
+    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
       propertyPath: weaponHandler
       value: 
       objectReference: {fileID: 1332584665}
+    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
+        type: 3}
+      propertyPath: playerInfoUIHandler
+      value: 
+      objectReference: {fileID: 1332584672}
     - target: {fileID: 7255054985178059070, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: owner
@@ -679,6 +694,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1305072127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305072128}
+  - component: {fileID: 1305072129}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1305072128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305072127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.40298766, y: 0.24140859, z: 0.68984574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1305072129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305072127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d7a380a7803974bb81cd33743fe18b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _identification: 
+  _nickname: 
+  _player: {fileID: 0}
+  _stats:
+    _level: 0
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+    _maxMp: 0
+    _criticalChance: 0
+    _criticalMultiplier: 0
+    _hpRegen: 0
+    _mpRegen: 0
+    _exp: 0
+    _expRequired: 0
+    _stagger: 0
+    _projectileSpeed: 0
+  _currentStats:
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+    _maxMp: 0
+    _criticalChance: 0
+    _criticalMultiplier: 0
+    _hpRegen: 0
+    _mpRegen: 0
+    _hp: 0
+    _mp: 0
+    _stagger: 0
+    _projectileSpeed: 0
+  _inventoryData:
+    inventorySize: 30
+  CurrentWeaponIndex: 0
 --- !u!114 &1332584665 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6204098839989553099, guid: c3093d3491c60dd4aae280534d352f03,
@@ -701,6 +795,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f849411ec7d5aad4ebf06efcfbcd8c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1332584672 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3126378817611722995, guid: c3093d3491c60dd4aae280534d352f03,
+    type: 3}
+  m_PrefabInstance: {fileID: 688158339}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a0ac7c59005fa4ba0f234c076a24e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1498654065
@@ -818,3 +924,4 @@ SceneRoots:
   - {fileID: 1498654069}
   - {fileID: 688158339}
   - {fileID: 389497655}
+  - {fileID: 1305072128}

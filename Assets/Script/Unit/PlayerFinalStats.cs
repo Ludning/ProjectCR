@@ -73,7 +73,7 @@ public class PlayerFinalStats : UnitFinalStats
     }
     #endregion
 
-    public void LoadData(PlayerStats statsData, EquipmentData equipmentData)
+    public void LoadData(PlayerStats statsData)
     {
         MaxHp = statsData.MaxHp;
         MaxMp = statsData.MaxMp;
