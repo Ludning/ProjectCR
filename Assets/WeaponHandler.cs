@@ -3,27 +3,100 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Object = UnityEngine.Object;
 
 public class WeaponHandler : MonoBehaviour
 {
-    [SerializeField] private Player Owner;
-    [SerializeField] private Transform LeftHand;
-    [SerializeField] private Transform RightHand;
+    #region Field & Property
+    [SerializeField, ReadOnly] private Player Owner;
+    [SerializeField, ReadOnly] private Transform LeftHand;
+    [SerializeField, ReadOnly] private Transform RightHand;
     
-    [SerializeField] Weapon PrimaryWeapon;
-    [SerializeField] Weapon SubWeapon;
+    [SerializeField, ReadOnly] Weapon PrimaryWeapon;
+    [SerializeField, ReadOnly] Weapon SubWeapon;
+    [SerializeField, ReadOnly] GameObject PrimaryWeaponModel;
+    [SerializeField, ReadOnly] GameObject SubWeaponModel;
 
-    private WeaponIndexType _currentWeaponIndex;
-
+    [SerializeField, ReadOnly] private WeaponIndexType _currentWeaponIndex;
+    
+    public Weapon HoldWeapon
+    {
+        get
+        {
+            switch (_currentWeaponIndex)
+            {
+                case WeaponIndexType.Primary:
+                    return PrimaryWeapon;
+                case WeaponIndexType.Secondary:
+                    return SubWeapon;
+                default:
+                    return null;
+            }
+        }
+    }
+    public GameObject HoldWeaponModel
+    {
+        get
+        {
+            switch (_currentWeaponIndex)
+            {
+                case WeaponIndexType.Primary:
+                    return PrimaryWeaponModel;
+                case WeaponIndexType.Secondary:
+                    return SubWeaponModel;
+                default:
+                    return null;
+            }
+        }
+    }
+    public Weapon FreeWeapon
+    {
+        get
+        {
+            switch (_currentWeaponIndex)
+            {
+                case WeaponIndexType.Primary:
+                    return SubWeapon;
+                case WeaponIndexType.Secondary:
+                    return PrimaryWeapon;
+                default:
+                    return null;
+            }
+        }
+    }
+    public GameObject FreeWeaponModel
+    {
+        get
+        {
+            switch (_currentWeaponIndex)
+            {
+                case WeaponIndexType.Primary:
+                    return SubWeaponModel;
+                case WeaponIndexType.Secondary:
+                    return PrimaryWeaponModel;
+                default:
+                    return null;
+            }
+        }
+    }
+    #endregion
     private void FixedUpdate()
     {
-        
+        PrimaryWeapon?.OnUpdate();
+        SubWeapon?.OnUpdate();
+    }
+
+    public void InitWeaponData(EquipmentData data)
+    {
+        EquipmentIndexWeapon(data.MainWeapon, ItemSlotType.MainWeapon);
+        EquipmentIndexWeapon(data.SubWeapon, ItemSlotType.SubWeapon);
+        SetActiveCurrentWeapon();
     }
 
     //무기를 1, 2번 키로 스왑시
     public void SwapWeapon(WeaponIndexType index)
     {
-        if (GetHoldWeapon(index) == null)
+        if (FreeWeapon == null)
             return;
         if (_currentWeaponIndex == index)
             return;
@@ -31,48 +104,37 @@ public class WeaponHandler : MonoBehaviour
         SetActiveCurrentWeapon();
     }
 
-    //현재 무기 반환
-    public Weapon GetHoldWeapon(WeaponIndexType index)
-    {
-        switch (index)
-        {
-            case WeaponIndexType.Primary:
-                return PrimaryWeapon;
-            case WeaponIndexType.Secondary:
-                return SubWeapon;
-            default:
-                return null;
-        }
-    }
-    //비소지 무기 반환
-    public Weapon GetFreeWeapon(WeaponIndexType index)
-    {
-        switch (index)
-        {
-            case WeaponIndexType.Primary:
-                return SubWeapon;
-            case WeaponIndexType.Secondary:
-                return PrimaryWeapon;
-            default:
-                return null;
-        }
-    }
-    
+
     //무기를 인벤토리등에서 변경시
-    public void EquipmentIndexWeapon(WeaponIndexType index, Transform weaponTransform)
+    public void EquipmentIndexWeapon(Item item, ItemSlotType slotType)
     {
-        switch (index)
+        GameData data = DataManager.Instance.GetGameData();
+        if (data.ItemData.TryGetValue(item.index, out ItemData itemData))
         {
-            case WeaponIndexType.Primary:
-                weaponTransform.SetParent(RightHand);
-                PrimaryWeapon = weaponTransform.GetComponent<Weapon>();
-                PrimaryWeapon.InitWeapon(Owner, this);
-                break;
-            case WeaponIndexType.Secondary:
-                weaponTransform.SetParent(RightHand);
-                SubWeapon = weaponTransform.GetComponent<Weapon>();
-                SubWeapon.InitWeapon(Owner, this);
-                break;
+            GameObject weaponModelPrefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.WeaponAsset, itemData.prefabPathName);
+            if (weaponModelPrefab == null)
+                return;
+            GameObject weaponModel = Object.Instantiate(weaponModelPrefab, RightHand);
+            
+            switch (slotType)
+            {
+                case ItemSlotType.MainWeapon:
+                    Destroy(PrimaryWeaponModel);
+                    PrimaryWeaponModel = weaponModel;
+                    if (PrimaryWeapon == null)
+                        PrimaryWeapon = new Weapon();
+                    PrimaryWeapon.UnInstallWeapon();
+                    PrimaryWeapon.InitWeapon(Owner, this, item);
+                    break;
+                case ItemSlotType.SubWeapon:
+                    Destroy(SubWeaponModel);
+                    SubWeaponModel = weaponModel;
+                    if (SubWeapon == null)
+                        SubWeapon = new Weapon();
+                    SubWeapon.UnInstallWeapon();
+                    SubWeapon.InitWeapon(Owner, this, item);
+                    break;
+            }
         }
         SetActiveCurrentWeapon();
     }
@@ -80,13 +142,17 @@ public class WeaponHandler : MonoBehaviour
     //현재 무기 활성화, 나머지 무기 비활성화
     private void SetActiveCurrentWeapon()
     {
-        Weapon holdWeapon = GetHoldWeapon(_currentWeaponIndex);
-        holdWeapon.ReceptionWeaponHandlerEvent(Trigger.HoldWeapon);
-        holdWeapon.gameObject.SetActive(true);
-        
-        Weapon freeWeapon = GetFreeWeapon(_currentWeaponIndex);
-        freeWeapon.ReceptionWeaponHandlerEvent(Trigger.FreeWeapon);
-        freeWeapon.gameObject.SetActive(false);
+        if (HoldWeapon != null)
+        {
+            HoldWeapon.ReceptionHandlerEvent(Trigger.HoldWeapon);
+            HoldWeaponModel.gameObject.SetActive(true);
+        }
+
+        if (FreeWeapon != null)
+        {
+            FreeWeapon.ReceptionHandlerEvent(Trigger.FreeWeapon);
+            FreeWeaponModel.gameObject.SetActive(false);
+        }
     }
 
     #region Editor Function

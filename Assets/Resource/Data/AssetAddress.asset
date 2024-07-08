@@ -246,167 +246,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: PopupUIAsset
-      Entry: 7
-      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
-        Assembly-CSharp]], mscorlib
-    - Name: comparer
-      Entry: 9
-      Data: 1
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: SkillTreeUI
-    - Name: $v
-      Entry: 7
-      Data: 13|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: SkillTreeUI
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/UI/GameScene/PopupUI/SkillTreeUI.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: InventoryUI
-    - Name: $v
-      Entry: 7
-      Data: 14|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: InventoryUI
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/UI/GameScene/PopupUI/InventoryUI.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: EquipmentUI
-    - Name: $v
-      Entry: 7
-      Data: 15|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: EquipmentUI
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/UI/GameScene/PopupUI/EquipmentUI.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CharacterAsset
-      Entry: 7
-      Data: 16|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
-        Assembly-CSharp]], mscorlib
-    - Name: comparer
-      Entry: 9
-      Data: 1
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: Character1
-    - Name: $v
-      Entry: 7
-      Data: 17|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: Character1
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/Unit/Player/Character1.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: Character2
-    - Name: $v
-      Entry: 7
-      Data: 18|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: Character2
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/Unit/Player/Character2.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: Character3
-    - Name: $v
-      Entry: 7
-      Data: 19|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: Character3
-    - Name: path
-      Entry: 1
-      Data: Assets/Prefab/Unit/Player/Character3.prefab
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: MiddleUIAsset
       Entry: 7
-      Data: 20|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -422,7 +264,7 @@ MonoBehaviour:
       Data: MonsterInfo
     - Name: $v
       Entry: 7
-      Data: 21|AssetData, Assembly-CSharp
+      Data: 13|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: MonsterInfo
@@ -443,13 +285,171 @@ MonoBehaviour:
       Data: PlayerInfo
     - Name: $v
       Entry: 7
-      Data: 22|AssetData, Assembly-CSharp
+      Data: 14|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: PlayerInfo
     - Name: path
       Entry: 1
       Data: Assets/Prefab/UI/GameScene/MiddleUI/PlayerInfo.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: PopupUIAsset
+      Entry: 7
+      Data: 15|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SkillTreeUI
+    - Name: $v
+      Entry: 7
+      Data: 16|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: SkillTreeUI
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/UI/GameScene/PopupUI/SkillTreeUI.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: InventoryUI
+    - Name: $v
+      Entry: 7
+      Data: 17|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: InventoryUI
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/UI/GameScene/PopupUI/InventoryUI.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EquipmentUI
+    - Name: $v
+      Entry: 7
+      Data: 18|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: EquipmentUI
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/UI/GameScene/PopupUI/EquipmentUI.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CharacterAsset
+      Entry: 7
+      Data: 19|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Character1
+    - Name: $v
+      Entry: 7
+      Data: 20|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Character1
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Unit/Player/Character1.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Character2
+    - Name: $v
+      Entry: 7
+      Data: 21|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Character2
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Unit/Player/Character2.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Character3
+    - Name: $v
+      Entry: 7
+      Data: 22|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Character3
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Unit/Player/Character3.prefab
     - Name: 
       Entry: 8
       Data: 
@@ -4274,9 +4274,67 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: WeaponAnimationClipAsset
+    - Name: SpawnableAsset
       Entry: 7
       Data: 205|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LassoArrow
+    - Name: $v
+      Entry: 7
+      Data: 206|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: LassoArrow
+    - Name: path
+      Entry: 1
+      Data: 1234
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: VoidSphere
+    - Name: $v
+      Entry: 7
+      Data: 207|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: VoidSphere
+    - Name: path
+      Entry: 1
+      Data: 1234
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WeaponAnimationClipAsset
+      Entry: 7
+      Data: 208|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -4292,7 +4350,7 @@ MonoBehaviour:
       Data: 
     - Name: SkillAnimationClipAsset
       Entry: 7
-      Data: 206|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 209|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9

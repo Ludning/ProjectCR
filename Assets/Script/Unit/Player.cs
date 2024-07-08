@@ -20,10 +20,12 @@ public class  Player : MonoBehaviour, IDamageable
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private GameObject _overrideProjectilePrefab = null;
     
+    [SerializeField] private AnimatorController animatorController;
+    [SerializeField] private WeaponHandler weaponHandler;
+    
     private void Awake()
     {
         OnLoadPlayerData();
-        OnInstallEquipment();
         
         _currentStats.InitPlayerStat();
     }
@@ -90,7 +92,7 @@ public class  Player : MonoBehaviour, IDamageable
         }
         else
         {
-            GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.ObjectAsset, prefabName);
+            GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.SpawnableAsset, prefabName);
             _overrideProjectilePrefab = prefab;
         }
     }
@@ -106,6 +108,8 @@ public class  Player : MonoBehaviour, IDamageable
         //웹서버에 _identification 로 데이터를 받아옴
         //TODO
         TestPlayerData();
+
+        weaponHandler.InitWeaponData(_equipmentDatas);
         
         Debug.Log(GetNickName());
         PlayerInfo_Message msg = new PlayerInfo_Message()
@@ -117,16 +121,42 @@ public class  Player : MonoBehaviour, IDamageable
         MessageManager.Instance.InvokeCallback(msg);
     }
 
-    //장착중인 장비 스텟에 적용
-    private void OnInstallEquipment()
+    //장비 아이템 변경
+    public void SwapWeapon(WeaponIndexType weaponIndexType)
     {
-        _currentStats = new PlayerFinalStats();
-        _currentStats.LoadData(_stats, _equipmentDatas);
+        weaponHandler.SwapWeapon(WeaponIndexType.Primary);
     }
     
-    private void OnInstallWeaponAnimation()
+    //장비 아이템 변경
+    public void EquipItem(Item item, ItemSlotType slotType)
+    {
+        _equipmentDatas.EquipItem(item, slotType);
+        OnInstallEquipment(item, slotType);
+    }
+    
+    //장착중인 장비 스텟에 적용
+    private void OnInstallEquipment(Item item, ItemSlotType slotType)
+    {
+        if(_currentStats == null)
+            _currentStats = new PlayerFinalStats();
+        _currentStats.LoadData(_stats, _equipmentDatas);
+
+        if (item.itemType is ItemType.Weapon)
+        {
+            OnInstallWeaponAnimation(item, slotType);
+            OnInstallWeaponHandler(item, slotType);
+        }
+    }
+    
+    private void OnInstallWeaponAnimation(Item item, ItemSlotType slotType)
     {
         //_animator = ;
+        //animatorController.SetAnimationClipByWeaponType();
+    }
+
+    private void OnInstallWeaponHandler(Item item, ItemSlotType slotType)
+    {
+        weaponHandler.EquipmentIndexWeapon(item, slotType);
     }
 
     private void TestPlayerData()

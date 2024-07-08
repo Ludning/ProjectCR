@@ -35,11 +35,19 @@ public class Effect_IncreasedStat : EffectModule
 
     public override void InvokeEffect()
     {
-        _mediator.Owner.AddStats(_type, _value);
+        if (IsActive == false)
+        {
+            _mediator.Owner.AddStats(_type, _value);
+            IsActive = true;
+        }
     }
 
     public override void CancelEffect()
     {
-        _mediator.Owner.AddStats(_type, -_value);
+        if (IsActive == true)
+        {
+            _mediator.Owner.AddStats(_type, -_value);
+            IsActive = false;
+        }
     }
 }

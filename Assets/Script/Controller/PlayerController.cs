@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Camera MainCamera;
     [SerializeField] private CharacterController Controller;
     [SerializeField] private Animator Animator;
+    [SerializeField] private Player Player;
     //[SerializeField] private Weapon.Weapon Weapon;
     
     //Animation Move Hash
@@ -84,6 +85,7 @@ public class PlayerController : MonoBehaviour
         InputHandler.Instance.RegisterInputHandler(InputActionType.Interaction, OnInteraction);
         InputHandler.Instance.RegisterInputHandler(InputActionType.Skill, OnSkill);
         InputHandler.Instance.RegisterInputHandler(InputActionType.Special, OnSpecial);
+        InputHandler.Instance.RegisterInputHandler(InputActionType.ChangeWeapon, OnChangeWeapon);
     }
     private void OnDisable()
     {
@@ -95,6 +97,7 @@ public class PlayerController : MonoBehaviour
         InputHandler.Instance.UnregisterInputHandler(InputActionType.Interaction, OnInteraction);
         InputHandler.Instance.UnregisterInputHandler(InputActionType.Skill, OnSkill);
         InputHandler.Instance.UnregisterInputHandler(InputActionType.Special, OnSpecial);
+        InputHandler.Instance.UnregisterInputHandler(InputActionType.ChangeWeapon, OnChangeWeapon);
     }
     #endregion
 
@@ -290,6 +293,25 @@ public class PlayerController : MonoBehaviour
     public void OnSpecial(InputAction.CallbackContext context)
     {
         
+    }
+    
+    public void OnChangeWeapon(InputAction.CallbackContext context)
+    {
+        // 키가 눌렸을 때만 처리
+        if (context.phase == InputActionPhase.Performed)
+        {
+            // 누른 키의 이름을 가져옵니다.
+            string keyName = context.control.name;
+
+            if (keyName == "1")
+            {
+                Player.SwapWeapon(WeaponIndexType.Primary);
+            }
+            else if (keyName == "2")
+            {
+                Player.SwapWeapon(WeaponIndexType.Secondary);
+            }
+        }
     }
     #endregion
     

@@ -6,32 +6,52 @@ using UnityEngine;
 [Serializable]
 public class Specificity : Mediator
 {
-    private List<ConditionEffectModule> _conditionEffectModules;
-    private Dictionary<string, RecordModule> _recordModules;
-    private Dictionary<string, ReferenceModule> _referenceModules;
+    private List<ConditionEffectModule> _conditionEffectModules = new List<ConditionEffectModule>();
+    private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
+    private Dictionary<string, ReferenceModule> _referenceModules = new Dictionary<string, ReferenceModule>();
     
     public void InitData(SpecificityData archetypeData)
     {
-        foreach (var recordData in archetypeData.recordDatas)
+        if (archetypeData.recordDatas != null)
         {
-            RecordModule recordModule = new RecordModule();
-            recordModule.InitData(recordData);
-            _recordModules.Add(recordData.RecordName, recordModule);
+            foreach (var recordData in archetypeData.recordDatas)
+            {
+                RecordModule recordModule = new RecordModule();
+                recordModule.InitData(recordData);
+                _recordModules.Add(recordData.RecordName, recordModule);
+            }
         }
 
-        foreach (var referenceData in archetypeData.referenceDatas)
+        if (archetypeData.referenceDatas != null)
         {
-            ReferenceModule referenceModule = new ReferenceModule();
-            referenceModule.InitData(referenceData);
-            _referenceModules.Add(referenceData.ReferenceName, referenceModule);
+            foreach (var referenceData in archetypeData.referenceDatas)
+            {
+                ReferenceModule referenceModule = new ReferenceModule();
+                referenceModule.InitData(referenceData);
+                _referenceModules.Add(referenceData.ReferenceName, referenceModule);
+            }
+        }
+
+        if (archetypeData.conditionEffectDatas != null)
+        {
+            foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
+            {
+                ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
+                conditionEffectModule.InitData(conditionEffectData, this);
+                _conditionEffectModules.Add(conditionEffectModule);
+            }
         }
         
-        foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
+    }
+    public void UnInstall()
+    {
+        foreach (var conditionEffectModule in _conditionEffectModules)
         {
-            ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
-            conditionEffectModule.InitData(conditionEffectData, this);
-            _conditionEffectModules.Add(conditionEffectModule);
+            conditionEffectModule.CancelEffect();
         }
+        _conditionEffectModules.Clear();
+        _recordModules.Clear();
+        _referenceModules.Clear();
     }
     public void OnUpdate()
     {
@@ -40,7 +60,7 @@ public class Specificity : Mediator
         foreach (var conditionEffectModule in _conditionEffectModules)
             conditionEffectModule.OnUpdate();
     }
-    public void SetTrigger(Trigger trigger)
+    public void CheakTrigger(Trigger trigger)
     {
         foreach (var conditionEffectModule in _conditionEffectModules)
         {

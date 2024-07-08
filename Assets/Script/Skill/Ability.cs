@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Ability : Mediator
 {
+    [SerializeField, ReadOnly]
     private List<ConditionEffectModule> _conditionEffectModules;
+    [SerializeField, ReadOnly]
     private Dictionary<string, RecordModule> _recordModules;
+    [SerializeField, ReadOnly]
     private Dictionary<string, ReferenceModule> _referenceModules;
     
-    public void InitData(SkillData skillData)
+    public void InitData(SkillData skillData, Player owner)
     {
+        Owner = owner;
+        
         foreach (var recordData in skillData.recordDatas)
         {
             RecordModule recordModule = new RecordModule();

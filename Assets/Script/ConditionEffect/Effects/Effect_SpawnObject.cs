@@ -17,7 +17,7 @@ public class Effect_SpawnObject : EffectModule
 
     public override void InvokeEffect()
     {
-        GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.ObjectAsset, _objectName);
+        GameObject prefab = ResourceManager.Instance.LoadResourceWithCaching<GameObject>(AssetAddressType.SpawnableAsset, _objectName);
         PoolManager.Instance.GetGameObject(prefab, _mediator.Owner.transform.position);
     }
 

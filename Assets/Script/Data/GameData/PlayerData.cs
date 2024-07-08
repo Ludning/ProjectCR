@@ -24,9 +24,9 @@ public class PlayerData : IParserable
     public int exp;
     
     [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string inventory_data;
+    public List<string> inventory_data;
     [VerticalGroup("Player Data"), LabelWidth(90)]
-    public string equipment_data;
+    public List<string> equipment_data;
     [VerticalGroup("Player Data"), LabelWidth(90)]
     public string ownedSkill_data;
     [VerticalGroup("Player Data"), LabelWidth(90)]
@@ -42,7 +42,54 @@ public class PlayerData : IParserable
             if (dataRow[keyValuePair.Value] == DBNull.Value)
                 continue;
 
-            StringParserHelper.BuiltInTypeParser<T>(dataInstance, fieldType, fieldInfo.Name, dataRow[keyValuePair.Value]);
+            object listInstance;
+            Type genericType;
+            
+            switch (keyValuePair.Key)
+            {
+                case "inventory_data":
+                    listInstance = fieldInfo.GetValue(dataInstance);
+                    genericType = fieldType.GetGenericArguments()[0];
+                    if (listInstance == null)
+                    {
+                        listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
+                        fieldInfo.SetValue(dataInstance, listInstance);
+                    }
+
+                    string inventoryCellData = dataRow[keyValuePair.Value].ToString();
+                    var inventoryDatas = StringParserHelper.BracesParser(inventoryCellData);
+                    foreach (var inventoryData in inventoryDatas)
+                    {
+                        Type listType = typeof(List<>).MakeGenericType(genericType);
+                        MethodInfo addMethod = listType.GetMethod("Add");
+                        addMethod.Invoke(listInstance, new object[] { inventoryData });
+                    }
+                    break;
+                case "equipment_data":
+                    listInstance = fieldInfo.GetValue(dataInstance);
+                    genericType = fieldType.GetGenericArguments()[0];
+                    if (listInstance == null)
+                    {
+                        listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
+                        fieldInfo.SetValue(dataInstance, listInstance);
+                    }
+
+                    string equipmentCellData = dataRow[keyValuePair.Value].ToString();
+                    var equipmentDatas = StringParserHelper.BracesParser(equipmentCellData);
+                    foreach (var equipmentData in equipmentDatas)
+                    {
+                        Type listType = typeof(List<>).MakeGenericType(genericType);
+                        MethodInfo addMethod = listType.GetMethod("Add");
+                        addMethod.Invoke(listInstance, new object[] { equipmentData });
+                    }
+                    break;
+                default:
+                    StringParserHelper.BuiltInTypeParser<T>(dataInstance, fieldType, fieldInfo.Name, dataRow[keyValuePair.Value]);
+                    break;
+            }
+            
+
+            
         }
     }
 }

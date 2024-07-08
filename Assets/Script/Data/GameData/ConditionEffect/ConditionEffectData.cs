@@ -42,57 +42,7 @@ public class ConditionEffectData
             else if (Enum.TryParse<EffectType>(conditionAndEffects.Key, out EffectType effectResult))
             {
                 StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
-                /*switch (effectResult)
-                {
-                    case EffectType.SetRecordValue:
-                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
-                        break;
-                    case EffectType.IncreasedStat:
-                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
-                        break;
-                    case EffectType.SpawnObject:
-                        StringParserHelper.SetValueToKeyValueData<ConditionEffectData>(genericInstance, "effectDatas", conditionAndEffects.Key, conditionAndEffects.Value);
-                        break;
-                    /*case EffectType.SetRecordValueByReference,
-                    case EffectType.SetRecordDuration,
-                    case EffectType.SpawnProjectile,
-                    case EffectType.ProjectilePushForce,
-                    case EffectType.ProjectilePushRange,
-                    case EffectType.ChangeAttackProjectile,
-                    case EffectType.ProjectileCount,
-                    case EffectType.ChargeMinAngle,
-                    case EffectType.ChargeMaxAngle,
-                    case EffectType.SetDebuffTarget,
-                    case EffectType.ChangeWeaponDamageType,
-                    case EffectType.ChangeWeaponDamageTypeByReference,
-                    case EffectType.CooldownReduction,#1#
-                }*/
             }
-            
-            /*switch (conditionAndEffects.Key)
-            {
-                case "Trigger":
-                    var triggers = StringParserHelper.PipeParser(conditionAndEffects.Value);
-                    WeaponTrigger combinedTriggers = WeaponTrigger.None;
-
-                    foreach (var trigger in triggers)
-                    {
-                        if (Enum.TryParse<WeaponTrigger>(trigger, out var parsedTrigger))
-                            combinedTriggers |= parsedTrigger; // 비트 플래그 설정
-                        else
-                            throw new ArgumentException($"Invalid trigger value: {trigger}");
-                    }
-                    FieldInfo enumFieldInfo = typeof(WeaponConditionEffectData).GetField("trigger");
-                    enumFieldInfo.SetValue(genericInstance, combinedTriggers);
-                    break;
-                case "RequestRecordValue":
-                    string noParenthesesConditionAndEffects = StringParserHelper.ParenthesesParser(conditionAndEffects.Value);
-                    
-                    break;
-                case "effectDatas":
-                    
-                    break;
-            }*/
         }
         
         Type listType = typeof(List<>).MakeGenericType(genericType);

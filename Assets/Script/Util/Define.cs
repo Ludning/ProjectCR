@@ -34,6 +34,21 @@ public enum ConditionType
     RandomChance,
 }
 
+public enum ItemSlotType
+{
+    None,
+    MainWeapon,
+    SubWeapon,
+    Armor,
+    Accessories,
+}
+public enum ItemType
+{
+    None,
+    Weapon,
+    Armor,
+    Accessories,
+}
 public enum EffectType
 {
     SetRecordValue,
@@ -193,6 +208,7 @@ public enum InputActionType
     Interaction,
     Skill,
     Special,
+    ChangeWeapon,
 }
 #endregion
 #region PrefabType
@@ -323,7 +339,7 @@ public enum AssetAddressType
     MiddleUIAsset,
     AnimalAsset,
     WeaponAsset,
-    ObjectAsset,
+    SpawnableAsset,
     WeaponAnimationClipAsset,
     SkillAnimationClipAsset,
 }

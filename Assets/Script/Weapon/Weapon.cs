@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public class Weapon
 {
     [SerializeField, ReadOnly] 
     private Player Owner;
@@ -14,21 +14,53 @@ public class Weapon : MonoBehaviour
     [SerializeField, ReadOnly]
     private Specificity _specificity;
 
-    private void FixedUpdate()
+    public void OnUpdate()
     {
-        
+        if(_archetype != null)
+            _archetype.OnUpdate();
+        if(_specificity != null)
+            _specificity.OnUpdate();
     }
 
 
-    public void InitWeapon(Player owner, WeaponHandler handler)
+    public void InitWeapon(Player owner, WeaponHandler handler, Item item)
     {
         Owner = owner;
         Handler = handler;
+
+        GameData data = DataManager.Instance.GetGameData();
+        if(data.ArchetypeData.TryGetValue(item.archetypeID, out ArchetypeData archetypeData))
+        {
+            _archetype = new Archetype();
+            _archetype.InitData(archetypeData);
+        }
+        if(data.SpecificityData.TryGetValue(item.specificityID, out SpecificityData specificityData))
+        {
+            _specificity = new Specificity();
+            _specificity.InitData(specificityData);
+        }
     }
 
-    public void ReceptionWeaponHandlerEvent(Trigger type)
+    public void UnInstallWeapon()
     {
-        //_archetypeEffects.ReceptionArchetypeEvent(type);
+        if (_archetype != null)
+        {
+            Archetype tempArchetype = _archetype;
+            _archetype = null;
+            tempArchetype.UnInstall();
+        }
+        if (_specificity != null)
+        {
+            Specificity tempSpecificity = _specificity;
+            _specificity = null;
+            tempSpecificity.UnInstall();
+        }
+    }
+
+    public void ReceptionHandlerEvent(Trigger trigger)
+    {
+        _archetype.CheakTrigger(trigger);
+        _specificity.CheakTrigger(trigger);
     }
 
     #region WeaponLogic

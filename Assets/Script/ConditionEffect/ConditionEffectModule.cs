@@ -9,9 +9,9 @@ public class ConditionEffectModule
     //트리거 조건
     private Trigger _trigger;
     //컨디션 조건
-    private List<ConditionModule> _conditionModules;
+    private List<ConditionModule> _conditionModules = new List<ConditionModule>();
     //효과
-    private List<EffectModule> _effectModules;
+    private List<EffectModule> _effectModules = new List<EffectModule>();
 
 
 
@@ -21,41 +21,47 @@ public class ConditionEffectModule
         _mediator = mediator;
 
         _trigger = conditionEffectData.trigger;
-        foreach (var conditionData in conditionEffectData.conditionDatas)
+        if (conditionEffectData.conditionDatas != null)
         {
-            ConditionModule condition = conditionData.Key switch
+            foreach (var conditionData in conditionEffectData.conditionDatas)
             {
-                "RandomChance" => new Condition_RandomChance(),
-                "RequestRecordValue" => new Condition_RequestRecordValue(),
-                "RequestReference" => new Condition_RequestReference(),
-                _ => null
-            };
-            if(condition == null)
-                return;
-            condition.InitData(conditionData.Value, _mediator);
-            _conditionModules.Add(condition);
+                ConditionModule condition = conditionData.Key switch
+                {
+                    "RandomChance" => new Condition_RandomChance(),
+                    "RequestRecordValue" => new Condition_RequestRecordValue(),
+                    "RequestReference" => new Condition_RequestReference(),
+                    _ => null
+                };
+                if(condition == null)
+                    return;
+                condition.InitData(conditionData.Value, _mediator);
+                _conditionModules.Add(condition);
+            }
         }
-        
-        foreach (var effectDatas in conditionEffectData.effectDatas)
+
+        if (conditionEffectData.effectDatas != null)
         {
-            EffectModule effectModule = effectDatas.Key switch
+            foreach (var effectDatas in conditionEffectData.effectDatas)
             {
-                "IncreasedStat" => new Effect_IncreasedStat(),
-                "AddRecordValue" => new Effect_AddRecordValue(),
-                "ChangeAttackProjectile" => new Effect_ChangeAttackProjectile(),
-                "CooldownReduction" => new Effect_CooldownReduction(),
-                "ChangeWeaponDamageTypeByReference" => new Effect_ChangeWeaponDamageTypeByReference(),
-                "PushTarger" => new Effect_PushTarger(),
-                "SetDebuffTarget" => new Effect_SetDebuffTarget(),
-                "SetRecordDuration" => new Effect_SetRecordDuration(),
-                "SetRecordValue" => new Effect_SetRecordValue(),
-                "SpawnObject" => new Effect_SpawnObject(),
-                _ => null
-            };
-            if(effectModule == null)
-                return;
-            effectModule.InitData(effectDatas.Value, _mediator);
-            _effectModules.Add(effectModule);
+                EffectModule effectModule = effectDatas.Key switch
+                {
+                    "IncreasedStat" => new Effect_IncreasedStat(),
+                    "AddRecordValue" => new Effect_AddRecordValue(),
+                    "ChangeAttackProjectile" => new Effect_ChangeAttackProjectile(),
+                    "CooldownReduction" => new Effect_CooldownReduction(),
+                    "ChangeWeaponDamageTypeByReference" => new Effect_ChangeWeaponDamageTypeByReference(),
+                    "PushTarger" => new Effect_PushTarger(),
+                    "SetDebuffTarget" => new Effect_SetDebuffTarget(),
+                    "SetRecordDuration" => new Effect_SetRecordDuration(),
+                    "SetRecordValue" => new Effect_SetRecordValue(),
+                    "SpawnObject" => new Effect_SpawnObject(),
+                    _ => null
+                };
+                if(effectModule == null)
+                    return;
+                effectModule.InitData(effectDatas.Value, _mediator);
+                _effectModules.Add(effectModule);
+            }
         }
     }
     public void CheakTrigger(Trigger trigger)
@@ -83,14 +89,14 @@ public class ConditionEffectModule
         }
         return true;
     }
-    private void InvokeEffect()
+    public void InvokeEffect()
     {
         foreach (var effectModule in _effectModules)
         {
             effectModule.InvokeEffect();
         }
     }
-    private void CancelEffect()
+    public void CancelEffect()
     {
         foreach (var effectModule in _effectModules)
         {

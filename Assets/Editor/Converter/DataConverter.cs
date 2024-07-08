@@ -63,13 +63,19 @@ public class DataConverter
         foreach (var fieldInfo in fieldInfos)
         {
             //제네릭타입 알아내기
-            Type type = fieldInfo.FieldType.GetGenericArguments()[1];
             Type keyType = fieldInfo.FieldType.GetGenericArguments()[0];
-            //함수 리플렉션 호출
-            var method = typeof(DataConverter).GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)?.MakeGenericMethod(keyType, type);
-            if (method == null) continue;
+            Type type = fieldInfo.FieldType.GetGenericArguments()[1];
 
-            var data = method.Invoke(null, new object[] { fieldInfo.Name, tables });
+            var DataConverterType = typeof(DataConverter);
+            var method = DataConverterType.GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public);
+            var genericMethod = method.MakeGenericMethod(keyType, type);
+            if (genericMethod == null) continue;
+            var data = genericMethod.Invoke(null, new object[] { fieldInfo.Name, tables });
+            
+            //함수 리플렉션 호출
+            //var method = typeof(DataConverter).GetMethod(nameof(ReadDataFromTable), BindingFlags.Static | BindingFlags.Public)?.MakeGenericMethod(keyType, type);
+            //if (method == null) continue;
+            //var data = method.Invoke(null, new object[] { fieldInfo.Name, tables });
             
             fieldInfo.SetValue(loadedAsset, data);
         }

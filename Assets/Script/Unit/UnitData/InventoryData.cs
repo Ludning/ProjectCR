@@ -6,29 +6,22 @@ using UnityEngine;
 [Serializable]
 public class InventoryData
 {
-    [SerializeField]
+    [SerializeField, ReadOnly]
     private int inventorySize = 30;
-    [SerializeField]
-    private Dictionary<int, int> itemDictionary = new Dictionary<int, int>();
-    public void LoadData(string dataString)
+    [SerializeField, ReadOnly]
+    private Dictionary<int, Item> itemDictionary = new Dictionary<int, Item>();
+    public void LoadData(List<string> dataList)
     {
-        dataString = dataString.Trim('{', '}');
-        string[] itemIdArr = dataString.Split(',');
-
         for (int i = 0; i < inventorySize; i++)
         {
-            if (itemIdArr.Length <= i)
+            if (dataList.Count <= i)
             {
-                itemDictionary[i] = 0;
+                itemDictionary[i] = new Item();
                 continue;
             }
-            Debug.Log(itemIdArr.Length);
-            Debug.Log(i);
-            if (int.TryParse(itemIdArr[i], out int number) == false)
-            {
-                Debug.LogError("인벤토리 데이터 파싱 실패");
-            }
-            itemDictionary[i] = number;
+
+            itemDictionary[i] = new Item();
+            itemDictionary[i].InitItemData(dataList[0]);
         }
     }
 }
