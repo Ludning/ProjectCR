@@ -14,6 +14,7 @@ public class ViewBase<TViewModel, TMessage> : MonoBehaviour where TViewModel : V
             _vm.PropertyChanged += OnPropertyChanged;
             _vm.RegisterEventsOnEnable();
         }
+        OnEnableExpansion();
     }
 
     private void OnDisable()
@@ -24,10 +25,19 @@ public class ViewBase<TViewModel, TMessage> : MonoBehaviour where TViewModel : V
             _vm.PropertyChanged -= OnPropertyChanged;
             _vm = null;
         }
+        OnDisableExpansion();
     }
     
     //상속받아 구현해야함, UI의 값을 변경하는 코드
     protected virtual void OnPropertyChanged(object sender, PropertyChangedEventArgs e)
+    {
+    }
+
+    protected virtual void OnEnableExpansion()
+    {
+    }
+
+    protected virtual void OnDisableExpansion()
     {
     }
 }

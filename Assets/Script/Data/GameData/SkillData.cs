@@ -16,7 +16,6 @@ public class SkillData : IParserable
     public InitData initDatas;
     public List<ConditionEffectData> conditionEffectDatas;
     public List<RecordData> recordDatas;
-    public List<ReferenceData> referenceDatas;
     public static void SetParserData<T>(Dictionary<string, int> columnTypeDic, DataRow dataRow, T dataInstance) where T : IParserable
     {
         // 변수의 이름을 가져오기 위해 변수가 있는 클래스의 타입을 알아야 합니다.
@@ -72,21 +71,6 @@ public class SkillData : IParserable
                     foreach (var conditionEffect in recordEffects)
                     {
                         RecordData.SetParserData(listInstance, genericType, conditionEffect);
-                    }
-                    break;
-                case "referenceDatas":
-                    listInstance = fieldInfo.GetValue(dataInstance);
-                    genericType = fieldType.GetGenericArguments()[0];
-                    if (listInstance == null)
-                    {
-                        listInstance = Activator.CreateInstance(typeof(List<>).MakeGenericType(genericType));
-                        fieldInfo.SetValue(dataInstance, listInstance);
-                    }
-                    string referenceCellData = dataRow[keyValuePair.Value].ToString();
-                    var referenceDatas = StringParserHelper.BracesParser(referenceCellData);
-                    foreach (var referenceData in referenceDatas)
-                    {
-                        ReferenceData.SetParserData(listInstance, genericType, referenceData);
                     }
                     break;
                 default:

@@ -2,22 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Equipment_View : ViewBase<Equipment_ViewModel, Equipment_Message>
 {
     [SerializeField]
-    private Dictionary<int, Transform> itemSlotDictionary;
+    private ItemSlot _mainWeaponSlot;
+    [SerializeField]
+    private ItemSlot _subWeaponSlot;
+    [SerializeField]
+    private ItemSlot _armorSlot;
+    [SerializeField]
+    private ItemSlot _accessoriesSlot;
     
     protected override void OnPropertyChanged(object sender, PropertyChangedEventArgs e)
     {
-        switch (e.PropertyName)
+        if (e.PropertyName == "EquipmentData")
         {
-            /*case nameof(_vm.Level):
-                LevelText.text = _vm.Level.ToString();
-                break;
-            case nameof(_vm.NickName):
-                PlayerNameText.text = _vm.NickName;
-                break;*/
+            _mainWeaponSlot.LoadData(SlotType.Equipment, 1);
+            _subWeaponSlot.LoadData(SlotType.Equipment, 2);
+            _armorSlot.LoadData(SlotType.Equipment, 3);
+            _accessoriesSlot.LoadData(SlotType.Equipment, 4);
         }
+    }
+    protected override void OnEnableExpansion()
+    {
+        MessageManager.Instance.InvokeCallback(new Equipment_Message());
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public abstract class Mediator
 {
-    public abstract int GetData(string name, DataModuleType type);
+    public abstract int GetRecordData(string name);
     public abstract void SetRecordData(string name, int value);
     public abstract void AddRecordData(string name, int value);
     public abstract void OnChangedRecordData();

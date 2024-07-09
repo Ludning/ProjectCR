@@ -424,11 +424,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2588813663626555826, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 1332584670}
     - target: {fileID: 4325855717637870146, guid: c3093d3491c60dd4aae280534d352f03,
         type: 3}
       propertyPath: m_Name
@@ -439,37 +434,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4466773179763302881, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 22100000, guid: e11d5abf0ab1aaf429e09aa637f0aad5,
-        type: 2}
-    - target: {fileID: 6204098839989553099, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: Owner
-      value: 
-      objectReference: {fileID: 1332584670}
-    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: WeaponHandler
-      value: 
-      objectReference: {fileID: 1332584665}
-    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: weaponHandler
-      value: 
-      objectReference: {fileID: 1332584665}
-    - target: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: playerInfoUIHandler
-      value: 
-      objectReference: {fileID: 1332584672}
-    - target: {fileID: 7255054985178059070, guid: c3093d3491c60dd4aae280534d352f03,
-        type: 3}
-      propertyPath: owner
-      value: 
-      objectReference: {fileID: 1332584670}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -771,44 +735,8 @@ MonoBehaviour:
     _stagger: 0
     _projectileSpeed: 0
   _inventoryData:
-    inventorySize: 30
+    _inventorySize: 32
   CurrentWeaponIndex: 0
---- !u!114 &1332584665 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6204098839989553099, guid: c3093d3491c60dd4aae280534d352f03,
-    type: 3}
-  m_PrefabInstance: {fileID: 688158339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68d4a66b5a52267428caae9923cd2fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1332584670 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6295444716089752892, guid: c3093d3491c60dd4aae280534d352f03,
-    type: 3}
-  m_PrefabInstance: {fileID: 688158339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f849411ec7d5aad4ebf06efcfbcd8c3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1332584672 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3126378817611722995, guid: c3093d3491c60dd4aae280534d352f03,
-    type: 3}
-  m_PrefabInstance: {fileID: 688158339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50a0ac7c59005fa4ba0f234c076a24e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1498654065
 GameObject:
   m_ObjectHideFlags: 0

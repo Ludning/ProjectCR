@@ -52,6 +52,19 @@ public class PoolManager : SingleTonMono<PoolManager>
         copy.SetActive(true);
         return copy;
     }
+    public GameObject GetGameObject(GameObject prefab, Transform parent)
+    {
+        if (!_pool.ContainsKey(prefab.name))
+            CreatePool(prefab);
+        if (_pool[prefab.name].Count <= 1)
+            ExpansionPool(prefab);
+        GameObject copy = _pool[prefab.name].Dequeue();
+        copy.transform.SetParent(SceneRig.transform);
+        copy.transform.SetParent(parent);
+        copy.transform.position = Vector3.zero;
+        copy.SetActive(true);
+        return copy;
+    }
     public void ReturnToPool(GameObject go)
     {
         if(go == null) 

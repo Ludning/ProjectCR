@@ -5,15 +5,11 @@ using System;
 
 #region WeaponData
 
-public enum DataModuleType
-{
-    Record,
-    Reference,
-}
 public enum ReferenceType
 {
     PlayerHP,
     PlayerMP,
+    PlayerDamage,
 }
 
 public enum InitDataType
@@ -29,6 +25,11 @@ public enum ConditionType
     RandomChance,
 }
 
+public enum SlotType
+{
+    Inventory,
+    Equipment,
+}
 public enum ItemSlotType
 {
     None,
@@ -143,11 +144,11 @@ public enum WeaponType
 public enum ComparisonType
 {
     Null,
-    More,
-    Over,
-    Below,
-    Under,
-    Same,
+    More,//이상
+    Over,//초과
+    Below,//이하
+    Under,//미만
+    Same,//같은
 }
 public enum ArchetypeType
 {

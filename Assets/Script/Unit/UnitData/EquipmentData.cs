@@ -99,4 +99,20 @@ public class EquipmentData
 
         return prevItem;
     }
+
+    public Item GetItemByType(ItemSlotType type)
+    {
+        switch (type)
+        {
+            case ItemSlotType.MainWeapon:
+                return MainWeapon;
+            case ItemSlotType.SubWeapon:
+                return SubWeapon;
+            case ItemSlotType.Armor:
+                return Armor;
+            case ItemSlotType.Accessories:
+                return Accessories;
+        }
+        return null;
+    }
 }

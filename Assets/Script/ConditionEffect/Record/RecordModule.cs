@@ -11,6 +11,7 @@ public class RecordModule
 {
     private Mediator _mediator;
     
+    private string _recordName;
     private int _recordValue;
     private int _recordLimit;
     private float _duration;
@@ -37,7 +38,8 @@ public class RecordModule
     public void InitData(RecordData recordData, Mediator mediator)
     {
         _mediator = mediator;
-        
+
+        _recordName = recordData.RecordName;
         _recordLimit = recordData.RecordLimit;
         _duration = recordData.Duration;
         _recordResetValue = recordData.RecordResetValue;
@@ -57,10 +59,22 @@ public class RecordModule
             await UniTask.Delay((int)(_duration * 1000));
 
             if (_isRecordResetAll == true)
+            {
                 RecordValue  = 0;
+            }
             else
+            {
                 RecordValue  -= _recordResetValue;
+                if (RecordValue <= 0)
+                    RecordValue = 0;
+            }
 
+            Record_Message msg = new Record_Message()
+            {
+                RecordName = _recordName,
+                RecordValue = _recordValue,
+            };
+            MessageManager.Instance.InvokeCallback(msg);
 
             if (RecordValue <= 0)
             {

@@ -1012,6 +1012,1886 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c646d600d1539604a8e82573a3b3233a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 587093c6a751e8541b557be832ddaf69
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 928bd50e9819fc940ac04aa68ad6a57e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec7b37d5638794441b9deb9e4f46f084
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15c647f5a5273234b9875ce59b78684c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 246446639301e824c93a6dff25b01099
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20b282425d78e6140b36e0671bfb1339
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 878afc8a9b6d7094d89715fe30b2749b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5df8901426f028a49870a51bb9c58755
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d85a26fb656eae54abd83c6fc66f88fd
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17bd11effd8a8034fa615baf0c017d26
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8a9a57ddd3c3d418b07afe5918c2d5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a59b44a89e809a4ea33629c3a915859
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21e728d421d1a9f4fa32755e2a6f8756
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efcfe3bb149e6cc4d8033032e4b23379
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19c3033277e80f747b05db1ac9a23312
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62aac0c976a8a0f4e96e5dcb2c1fe60f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b9849c6f2bad4f42a58fbf27f20ead8
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7a39192b6f3a3b40be808ba74cca59b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ece6937b8f422ed40bc1320b16e21c2d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95c9a3ca2640d34439de63a536b487bd
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a8db8234fd42f5439e73adc433362ed
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4bfb4d5d17ea6042899c4fa587136e1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01584472782f6b04aadf7ed5d08612f0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f6ce1c629a3962489dacc315a7a2b2e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 401e907d4bc5e3c46b5b0c5ae461968c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95f49109049483b40b332ba12ff49ec9
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525bffa3bc72ae94e827714adbad259a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b108d4e673f352d4a8d785450c5f496f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7288c66e6cb6c1f4182c0d09a8810ad5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10dcd834d7c85154fa2cc9bbccc6460b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5798698b8791dfe409c86130a8d0a316
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc893725bf577d443b19767839d70924
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ae0ec1e421540d4ba12ae5fe0417d4f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bb654b7865d5db4a8fc462a16ec06fd
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30af7e305c2fccf4f9323854d372eeed
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82896a710ffa5bb4a9d23e937dcb8010
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ce2c6ab5b5067042a0b09d32007dee3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6910d4cdd10dd0941bf72eb8063f0664
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07b3636b55fcdce48973585b1596f57c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d802043fa5949b429bef2ddca35ca42
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_41.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef1a32791f33fda4abb185408ba38f4a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_42.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e70a2bc78214b394c826b79110b4a2d3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_43.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ef263e8aecab8a4c89745209d5c8db3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_44.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba75c65b21948434fb9bc0b255083834
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_45.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5180e9b1b31e5ed46af6385e436fba74
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_46.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf119421091afac4f9877ac7d06b52c1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_47.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5862193ae9d177c4e9d5842ccbea9935
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_48.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5b8c8d731a96904b81b8c4b49b25e40
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_49.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1e4ecb6eb6a6d64ca07f7c720052f32
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Axe_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4af0e3c3d63f13e429c280594ba2d65f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a61a97cdd63eb3345b0d9d4cb071d5bf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b1c47dee0a78764ca673916385680a1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d76788e04546a32459eaca157a8640f0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28d8f4d9fc6aec4885c4b3b9ab5fb69
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c929127d078dea644ad92477daeef409
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3140d0b427a584c47b69e3ad7c99fad3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b58003c9e2a42c4ebc2e43dc9311a3d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb53fb74e6b03e74f95166980dd2787d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3314bd003b4f12458174c45a7a67089
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bolt_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37967dc110c38fa438adb4cf1319b92c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dde5cb2729aa4d408920b69ce807fee
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42653119e97e78841b10617df587ed65
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bc86be53e2b7154d9a35aedab9e4c94
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 762a724da26284447a1c0d47f8ba6e13
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b6fec3fb8035a34b944394d451b4945
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0f4b52d7688e674db7cd2f09f6ec9f2
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18e24b6864805e64580a0892fbefd1f8
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b2e8f9e81e13c5439938f5c8c250ee6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63edf27b2ebc46341af074fa61d40926
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82f008121bbb3a443b7942a26b820ee4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ee6b6e32c9fb734199ab65444c3aa1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b94ab189a6fb984693f32ca9bbe430b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b1d727934739434b9b323b3b805b7fa
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2702689b1d9e4384a81f58a55e6df889
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfcf216f9a1a21045bbdb954afd66cb0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 715b7949abc28214a9a1e764cb5cfc0b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22f6bc26a4881644b13fd7d7fb1efd9
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a65c8680df17df4f80db54a915147e1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88ae785e8c8b62543b1b75125c8689f0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d8f5883d55e85347ac6516b47762350
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bb61b8c925f4ad4bb7eaac78dbe7177
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f28e26775e0db9d469cf3f6ec65f8603
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7bbb5208a871044cb2083abd4a545c1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2629ca8821bcbe94ebd8df861bc0b999
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6611308742e177d4d95638ac22fac515
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56c6d046c24103c4b9bbea47c74fe35f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f37b3f58674104e9a86f6546945374
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e491c5ff47f1b1429f2b53fd9d75b25
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d13bad15ef8ae7e4abd6c84c41d3ed2c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d6b1c21a14e4dc4fa0a6da27a36101e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ece4da673fc8aa47bdcaf44f4e92da3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a129fc17ec2bf6459ae629a5358a25f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5f89145bd08f8f42b4733e444e3519c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e5d9d73d264b884fb1b5230eb23c3b3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f479f706a8bde5f42b526080a23d3e1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e74df4b0ff3b0429aba97ef5f77fe4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07b0a4a452f1fd14bbd4307de999831a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6aa4e8cbfbcff240a893a7afe42c83d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25dc52af7ff55f45b454dca1d187090
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Bow_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 460834539b9dce34c98c7eb31f425fc0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 540d8232bd8cd4c40af9d5f18cc55d84
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b829a5435ac43438bb67b70dc638c3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd9c2e1fb5ccbf547a3fef5fe8e838dc
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79766f3fae0c65645922957e791d5886
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8c3431a3f3fdd642be31c7a08f96815
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef0f9b5e7f66b8e4d8ed99a2c4352101
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e6a644ecf722dd49929d75ef325faa7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0950b53524db45c46a8798da69584641
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cfb06a3ee4677c449eeff8af4a1af2d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0482b6c0e02c1a44eb708b11bef5bc18
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2b2551fe747d0e4d99f378bddc4d16c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9116c3cc89c8a014bad256b61c9b5b7a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e01d8bfabd6b67646a5ee28b86c5df06
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188e26fe0e70da94bb561ce86cd3c9a7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf02fb9d311832a49a44969a33ee2f0f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50f430142f7735a40a94f7d5c8ecc40c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 080885d4028194e4db83cbff4a66555d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc4413d6dfe3cf240b78dcb914d64495
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ffb54a19dd18dd49b5e2f4c0101e595
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bcba6fe38cd6804aa0e1293d3958985
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b9299979752f4b41843fc1846e8fbd1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46efefb43ec0e0f46b37ea5657dac9b9
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ffa3b08d3b70f4bbf62c0f66417861
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ad213b8ab77daf4fa5c7afe450f4286
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60c2e991e958618459d747f77185001e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b417299f1a13c4842b5545783e15e63f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a9860d9981278b42ba9ee5cedc72871
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 478e4a3f88da71042b80cf13db05b586
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e0995c4b165da5408017e8219d807ad
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f326eab97d8e8e742bad92712143032a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90a28b096b83aac45b0d0807377859ea
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03eb18a917fbe604d8f092c25a30c251
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fca245c740aebc94494b1aaeea4d823a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a39f0a32b3b655f43aad605c6dc82417
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 015ae4f8f91611344adb739b51b191f4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa479d5e717f6643b4afb05baef6c25
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e98987cb343758541bf51c8de04a4fc0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d2751f30301f7498a5e4fdced8bcf6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b640e9ee95871ee46adea475129e4684
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd58da2b05808a2458c55a645937a518
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_41.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69887d2f20f6cf44e9d458a3a3ae3c9f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_42.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b72433c38fa1df41a82645e5d758996
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_43.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0454d8ff3f434648947cbbcf1a794ce
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_44.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 141edef9311157b4686207a55f956de0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_45.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ffdd2b2d804f20458aec02d9aeb5650
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_46.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 974facb353159314bb7e0f5eafc2009f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_47.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 529b6b71748fdae48991bb834ae23fa0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_48.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dea23c6a98c27e4f802cc6dfbb7d3bc
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_49.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef84d184c147a804f9e5a7a69a58c618
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7eb6b73dfc6f6c4489b81b3837d92a3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_51.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa5bb9726579e054eb82b073c454cebf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_52.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7146fcd7908f41b47b5ba7e0f5252c0f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_53.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 761bb0b620b90254b93265eaf913967e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_54.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33629a1ce60fe8e41b7f5bd0fd77c74c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_55.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0782564994914994e82f9d92fd6f568a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_56.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e16f0a2e7110c84795285b32464fd93
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_57.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ea8283337e8724a8fdd2e42c4369ef
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_58.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a3b656cd66114045b98d94a93d6811a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_59.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f864822c5b6e60648a9566c626d4e5ef
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Dagger_60.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0322edec49f5cd49b55fc4786a4c823
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd8ef5a630c3e674195b95a6476e3f28
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2cffac85bcf9fd4581f45e75220a905
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 638a240557aaebe459ef3cec8994b1ae
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027845652c588e8489449c3280340544
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb76cf7052078e34d84f6a4dd4962b4f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 360852487bba71c48ab81198067b71bf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8929a5a28b17324db90e1efe0ad3622
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3865125820bc77f4aa24b28e62ac3f6c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1258673369ca3924d81b64caa0e680c7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ae0c7401b538f49ae2098c2c17f974
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25771359931f6684f89f263f4e056bae
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8492140535b46a247a04a570be9d5ba0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc258f3dee67e24f857097f0a022867
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e77ea01fc82e0e241b8179361419c3ee
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 349b5b5202462124b8083a56bd1b57ed
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3749c7f7cb18f8349bdf45ceb6406fbf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d12552756cbf5d54d8f87093962ac9be
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70acda91e21f4854a878764de00baf37
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 571cd957aece8ad448aba5a225e2518a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2fc089deb4f5ea48936e0b3d0dc059a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d936b01b4cb5144da405530d5ff26c3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 142d8bbc866399945a20e661fc85808b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32f9b16ef1451b74f9ebcdced8ca9140
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab8071e437c65e842a3425f52d3d2067
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee59dc2e3c88db646bfb9f943d6aaa71
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4215721bd6853754ca1d653c34402204
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 432fcc2f0812b3743bea71ca47f33b65
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bd4164ddbd85e4438608d83938a994a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c27fcc32ff875640805b01e4bad0ce5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bed608b3a803e643871ee9d2d454324
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0225b313fa09644cae6cc85699010fe
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c4092e885371c5419795a66e67a3d26
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66c03cb72b2c3f547b43cba40a80a8fa
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d4f23cd743a744aafb525880efbef6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d085b874b17898141ac4070c3b0d8b78
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43faad17cc978504b81c9f0a4ce19e85
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac34c985691dfaa449d66316fae24b0e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f908333b8de1d2b4c97c486b1ac667bf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24e938151b0824c489602393806b1d69
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfb64ede97586e3408e2e72585fe4f65
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_41.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb953762db962774bb4740f492407051
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_42.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2515e3d24d25f314488fb419347fa70e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_43.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7a52cec7c00e7e4c9dc986caf33ebf6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_44.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d55425750bfb0246971cedc94fda3be
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_45.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505c1f22d6f82f34f89dc6c5791aa2c2
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_46.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79b48990899f78469d788e52776f910
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_47.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddff24635bb405342804f7be6d5b0398
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_48.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6492154409f587247a87869a9595de25
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_49.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba1daff99a15f7b4f81cca195574b33d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Hammer_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9102633d6621b5d44af321a2af37cbb8
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/hammer_51.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e53611bba52c76744b35de73e3816ec7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/hammer_52.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b741bfb75f6b27d42b000c6ac6f6884f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/hammer_53.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cfa4b4a2ca98bf45b71dd6ed827836b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/hammer_54.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d67bb6600e397a499ef5866b473d333
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5acd404d031a4354793a3739d18894db
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 314d7b81aa48bea4f962d32bd76c4f5d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a44edd54d93d4424d87cc66470639d58
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd259a46a6039674fb9cf9edcbdd9045
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f4ef293c3e22d4f8e474de34cd02fd
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e8f1b3b026f3b84dba989cdf8f81da6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Scythe_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 362f089987ca6594b8c224e92a520ae1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 975c60efe1de6414881470156583f8c0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aae5bbdbc2b9589409b5aa54c6bc2ebf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c51d2d376e64cdc47a719723a16fdd34
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9fc8b17fbfcfe54db056e4f6f2095dc
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21e9dad18be23944890ced54ce8a4ac3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed3667e4580e0b34bbd9b625237f6c58
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d1933f19edb5bb4b987b168fb1c9a08
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c30986aa4bbfce40addd5891ed2fc98
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3fe1997d4936d74296bfa112af23946
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dd7bcb756da53149a6c01fb8199203e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3211073278444f540bef9f07df3c6682
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6e121b3356b95c4d89285c5309bb953
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ced5af69128734d926d04032eb18e2
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a167164077846419ebe5cba59c489e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f1d48fa5728b084a80bb6e1a6c6a54b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88b85d34d2d3688448436df2464eaa08
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb99357eba4e204b8e4b839924788ed
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cd01f09921e02d43b2d8803cf70f4af
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ef2e4af6bb933489eb431fa67db443
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c33f93250ea49734b914c34b7a22644d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2755e94601a336f4d9abb5d7ff5533e6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e22933ac3f11bed41a86af0255c4b3ad
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 861e34f866148be499ef5b0d35c01d46
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32f0b017a6e66e245a103917716c38b9
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 988d5208d7582a741ae21c98f82e2637
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 864d07453dce895468310886852e9685
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 938a5943e51a3de438ca49fbe801cb5a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a7db2c2f95348543be554c513bd6925
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30d264c002b709d4f8279d635334299e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cb90e528d2eb2d458817f00b85fce8b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f26b4718b87a684585cecc92b80696d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbd735ac076496040b25119d079a59ac
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5665118cd0746b4aa24b0986cd93d1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7be3b0341bc4ec547a09901e098d52a0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77608c00a08fce243a72bf218b2f77ea
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 792ff13228043cf49b8e22c3a551df7a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56892a8dbde802f4d82f33b29aa388b8
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34b9e001a4ae10c4796f1e44adcd9f27
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b74caef6d9b91764fb86d840899c3ced
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Spear_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cdd4155d910ac44db37c0d145886e27
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15275ef81832e7e4d9c9af3e9ad43691
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 565150436597cf347a30e5a23e440a6a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a90b6d55106b3614ab7e4b21249e241c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e132e7f4e2cef164ba7531e79383c252
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 161c6e4f217b93640b93b0ffc0904626
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a8dde71d0c773643b6fd6d585bdf3ce
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_7.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76a90c8bdc8786a41a3b9c089c7e48dc
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42b81ef51224dfa419141465dfeeea60
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_9.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 235324668bf770040890e0d1455b6e1c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaac4f8cbb27f4343a5bd2863445b310
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdf2586cdbc38ab428e573bb0281e00d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a54fc8dad2785f44a8389164d8951ed
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1369f71b8a9e36a4b950e935f1e1d3bb
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1375275bfec829e4bba6a1e14376e07b
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f45ab03e0497ac64d8aed4400d80ba71
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dc029abaa9e32046bf5c1f1603dd6bc
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55c2f1d8de2c6ff4bbae6d7a3ca7ba1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd24d8ff815c0a54d86b278550336a5c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113babaf77c1ca44caa1a1f48595c53c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf4e8b2a2eb55af47aad4baf2c39ba04
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76d0fe009100194891bc909171a6c17
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9eb78e41a3415044b9e1ca351b03127
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46bfa7808c4bd0846bf6cde3e4eca383
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7cd96af3174bf046a2cba39a65034c3
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c3ba7d022180a340bc2f97ce24932e0
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04eb37356a42e4489800c460e556127
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 156b31c9aa6c36145b39b5d88069810e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f09a0a9af175b4fb98d4c43e1240a5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ec8372b26b7a644c934ca87634219b1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c41868362ef13b541bef72b18ffcd3ff
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b7d48801e760f54b9739bf7621a71ee
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23d69f42e4de8ab4ca431929556587e4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34d4b820ce954cd419b175203732950f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01cd877d3a1f3a5418352071afe53cb4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55673def3657c34d9ad8bc7f2738729
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26b8b08533464f2449f93f426bed27fd
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83c3252330b12ea4abd1fa6f97b4e367
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dd7774df42a5a340900244e777abb38
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c680cf7221284b48bd1452c1f0d11e4
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cad8ffa171989e40bb0f859d0c1706d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_41.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d927f62d1a99bf48baef48339b87ee6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_42.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0c7833b7b26ecf4c83f47cb7653efca
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_43.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67cbfdc412f176d4492647dec9a0a437
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_44.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b54f49dc11559fa488fccba16bbd8b4a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_45.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acaea85712053b2459380b17c64c1411
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_46.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce1c399a5d15d3b40b3e52abd664fc5d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_47.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e4860b5275bbb74ebcbac7521f29519
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_48.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92aaa38365390984b99c696129c30c43
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_49.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdf72118beb69b246b18a2e6f9777881
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/staff_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b115ee2d29f4a554bb9f46d2be3e5e79
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Staff_51.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8699a820eb4987944b9e5020a3e2d40f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Staff_52.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dbae8532a2d1d348aa76f5a88d75509
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Staff_53.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 271c6d2218562564587d4cabc531011c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Staff_54.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e91fc63fcd9bb1c4abf7ffdc0848a328
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30c3473b99a93ab48a29a89a1b7cced2
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 422ce2ba344177449a97fe0f91d36fe7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 900f7aec7c89b124690cb27ede023bbf
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bec8f959272e6f6489baf3cc65a0bb35
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaa3fd0a673d5ea4a8ab1f7c8a8ca650
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad8852f27df9aa9488cf6e70a476ce85
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4034f673cb3e5c4fb7df763926e35e8
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48ca96789f35cec4f8a09da6635dac17
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e81d7fe53578148459c17b0e88396a38
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b43661052f7c594dbaea52ce5b53bad
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57e32a0902cc7e64b9fdef7ff8699607
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b782b96a9a1fa984381ab0e88edaa7ad
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de72c07fd522abb4382687152dd26500
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84c4156cf9f90cc4a8132105e90aa39c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddce68a9ba96d554298d45a0f8f9b317
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cd0aa0b06309ba499e29bcaa6f24b93
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7519d774f28918e42acb7dce6da20244
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17cb7023b96379b45aae42d2d52c7086
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cf35dd76aaab1c4a882312222137da7
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b499f123b1b51843a0f2c800f1087e2
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 078a614941dd2bc4eb75a666299a7b13
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b568461daafcba4bb83607398679dd5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6777e2d99b6a2d5479f55bce1d59fead
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50fad0b9f808e5b4e892777ce25ab344
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a5ac4fb5e79e564b928d0fd7b70fa64
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 682530ffd460f124183195933e237f5e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a00ea77a885f84884d42d3454d4f1f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6d45796bb88734fb18916c1dd20f59
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3beda36646c93a44b8c73a0a35dc1206
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bf2aee64efe8f9419433e56ffed2aad
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acb9f66ab7f28924e9a9835fe46ad195
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dba759f2221102043b1e4d3d62574b56
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bee9662c6a2902c47a1f6e415cdf0d11
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a73d2bbc47d271e4b9de39d250aa3e93
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3d7010556b567247878bcd1f6717f95
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_36.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07908264839bb4c419f8db2f4abeef56
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_37.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b19aac5ba7672842ad6bfd518610b1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_38.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 542eeac8004f8f941983aeb9f1f2387e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_39.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18bd024924b50ce45a54d8c77cb1b0a5
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_40.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67f857a67c697894caaa9c901e25344a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_41.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 115d081f7afa3f148953bb9820a7f154
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_42.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4e09b8aafd5a1e46b9338e37690ec11
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_43.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a617909d84ea6a4ca4a05ffede66cd6
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_44.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9ea9719216369d439dd43768676ce9d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_45.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c11f2fe71283ad14482e7fe3e30ec24c
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_46.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7c057fa86d192248b7f386b283f68c1
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_47.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e29f0dd2aa158340a04e60dd7fc6a53
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_48.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c587adb64f2906246abc7df3ee611360
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_49.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a0173874e22d2f4497e36790d698308
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_50.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484d85414d873cd4297a5743e20327ce
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_51.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ab0eacf9e9aacb4480fa259bd7cf897
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_52.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5298b16f07fdc254882392d213933f28
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_53.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b303f05c2843e294889c503b4c359c87
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_54.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9938823049520d46b541ee3df7d206d
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_55.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74f0813b0dfb01f428a9b50334100a9f
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_56.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a7cb22a23b4b184f8f571ea14b72367
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_57.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b403d947140108b47873efd6192564ab
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_58.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a639f99852add1e469f64ba17f35fb1a
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_59.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f01e14f11db5042adae5f374a1b10e
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_60.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b5a478a2718f4f468d7e25209064674
+    m_Address: Assets/Resource/Sprite/4000_Fantasy_Icons/Weapons/500_weapons/Sword_61.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aec591e64c8d1764d82fade64fc165d9, type: 2}
   m_SchemaSet:

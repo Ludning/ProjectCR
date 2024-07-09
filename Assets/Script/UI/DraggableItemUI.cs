@@ -8,7 +8,9 @@ public class DraggableItemUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 {
 	[SerializeField] private RectTransform Rect;
 	[SerializeField] private Image ItemImage;
-	private Transform PreviousParent;
+	public Transform PreviousParent;
+
+	public ItemElement ItemElement;
 	
 	public void OnBeginDrag(PointerEventData eventData)
 	{
@@ -26,14 +28,20 @@ public class DraggableItemUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
 	public void OnEndDrag(PointerEventData eventData)
 	{
-		// 드래그 직전에 소속되어 있던 아이템 슬롯으로 아이템 이동
-		//if (transform.parent == canvas)
-		if(eventData.pointerEnter == null ||eventData.pointerEnter.GetComponent<DroppableSlotUI>() == null)
+		DroppableSlotUI droppableSlot = eventData.pointerEnter?.GetComponent<DroppableSlotUI>();
+		
+		//if (eventData.pointerEnter == null || eventData.pointerEnter.GetComponent<DroppableSlotUI>() == null || eventData.pointerEnter.GetComponent<DroppableSlotUI>().ItemSlot.HasItem == true)
+		if (eventData.pointerEnter == null || droppableSlot == null)// || droppableSlot.ItemSlot.HasItem == true)
 		{
-			transform.SetParent(PreviousParent);
-			Rect.position = PreviousParent.GetComponent<RectTransform>().position;
+			ReturnToPreviousSlot();
 		}
 		ItemImage.raycastTarget = true;
+	}
+
+	public void ReturnToPreviousSlot()
+	{
+		transform.SetParent(PreviousParent);
+		Rect.position = PreviousParent.GetComponent<RectTransform>().position;
 	}
 }
 

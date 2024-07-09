@@ -8,8 +8,6 @@ public class Ability : Mediator
     private List<ConditionEffectModule> _conditionEffectModules;
     [SerializeField, ReadOnly]
     private Dictionary<string, RecordModule> _recordModules;
-    [SerializeField, ReadOnly]
-    private Dictionary<string, ReferenceModule> _referenceModules;
     
     public void InitData(SkillData skillData)
     {
@@ -19,14 +17,6 @@ public class Ability : Mediator
             recordModule.InitData(recordData, this);
             _recordModules.Add(recordData.RecordName, recordModule);
         }
-
-        foreach (var referenceData in skillData.referenceDatas)
-        {
-            ReferenceModule referenceModule = new ReferenceModule();
-            referenceModule.InitData(referenceData, this);
-            _referenceModules.Add(referenceData.ReferenceName, referenceModule);
-        }
-        
         foreach (var conditionEffectData in skillData.conditionEffectDatas)
         {
             ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
@@ -47,19 +37,10 @@ public class Ability : Mediator
         }
     }
 
-    public override int GetData(string name, DataModuleType type)
+    public override int GetRecordData(string name)
     {
-        switch (type)
-        {
-            case DataModuleType.Record:
-                if (_recordModules.TryGetValue(name, out RecordModule recordModule))
-                    return recordModule.RecordValue;
-                break;
-            case DataModuleType.Reference:
-                if (_referenceModules.TryGetValue(name, out ReferenceModule referenceModule))
-                    return referenceModule.GetValue();
-                break;
-        }
+        if (_recordModules.TryGetValue(name, out RecordModule recordModule))
+            return recordModule.RecordValue;
         return int.MaxValue;
     }
     public override void AddRecordData(string name, int value)

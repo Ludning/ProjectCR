@@ -1294,7 +1294,7 @@ MonoBehaviour:
       Data: InitAnimator
     - Name: Value
       Entry: 1
-      Data: (StateType:Special|AnimationClipName:)
+      Data: (StateType:Normal|AnimationClipName:)
     - Name: 
       Entry: 8
       Data: 
@@ -1418,28 +1418,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 7
-      Data: 52|System.Collections.Generic.List`1[[ReferenceData, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 53|ReferenceData, Assembly-CSharp
-    - Name: ReferenceName
-      Entry: 1
-      Data: PlayerMP
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1454,7 +1432,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 54|SkillData, Assembly-CSharp
+      Data: 52|SkillData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -1472,10 +1450,10 @@ MonoBehaviour:
       Data: 1
     - Name: initDatas
       Entry: 7
-      Data: 55|InitData, Assembly-CSharp
+      Data: 53|InitData, Assembly-CSharp
     - Name: initDataList
       Entry: 7
-      Data: 56|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 54|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1489,7 +1467,7 @@ MonoBehaviour:
       Data: InitAnimator
     - Name: Value
       Entry: 1
-      Data: (StateType:Special|AnimationClipName:)
+      Data: (StateType:Util|AnimationClipName:)
     - Name: 
       Entry: 8
       Data: 
@@ -1504,14 +1482,14 @@ MonoBehaviour:
       Data: 
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 57|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 55|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 58|ConditionEffectData, Assembly-CSharp
+      Data: 56|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -1520,7 +1498,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 59|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 57|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1556,9 +1534,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1573,7 +1548,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 60|SkillData, Assembly-CSharp
+      Data: 58|SkillData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -1591,10 +1566,10 @@ MonoBehaviour:
       Data: 2
     - Name: initDatas
       Entry: 7
-      Data: 61|InitData, Assembly-CSharp
+      Data: 59|InitData, Assembly-CSharp
     - Name: initDataList
       Entry: 7
-      Data: 62|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 60|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1608,7 +1583,7 @@ MonoBehaviour:
       Data: InitAnimator
     - Name: Value
       Entry: 1
-      Data: (StateType:Special|AnimationClipName:)
+      Data: (StateType:Skill|AnimationClipName:)
     - Name: 
       Entry: 8
       Data: 
@@ -1623,14 +1598,14 @@ MonoBehaviour:
       Data: 
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 63|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 61|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 64|ConditionEffectData, Assembly-CSharp
+      Data: 62|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -1639,7 +1614,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 65|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 63|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1675,9 +1650,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1692,7 +1664,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 66|SkillData, Assembly-CSharp
+      Data: 64|SkillData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -1710,10 +1682,10 @@ MonoBehaviour:
       Data: 3
     - Name: initDatas
       Entry: 7
-      Data: 67|InitData, Assembly-CSharp
+      Data: 65|InitData, Assembly-CSharp
     - Name: initDataList
       Entry: 7
-      Data: 68|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 66|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1742,14 +1714,14 @@ MonoBehaviour:
       Data: 
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 69|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 67|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 70|ConditionEffectData, Assembly-CSharp
+      Data: 68|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -1758,7 +1730,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 71|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 69|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1792,9 +1764,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: recordDatas
-      Entry: 6
-      Data: 
-    - Name: referenceDatas
       Entry: 6
       Data: 
     - Name: 
@@ -1811,14 +1780,50 @@ MonoBehaviour:
       Data: 
     - Name: ItemData
       Entry: 7
-      Data: 72|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemData,
+      Data: 70|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 71|ItemData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: itemName
+      Entry: 1
+      Data: null
+    - Name: description
+      Entry: 1
+      Data: null
+    - Name: archetype
+      Entry: 6
+      Data: 
+    - Name: specificityRoll
+      Entry: 6
+      Data: 
+    - Name: prefabPathName
+      Entry: 6
+      Data: 
+    - Name: iconPathName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 7
       Data: 
@@ -1827,7 +1832,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 73|ItemData, Assembly-CSharp
+      Data: 72|ItemData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -1838,14 +1843,17 @@ MonoBehaviour:
       Entry: 1
       Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
     - Name: archetype
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: 1
     - Name: specificityRoll
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: 1
     - Name: prefabPathName
       Entry: 1
       Data: Axe1H_Basic
+    - Name: iconPathName
+      Entry: 1
+      Data: Sword_61
     - Name: 
       Entry: 8
       Data: 
@@ -1858,60 +1866,66 @@ MonoBehaviour:
     - Name: $k
       Entry: 3
       Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 73|ItemData, Assembly-CSharp
+    - Name: index
+      Entry: 3
+      Data: 2
+    - Name: itemName
+      Entry: 1
+      Data: Axe2
+    - Name: description
+      Entry: 1
+      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
+    - Name: archetype
+      Entry: 1
+      Data: 1
+    - Name: specificityRoll
+      Entry: 1
+      Data: 1
+    - Name: prefabPathName
+      Entry: 1
+      Data: Axe1H_Basic
+    - Name: iconPathName
+      Entry: 1
+      Data: Sword_61
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
     - Name: $v
       Entry: 7
       Data: 74|ItemData, Assembly-CSharp
     - Name: index
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: itemName
       Entry: 1
-      Data: 2
+      Data: Axe3
     - Name: description
       Entry: 1
       Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
     - Name: archetype
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: 1
     - Name: specificityRoll
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: 1
     - Name: prefabPathName
       Entry: 1
       Data: Axe1H_Basic
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 3
-    - Name: $v
-      Entry: 7
-      Data: 75|ItemData, Assembly-CSharp
-    - Name: index
-      Entry: 3
-      Data: 3
-    - Name: itemName
+    - Name: iconPathName
       Entry: 1
-      Data: 3
-    - Name: description
-      Entry: 1
-      Data: "\uC544\uC774\uD15C\uC5D0 \uB300\uD55C \uC124\uBA85"
-    - Name: archetype
-      Entry: 6
-      Data: 
-    - Name: specificityRoll
-      Entry: 6
-      Data: 
-    - Name: prefabPathName
-      Entry: 1
-      Data: Axe1H_Basic
+      Data: Sword_61
     - Name: 
       Entry: 8
       Data: 
@@ -1926,11 +1940,11 @@ MonoBehaviour:
       Data: 
     - Name: PlayerData
       Entry: 7
-      Data: 76|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[PlayerData,
+      Data: 75|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[PlayerData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 77|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      Data: 76|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
         mscorlib]], mscorlib
     - Name: 
       Entry: 8
@@ -1946,7 +1960,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 78|PlayerData, Assembly-CSharp
+      Data: 77|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 11
@@ -1967,7 +1981,7 @@ MonoBehaviour:
       Data: 0
     - Name: inventory_data
       Entry: 7
-      Data: 79|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 78|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
@@ -1988,7 +2002,7 @@ MonoBehaviour:
       Data: 
     - Name: equipment_data
       Entry: 7
-      Data: 80|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 79|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -2030,7 +2044,7 @@ MonoBehaviour:
       Data: 22
     - Name: $v
       Entry: 7
-      Data: 81|PlayerData, Assembly-CSharp
+      Data: 80|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 22
@@ -2051,7 +2065,7 @@ MonoBehaviour:
       Data: 0
     - Name: inventory_data
       Entry: 7
-      Data: 82|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 81|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
@@ -2072,7 +2086,7 @@ MonoBehaviour:
       Data: 
     - Name: equipment_data
       Entry: 7
-      Data: 83|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 82|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -2114,7 +2128,7 @@ MonoBehaviour:
       Data: 33
     - Name: $v
       Entry: 7
-      Data: 84|PlayerData, Assembly-CSharp
+      Data: 83|PlayerData, Assembly-CSharp
     - Name: identification
       Entry: 1
       Data: 33
@@ -2135,7 +2149,7 @@ MonoBehaviour:
       Data: 0
     - Name: inventory_data
       Entry: 7
-      Data: 85|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 84|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
@@ -2156,7 +2170,7 @@ MonoBehaviour:
       Data: 
     - Name: equipment_data
       Entry: 7
-      Data: 86|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 85|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -2198,11 +2212,11 @@ MonoBehaviour:
       Data: 
     - Name: MonsterData
       Entry: 7
-      Data: 87|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
+      Data: 86|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MonsterData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
-      Data: 77
+      Data: 76
     - Name: 
       Entry: 12
       Data: 3
@@ -2214,7 +2228,7 @@ MonoBehaviour:
       Data: Alpaca
     - Name: $v
       Entry: 7
-      Data: 88|MonsterData, Assembly-CSharp
+      Data: 87|MonsterData, Assembly-CSharp
     - Name: monsterName
       Entry: 1
       Data: Alpaca
@@ -2247,7 +2261,7 @@ MonoBehaviour:
       Data: aa
     - Name: $v
       Entry: 7
-      Data: 89|MonsterData, Assembly-CSharp
+      Data: 88|MonsterData, Assembly-CSharp
     - Name: monsterName
       Entry: 1
       Data: aa
@@ -2280,7 +2294,7 @@ MonoBehaviour:
       Data: bb
     - Name: $v
       Entry: 7
-      Data: 90|MonsterData, Assembly-CSharp
+      Data: 89|MonsterData, Assembly-CSharp
     - Name: monsterName
       Entry: 1
       Data: bb
@@ -2313,7 +2327,7 @@ MonoBehaviour:
       Data: 
     - Name: ArchetypeData
       Entry: 7
-      Data: 91|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
+      Data: 90|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ArchetypeData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -2329,7 +2343,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 92|ArchetypeData, Assembly-CSharp
+      Data: 91|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -2348,14 +2362,14 @@ MonoBehaviour:
       Data: 0
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 93|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 92|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 94|ConditionEffectData, Assembly-CSharp
+      Data: 93|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -2364,7 +2378,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 95|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 94|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2426,9 +2440,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2443,7 +2454,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 96|ArchetypeData, Assembly-CSharp
+      Data: 95|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -2461,14 +2472,14 @@ MonoBehaviour:
       Data: 0
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 97|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 96|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 98|ConditionEffectData, Assembly-CSharp
+      Data: 97|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -2477,7 +2488,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 99|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 98|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2513,9 +2524,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2530,7 +2538,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 100|ArchetypeData, Assembly-CSharp
+      Data: 99|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -2549,14 +2557,14 @@ MonoBehaviour:
       Data: 0
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 101|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 100|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 102|ConditionEffectData, Assembly-CSharp
+      Data: 101|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -2565,7 +2573,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 103|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 102|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2601,9 +2609,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2618,7 +2623,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 104|ArchetypeData, Assembly-CSharp
+      Data: 103|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -2637,14 +2642,14 @@ MonoBehaviour:
       Data: 0
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 105|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 104|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 106|ConditionEffectData, Assembly-CSharp
+      Data: 105|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -2653,7 +2658,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 107|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 106|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2689,9 +2694,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2706,7 +2708,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 108|ArchetypeData, Assembly-CSharp
+      Data: 107|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -2726,14 +2728,14 @@ MonoBehaviour:
       Data: 0
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 109|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 108|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 110|ConditionEffectData, Assembly-CSharp
+      Data: 109|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -2742,7 +2744,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 111|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 110|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2804,9 +2806,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2821,7 +2820,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 112|ArchetypeData, Assembly-CSharp
+      Data: 111|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -2840,14 +2839,14 @@ MonoBehaviour:
       Data: 1
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 113|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 112|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 114|ConditionEffectData, Assembly-CSharp
+      Data: 113|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 8
@@ -2856,7 +2855,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 115|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 114|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2892,9 +2891,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2909,7 +2905,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 116|ArchetypeData, Assembly-CSharp
+      Data: 115|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -2930,14 +2926,14 @@ MonoBehaviour:
       Data: 1
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 117|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 116|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 6
     - Name: 
       Entry: 7
-      Data: 118|ConditionEffectData, Assembly-CSharp
+      Data: 117|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 256
@@ -2946,7 +2942,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 119|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 118|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2975,7 +2971,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 120|ConditionEffectData, Assembly-CSharp
+      Data: 119|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 512
@@ -2984,7 +2980,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 121|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 120|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3026,7 +3022,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 122|ConditionEffectData, Assembly-CSharp
+      Data: 121|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1024
@@ -3035,7 +3031,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 123|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 122|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3077,13 +3073,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 124|ConditionEffectData, Assembly-CSharp
+      Data: 123|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 125|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 124|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3109,7 +3105,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 126|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 125|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3138,13 +3134,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 127|ConditionEffectData, Assembly-CSharp
+      Data: 126|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 128|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 127|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3170,7 +3166,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 129|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 128|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3199,13 +3195,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 130|ConditionEffectData, Assembly-CSharp
+      Data: 129|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 131|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 130|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3231,7 +3227,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 132|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 131|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3266,14 +3262,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 133|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 132|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 134|RecordData, Assembly-CSharp
+      Data: 133|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: Predation
@@ -3301,9 +3297,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3318,7 +3311,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 135|ArchetypeData, Assembly-CSharp
+      Data: 134|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -3338,14 +3331,14 @@ MonoBehaviour:
       Data: 2
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 136|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 135|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 137|ConditionEffectData, Assembly-CSharp
+      Data: 136|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 64
@@ -3367,9 +3360,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3384,7 +3374,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 138|ArchetypeData, Assembly-CSharp
+      Data: 137|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -3406,14 +3396,14 @@ MonoBehaviour:
       Data: 2
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 139|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 138|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 140|ConditionEffectData, Assembly-CSharp
+      Data: 139|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -3428,13 +3418,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 141|ConditionEffectData, Assembly-CSharp
+      Data: 140|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 142|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 141|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3460,7 +3450,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 143|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 142|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3495,14 +3485,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 144|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 143|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 145|RecordData, Assembly-CSharp
+      Data: 144|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: LassoArrow
@@ -3530,9 +3520,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3547,7 +3534,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 146|ArchetypeData, Assembly-CSharp
+      Data: 145|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -3567,14 +3554,14 @@ MonoBehaviour:
       Data: 3
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 147|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 146|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 148|ConditionEffectData, Assembly-CSharp
+      Data: 147|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 2048
@@ -3583,7 +3570,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 149|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 148|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3645,9 +3632,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3662,7 +3646,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 150|ArchetypeData, Assembly-CSharp
+      Data: 149|ArchetypeData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -3682,14 +3666,14 @@ MonoBehaviour:
       Data: 3
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 151|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 150|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 152|ConditionEffectData, Assembly-CSharp
+      Data: 151|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -3698,7 +3682,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 153|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 152|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3734,9 +3718,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3751,7 +3732,7 @@ MonoBehaviour:
       Data: 
     - Name: SpecificityData
       Entry: 7
-      Data: 154|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
+      Data: 153|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SpecificityData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -3767,7 +3748,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 155|SpecificityData, Assembly-CSharp
+      Data: 154|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 1
@@ -3784,14 +3765,14 @@ MonoBehaviour:
         \uC7A0\uC2DC \uB3D9\uC548 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 156|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 155|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 157|ConditionEffectData, Assembly-CSharp
+      Data: 156|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 2
@@ -3806,13 +3787,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 158|ConditionEffectData, Assembly-CSharp
+      Data: 157|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 159|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 158|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3838,7 +3819,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 160|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 159|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3873,14 +3854,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 161|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 160|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 162|RecordData, Assembly-CSharp
+      Data: 161|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: Discord
@@ -3908,9 +3889,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -3925,7 +3903,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 163|SpecificityData, Assembly-CSharp
+      Data: 162|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 2
@@ -3941,14 +3919,14 @@ MonoBehaviour:
         \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 164|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 163|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 165|ConditionEffectData, Assembly-CSharp
+      Data: 164|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -3963,7 +3941,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 166|ConditionEffectData, Assembly-CSharp
+      Data: 165|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 65536
@@ -3972,7 +3950,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 167|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 166|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4001,13 +3979,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 168|ConditionEffectData, Assembly-CSharp
+      Data: 167|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 169|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 168|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4033,7 +4011,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 170|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 169|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4068,14 +4046,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 171|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 170|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 172|RecordData, Assembly-CSharp
+      Data: 171|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: KeepAway
@@ -4103,9 +4081,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4120,7 +4095,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 173|SpecificityData, Assembly-CSharp
+      Data: 172|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 3
@@ -4136,14 +4111,14 @@ MonoBehaviour:
         \uC77C\uCD09\uC989\uBC1C \uC0C1\uD0DC\uAC00 \uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 174|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 173|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 175|ConditionEffectData, Assembly-CSharp
+      Data: 174|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -4152,7 +4127,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 176|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 175|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4188,9 +4163,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4205,7 +4177,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 177|SpecificityData, Assembly-CSharp
+      Data: 176|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 4
@@ -4222,14 +4194,14 @@ MonoBehaviour:
         \uC8FC\uB294 \uCDA9\uACA9\uD30C\uB97C \uBC29\uCD9C\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 178|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 177|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 179|ConditionEffectData, Assembly-CSharp
+      Data: 178|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 64
@@ -4244,13 +4216,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 180|ConditionEffectData, Assembly-CSharp
+      Data: 179|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 181|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 180|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4276,7 +4248,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 182|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 181|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4311,14 +4283,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 183|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 182|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 184|RecordData, Assembly-CSharp
+      Data: 183|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: OneEnemyHitCount
@@ -4346,9 +4318,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4363,7 +4332,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 185|SpecificityData, Assembly-CSharp
+      Data: 184|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 5
@@ -4379,14 +4348,14 @@ MonoBehaviour:
         \uB54C \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 186|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 185|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 187|ConditionEffectData, Assembly-CSharp
+      Data: 186|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -4395,7 +4364,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 188|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 187|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4430,14 +4399,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 189|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 188|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 190|RecordData, Assembly-CSharp
+      Data: 189|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: IsMove
@@ -4465,9 +4434,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4482,7 +4448,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 191|SpecificityData, Assembly-CSharp
+      Data: 190|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 6
@@ -4500,20 +4466,20 @@ MonoBehaviour:
         \uB2E4\uC74C \uACF5\uACA9 \uD6C4 \uB9CC\uB8CC\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 192|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 191|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 193|ConditionEffectData, Assembly-CSharp
+      Data: 192|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 32768
     - Name: conditionDatas
       Entry: 7
-      Data: 194|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 193|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4539,7 +4505,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 195|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 194|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4568,13 +4534,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 196|ConditionEffectData, Assembly-CSharp
+      Data: 195|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 197|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 196|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4600,7 +4566,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 198|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 197|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4661,14 +4627,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 199|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 198|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 200|RecordData, Assembly-CSharp
+      Data: 199|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: ExecutionRound
@@ -4696,9 +4662,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4713,7 +4676,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 201|SpecificityData, Assembly-CSharp
+      Data: 200|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 7
@@ -4729,14 +4692,14 @@ MonoBehaviour:
         \uC704\uCE58\uC5D0 \uC218\uC815\uC774 \uC0DD\uC131\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 202|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 201|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 203|ConditionEffectData, Assembly-CSharp
+      Data: 202|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -4745,7 +4708,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 204|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 203|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4781,9 +4744,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4798,7 +4758,7 @@ MonoBehaviour:
       Data: 8
     - Name: $v
       Entry: 7
-      Data: 205|SpecificityData, Assembly-CSharp
+      Data: 204|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 8
@@ -4814,20 +4774,20 @@ MonoBehaviour:
         \uAE30\uB3D9\uC131\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 206|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 205|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 207|ConditionEffectData, Assembly-CSharp
+      Data: 206|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 65536
     - Name: conditionDatas
       Entry: 7
-      Data: 208|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 207|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4853,7 +4813,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 209|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 208|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4882,13 +4842,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 210|ConditionEffectData, Assembly-CSharp
+      Data: 209|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 211|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 210|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4914,7 +4874,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 212|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 211|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4962,14 +4922,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 213|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 212|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 214|RecordData, Assembly-CSharp
+      Data: 213|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: NearbyAlly
@@ -4997,9 +4957,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5014,7 +4971,7 @@ MonoBehaviour:
       Data: 9
     - Name: $v
       Entry: 7
-      Data: 215|SpecificityData, Assembly-CSharp
+      Data: 214|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 9
@@ -5031,14 +4988,14 @@ MonoBehaviour:
         \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 216|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 215|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 217|ConditionEffectData, Assembly-CSharp
+      Data: 216|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 131072
@@ -5047,7 +5004,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 218|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 217|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5076,7 +5033,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 219|ConditionEffectData, Assembly-CSharp
+      Data: 218|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 262144
@@ -5085,7 +5042,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 220|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 219|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5114,13 +5071,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 221|ConditionEffectData, Assembly-CSharp
+      Data: 220|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
     - Name: conditionDatas
       Entry: 7
-      Data: 222|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 221|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5146,7 +5103,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 223|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 222|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5181,14 +5138,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 224|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 223|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 225|RecordData, Assembly-CSharp
+      Data: 224|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: SurvivorCount
@@ -5216,9 +5173,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5233,7 +5187,7 @@ MonoBehaviour:
       Data: 10
     - Name: $v
       Entry: 7
-      Data: 226|SpecificityData, Assembly-CSharp
+      Data: 225|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 10
@@ -5249,14 +5203,14 @@ MonoBehaviour:
         \uB54C\uB9C8\uB2E4 \uD53C\uD574\uB97C \uC8FC\uB294 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 227|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 226|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 228|ConditionEffectData, Assembly-CSharp
+      Data: 227|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -5265,7 +5219,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 229|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 228|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5301,9 +5255,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5318,7 +5269,7 @@ MonoBehaviour:
       Data: 11
     - Name: $v
       Entry: 7
-      Data: 230|SpecificityData, Assembly-CSharp
+      Data: 229|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 11
@@ -5335,14 +5286,14 @@ MonoBehaviour:
         \uACF5\uACA9\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 231|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 230|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 232|ConditionEffectData, Assembly-CSharp
+      Data: 231|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 524352
@@ -5363,14 +5314,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 233|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 232|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 234|RecordData, Assembly-CSharp
+      Data: 233|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: HitEnemyCount
@@ -5398,9 +5349,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5415,7 +5363,7 @@ MonoBehaviour:
       Data: 12
     - Name: $v
       Entry: 7
-      Data: 235|SpecificityData, Assembly-CSharp
+      Data: 234|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 12
@@ -5431,14 +5379,14 @@ MonoBehaviour:
         \uAD81\uADF9\uAE30 \uCFE8\uD0C0\uC784\uC774 \uC77C\uC815\uB7C9 \uAC10\uC18C\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 236|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 235|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 237|ConditionEffectData, Assembly-CSharp
+      Data: 236|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 128
@@ -5447,7 +5395,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 238|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 237|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5483,9 +5431,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5500,7 +5445,7 @@ MonoBehaviour:
       Data: 13
     - Name: $v
       Entry: 7
-      Data: 239|SpecificityData, Assembly-CSharp
+      Data: 238|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 13
@@ -5517,14 +5462,14 @@ MonoBehaviour:
         \uB2A5\uB825\uACFC \uB3D9\uC77C\uD558\uAC8C \uBCC0\uACBD\uB429\uB2C8\uB2E4.."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 240|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 239|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 241|ConditionEffectData, Assembly-CSharp
+      Data: 240|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 8192
@@ -5533,7 +5478,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 242|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 241|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5575,7 +5520,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 243|ConditionEffectData, Assembly-CSharp
+      Data: 242|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 2
@@ -5584,7 +5529,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 244|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 243|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5632,14 +5577,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 245|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 244|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 246|RecordData, Assembly-CSharp
+      Data: 245|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: OsmoticPower
@@ -5667,9 +5612,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5684,7 +5626,7 @@ MonoBehaviour:
       Data: 14
     - Name: $v
       Entry: 7
-      Data: 247|SpecificityData, Assembly-CSharp
+      Data: 246|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 14
@@ -5701,14 +5643,14 @@ MonoBehaviour:
         10\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 248|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 247|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 249|ConditionEffectData, Assembly-CSharp
+      Data: 248|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 64
@@ -5723,7 +5665,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 250|ConditionEffectData, Assembly-CSharp
+      Data: 249|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -5732,7 +5674,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 251|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 250|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5767,14 +5709,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 252|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 251|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 253|RecordData, Assembly-CSharp
+      Data: 252|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: Meganeura
@@ -5802,9 +5744,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5819,7 +5758,7 @@ MonoBehaviour:
       Data: 15
     - Name: $v
       Entry: 7
-      Data: 254|SpecificityData, Assembly-CSharp
+      Data: 253|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 15
@@ -5836,14 +5775,14 @@ MonoBehaviour:
         5\uC2A4\uD0DD, 3\uCD08\uD6C4\uC5D0 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 255|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 254|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 256|ConditionEffectData, Assembly-CSharp
+      Data: 255|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 64
@@ -5864,14 +5803,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 257|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 256|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 258|RecordData, Assembly-CSharp
+      Data: 257|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: Onslaught
@@ -5899,9 +5838,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -5916,7 +5852,7 @@ MonoBehaviour:
       Data: 16
     - Name: $v
       Entry: 7
-      Data: 259|SpecificityData, Assembly-CSharp
+      Data: 258|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 16
@@ -5932,14 +5868,14 @@ MonoBehaviour:
         \uC7A0\uC2DC \uB3D9\uC548 \uC801\uC774 \uD53C\uD574\uC5D0 \uCDE8\uC57D\uD574\uC9D1\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 260|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 259|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 261|ConditionEffectData, Assembly-CSharp
+      Data: 260|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1048577
@@ -5948,7 +5884,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 262|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 261|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5984,9 +5920,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -6001,7 +5934,7 @@ MonoBehaviour:
       Data: 17
     - Name: $v
       Entry: 7
-      Data: 263|SpecificityData, Assembly-CSharp
+      Data: 262|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 17
@@ -6016,14 +5949,14 @@ MonoBehaviour:
       Data: "\uC6D0\uAC70\uB9AC \uD22C\uC0AC\uCCB4\uC758 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 264|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 263|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 265|ConditionEffectData, Assembly-CSharp
+      Data: 264|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -6032,7 +5965,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 266|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 265|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6068,9 +6001,6 @@ MonoBehaviour:
     - Name: recordDatas
       Entry: 6
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -6085,7 +6015,7 @@ MonoBehaviour:
       Data: 18
     - Name: $v
       Entry: 7
-      Data: 267|SpecificityData, Assembly-CSharp
+      Data: 266|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 18
@@ -6102,14 +6032,14 @@ MonoBehaviour:
         \uC9C0\uC18D\uC2DC\uAC04 3\uCD08."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 268|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 267|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 269|ConditionEffectData, Assembly-CSharp
+      Data: 268|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 1
@@ -6118,7 +6048,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 270|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 269|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6147,13 +6077,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 271|ConditionEffectData, Assembly-CSharp
+      Data: 270|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
     - Name: conditionDatas
       Entry: 7
-      Data: 272|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 271|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6179,7 +6109,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 273|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 272|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6214,14 +6144,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 274|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 273|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 275|RecordData, Assembly-CSharp
+      Data: 274|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: Preparation
@@ -6249,9 +6179,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 6
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -6266,7 +6193,7 @@ MonoBehaviour:
       Data: 19
     - Name: $v
       Entry: 7
-      Data: 276|SpecificityData, Assembly-CSharp
+      Data: 275|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 19
@@ -6282,14 +6209,52 @@ MonoBehaviour:
         \uC218\uCE58\uAC00 \uD5A5\uC0C1\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 277|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 276|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 277|ConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 1
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 278|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 278|ConditionEffectData, Assembly-CSharp
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: SetRecordValueByReference
+    - Name: Value
+      Entry: 1
+      Data: (RecordName:OwnerCurrentHp|ReferenceName:PlayerHpRatio)
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 279|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
       Data: 0
@@ -6298,7 +6263,7 @@ MonoBehaviour:
       Data: 
     - Name: effectDatas
       Entry: 7
-      Data: 279|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+      Data: 280|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
         mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6312,7 +6277,121 @@ MonoBehaviour:
       Data: IncreasedStat
     - Name: Value
       Entry: 1
-      Data: (Type:Damage|Value:40)
+      Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 281|ConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 282|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
+      Entry: 1
+      Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 283|ConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 284|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
+      Entry: 1
+      Data: (Type:Damage|Value:20)
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 285|ConditionEffectData, Assembly-CSharp
+    - Name: trigger
+      Entry: 3
+      Data: 0
+    - Name: conditionDatas
+      Entry: 6
+      Data: 
+    - Name: effectDatas
+      Entry: 7
+      Data: 286|System.Collections.Generic.List`1[[KeyValueData`2[[System.String,
+        mscorlib],[System.String, mscorlib]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: KeyValueData`2[[System.String, mscorlib],[System.String, mscorlib]],
+        Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: IncreasedStat
+    - Name: Value
+      Entry: 1
+      Data: (Type:Damage|Value:20)
     - Name: 
       Entry: 8
       Data: 
@@ -6333,14 +6412,14 @@ MonoBehaviour:
       Data: 
     - Name: recordDatas
       Entry: 7
-      Data: 280|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
+      Data: 287|System.Collections.Generic.List`1[[RecordData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 281|RecordData, Assembly-CSharp
+      Data: 288|RecordData, Assembly-CSharp
     - Name: RecordName
       Entry: 1
       Data: OwnerCurrentHp
@@ -6368,28 +6447,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: referenceDatas
-      Entry: 7
-      Data: 282|System.Collections.Generic.List`1[[ReferenceData, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 283|ReferenceData, Assembly-CSharp
-    - Name: ReferenceName
-      Entry: 1
-      Data: PlayerHP
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -6404,7 +6461,7 @@ MonoBehaviour:
       Data: 20
     - Name: $v
       Entry: 7
-      Data: 284|SpecificityData, Assembly-CSharp
+      Data: 289|SpecificityData, Assembly-CSharp
     - Name: index
       Entry: 3
       Data: 20
@@ -6421,17 +6478,17 @@ MonoBehaviour:
         \uD22C\uC0AC\uCCB4\uAC00 \uC0DD\uC131\uB429\uB2C8\uB2E4."
     - Name: conditionEffectDatas
       Entry: 7
-      Data: 285|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
+      Data: 290|System.Collections.Generic.List`1[[ConditionEffectData, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 286|ConditionEffectData, Assembly-CSharp
+      Data: 291|ConditionEffectData, Assembly-CSharp
     - Name: trigger
       Entry: 3
-      Data: 2097152
+      Data: 128
     - Name: conditionDatas
       Entry: 6
       Data: 
@@ -6448,9 +6505,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: recordDatas
-      Entry: 6
-      Data: 
-    - Name: referenceDatas
       Entry: 6
       Data: 
     - Name: 

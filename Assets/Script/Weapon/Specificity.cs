@@ -8,7 +8,6 @@ public class Specificity : Mediator
 {
     private List<ConditionEffectModule> _conditionEffectModules = new List<ConditionEffectModule>();
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
-    private Dictionary<string, ReferenceModule> _referenceModules = new Dictionary<string, ReferenceModule>();
     
     public void InitData(SpecificityData archetypeData)
     {
@@ -21,17 +20,6 @@ public class Specificity : Mediator
                 _recordModules.Add(recordData.RecordName, recordModule);
             }
         }
-
-        if (archetypeData.referenceDatas != null)
-        {
-            foreach (var referenceData in archetypeData.referenceDatas)
-            {
-                ReferenceModule referenceModule = new ReferenceModule();
-                referenceModule.InitData(referenceData, this);
-                _referenceModules.Add(referenceData.ReferenceName, referenceModule);
-            }
-        }
-
         if (archetypeData.conditionEffectDatas != null)
         {
             foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
@@ -51,7 +39,6 @@ public class Specificity : Mediator
         }
         _conditionEffectModules.Clear();
         _recordModules.Clear();
-        _referenceModules.Clear();
     }
     public void CheakTrigger(Trigger trigger)
     {
@@ -61,19 +48,10 @@ public class Specificity : Mediator
         }
     }
 
-    public override int GetData(string name, DataModuleType type)
+    public override int GetRecordData(string name)
     {
-        switch (type)
-        {
-            case DataModuleType.Record:
-                if (_recordModules.TryGetValue(name, out RecordModule recordModule))
-                    return recordModule.RecordValue;
-                break;
-            case DataModuleType.Reference:
-                if (_referenceModules.TryGetValue(name, out ReferenceModule referenceModule))
-                    return referenceModule.GetValue();
-                break;
-        }
+        if (_recordModules.TryGetValue(name, out RecordModule recordModule))
+            return recordModule.RecordValue;
         return int.MaxValue;
     }
     public override void AddRecordData(string name, int value)

@@ -54,6 +54,6 @@ public class Condition_RequestRecordValue : ConditionModule
     
     private int DataRequest(string message)
     {
-        return _mediator.GetData(message, DataModuleType.Record);
+        return _mediator.GetRecordData(message);
     }
 }

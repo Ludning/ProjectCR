@@ -26,4 +26,8 @@ public class InventoryData
             _itemDictionary[i].InitItemData(dataList[0]);
         }
     }
+    public Item GetItemByType(int index)
+    {
+        return _itemDictionary.GetValueOrDefault(index);
+    }
 }

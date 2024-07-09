@@ -41,6 +41,6 @@ public class Condition_RequestReference : ConditionModule
     
     private int DataRequest(string message)
     {
-        return _mediator.GetData(message, DataModuleType.Reference);
+        return _mediator.GetRecordData(message);
     }
 }

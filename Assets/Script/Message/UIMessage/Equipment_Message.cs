@@ -4,5 +4,4 @@ using UnityEngine;
 
 public struct Equipment_Message : MessageBase
 {
-    
 }

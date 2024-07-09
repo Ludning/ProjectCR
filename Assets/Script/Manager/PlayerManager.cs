@@ -272,9 +272,19 @@ public class PlayerManager : SingleTonMono<PlayerManager>
 
 
     #region ReferenceInterface
-    public int GetDataByReferenceName(string referenceName)
+    public int GetDataByReferenceName(ReferenceType reference)
     {
-        return 1;
+        switch (reference)
+        {
+            case ReferenceType.PlayerHP:
+                return _currentStats.Hp;
+            case ReferenceType.PlayerMP:
+                return _currentStats.Mp;
+            case ReferenceType.PlayerDamage:
+                return _currentStats.Damage;
+        }
+
+        return int.MaxValue;
     }
     #endregion
 }
