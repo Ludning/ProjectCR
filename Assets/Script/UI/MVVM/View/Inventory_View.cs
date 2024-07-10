@@ -15,7 +15,6 @@ public class Inventory_View : ViewBase<Inventory_ViewModel, Inventory_Message>
         {
             for (int index = 0; index < itemSlotList.Count; index++)
             {
-                Debug.Log($"{index}");
                 itemSlotList[index].LoadData(SlotType.Inventory, index);
             }
         }

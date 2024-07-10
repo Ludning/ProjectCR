@@ -392,7 +392,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 7
       Data: 
@@ -415,6 +415,27 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BuffUIElement
+    - Name: $v
+      Entry: 7
+      Data: 21|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: BuffUIElement
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/UI/GameScene/Element/Record.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -422,7 +443,7 @@ MonoBehaviour:
       Data: 
     - Name: SpriteAsset
       Entry: 7
-      Data: 21|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 22|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -438,7 +459,7 @@ MonoBehaviour:
       Data: Sword_61
     - Name: $v
       Entry: 7
-      Data: 22|AssetData, Assembly-CSharp
+      Data: 23|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_61
@@ -459,7 +480,7 @@ MonoBehaviour:
       Data: Sword_60
     - Name: $v
       Entry: 7
-      Data: 23|AssetData, Assembly-CSharp
+      Data: 24|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_60
@@ -480,7 +501,7 @@ MonoBehaviour:
       Data: Sword_59
     - Name: $v
       Entry: 7
-      Data: 24|AssetData, Assembly-CSharp
+      Data: 25|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_59
@@ -501,7 +522,7 @@ MonoBehaviour:
       Data: Sword_58
     - Name: $v
       Entry: 7
-      Data: 25|AssetData, Assembly-CSharp
+      Data: 26|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_58
@@ -522,7 +543,7 @@ MonoBehaviour:
       Data: Sword_57
     - Name: $v
       Entry: 7
-      Data: 26|AssetData, Assembly-CSharp
+      Data: 27|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_57
@@ -543,7 +564,7 @@ MonoBehaviour:
       Data: Sword_56
     - Name: $v
       Entry: 7
-      Data: 27|AssetData, Assembly-CSharp
+      Data: 28|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_56
@@ -564,7 +585,7 @@ MonoBehaviour:
       Data: Sword_55
     - Name: $v
       Entry: 7
-      Data: 28|AssetData, Assembly-CSharp
+      Data: 29|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_55
@@ -585,7 +606,7 @@ MonoBehaviour:
       Data: Sword_54
     - Name: $v
       Entry: 7
-      Data: 29|AssetData, Assembly-CSharp
+      Data: 30|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_54
@@ -606,7 +627,7 @@ MonoBehaviour:
       Data: Sword_53
     - Name: $v
       Entry: 7
-      Data: 30|AssetData, Assembly-CSharp
+      Data: 31|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_53
@@ -627,7 +648,7 @@ MonoBehaviour:
       Data: Sword_52
     - Name: $v
       Entry: 7
-      Data: 31|AssetData, Assembly-CSharp
+      Data: 32|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_52
@@ -648,7 +669,7 @@ MonoBehaviour:
       Data: Sword_51
     - Name: $v
       Entry: 7
-      Data: 32|AssetData, Assembly-CSharp
+      Data: 33|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_51
@@ -669,7 +690,7 @@ MonoBehaviour:
       Data: Sword_50
     - Name: $v
       Entry: 7
-      Data: 33|AssetData, Assembly-CSharp
+      Data: 34|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_50
@@ -690,7 +711,7 @@ MonoBehaviour:
       Data: Sword_49
     - Name: $v
       Entry: 7
-      Data: 34|AssetData, Assembly-CSharp
+      Data: 35|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_49
@@ -711,7 +732,7 @@ MonoBehaviour:
       Data: Sword_48
     - Name: $v
       Entry: 7
-      Data: 35|AssetData, Assembly-CSharp
+      Data: 36|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_48
@@ -732,7 +753,7 @@ MonoBehaviour:
       Data: Sword_47
     - Name: $v
       Entry: 7
-      Data: 36|AssetData, Assembly-CSharp
+      Data: 37|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_47
@@ -753,7 +774,7 @@ MonoBehaviour:
       Data: Sword_46
     - Name: $v
       Entry: 7
-      Data: 37|AssetData, Assembly-CSharp
+      Data: 38|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_46
@@ -774,7 +795,7 @@ MonoBehaviour:
       Data: Sword_45
     - Name: $v
       Entry: 7
-      Data: 38|AssetData, Assembly-CSharp
+      Data: 39|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_45
@@ -795,7 +816,7 @@ MonoBehaviour:
       Data: Sword_44
     - Name: $v
       Entry: 7
-      Data: 39|AssetData, Assembly-CSharp
+      Data: 40|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_44
@@ -816,7 +837,7 @@ MonoBehaviour:
       Data: Sword_43
     - Name: $v
       Entry: 7
-      Data: 40|AssetData, Assembly-CSharp
+      Data: 41|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_43
@@ -837,7 +858,7 @@ MonoBehaviour:
       Data: Sword_42
     - Name: $v
       Entry: 7
-      Data: 41|AssetData, Assembly-CSharp
+      Data: 42|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_42
@@ -858,7 +879,7 @@ MonoBehaviour:
       Data: Sword_41
     - Name: $v
       Entry: 7
-      Data: 42|AssetData, Assembly-CSharp
+      Data: 43|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_41
@@ -879,7 +900,7 @@ MonoBehaviour:
       Data: Sword_40
     - Name: $v
       Entry: 7
-      Data: 43|AssetData, Assembly-CSharp
+      Data: 44|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_40
@@ -900,7 +921,7 @@ MonoBehaviour:
       Data: Sword_39
     - Name: $v
       Entry: 7
-      Data: 44|AssetData, Assembly-CSharp
+      Data: 45|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_39
@@ -921,7 +942,7 @@ MonoBehaviour:
       Data: Sword_38
     - Name: $v
       Entry: 7
-      Data: 45|AssetData, Assembly-CSharp
+      Data: 46|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_38
@@ -942,7 +963,7 @@ MonoBehaviour:
       Data: Sword_37
     - Name: $v
       Entry: 7
-      Data: 46|AssetData, Assembly-CSharp
+      Data: 47|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_37
@@ -963,7 +984,7 @@ MonoBehaviour:
       Data: Sword_36
     - Name: $v
       Entry: 7
-      Data: 47|AssetData, Assembly-CSharp
+      Data: 48|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_36
@@ -984,7 +1005,7 @@ MonoBehaviour:
       Data: Sword_35
     - Name: $v
       Entry: 7
-      Data: 48|AssetData, Assembly-CSharp
+      Data: 49|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_35
@@ -1005,7 +1026,7 @@ MonoBehaviour:
       Data: Sword_34
     - Name: $v
       Entry: 7
-      Data: 49|AssetData, Assembly-CSharp
+      Data: 50|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_34
@@ -1026,7 +1047,7 @@ MonoBehaviour:
       Data: Sword_33
     - Name: $v
       Entry: 7
-      Data: 50|AssetData, Assembly-CSharp
+      Data: 51|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_33
@@ -1047,7 +1068,7 @@ MonoBehaviour:
       Data: Sword_32
     - Name: $v
       Entry: 7
-      Data: 51|AssetData, Assembly-CSharp
+      Data: 52|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_32
@@ -1068,7 +1089,7 @@ MonoBehaviour:
       Data: Sword_31
     - Name: $v
       Entry: 7
-      Data: 52|AssetData, Assembly-CSharp
+      Data: 53|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_31
@@ -1089,7 +1110,7 @@ MonoBehaviour:
       Data: Sword_30
     - Name: $v
       Entry: 7
-      Data: 53|AssetData, Assembly-CSharp
+      Data: 54|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_30
@@ -1110,7 +1131,7 @@ MonoBehaviour:
       Data: Sword_29
     - Name: $v
       Entry: 7
-      Data: 54|AssetData, Assembly-CSharp
+      Data: 55|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_29
@@ -1131,7 +1152,7 @@ MonoBehaviour:
       Data: Sword_28
     - Name: $v
       Entry: 7
-      Data: 55|AssetData, Assembly-CSharp
+      Data: 56|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_28
@@ -1152,7 +1173,7 @@ MonoBehaviour:
       Data: Sword_27
     - Name: $v
       Entry: 7
-      Data: 56|AssetData, Assembly-CSharp
+      Data: 57|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_27
@@ -1173,7 +1194,7 @@ MonoBehaviour:
       Data: Sword_26
     - Name: $v
       Entry: 7
-      Data: 57|AssetData, Assembly-CSharp
+      Data: 58|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_26
@@ -1194,7 +1215,7 @@ MonoBehaviour:
       Data: Sword_25
     - Name: $v
       Entry: 7
-      Data: 58|AssetData, Assembly-CSharp
+      Data: 59|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_25
@@ -1215,7 +1236,7 @@ MonoBehaviour:
       Data: Sword_24
     - Name: $v
       Entry: 7
-      Data: 59|AssetData, Assembly-CSharp
+      Data: 60|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_24
@@ -1236,7 +1257,7 @@ MonoBehaviour:
       Data: Sword_23
     - Name: $v
       Entry: 7
-      Data: 60|AssetData, Assembly-CSharp
+      Data: 61|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_23
@@ -1257,7 +1278,7 @@ MonoBehaviour:
       Data: Sword_22
     - Name: $v
       Entry: 7
-      Data: 61|AssetData, Assembly-CSharp
+      Data: 62|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_22
@@ -1278,7 +1299,7 @@ MonoBehaviour:
       Data: Sword_21
     - Name: $v
       Entry: 7
-      Data: 62|AssetData, Assembly-CSharp
+      Data: 63|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_21
@@ -1299,7 +1320,7 @@ MonoBehaviour:
       Data: Sword_20
     - Name: $v
       Entry: 7
-      Data: 63|AssetData, Assembly-CSharp
+      Data: 64|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_20
@@ -1320,7 +1341,7 @@ MonoBehaviour:
       Data: Sword_19
     - Name: $v
       Entry: 7
-      Data: 64|AssetData, Assembly-CSharp
+      Data: 65|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_19
@@ -1341,7 +1362,7 @@ MonoBehaviour:
       Data: Sword_18
     - Name: $v
       Entry: 7
-      Data: 65|AssetData, Assembly-CSharp
+      Data: 66|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_18
@@ -1362,7 +1383,7 @@ MonoBehaviour:
       Data: Sword_17
     - Name: $v
       Entry: 7
-      Data: 66|AssetData, Assembly-CSharp
+      Data: 67|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_17
@@ -1383,7 +1404,7 @@ MonoBehaviour:
       Data: Sword_16
     - Name: $v
       Entry: 7
-      Data: 67|AssetData, Assembly-CSharp
+      Data: 68|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_16
@@ -1404,7 +1425,7 @@ MonoBehaviour:
       Data: Sword_15
     - Name: $v
       Entry: 7
-      Data: 68|AssetData, Assembly-CSharp
+      Data: 69|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_15
@@ -1425,7 +1446,7 @@ MonoBehaviour:
       Data: Sword_14
     - Name: $v
       Entry: 7
-      Data: 69|AssetData, Assembly-CSharp
+      Data: 70|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_14
@@ -1446,7 +1467,7 @@ MonoBehaviour:
       Data: Sword_13
     - Name: $v
       Entry: 7
-      Data: 70|AssetData, Assembly-CSharp
+      Data: 71|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_13
@@ -1467,7 +1488,7 @@ MonoBehaviour:
       Data: Sword_12
     - Name: $v
       Entry: 7
-      Data: 71|AssetData, Assembly-CSharp
+      Data: 72|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_12
@@ -1488,7 +1509,7 @@ MonoBehaviour:
       Data: Sword_11
     - Name: $v
       Entry: 7
-      Data: 72|AssetData, Assembly-CSharp
+      Data: 73|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_11
@@ -1509,7 +1530,7 @@ MonoBehaviour:
       Data: Sword_10
     - Name: $v
       Entry: 7
-      Data: 73|AssetData, Assembly-CSharp
+      Data: 74|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_10
@@ -1530,7 +1551,7 @@ MonoBehaviour:
       Data: Sword_09
     - Name: $v
       Entry: 7
-      Data: 74|AssetData, Assembly-CSharp
+      Data: 75|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_09
@@ -1551,7 +1572,7 @@ MonoBehaviour:
       Data: Sword_08
     - Name: $v
       Entry: 7
-      Data: 75|AssetData, Assembly-CSharp
+      Data: 76|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_08
@@ -1572,7 +1593,7 @@ MonoBehaviour:
       Data: Sword_07
     - Name: $v
       Entry: 7
-      Data: 76|AssetData, Assembly-CSharp
+      Data: 77|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_07
@@ -1593,7 +1614,7 @@ MonoBehaviour:
       Data: Sword_06
     - Name: $v
       Entry: 7
-      Data: 77|AssetData, Assembly-CSharp
+      Data: 78|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_06
@@ -1614,7 +1635,7 @@ MonoBehaviour:
       Data: Sword_05
     - Name: $v
       Entry: 7
-      Data: 78|AssetData, Assembly-CSharp
+      Data: 79|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_05
@@ -1635,7 +1656,7 @@ MonoBehaviour:
       Data: Sword_04
     - Name: $v
       Entry: 7
-      Data: 79|AssetData, Assembly-CSharp
+      Data: 80|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_04
@@ -1656,7 +1677,7 @@ MonoBehaviour:
       Data: Sword_03
     - Name: $v
       Entry: 7
-      Data: 80|AssetData, Assembly-CSharp
+      Data: 81|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_03
@@ -1677,7 +1698,7 @@ MonoBehaviour:
       Data: Sword_02
     - Name: $v
       Entry: 7
-      Data: 81|AssetData, Assembly-CSharp
+      Data: 82|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_02
@@ -1698,7 +1719,7 @@ MonoBehaviour:
       Data: Sword_01
     - Name: $v
       Entry: 7
-      Data: 82|AssetData, Assembly-CSharp
+      Data: 83|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword_01
@@ -1719,7 +1740,7 @@ MonoBehaviour:
       Data: Staff_54
     - Name: $v
       Entry: 7
-      Data: 83|AssetData, Assembly-CSharp
+      Data: 84|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_54
@@ -1740,7 +1761,7 @@ MonoBehaviour:
       Data: Staff_53
     - Name: $v
       Entry: 7
-      Data: 84|AssetData, Assembly-CSharp
+      Data: 85|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_53
@@ -1761,7 +1782,7 @@ MonoBehaviour:
       Data: Staff_52
     - Name: $v
       Entry: 7
-      Data: 85|AssetData, Assembly-CSharp
+      Data: 86|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_52
@@ -1782,7 +1803,7 @@ MonoBehaviour:
       Data: Staff_51
     - Name: $v
       Entry: 7
-      Data: 86|AssetData, Assembly-CSharp
+      Data: 87|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_51
@@ -1803,7 +1824,7 @@ MonoBehaviour:
       Data: staff_50
     - Name: $v
       Entry: 7
-      Data: 87|AssetData, Assembly-CSharp
+      Data: 88|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_50
@@ -1824,7 +1845,7 @@ MonoBehaviour:
       Data: staff_49
     - Name: $v
       Entry: 7
-      Data: 88|AssetData, Assembly-CSharp
+      Data: 89|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_49
@@ -1845,7 +1866,7 @@ MonoBehaviour:
       Data: staff_48
     - Name: $v
       Entry: 7
-      Data: 89|AssetData, Assembly-CSharp
+      Data: 90|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_48
@@ -1866,7 +1887,7 @@ MonoBehaviour:
       Data: staff_47
     - Name: $v
       Entry: 7
-      Data: 90|AssetData, Assembly-CSharp
+      Data: 91|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_47
@@ -1887,7 +1908,7 @@ MonoBehaviour:
       Data: staff_46
     - Name: $v
       Entry: 7
-      Data: 91|AssetData, Assembly-CSharp
+      Data: 92|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_46
@@ -1908,7 +1929,7 @@ MonoBehaviour:
       Data: staff_45
     - Name: $v
       Entry: 7
-      Data: 92|AssetData, Assembly-CSharp
+      Data: 93|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_45
@@ -1929,7 +1950,7 @@ MonoBehaviour:
       Data: staff_44
     - Name: $v
       Entry: 7
-      Data: 93|AssetData, Assembly-CSharp
+      Data: 94|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_44
@@ -1950,7 +1971,7 @@ MonoBehaviour:
       Data: staff_43
     - Name: $v
       Entry: 7
-      Data: 94|AssetData, Assembly-CSharp
+      Data: 95|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_43
@@ -1971,7 +1992,7 @@ MonoBehaviour:
       Data: staff_42
     - Name: $v
       Entry: 7
-      Data: 95|AssetData, Assembly-CSharp
+      Data: 96|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_42
@@ -1992,7 +2013,7 @@ MonoBehaviour:
       Data: staff_41
     - Name: $v
       Entry: 7
-      Data: 96|AssetData, Assembly-CSharp
+      Data: 97|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_41
@@ -2013,7 +2034,7 @@ MonoBehaviour:
       Data: staff_40
     - Name: $v
       Entry: 7
-      Data: 97|AssetData, Assembly-CSharp
+      Data: 98|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_40
@@ -2034,7 +2055,7 @@ MonoBehaviour:
       Data: staff_39
     - Name: $v
       Entry: 7
-      Data: 98|AssetData, Assembly-CSharp
+      Data: 99|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_39
@@ -2055,7 +2076,7 @@ MonoBehaviour:
       Data: staff_38
     - Name: $v
       Entry: 7
-      Data: 99|AssetData, Assembly-CSharp
+      Data: 100|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_38
@@ -2076,7 +2097,7 @@ MonoBehaviour:
       Data: staff_37
     - Name: $v
       Entry: 7
-      Data: 100|AssetData, Assembly-CSharp
+      Data: 101|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_37
@@ -2097,7 +2118,7 @@ MonoBehaviour:
       Data: staff_36
     - Name: $v
       Entry: 7
-      Data: 101|AssetData, Assembly-CSharp
+      Data: 102|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_36
@@ -2118,7 +2139,7 @@ MonoBehaviour:
       Data: staff_35
     - Name: $v
       Entry: 7
-      Data: 102|AssetData, Assembly-CSharp
+      Data: 103|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_35
@@ -2139,7 +2160,7 @@ MonoBehaviour:
       Data: staff_34
     - Name: $v
       Entry: 7
-      Data: 103|AssetData, Assembly-CSharp
+      Data: 104|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_34
@@ -2160,7 +2181,7 @@ MonoBehaviour:
       Data: staff_33
     - Name: $v
       Entry: 7
-      Data: 104|AssetData, Assembly-CSharp
+      Data: 105|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_33
@@ -2181,7 +2202,7 @@ MonoBehaviour:
       Data: staff_32
     - Name: $v
       Entry: 7
-      Data: 105|AssetData, Assembly-CSharp
+      Data: 106|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_32
@@ -2202,7 +2223,7 @@ MonoBehaviour:
       Data: staff_31
     - Name: $v
       Entry: 7
-      Data: 106|AssetData, Assembly-CSharp
+      Data: 107|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_31
@@ -2223,7 +2244,7 @@ MonoBehaviour:
       Data: staff_30
     - Name: $v
       Entry: 7
-      Data: 107|AssetData, Assembly-CSharp
+      Data: 108|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_30
@@ -2244,7 +2265,7 @@ MonoBehaviour:
       Data: staff_29
     - Name: $v
       Entry: 7
-      Data: 108|AssetData, Assembly-CSharp
+      Data: 109|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_29
@@ -2265,7 +2286,7 @@ MonoBehaviour:
       Data: staff_28
     - Name: $v
       Entry: 7
-      Data: 109|AssetData, Assembly-CSharp
+      Data: 110|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_28
@@ -2286,7 +2307,7 @@ MonoBehaviour:
       Data: staff_27
     - Name: $v
       Entry: 7
-      Data: 110|AssetData, Assembly-CSharp
+      Data: 111|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_27
@@ -2307,7 +2328,7 @@ MonoBehaviour:
       Data: staff_26
     - Name: $v
       Entry: 7
-      Data: 111|AssetData, Assembly-CSharp
+      Data: 112|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_26
@@ -2328,7 +2349,7 @@ MonoBehaviour:
       Data: staff_25
     - Name: $v
       Entry: 7
-      Data: 112|AssetData, Assembly-CSharp
+      Data: 113|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_25
@@ -2349,7 +2370,7 @@ MonoBehaviour:
       Data: staff_24
     - Name: $v
       Entry: 7
-      Data: 113|AssetData, Assembly-CSharp
+      Data: 114|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_24
@@ -2370,7 +2391,7 @@ MonoBehaviour:
       Data: staff_23
     - Name: $v
       Entry: 7
-      Data: 114|AssetData, Assembly-CSharp
+      Data: 115|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_23
@@ -2391,7 +2412,7 @@ MonoBehaviour:
       Data: staff_22
     - Name: $v
       Entry: 7
-      Data: 115|AssetData, Assembly-CSharp
+      Data: 116|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_22
@@ -2412,7 +2433,7 @@ MonoBehaviour:
       Data: staff_21
     - Name: $v
       Entry: 7
-      Data: 116|AssetData, Assembly-CSharp
+      Data: 117|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_21
@@ -2433,7 +2454,7 @@ MonoBehaviour:
       Data: staff_20
     - Name: $v
       Entry: 7
-      Data: 117|AssetData, Assembly-CSharp
+      Data: 118|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_20
@@ -2454,7 +2475,7 @@ MonoBehaviour:
       Data: staff_19
     - Name: $v
       Entry: 7
-      Data: 118|AssetData, Assembly-CSharp
+      Data: 119|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_19
@@ -2475,7 +2496,7 @@ MonoBehaviour:
       Data: staff_18
     - Name: $v
       Entry: 7
-      Data: 119|AssetData, Assembly-CSharp
+      Data: 120|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_18
@@ -2496,7 +2517,7 @@ MonoBehaviour:
       Data: staff_17
     - Name: $v
       Entry: 7
-      Data: 120|AssetData, Assembly-CSharp
+      Data: 121|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_17
@@ -2517,7 +2538,7 @@ MonoBehaviour:
       Data: staff_16
     - Name: $v
       Entry: 7
-      Data: 121|AssetData, Assembly-CSharp
+      Data: 122|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_16
@@ -2538,7 +2559,7 @@ MonoBehaviour:
       Data: staff_15
     - Name: $v
       Entry: 7
-      Data: 122|AssetData, Assembly-CSharp
+      Data: 123|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_15
@@ -2559,7 +2580,7 @@ MonoBehaviour:
       Data: staff_14
     - Name: $v
       Entry: 7
-      Data: 123|AssetData, Assembly-CSharp
+      Data: 124|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_14
@@ -2580,7 +2601,7 @@ MonoBehaviour:
       Data: staff_13
     - Name: $v
       Entry: 7
-      Data: 124|AssetData, Assembly-CSharp
+      Data: 125|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_13
@@ -2601,7 +2622,7 @@ MonoBehaviour:
       Data: staff_12
     - Name: $v
       Entry: 7
-      Data: 125|AssetData, Assembly-CSharp
+      Data: 126|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_12
@@ -2622,7 +2643,7 @@ MonoBehaviour:
       Data: staff_11
     - Name: $v
       Entry: 7
-      Data: 126|AssetData, Assembly-CSharp
+      Data: 127|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_11
@@ -2643,7 +2664,7 @@ MonoBehaviour:
       Data: staff_10
     - Name: $v
       Entry: 7
-      Data: 127|AssetData, Assembly-CSharp
+      Data: 128|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_10
@@ -2664,7 +2685,7 @@ MonoBehaviour:
       Data: staff_9
     - Name: $v
       Entry: 7
-      Data: 128|AssetData, Assembly-CSharp
+      Data: 129|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_9
@@ -2685,7 +2706,7 @@ MonoBehaviour:
       Data: staff_8
     - Name: $v
       Entry: 7
-      Data: 129|AssetData, Assembly-CSharp
+      Data: 130|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_8
@@ -2706,7 +2727,7 @@ MonoBehaviour:
       Data: staff_7
     - Name: $v
       Entry: 7
-      Data: 130|AssetData, Assembly-CSharp
+      Data: 131|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_7
@@ -2727,7 +2748,7 @@ MonoBehaviour:
       Data: staff_6
     - Name: $v
       Entry: 7
-      Data: 131|AssetData, Assembly-CSharp
+      Data: 132|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_6
@@ -2748,7 +2769,7 @@ MonoBehaviour:
       Data: staff_5
     - Name: $v
       Entry: 7
-      Data: 132|AssetData, Assembly-CSharp
+      Data: 133|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_5
@@ -2769,7 +2790,7 @@ MonoBehaviour:
       Data: staff_4
     - Name: $v
       Entry: 7
-      Data: 133|AssetData, Assembly-CSharp
+      Data: 134|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_4
@@ -2790,7 +2811,7 @@ MonoBehaviour:
       Data: staff_3
     - Name: $v
       Entry: 7
-      Data: 134|AssetData, Assembly-CSharp
+      Data: 135|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_3
@@ -2811,7 +2832,7 @@ MonoBehaviour:
       Data: staff_2
     - Name: $v
       Entry: 7
-      Data: 135|AssetData, Assembly-CSharp
+      Data: 136|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_2
@@ -2832,7 +2853,7 @@ MonoBehaviour:
       Data: staff_1
     - Name: $v
       Entry: 7
-      Data: 136|AssetData, Assembly-CSharp
+      Data: 137|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: staff_1
@@ -2853,7 +2874,7 @@ MonoBehaviour:
       Data: Spear_40
     - Name: $v
       Entry: 7
-      Data: 137|AssetData, Assembly-CSharp
+      Data: 138|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_40
@@ -2874,7 +2895,7 @@ MonoBehaviour:
       Data: Spear_39
     - Name: $v
       Entry: 7
-      Data: 138|AssetData, Assembly-CSharp
+      Data: 139|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_39
@@ -2895,7 +2916,7 @@ MonoBehaviour:
       Data: Spear_38
     - Name: $v
       Entry: 7
-      Data: 139|AssetData, Assembly-CSharp
+      Data: 140|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_38
@@ -2916,7 +2937,7 @@ MonoBehaviour:
       Data: Spear_37
     - Name: $v
       Entry: 7
-      Data: 140|AssetData, Assembly-CSharp
+      Data: 141|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_37
@@ -2937,7 +2958,7 @@ MonoBehaviour:
       Data: Spear_36
     - Name: $v
       Entry: 7
-      Data: 141|AssetData, Assembly-CSharp
+      Data: 142|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_36
@@ -2958,7 +2979,7 @@ MonoBehaviour:
       Data: Spear_35
     - Name: $v
       Entry: 7
-      Data: 142|AssetData, Assembly-CSharp
+      Data: 143|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_35
@@ -2979,7 +3000,7 @@ MonoBehaviour:
       Data: Spear_34
     - Name: $v
       Entry: 7
-      Data: 143|AssetData, Assembly-CSharp
+      Data: 144|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_34
@@ -3000,7 +3021,7 @@ MonoBehaviour:
       Data: Spear_33
     - Name: $v
       Entry: 7
-      Data: 144|AssetData, Assembly-CSharp
+      Data: 145|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_33
@@ -3021,7 +3042,7 @@ MonoBehaviour:
       Data: Spear_32
     - Name: $v
       Entry: 7
-      Data: 145|AssetData, Assembly-CSharp
+      Data: 146|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_32
@@ -3042,7 +3063,7 @@ MonoBehaviour:
       Data: Spear_31
     - Name: $v
       Entry: 7
-      Data: 146|AssetData, Assembly-CSharp
+      Data: 147|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_31
@@ -3063,7 +3084,7 @@ MonoBehaviour:
       Data: Spear_30
     - Name: $v
       Entry: 7
-      Data: 147|AssetData, Assembly-CSharp
+      Data: 148|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_30
@@ -3084,7 +3105,7 @@ MonoBehaviour:
       Data: Spear_29
     - Name: $v
       Entry: 7
-      Data: 148|AssetData, Assembly-CSharp
+      Data: 149|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_29
@@ -3105,7 +3126,7 @@ MonoBehaviour:
       Data: Spear_28
     - Name: $v
       Entry: 7
-      Data: 149|AssetData, Assembly-CSharp
+      Data: 150|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_28
@@ -3126,7 +3147,7 @@ MonoBehaviour:
       Data: Spear_27
     - Name: $v
       Entry: 7
-      Data: 150|AssetData, Assembly-CSharp
+      Data: 151|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_27
@@ -3147,7 +3168,7 @@ MonoBehaviour:
       Data: Spear_26
     - Name: $v
       Entry: 7
-      Data: 151|AssetData, Assembly-CSharp
+      Data: 152|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_26
@@ -3168,7 +3189,7 @@ MonoBehaviour:
       Data: Spear_25
     - Name: $v
       Entry: 7
-      Data: 152|AssetData, Assembly-CSharp
+      Data: 153|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_25
@@ -3189,7 +3210,7 @@ MonoBehaviour:
       Data: Spear_24
     - Name: $v
       Entry: 7
-      Data: 153|AssetData, Assembly-CSharp
+      Data: 154|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_24
@@ -3210,7 +3231,7 @@ MonoBehaviour:
       Data: Spear_23
     - Name: $v
       Entry: 7
-      Data: 154|AssetData, Assembly-CSharp
+      Data: 155|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_23
@@ -3231,7 +3252,7 @@ MonoBehaviour:
       Data: Spear_22
     - Name: $v
       Entry: 7
-      Data: 155|AssetData, Assembly-CSharp
+      Data: 156|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_22
@@ -3252,7 +3273,7 @@ MonoBehaviour:
       Data: Spear_21
     - Name: $v
       Entry: 7
-      Data: 156|AssetData, Assembly-CSharp
+      Data: 157|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_21
@@ -3273,7 +3294,7 @@ MonoBehaviour:
       Data: Spear_20
     - Name: $v
       Entry: 7
-      Data: 157|AssetData, Assembly-CSharp
+      Data: 158|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_20
@@ -3294,7 +3315,7 @@ MonoBehaviour:
       Data: Spear_19
     - Name: $v
       Entry: 7
-      Data: 158|AssetData, Assembly-CSharp
+      Data: 159|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_19
@@ -3315,7 +3336,7 @@ MonoBehaviour:
       Data: Spear_18
     - Name: $v
       Entry: 7
-      Data: 159|AssetData, Assembly-CSharp
+      Data: 160|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_18
@@ -3336,7 +3357,7 @@ MonoBehaviour:
       Data: Spear_17
     - Name: $v
       Entry: 7
-      Data: 160|AssetData, Assembly-CSharp
+      Data: 161|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_17
@@ -3357,7 +3378,7 @@ MonoBehaviour:
       Data: Spear_16
     - Name: $v
       Entry: 7
-      Data: 161|AssetData, Assembly-CSharp
+      Data: 162|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_16
@@ -3378,7 +3399,7 @@ MonoBehaviour:
       Data: Spear_15
     - Name: $v
       Entry: 7
-      Data: 162|AssetData, Assembly-CSharp
+      Data: 163|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_15
@@ -3399,7 +3420,7 @@ MonoBehaviour:
       Data: Spear_14
     - Name: $v
       Entry: 7
-      Data: 163|AssetData, Assembly-CSharp
+      Data: 164|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_14
@@ -3420,7 +3441,7 @@ MonoBehaviour:
       Data: Spear_13
     - Name: $v
       Entry: 7
-      Data: 164|AssetData, Assembly-CSharp
+      Data: 165|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_13
@@ -3441,7 +3462,7 @@ MonoBehaviour:
       Data: Spear_12
     - Name: $v
       Entry: 7
-      Data: 165|AssetData, Assembly-CSharp
+      Data: 166|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_12
@@ -3462,7 +3483,7 @@ MonoBehaviour:
       Data: Spear_11
     - Name: $v
       Entry: 7
-      Data: 166|AssetData, Assembly-CSharp
+      Data: 167|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_11
@@ -3483,7 +3504,7 @@ MonoBehaviour:
       Data: Spear_10
     - Name: $v
       Entry: 7
-      Data: 167|AssetData, Assembly-CSharp
+      Data: 168|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_10
@@ -3504,7 +3525,7 @@ MonoBehaviour:
       Data: Spear_09
     - Name: $v
       Entry: 7
-      Data: 168|AssetData, Assembly-CSharp
+      Data: 169|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_09
@@ -3525,7 +3546,7 @@ MonoBehaviour:
       Data: Spear_08
     - Name: $v
       Entry: 7
-      Data: 169|AssetData, Assembly-CSharp
+      Data: 170|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_08
@@ -3546,7 +3567,7 @@ MonoBehaviour:
       Data: Spear_07
     - Name: $v
       Entry: 7
-      Data: 170|AssetData, Assembly-CSharp
+      Data: 171|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_07
@@ -3567,7 +3588,7 @@ MonoBehaviour:
       Data: Spear_06
     - Name: $v
       Entry: 7
-      Data: 171|AssetData, Assembly-CSharp
+      Data: 172|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_06
@@ -3588,7 +3609,7 @@ MonoBehaviour:
       Data: Spear_05
     - Name: $v
       Entry: 7
-      Data: 172|AssetData, Assembly-CSharp
+      Data: 173|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_05
@@ -3609,7 +3630,7 @@ MonoBehaviour:
       Data: Spear_04
     - Name: $v
       Entry: 7
-      Data: 173|AssetData, Assembly-CSharp
+      Data: 174|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_04
@@ -3630,7 +3651,7 @@ MonoBehaviour:
       Data: Spear_03
     - Name: $v
       Entry: 7
-      Data: 174|AssetData, Assembly-CSharp
+      Data: 175|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_03
@@ -3651,7 +3672,7 @@ MonoBehaviour:
       Data: Spear_02
     - Name: $v
       Entry: 7
-      Data: 175|AssetData, Assembly-CSharp
+      Data: 176|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_02
@@ -3672,7 +3693,7 @@ MonoBehaviour:
       Data: Spear_01
     - Name: $v
       Entry: 7
-      Data: 176|AssetData, Assembly-CSharp
+      Data: 177|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Spear_01
@@ -3693,7 +3714,7 @@ MonoBehaviour:
       Data: Scythe_07
     - Name: $v
       Entry: 7
-      Data: 177|AssetData, Assembly-CSharp
+      Data: 178|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_07
@@ -3714,7 +3735,7 @@ MonoBehaviour:
       Data: Scythe_06
     - Name: $v
       Entry: 7
-      Data: 178|AssetData, Assembly-CSharp
+      Data: 179|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_06
@@ -3735,7 +3756,7 @@ MonoBehaviour:
       Data: Scythe_05
     - Name: $v
       Entry: 7
-      Data: 179|AssetData, Assembly-CSharp
+      Data: 180|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_05
@@ -3756,7 +3777,7 @@ MonoBehaviour:
       Data: Scythe_04
     - Name: $v
       Entry: 7
-      Data: 180|AssetData, Assembly-CSharp
+      Data: 181|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_04
@@ -3777,7 +3798,7 @@ MonoBehaviour:
       Data: Scythe_03
     - Name: $v
       Entry: 7
-      Data: 181|AssetData, Assembly-CSharp
+      Data: 182|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_03
@@ -3798,7 +3819,7 @@ MonoBehaviour:
       Data: Scythe_02
     - Name: $v
       Entry: 7
-      Data: 182|AssetData, Assembly-CSharp
+      Data: 183|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_02
@@ -3819,7 +3840,7 @@ MonoBehaviour:
       Data: Scythe_01
     - Name: $v
       Entry: 7
-      Data: 183|AssetData, Assembly-CSharp
+      Data: 184|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Scythe_01
@@ -3840,7 +3861,7 @@ MonoBehaviour:
       Data: hammer_54
     - Name: $v
       Entry: 7
-      Data: 184|AssetData, Assembly-CSharp
+      Data: 185|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: hammer_54
@@ -3861,7 +3882,7 @@ MonoBehaviour:
       Data: hammer_53
     - Name: $v
       Entry: 7
-      Data: 185|AssetData, Assembly-CSharp
+      Data: 186|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: hammer_53
@@ -3882,7 +3903,7 @@ MonoBehaviour:
       Data: hammer_52
     - Name: $v
       Entry: 7
-      Data: 186|AssetData, Assembly-CSharp
+      Data: 187|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: hammer_52
@@ -3903,7 +3924,7 @@ MonoBehaviour:
       Data: hammer_51
     - Name: $v
       Entry: 7
-      Data: 187|AssetData, Assembly-CSharp
+      Data: 188|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: hammer_51
@@ -3924,7 +3945,7 @@ MonoBehaviour:
       Data: Hammer_50
     - Name: $v
       Entry: 7
-      Data: 188|AssetData, Assembly-CSharp
+      Data: 189|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_50
@@ -3945,7 +3966,7 @@ MonoBehaviour:
       Data: Hammer_49
     - Name: $v
       Entry: 7
-      Data: 189|AssetData, Assembly-CSharp
+      Data: 190|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_49
@@ -3966,7 +3987,7 @@ MonoBehaviour:
       Data: Hammer_48
     - Name: $v
       Entry: 7
-      Data: 190|AssetData, Assembly-CSharp
+      Data: 191|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_48
@@ -3987,7 +4008,7 @@ MonoBehaviour:
       Data: Hammer_47
     - Name: $v
       Entry: 7
-      Data: 191|AssetData, Assembly-CSharp
+      Data: 192|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_47
@@ -4008,7 +4029,7 @@ MonoBehaviour:
       Data: Hammer_46
     - Name: $v
       Entry: 7
-      Data: 192|AssetData, Assembly-CSharp
+      Data: 193|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_46
@@ -4029,7 +4050,7 @@ MonoBehaviour:
       Data: Hammer_45
     - Name: $v
       Entry: 7
-      Data: 193|AssetData, Assembly-CSharp
+      Data: 194|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_45
@@ -4050,7 +4071,7 @@ MonoBehaviour:
       Data: Hammer_44
     - Name: $v
       Entry: 7
-      Data: 194|AssetData, Assembly-CSharp
+      Data: 195|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_44
@@ -4071,7 +4092,7 @@ MonoBehaviour:
       Data: Hammer_43
     - Name: $v
       Entry: 7
-      Data: 195|AssetData, Assembly-CSharp
+      Data: 196|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_43
@@ -4092,7 +4113,7 @@ MonoBehaviour:
       Data: Hammer_42
     - Name: $v
       Entry: 7
-      Data: 196|AssetData, Assembly-CSharp
+      Data: 197|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_42
@@ -4113,7 +4134,7 @@ MonoBehaviour:
       Data: Hammer_41
     - Name: $v
       Entry: 7
-      Data: 197|AssetData, Assembly-CSharp
+      Data: 198|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_41
@@ -4134,7 +4155,7 @@ MonoBehaviour:
       Data: Hammer_40
     - Name: $v
       Entry: 7
-      Data: 198|AssetData, Assembly-CSharp
+      Data: 199|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_40
@@ -4155,7 +4176,7 @@ MonoBehaviour:
       Data: Hammer_39
     - Name: $v
       Entry: 7
-      Data: 199|AssetData, Assembly-CSharp
+      Data: 200|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_39
@@ -4176,7 +4197,7 @@ MonoBehaviour:
       Data: Hammer_38
     - Name: $v
       Entry: 7
-      Data: 200|AssetData, Assembly-CSharp
+      Data: 201|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_38
@@ -4197,7 +4218,7 @@ MonoBehaviour:
       Data: Hammer_37
     - Name: $v
       Entry: 7
-      Data: 201|AssetData, Assembly-CSharp
+      Data: 202|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_37
@@ -4218,7 +4239,7 @@ MonoBehaviour:
       Data: Hammer_36
     - Name: $v
       Entry: 7
-      Data: 202|AssetData, Assembly-CSharp
+      Data: 203|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_36
@@ -4239,7 +4260,7 @@ MonoBehaviour:
       Data: Hammer_35
     - Name: $v
       Entry: 7
-      Data: 203|AssetData, Assembly-CSharp
+      Data: 204|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_35
@@ -4260,7 +4281,7 @@ MonoBehaviour:
       Data: Hammer_34
     - Name: $v
       Entry: 7
-      Data: 204|AssetData, Assembly-CSharp
+      Data: 205|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_34
@@ -4281,7 +4302,7 @@ MonoBehaviour:
       Data: Hammer_33
     - Name: $v
       Entry: 7
-      Data: 205|AssetData, Assembly-CSharp
+      Data: 206|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_33
@@ -4302,7 +4323,7 @@ MonoBehaviour:
       Data: Hammer_32
     - Name: $v
       Entry: 7
-      Data: 206|AssetData, Assembly-CSharp
+      Data: 207|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_32
@@ -4323,7 +4344,7 @@ MonoBehaviour:
       Data: Hammer_31
     - Name: $v
       Entry: 7
-      Data: 207|AssetData, Assembly-CSharp
+      Data: 208|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_31
@@ -4344,7 +4365,7 @@ MonoBehaviour:
       Data: Hammer_30
     - Name: $v
       Entry: 7
-      Data: 208|AssetData, Assembly-CSharp
+      Data: 209|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_30
@@ -4365,7 +4386,7 @@ MonoBehaviour:
       Data: Hammer_29
     - Name: $v
       Entry: 7
-      Data: 209|AssetData, Assembly-CSharp
+      Data: 210|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_29
@@ -4386,7 +4407,7 @@ MonoBehaviour:
       Data: Hammer_28
     - Name: $v
       Entry: 7
-      Data: 210|AssetData, Assembly-CSharp
+      Data: 211|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_28
@@ -4407,7 +4428,7 @@ MonoBehaviour:
       Data: Hammer_27
     - Name: $v
       Entry: 7
-      Data: 211|AssetData, Assembly-CSharp
+      Data: 212|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_27
@@ -4428,7 +4449,7 @@ MonoBehaviour:
       Data: Hammer_26
     - Name: $v
       Entry: 7
-      Data: 212|AssetData, Assembly-CSharp
+      Data: 213|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_26
@@ -4449,7 +4470,7 @@ MonoBehaviour:
       Data: Hammer_25
     - Name: $v
       Entry: 7
-      Data: 213|AssetData, Assembly-CSharp
+      Data: 214|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_25
@@ -4470,7 +4491,7 @@ MonoBehaviour:
       Data: Hammer_24
     - Name: $v
       Entry: 7
-      Data: 214|AssetData, Assembly-CSharp
+      Data: 215|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_24
@@ -4491,7 +4512,7 @@ MonoBehaviour:
       Data: Hammer_23
     - Name: $v
       Entry: 7
-      Data: 215|AssetData, Assembly-CSharp
+      Data: 216|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_23
@@ -4512,7 +4533,7 @@ MonoBehaviour:
       Data: Hammer_22
     - Name: $v
       Entry: 7
-      Data: 216|AssetData, Assembly-CSharp
+      Data: 217|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_22
@@ -4533,7 +4554,7 @@ MonoBehaviour:
       Data: Hammer_21
     - Name: $v
       Entry: 7
-      Data: 217|AssetData, Assembly-CSharp
+      Data: 218|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_21
@@ -4554,7 +4575,7 @@ MonoBehaviour:
       Data: Hammer_20
     - Name: $v
       Entry: 7
-      Data: 218|AssetData, Assembly-CSharp
+      Data: 219|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_20
@@ -4575,7 +4596,7 @@ MonoBehaviour:
       Data: Hammer_19
     - Name: $v
       Entry: 7
-      Data: 219|AssetData, Assembly-CSharp
+      Data: 220|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_19
@@ -4596,7 +4617,7 @@ MonoBehaviour:
       Data: Hammer_18
     - Name: $v
       Entry: 7
-      Data: 220|AssetData, Assembly-CSharp
+      Data: 221|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_18
@@ -4617,7 +4638,7 @@ MonoBehaviour:
       Data: Hammer_17
     - Name: $v
       Entry: 7
-      Data: 221|AssetData, Assembly-CSharp
+      Data: 222|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_17
@@ -4638,7 +4659,7 @@ MonoBehaviour:
       Data: Hammer_16
     - Name: $v
       Entry: 7
-      Data: 222|AssetData, Assembly-CSharp
+      Data: 223|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_16
@@ -4659,7 +4680,7 @@ MonoBehaviour:
       Data: Hammer_15
     - Name: $v
       Entry: 7
-      Data: 223|AssetData, Assembly-CSharp
+      Data: 224|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_15
@@ -4680,7 +4701,7 @@ MonoBehaviour:
       Data: Hammer_14
     - Name: $v
       Entry: 7
-      Data: 224|AssetData, Assembly-CSharp
+      Data: 225|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_14
@@ -4701,7 +4722,7 @@ MonoBehaviour:
       Data: Hammer_13
     - Name: $v
       Entry: 7
-      Data: 225|AssetData, Assembly-CSharp
+      Data: 226|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_13
@@ -4722,7 +4743,7 @@ MonoBehaviour:
       Data: Hammer_12
     - Name: $v
       Entry: 7
-      Data: 226|AssetData, Assembly-CSharp
+      Data: 227|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_12
@@ -4743,7 +4764,7 @@ MonoBehaviour:
       Data: Hammer_11
     - Name: $v
       Entry: 7
-      Data: 227|AssetData, Assembly-CSharp
+      Data: 228|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_11
@@ -4764,7 +4785,7 @@ MonoBehaviour:
       Data: Hammer_10
     - Name: $v
       Entry: 7
-      Data: 228|AssetData, Assembly-CSharp
+      Data: 229|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_10
@@ -4785,7 +4806,7 @@ MonoBehaviour:
       Data: Hammer_09
     - Name: $v
       Entry: 7
-      Data: 229|AssetData, Assembly-CSharp
+      Data: 230|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_09
@@ -4806,7 +4827,7 @@ MonoBehaviour:
       Data: Hammer_08
     - Name: $v
       Entry: 7
-      Data: 230|AssetData, Assembly-CSharp
+      Data: 231|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_08
@@ -4827,7 +4848,7 @@ MonoBehaviour:
       Data: Hammer_07
     - Name: $v
       Entry: 7
-      Data: 231|AssetData, Assembly-CSharp
+      Data: 232|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_07
@@ -4848,7 +4869,7 @@ MonoBehaviour:
       Data: Hammer_06
     - Name: $v
       Entry: 7
-      Data: 232|AssetData, Assembly-CSharp
+      Data: 233|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_06
@@ -4869,7 +4890,7 @@ MonoBehaviour:
       Data: Hammer_05
     - Name: $v
       Entry: 7
-      Data: 233|AssetData, Assembly-CSharp
+      Data: 234|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_05
@@ -4890,7 +4911,7 @@ MonoBehaviour:
       Data: Hammer_04
     - Name: $v
       Entry: 7
-      Data: 234|AssetData, Assembly-CSharp
+      Data: 235|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_04
@@ -4911,7 +4932,7 @@ MonoBehaviour:
       Data: Hammer_03
     - Name: $v
       Entry: 7
-      Data: 235|AssetData, Assembly-CSharp
+      Data: 236|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_03
@@ -4932,7 +4953,7 @@ MonoBehaviour:
       Data: Hammer_02
     - Name: $v
       Entry: 7
-      Data: 236|AssetData, Assembly-CSharp
+      Data: 237|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_02
@@ -4953,7 +4974,7 @@ MonoBehaviour:
       Data: Hammer_01
     - Name: $v
       Entry: 7
-      Data: 237|AssetData, Assembly-CSharp
+      Data: 238|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer_01
@@ -4974,7 +4995,7 @@ MonoBehaviour:
       Data: Dagger_60
     - Name: $v
       Entry: 7
-      Data: 238|AssetData, Assembly-CSharp
+      Data: 239|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_60
@@ -4995,7 +5016,7 @@ MonoBehaviour:
       Data: Dagger_59
     - Name: $v
       Entry: 7
-      Data: 239|AssetData, Assembly-CSharp
+      Data: 240|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_59
@@ -5016,7 +5037,7 @@ MonoBehaviour:
       Data: Dagger_58
     - Name: $v
       Entry: 7
-      Data: 240|AssetData, Assembly-CSharp
+      Data: 241|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_58
@@ -5037,7 +5058,7 @@ MonoBehaviour:
       Data: Dagger_57
     - Name: $v
       Entry: 7
-      Data: 241|AssetData, Assembly-CSharp
+      Data: 242|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_57
@@ -5058,7 +5079,7 @@ MonoBehaviour:
       Data: Dagger_56
     - Name: $v
       Entry: 7
-      Data: 242|AssetData, Assembly-CSharp
+      Data: 243|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_56
@@ -5079,7 +5100,7 @@ MonoBehaviour:
       Data: Dagger_55
     - Name: $v
       Entry: 7
-      Data: 243|AssetData, Assembly-CSharp
+      Data: 244|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_55
@@ -5100,7 +5121,7 @@ MonoBehaviour:
       Data: Dagger_54
     - Name: $v
       Entry: 7
-      Data: 244|AssetData, Assembly-CSharp
+      Data: 245|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_54
@@ -5121,7 +5142,7 @@ MonoBehaviour:
       Data: Dagger_53
     - Name: $v
       Entry: 7
-      Data: 245|AssetData, Assembly-CSharp
+      Data: 246|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_53
@@ -5142,7 +5163,7 @@ MonoBehaviour:
       Data: Dagger_52
     - Name: $v
       Entry: 7
-      Data: 246|AssetData, Assembly-CSharp
+      Data: 247|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_52
@@ -5163,7 +5184,7 @@ MonoBehaviour:
       Data: Dagger_51
     - Name: $v
       Entry: 7
-      Data: 247|AssetData, Assembly-CSharp
+      Data: 248|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_51
@@ -5184,7 +5205,7 @@ MonoBehaviour:
       Data: Dagger_50
     - Name: $v
       Entry: 7
-      Data: 248|AssetData, Assembly-CSharp
+      Data: 249|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_50
@@ -5205,7 +5226,7 @@ MonoBehaviour:
       Data: Dagger_49
     - Name: $v
       Entry: 7
-      Data: 249|AssetData, Assembly-CSharp
+      Data: 250|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_49
@@ -5226,7 +5247,7 @@ MonoBehaviour:
       Data: Dagger_48
     - Name: $v
       Entry: 7
-      Data: 250|AssetData, Assembly-CSharp
+      Data: 251|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_48
@@ -5247,7 +5268,7 @@ MonoBehaviour:
       Data: Dagger_47
     - Name: $v
       Entry: 7
-      Data: 251|AssetData, Assembly-CSharp
+      Data: 252|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_47
@@ -5268,7 +5289,7 @@ MonoBehaviour:
       Data: Dagger_46
     - Name: $v
       Entry: 7
-      Data: 252|AssetData, Assembly-CSharp
+      Data: 253|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_46
@@ -5289,7 +5310,7 @@ MonoBehaviour:
       Data: Dagger_45
     - Name: $v
       Entry: 7
-      Data: 253|AssetData, Assembly-CSharp
+      Data: 254|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_45
@@ -5310,7 +5331,7 @@ MonoBehaviour:
       Data: Dagger_44
     - Name: $v
       Entry: 7
-      Data: 254|AssetData, Assembly-CSharp
+      Data: 255|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_44
@@ -5331,7 +5352,7 @@ MonoBehaviour:
       Data: Dagger_43
     - Name: $v
       Entry: 7
-      Data: 255|AssetData, Assembly-CSharp
+      Data: 256|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_43
@@ -5352,7 +5373,7 @@ MonoBehaviour:
       Data: Dagger_42
     - Name: $v
       Entry: 7
-      Data: 256|AssetData, Assembly-CSharp
+      Data: 257|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_42
@@ -5373,7 +5394,7 @@ MonoBehaviour:
       Data: Dagger_41
     - Name: $v
       Entry: 7
-      Data: 257|AssetData, Assembly-CSharp
+      Data: 258|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_41
@@ -5394,7 +5415,7 @@ MonoBehaviour:
       Data: Dagger_40
     - Name: $v
       Entry: 7
-      Data: 258|AssetData, Assembly-CSharp
+      Data: 259|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_40
@@ -5415,7 +5436,7 @@ MonoBehaviour:
       Data: Dagger_39
     - Name: $v
       Entry: 7
-      Data: 259|AssetData, Assembly-CSharp
+      Data: 260|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_39
@@ -5436,7 +5457,7 @@ MonoBehaviour:
       Data: Dagger_38
     - Name: $v
       Entry: 7
-      Data: 260|AssetData, Assembly-CSharp
+      Data: 261|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_38
@@ -5457,7 +5478,7 @@ MonoBehaviour:
       Data: Dagger_37
     - Name: $v
       Entry: 7
-      Data: 261|AssetData, Assembly-CSharp
+      Data: 262|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_37
@@ -5478,7 +5499,7 @@ MonoBehaviour:
       Data: Dagger_36
     - Name: $v
       Entry: 7
-      Data: 262|AssetData, Assembly-CSharp
+      Data: 263|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_36
@@ -5499,7 +5520,7 @@ MonoBehaviour:
       Data: Dagger_35
     - Name: $v
       Entry: 7
-      Data: 263|AssetData, Assembly-CSharp
+      Data: 264|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_35
@@ -5520,7 +5541,7 @@ MonoBehaviour:
       Data: Dagger_34
     - Name: $v
       Entry: 7
-      Data: 264|AssetData, Assembly-CSharp
+      Data: 265|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_34
@@ -5541,7 +5562,7 @@ MonoBehaviour:
       Data: Dagger_33
     - Name: $v
       Entry: 7
-      Data: 265|AssetData, Assembly-CSharp
+      Data: 266|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_33
@@ -5562,7 +5583,7 @@ MonoBehaviour:
       Data: Dagger_32
     - Name: $v
       Entry: 7
-      Data: 266|AssetData, Assembly-CSharp
+      Data: 267|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_32
@@ -5583,7 +5604,7 @@ MonoBehaviour:
       Data: Dagger_31
     - Name: $v
       Entry: 7
-      Data: 267|AssetData, Assembly-CSharp
+      Data: 268|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_31
@@ -5604,7 +5625,7 @@ MonoBehaviour:
       Data: Dagger_30
     - Name: $v
       Entry: 7
-      Data: 268|AssetData, Assembly-CSharp
+      Data: 269|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_30
@@ -5625,7 +5646,7 @@ MonoBehaviour:
       Data: Dagger_29
     - Name: $v
       Entry: 7
-      Data: 269|AssetData, Assembly-CSharp
+      Data: 270|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_29
@@ -5646,7 +5667,7 @@ MonoBehaviour:
       Data: Dagger_28
     - Name: $v
       Entry: 7
-      Data: 270|AssetData, Assembly-CSharp
+      Data: 271|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_28
@@ -5667,7 +5688,7 @@ MonoBehaviour:
       Data: Dagger_27
     - Name: $v
       Entry: 7
-      Data: 271|AssetData, Assembly-CSharp
+      Data: 272|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_27
@@ -5688,7 +5709,7 @@ MonoBehaviour:
       Data: Dagger_26
     - Name: $v
       Entry: 7
-      Data: 272|AssetData, Assembly-CSharp
+      Data: 273|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_26
@@ -5709,7 +5730,7 @@ MonoBehaviour:
       Data: Dagger_25
     - Name: $v
       Entry: 7
-      Data: 273|AssetData, Assembly-CSharp
+      Data: 274|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_25
@@ -5730,7 +5751,7 @@ MonoBehaviour:
       Data: Dagger_24
     - Name: $v
       Entry: 7
-      Data: 274|AssetData, Assembly-CSharp
+      Data: 275|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_24
@@ -5751,7 +5772,7 @@ MonoBehaviour:
       Data: Dagger_23
     - Name: $v
       Entry: 7
-      Data: 275|AssetData, Assembly-CSharp
+      Data: 276|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_23
@@ -5772,7 +5793,7 @@ MonoBehaviour:
       Data: Dagger_22
     - Name: $v
       Entry: 7
-      Data: 276|AssetData, Assembly-CSharp
+      Data: 277|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_22
@@ -5793,7 +5814,7 @@ MonoBehaviour:
       Data: Dagger_21
     - Name: $v
       Entry: 7
-      Data: 277|AssetData, Assembly-CSharp
+      Data: 278|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_21
@@ -5814,7 +5835,7 @@ MonoBehaviour:
       Data: Dagger_20
     - Name: $v
       Entry: 7
-      Data: 278|AssetData, Assembly-CSharp
+      Data: 279|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_20
@@ -5835,7 +5856,7 @@ MonoBehaviour:
       Data: Dagger_19
     - Name: $v
       Entry: 7
-      Data: 279|AssetData, Assembly-CSharp
+      Data: 280|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_19
@@ -5856,7 +5877,7 @@ MonoBehaviour:
       Data: Dagger_18
     - Name: $v
       Entry: 7
-      Data: 280|AssetData, Assembly-CSharp
+      Data: 281|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_18
@@ -5877,7 +5898,7 @@ MonoBehaviour:
       Data: Dagger_17
     - Name: $v
       Entry: 7
-      Data: 281|AssetData, Assembly-CSharp
+      Data: 282|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_17
@@ -5898,7 +5919,7 @@ MonoBehaviour:
       Data: Dagger_16
     - Name: $v
       Entry: 7
-      Data: 282|AssetData, Assembly-CSharp
+      Data: 283|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_16
@@ -5919,7 +5940,7 @@ MonoBehaviour:
       Data: Dagger_15
     - Name: $v
       Entry: 7
-      Data: 283|AssetData, Assembly-CSharp
+      Data: 284|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_15
@@ -5940,7 +5961,7 @@ MonoBehaviour:
       Data: Dagger_14
     - Name: $v
       Entry: 7
-      Data: 284|AssetData, Assembly-CSharp
+      Data: 285|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_14
@@ -5961,7 +5982,7 @@ MonoBehaviour:
       Data: Dagger_13
     - Name: $v
       Entry: 7
-      Data: 285|AssetData, Assembly-CSharp
+      Data: 286|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_13
@@ -5982,7 +6003,7 @@ MonoBehaviour:
       Data: Dagger_12
     - Name: $v
       Entry: 7
-      Data: 286|AssetData, Assembly-CSharp
+      Data: 287|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_12
@@ -6003,7 +6024,7 @@ MonoBehaviour:
       Data: Dagger_11
     - Name: $v
       Entry: 7
-      Data: 287|AssetData, Assembly-CSharp
+      Data: 288|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_11
@@ -6024,7 +6045,7 @@ MonoBehaviour:
       Data: Dagger_10
     - Name: $v
       Entry: 7
-      Data: 288|AssetData, Assembly-CSharp
+      Data: 289|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_10
@@ -6045,7 +6066,7 @@ MonoBehaviour:
       Data: Dagger_09
     - Name: $v
       Entry: 7
-      Data: 289|AssetData, Assembly-CSharp
+      Data: 290|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_09
@@ -6066,7 +6087,7 @@ MonoBehaviour:
       Data: Dagger_08
     - Name: $v
       Entry: 7
-      Data: 290|AssetData, Assembly-CSharp
+      Data: 291|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_08
@@ -6087,7 +6108,7 @@ MonoBehaviour:
       Data: Dagger_07
     - Name: $v
       Entry: 7
-      Data: 291|AssetData, Assembly-CSharp
+      Data: 292|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_07
@@ -6108,7 +6129,7 @@ MonoBehaviour:
       Data: Dagger_06
     - Name: $v
       Entry: 7
-      Data: 292|AssetData, Assembly-CSharp
+      Data: 293|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_06
@@ -6129,7 +6150,7 @@ MonoBehaviour:
       Data: Dagger_05
     - Name: $v
       Entry: 7
-      Data: 293|AssetData, Assembly-CSharp
+      Data: 294|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_05
@@ -6150,7 +6171,7 @@ MonoBehaviour:
       Data: Dagger_04
     - Name: $v
       Entry: 7
-      Data: 294|AssetData, Assembly-CSharp
+      Data: 295|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_04
@@ -6171,7 +6192,7 @@ MonoBehaviour:
       Data: Dagger_03
     - Name: $v
       Entry: 7
-      Data: 295|AssetData, Assembly-CSharp
+      Data: 296|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_03
@@ -6192,7 +6213,7 @@ MonoBehaviour:
       Data: Dagger_02
     - Name: $v
       Entry: 7
-      Data: 296|AssetData, Assembly-CSharp
+      Data: 297|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_02
@@ -6213,7 +6234,7 @@ MonoBehaviour:
       Data: Dagger_01
     - Name: $v
       Entry: 7
-      Data: 297|AssetData, Assembly-CSharp
+      Data: 298|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dagger_01
@@ -6234,7 +6255,7 @@ MonoBehaviour:
       Data: Bow_40
     - Name: $v
       Entry: 7
-      Data: 298|AssetData, Assembly-CSharp
+      Data: 299|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_40
@@ -6255,7 +6276,7 @@ MonoBehaviour:
       Data: Bow_39
     - Name: $v
       Entry: 7
-      Data: 299|AssetData, Assembly-CSharp
+      Data: 300|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_39
@@ -6276,7 +6297,7 @@ MonoBehaviour:
       Data: Bow_38
     - Name: $v
       Entry: 7
-      Data: 300|AssetData, Assembly-CSharp
+      Data: 301|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_38
@@ -6297,7 +6318,7 @@ MonoBehaviour:
       Data: Bow_37
     - Name: $v
       Entry: 7
-      Data: 301|AssetData, Assembly-CSharp
+      Data: 302|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_37
@@ -6318,7 +6339,7 @@ MonoBehaviour:
       Data: Bow_36
     - Name: $v
       Entry: 7
-      Data: 302|AssetData, Assembly-CSharp
+      Data: 303|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_36
@@ -6339,7 +6360,7 @@ MonoBehaviour:
       Data: Bow_35
     - Name: $v
       Entry: 7
-      Data: 303|AssetData, Assembly-CSharp
+      Data: 304|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_35
@@ -6360,7 +6381,7 @@ MonoBehaviour:
       Data: Bow_34
     - Name: $v
       Entry: 7
-      Data: 304|AssetData, Assembly-CSharp
+      Data: 305|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_34
@@ -6381,7 +6402,7 @@ MonoBehaviour:
       Data: Bow_33
     - Name: $v
       Entry: 7
-      Data: 305|AssetData, Assembly-CSharp
+      Data: 306|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_33
@@ -6402,7 +6423,7 @@ MonoBehaviour:
       Data: Bow_32
     - Name: $v
       Entry: 7
-      Data: 306|AssetData, Assembly-CSharp
+      Data: 307|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_32
@@ -6423,7 +6444,7 @@ MonoBehaviour:
       Data: Bow_31
     - Name: $v
       Entry: 7
-      Data: 307|AssetData, Assembly-CSharp
+      Data: 308|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_31
@@ -6444,7 +6465,7 @@ MonoBehaviour:
       Data: Bow_30
     - Name: $v
       Entry: 7
-      Data: 308|AssetData, Assembly-CSharp
+      Data: 309|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_30
@@ -6465,7 +6486,7 @@ MonoBehaviour:
       Data: Bow_29
     - Name: $v
       Entry: 7
-      Data: 309|AssetData, Assembly-CSharp
+      Data: 310|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_29
@@ -6486,7 +6507,7 @@ MonoBehaviour:
       Data: Bow_28
     - Name: $v
       Entry: 7
-      Data: 310|AssetData, Assembly-CSharp
+      Data: 311|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_28
@@ -6507,7 +6528,7 @@ MonoBehaviour:
       Data: Bow_27
     - Name: $v
       Entry: 7
-      Data: 311|AssetData, Assembly-CSharp
+      Data: 312|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_27
@@ -6528,7 +6549,7 @@ MonoBehaviour:
       Data: Bow_26
     - Name: $v
       Entry: 7
-      Data: 312|AssetData, Assembly-CSharp
+      Data: 313|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_26
@@ -6549,7 +6570,7 @@ MonoBehaviour:
       Data: Bow_25
     - Name: $v
       Entry: 7
-      Data: 313|AssetData, Assembly-CSharp
+      Data: 314|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_25
@@ -6570,7 +6591,7 @@ MonoBehaviour:
       Data: Bow_24
     - Name: $v
       Entry: 7
-      Data: 314|AssetData, Assembly-CSharp
+      Data: 315|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_24
@@ -6591,7 +6612,7 @@ MonoBehaviour:
       Data: Bow_23
     - Name: $v
       Entry: 7
-      Data: 315|AssetData, Assembly-CSharp
+      Data: 316|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_23
@@ -6612,7 +6633,7 @@ MonoBehaviour:
       Data: Bow_22
     - Name: $v
       Entry: 7
-      Data: 316|AssetData, Assembly-CSharp
+      Data: 317|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_22
@@ -6633,7 +6654,7 @@ MonoBehaviour:
       Data: Bow_21
     - Name: $v
       Entry: 7
-      Data: 317|AssetData, Assembly-CSharp
+      Data: 318|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_21
@@ -6654,7 +6675,7 @@ MonoBehaviour:
       Data: Bow_20
     - Name: $v
       Entry: 7
-      Data: 318|AssetData, Assembly-CSharp
+      Data: 319|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_20
@@ -6675,7 +6696,7 @@ MonoBehaviour:
       Data: Bow_19
     - Name: $v
       Entry: 7
-      Data: 319|AssetData, Assembly-CSharp
+      Data: 320|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_19
@@ -6696,7 +6717,7 @@ MonoBehaviour:
       Data: Bow_18
     - Name: $v
       Entry: 7
-      Data: 320|AssetData, Assembly-CSharp
+      Data: 321|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_18
@@ -6717,7 +6738,7 @@ MonoBehaviour:
       Data: Bow_17
     - Name: $v
       Entry: 7
-      Data: 321|AssetData, Assembly-CSharp
+      Data: 322|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_17
@@ -6738,7 +6759,7 @@ MonoBehaviour:
       Data: Bow_16
     - Name: $v
       Entry: 7
-      Data: 322|AssetData, Assembly-CSharp
+      Data: 323|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_16
@@ -6759,7 +6780,7 @@ MonoBehaviour:
       Data: Bow_15
     - Name: $v
       Entry: 7
-      Data: 323|AssetData, Assembly-CSharp
+      Data: 324|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_15
@@ -6780,7 +6801,7 @@ MonoBehaviour:
       Data: Bow_14
     - Name: $v
       Entry: 7
-      Data: 324|AssetData, Assembly-CSharp
+      Data: 325|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_14
@@ -6801,7 +6822,7 @@ MonoBehaviour:
       Data: Bow_13
     - Name: $v
       Entry: 7
-      Data: 325|AssetData, Assembly-CSharp
+      Data: 326|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_13
@@ -6822,7 +6843,7 @@ MonoBehaviour:
       Data: Bow_12
     - Name: $v
       Entry: 7
-      Data: 326|AssetData, Assembly-CSharp
+      Data: 327|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_12
@@ -6843,7 +6864,7 @@ MonoBehaviour:
       Data: Bow_11
     - Name: $v
       Entry: 7
-      Data: 327|AssetData, Assembly-CSharp
+      Data: 328|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_11
@@ -6864,7 +6885,7 @@ MonoBehaviour:
       Data: Bow_10
     - Name: $v
       Entry: 7
-      Data: 328|AssetData, Assembly-CSharp
+      Data: 329|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_10
@@ -6885,7 +6906,7 @@ MonoBehaviour:
       Data: Bow_09
     - Name: $v
       Entry: 7
-      Data: 329|AssetData, Assembly-CSharp
+      Data: 330|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_09
@@ -6906,7 +6927,7 @@ MonoBehaviour:
       Data: Bow_08
     - Name: $v
       Entry: 7
-      Data: 330|AssetData, Assembly-CSharp
+      Data: 331|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_08
@@ -6927,7 +6948,7 @@ MonoBehaviour:
       Data: Bow_07
     - Name: $v
       Entry: 7
-      Data: 331|AssetData, Assembly-CSharp
+      Data: 332|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_07
@@ -6948,7 +6969,7 @@ MonoBehaviour:
       Data: Bow_06
     - Name: $v
       Entry: 7
-      Data: 332|AssetData, Assembly-CSharp
+      Data: 333|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_06
@@ -6969,7 +6990,7 @@ MonoBehaviour:
       Data: Bow_05
     - Name: $v
       Entry: 7
-      Data: 333|AssetData, Assembly-CSharp
+      Data: 334|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_05
@@ -6990,7 +7011,7 @@ MonoBehaviour:
       Data: Bow_04
     - Name: $v
       Entry: 7
-      Data: 334|AssetData, Assembly-CSharp
+      Data: 335|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_04
@@ -7011,7 +7032,7 @@ MonoBehaviour:
       Data: Bow_03
     - Name: $v
       Entry: 7
-      Data: 335|AssetData, Assembly-CSharp
+      Data: 336|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_03
@@ -7032,7 +7053,7 @@ MonoBehaviour:
       Data: Bow_02
     - Name: $v
       Entry: 7
-      Data: 336|AssetData, Assembly-CSharp
+      Data: 337|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_02
@@ -7053,7 +7074,7 @@ MonoBehaviour:
       Data: Bow_01
     - Name: $v
       Entry: 7
-      Data: 337|AssetData, Assembly-CSharp
+      Data: 338|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_01
@@ -7074,7 +7095,7 @@ MonoBehaviour:
       Data: Bolt_10
     - Name: $v
       Entry: 7
-      Data: 338|AssetData, Assembly-CSharp
+      Data: 339|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_10
@@ -7095,7 +7116,7 @@ MonoBehaviour:
       Data: Bolt_09
     - Name: $v
       Entry: 7
-      Data: 339|AssetData, Assembly-CSharp
+      Data: 340|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_09
@@ -7116,7 +7137,7 @@ MonoBehaviour:
       Data: Bolt_08
     - Name: $v
       Entry: 7
-      Data: 340|AssetData, Assembly-CSharp
+      Data: 341|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_08
@@ -7137,7 +7158,7 @@ MonoBehaviour:
       Data: Bolt_07
     - Name: $v
       Entry: 7
-      Data: 341|AssetData, Assembly-CSharp
+      Data: 342|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_07
@@ -7158,7 +7179,7 @@ MonoBehaviour:
       Data: Bolt_06
     - Name: $v
       Entry: 7
-      Data: 342|AssetData, Assembly-CSharp
+      Data: 343|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_06
@@ -7179,7 +7200,7 @@ MonoBehaviour:
       Data: Bolt_05
     - Name: $v
       Entry: 7
-      Data: 343|AssetData, Assembly-CSharp
+      Data: 344|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_05
@@ -7200,7 +7221,7 @@ MonoBehaviour:
       Data: Bolt_04
     - Name: $v
       Entry: 7
-      Data: 344|AssetData, Assembly-CSharp
+      Data: 345|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_04
@@ -7221,7 +7242,7 @@ MonoBehaviour:
       Data: Bolt_03
     - Name: $v
       Entry: 7
-      Data: 345|AssetData, Assembly-CSharp
+      Data: 346|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_03
@@ -7242,7 +7263,7 @@ MonoBehaviour:
       Data: Bolt_02
     - Name: $v
       Entry: 7
-      Data: 346|AssetData, Assembly-CSharp
+      Data: 347|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_02
@@ -7263,7 +7284,7 @@ MonoBehaviour:
       Data: Bolt_01
     - Name: $v
       Entry: 7
-      Data: 347|AssetData, Assembly-CSharp
+      Data: 348|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bolt_01
@@ -7284,7 +7305,7 @@ MonoBehaviour:
       Data: Axe_50
     - Name: $v
       Entry: 7
-      Data: 348|AssetData, Assembly-CSharp
+      Data: 349|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_50
@@ -7305,7 +7326,7 @@ MonoBehaviour:
       Data: Axe_49
     - Name: $v
       Entry: 7
-      Data: 349|AssetData, Assembly-CSharp
+      Data: 350|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_49
@@ -7326,7 +7347,7 @@ MonoBehaviour:
       Data: Axe_48
     - Name: $v
       Entry: 7
-      Data: 350|AssetData, Assembly-CSharp
+      Data: 351|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_48
@@ -7347,7 +7368,7 @@ MonoBehaviour:
       Data: Axe_47
     - Name: $v
       Entry: 7
-      Data: 351|AssetData, Assembly-CSharp
+      Data: 352|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_47
@@ -7368,7 +7389,7 @@ MonoBehaviour:
       Data: Axe_46
     - Name: $v
       Entry: 7
-      Data: 352|AssetData, Assembly-CSharp
+      Data: 353|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_46
@@ -7389,7 +7410,7 @@ MonoBehaviour:
       Data: Axe_45
     - Name: $v
       Entry: 7
-      Data: 353|AssetData, Assembly-CSharp
+      Data: 354|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_45
@@ -7410,7 +7431,7 @@ MonoBehaviour:
       Data: Axe_44
     - Name: $v
       Entry: 7
-      Data: 354|AssetData, Assembly-CSharp
+      Data: 355|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_44
@@ -7431,7 +7452,7 @@ MonoBehaviour:
       Data: Axe_43
     - Name: $v
       Entry: 7
-      Data: 355|AssetData, Assembly-CSharp
+      Data: 356|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_43
@@ -7452,7 +7473,7 @@ MonoBehaviour:
       Data: Axe_42
     - Name: $v
       Entry: 7
-      Data: 356|AssetData, Assembly-CSharp
+      Data: 357|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_42
@@ -7473,7 +7494,7 @@ MonoBehaviour:
       Data: Axe_41
     - Name: $v
       Entry: 7
-      Data: 357|AssetData, Assembly-CSharp
+      Data: 358|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_41
@@ -7494,7 +7515,7 @@ MonoBehaviour:
       Data: Axe_40
     - Name: $v
       Entry: 7
-      Data: 358|AssetData, Assembly-CSharp
+      Data: 359|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_40
@@ -7515,7 +7536,7 @@ MonoBehaviour:
       Data: Axe_39
     - Name: $v
       Entry: 7
-      Data: 359|AssetData, Assembly-CSharp
+      Data: 360|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_39
@@ -7536,7 +7557,7 @@ MonoBehaviour:
       Data: Axe_38
     - Name: $v
       Entry: 7
-      Data: 360|AssetData, Assembly-CSharp
+      Data: 361|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_38
@@ -7557,7 +7578,7 @@ MonoBehaviour:
       Data: Axe_37
     - Name: $v
       Entry: 7
-      Data: 361|AssetData, Assembly-CSharp
+      Data: 362|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_37
@@ -7578,7 +7599,7 @@ MonoBehaviour:
       Data: Axe_36
     - Name: $v
       Entry: 7
-      Data: 362|AssetData, Assembly-CSharp
+      Data: 363|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_36
@@ -7599,7 +7620,7 @@ MonoBehaviour:
       Data: Axe_35
     - Name: $v
       Entry: 7
-      Data: 363|AssetData, Assembly-CSharp
+      Data: 364|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_35
@@ -7620,7 +7641,7 @@ MonoBehaviour:
       Data: Axe_34
     - Name: $v
       Entry: 7
-      Data: 364|AssetData, Assembly-CSharp
+      Data: 365|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_34
@@ -7641,7 +7662,7 @@ MonoBehaviour:
       Data: Axe_33
     - Name: $v
       Entry: 7
-      Data: 365|AssetData, Assembly-CSharp
+      Data: 366|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_33
@@ -7662,7 +7683,7 @@ MonoBehaviour:
       Data: Axe_32
     - Name: $v
       Entry: 7
-      Data: 366|AssetData, Assembly-CSharp
+      Data: 367|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_32
@@ -7683,7 +7704,7 @@ MonoBehaviour:
       Data: Axe_31
     - Name: $v
       Entry: 7
-      Data: 367|AssetData, Assembly-CSharp
+      Data: 368|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_31
@@ -7704,7 +7725,7 @@ MonoBehaviour:
       Data: Axe_30
     - Name: $v
       Entry: 7
-      Data: 368|AssetData, Assembly-CSharp
+      Data: 369|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_30
@@ -7725,7 +7746,7 @@ MonoBehaviour:
       Data: Axe_29
     - Name: $v
       Entry: 7
-      Data: 369|AssetData, Assembly-CSharp
+      Data: 370|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_29
@@ -7746,7 +7767,7 @@ MonoBehaviour:
       Data: Axe_28
     - Name: $v
       Entry: 7
-      Data: 370|AssetData, Assembly-CSharp
+      Data: 371|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_28
@@ -7767,7 +7788,7 @@ MonoBehaviour:
       Data: Axe_27
     - Name: $v
       Entry: 7
-      Data: 371|AssetData, Assembly-CSharp
+      Data: 372|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_27
@@ -7788,7 +7809,7 @@ MonoBehaviour:
       Data: Axe_26
     - Name: $v
       Entry: 7
-      Data: 372|AssetData, Assembly-CSharp
+      Data: 373|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_26
@@ -7809,7 +7830,7 @@ MonoBehaviour:
       Data: Axe_25
     - Name: $v
       Entry: 7
-      Data: 373|AssetData, Assembly-CSharp
+      Data: 374|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_25
@@ -7830,7 +7851,7 @@ MonoBehaviour:
       Data: Axe_24
     - Name: $v
       Entry: 7
-      Data: 374|AssetData, Assembly-CSharp
+      Data: 375|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_24
@@ -7851,7 +7872,7 @@ MonoBehaviour:
       Data: Axe_23
     - Name: $v
       Entry: 7
-      Data: 375|AssetData, Assembly-CSharp
+      Data: 376|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_23
@@ -7872,7 +7893,7 @@ MonoBehaviour:
       Data: Axe_22
     - Name: $v
       Entry: 7
-      Data: 376|AssetData, Assembly-CSharp
+      Data: 377|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_22
@@ -7893,7 +7914,7 @@ MonoBehaviour:
       Data: Axe_21
     - Name: $v
       Entry: 7
-      Data: 377|AssetData, Assembly-CSharp
+      Data: 378|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_21
@@ -7914,7 +7935,7 @@ MonoBehaviour:
       Data: Axe_20
     - Name: $v
       Entry: 7
-      Data: 378|AssetData, Assembly-CSharp
+      Data: 379|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_20
@@ -7935,7 +7956,7 @@ MonoBehaviour:
       Data: Axe_19
     - Name: $v
       Entry: 7
-      Data: 379|AssetData, Assembly-CSharp
+      Data: 380|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_19
@@ -7956,7 +7977,7 @@ MonoBehaviour:
       Data: Axe_18
     - Name: $v
       Entry: 7
-      Data: 380|AssetData, Assembly-CSharp
+      Data: 381|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_18
@@ -7977,7 +7998,7 @@ MonoBehaviour:
       Data: Axe_17
     - Name: $v
       Entry: 7
-      Data: 381|AssetData, Assembly-CSharp
+      Data: 382|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_17
@@ -7998,7 +8019,7 @@ MonoBehaviour:
       Data: Axe_16
     - Name: $v
       Entry: 7
-      Data: 382|AssetData, Assembly-CSharp
+      Data: 383|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_16
@@ -8019,7 +8040,7 @@ MonoBehaviour:
       Data: Axe_15
     - Name: $v
       Entry: 7
-      Data: 383|AssetData, Assembly-CSharp
+      Data: 384|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_15
@@ -8040,7 +8061,7 @@ MonoBehaviour:
       Data: Axe_14
     - Name: $v
       Entry: 7
-      Data: 384|AssetData, Assembly-CSharp
+      Data: 385|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_14
@@ -8061,7 +8082,7 @@ MonoBehaviour:
       Data: Axe_13
     - Name: $v
       Entry: 7
-      Data: 385|AssetData, Assembly-CSharp
+      Data: 386|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_13
@@ -8082,7 +8103,7 @@ MonoBehaviour:
       Data: Axe_12
     - Name: $v
       Entry: 7
-      Data: 386|AssetData, Assembly-CSharp
+      Data: 387|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_12
@@ -8103,7 +8124,7 @@ MonoBehaviour:
       Data: Axe_11
     - Name: $v
       Entry: 7
-      Data: 387|AssetData, Assembly-CSharp
+      Data: 388|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_11
@@ -8124,7 +8145,7 @@ MonoBehaviour:
       Data: Axe_10
     - Name: $v
       Entry: 7
-      Data: 388|AssetData, Assembly-CSharp
+      Data: 389|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_10
@@ -8145,7 +8166,7 @@ MonoBehaviour:
       Data: Axe_09
     - Name: $v
       Entry: 7
-      Data: 389|AssetData, Assembly-CSharp
+      Data: 390|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_09
@@ -8166,7 +8187,7 @@ MonoBehaviour:
       Data: Axe_08
     - Name: $v
       Entry: 7
-      Data: 390|AssetData, Assembly-CSharp
+      Data: 391|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_08
@@ -8187,7 +8208,7 @@ MonoBehaviour:
       Data: Axe_07
     - Name: $v
       Entry: 7
-      Data: 391|AssetData, Assembly-CSharp
+      Data: 392|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_07
@@ -8208,7 +8229,7 @@ MonoBehaviour:
       Data: Axe_06
     - Name: $v
       Entry: 7
-      Data: 392|AssetData, Assembly-CSharp
+      Data: 393|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_06
@@ -8229,7 +8250,7 @@ MonoBehaviour:
       Data: Axe_05
     - Name: $v
       Entry: 7
-      Data: 393|AssetData, Assembly-CSharp
+      Data: 394|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_05
@@ -8250,7 +8271,7 @@ MonoBehaviour:
       Data: Axe_04
     - Name: $v
       Entry: 7
-      Data: 394|AssetData, Assembly-CSharp
+      Data: 395|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_04
@@ -8271,7 +8292,7 @@ MonoBehaviour:
       Data: Axe_03
     - Name: $v
       Entry: 7
-      Data: 395|AssetData, Assembly-CSharp
+      Data: 396|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_03
@@ -8292,7 +8313,7 @@ MonoBehaviour:
       Data: Axe_02
     - Name: $v
       Entry: 7
-      Data: 396|AssetData, Assembly-CSharp
+      Data: 397|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_02
@@ -8313,7 +8334,7 @@ MonoBehaviour:
       Data: Axe_01
     - Name: $v
       Entry: 7
-      Data: 397|AssetData, Assembly-CSharp
+      Data: 398|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe_01
@@ -8334,7 +8355,7 @@ MonoBehaviour:
       Data: 
     - Name: CharacterAsset
       Entry: 7
-      Data: 398|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 399|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -8350,7 +8371,7 @@ MonoBehaviour:
       Data: Character1
     - Name: $v
       Entry: 7
-      Data: 399|AssetData, Assembly-CSharp
+      Data: 400|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Character1
@@ -8371,7 +8392,7 @@ MonoBehaviour:
       Data: Character2
     - Name: $v
       Entry: 7
-      Data: 400|AssetData, Assembly-CSharp
+      Data: 401|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Character2
@@ -8392,7 +8413,7 @@ MonoBehaviour:
       Data: Character3
     - Name: $v
       Entry: 7
-      Data: 401|AssetData, Assembly-CSharp
+      Data: 402|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Character3
@@ -8413,7 +8434,7 @@ MonoBehaviour:
       Data: 
     - Name: AnimalAsset
       Entry: 7
-      Data: 402|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 403|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -8429,7 +8450,7 @@ MonoBehaviour:
       Data: Zebra
     - Name: $v
       Entry: 7
-      Data: 403|AssetData, Assembly-CSharp
+      Data: 404|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Zebra
@@ -8450,7 +8471,7 @@ MonoBehaviour:
       Data: Wombat
     - Name: $v
       Entry: 7
-      Data: 404|AssetData, Assembly-CSharp
+      Data: 405|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wombat
@@ -8471,7 +8492,7 @@ MonoBehaviour:
       Data: Wolf
     - Name: $v
       Entry: 7
-      Data: 405|AssetData, Assembly-CSharp
+      Data: 406|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wolf
@@ -8492,7 +8513,7 @@ MonoBehaviour:
       Data: Wildebeest
     - Name: $v
       Entry: 7
-      Data: 406|AssetData, Assembly-CSharp
+      Data: 407|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wildebeest
@@ -8513,7 +8534,7 @@ MonoBehaviour:
       Data: Walrus
     - Name: $v
       Entry: 7
-      Data: 407|AssetData, Assembly-CSharp
+      Data: 408|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Walrus
@@ -8534,7 +8555,7 @@ MonoBehaviour:
       Data: Turkey
     - Name: $v
       Entry: 7
-      Data: 408|AssetData, Assembly-CSharp
+      Data: 409|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Turkey
@@ -8555,7 +8576,7 @@ MonoBehaviour:
       Data: Toucan
     - Name: $v
       Entry: 7
-      Data: 409|AssetData, Assembly-CSharp
+      Data: 410|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Toucan
@@ -8576,7 +8597,7 @@ MonoBehaviour:
       Data: Tortoise
     - Name: $v
       Entry: 7
-      Data: 410|AssetData, Assembly-CSharp
+      Data: 411|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Tortoise
@@ -8597,7 +8618,7 @@ MonoBehaviour:
       Data: Tiger
     - Name: $v
       Entry: 7
-      Data: 411|AssetData, Assembly-CSharp
+      Data: 412|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Tiger
@@ -8618,7 +8639,7 @@ MonoBehaviour:
       Data: TasmanianD
     - Name: $v
       Entry: 7
-      Data: 412|AssetData, Assembly-CSharp
+      Data: 413|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: TasmanianD
@@ -8639,7 +8660,7 @@ MonoBehaviour:
       Data: Tapir
     - Name: $v
       Entry: 7
-      Data: 413|AssetData, Assembly-CSharp
+      Data: 414|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Tapir
@@ -8660,7 +8681,7 @@ MonoBehaviour:
       Data: Swan
     - Name: $v
       Entry: 7
-      Data: 414|AssetData, Assembly-CSharp
+      Data: 415|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Swan
@@ -8681,7 +8702,7 @@ MonoBehaviour:
       Data: Squirrel
     - Name: $v
       Entry: 7
-      Data: 415|AssetData, Assembly-CSharp
+      Data: 416|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Squirrel
@@ -8702,7 +8723,7 @@ MonoBehaviour:
       Data: Squid
     - Name: $v
       Entry: 7
-      Data: 416|AssetData, Assembly-CSharp
+      Data: 417|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Squid
@@ -8723,7 +8744,7 @@ MonoBehaviour:
       Data: SnowWeasel
     - Name: $v
       Entry: 7
-      Data: 417|AssetData, Assembly-CSharp
+      Data: 418|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: SnowWeasel
@@ -8744,7 +8765,7 @@ MonoBehaviour:
       Data: SnowOwl
     - Name: $v
       Entry: 7
-      Data: 418|AssetData, Assembly-CSharp
+      Data: 419|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: SnowOwl
@@ -8765,7 +8786,7 @@ MonoBehaviour:
       Data: SnowLeopar
     - Name: $v
       Entry: 7
-      Data: 419|AssetData, Assembly-CSharp
+      Data: 420|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: SnowLeopar
@@ -8786,7 +8807,7 @@ MonoBehaviour:
       Data: SnappingTu
     - Name: $v
       Entry: 7
-      Data: 420|AssetData, Assembly-CSharp
+      Data: 421|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: SnappingTu
@@ -8807,7 +8828,7 @@ MonoBehaviour:
       Data: Snake
     - Name: $v
       Entry: 7
-      Data: 421|AssetData, Assembly-CSharp
+      Data: 422|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Snake
@@ -8828,7 +8849,7 @@ MonoBehaviour:
       Data: Sloth
     - Name: $v
       Entry: 7
-      Data: 422|AssetData, Assembly-CSharp
+      Data: 423|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sloth
@@ -8849,7 +8870,7 @@ MonoBehaviour:
       Data: Skunk
     - Name: $v
       Entry: 7
-      Data: 423|AssetData, Assembly-CSharp
+      Data: 424|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Skunk
@@ -8870,7 +8891,7 @@ MonoBehaviour:
       Data: Sheep
     - Name: $v
       Entry: 7
-      Data: 424|AssetData, Assembly-CSharp
+      Data: 425|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sheep
@@ -8891,7 +8912,7 @@ MonoBehaviour:
       Data: Serval
     - Name: $v
       Entry: 7
-      Data: 425|AssetData, Assembly-CSharp
+      Data: 426|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Serval
@@ -8912,7 +8933,7 @@ MonoBehaviour:
       Data: SeaOtter
     - Name: $v
       Entry: 7
-      Data: 426|AssetData, Assembly-CSharp
+      Data: 427|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: SeaOtter
@@ -8933,7 +8954,7 @@ MonoBehaviour:
       Data: Seal
     - Name: $v
       Entry: 7
-      Data: 427|AssetData, Assembly-CSharp
+      Data: 428|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Seal
@@ -8954,7 +8975,7 @@ MonoBehaviour:
       Data: Seahorse
     - Name: $v
       Entry: 7
-      Data: 428|AssetData, Assembly-CSharp
+      Data: 429|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Seahorse
@@ -8975,7 +8996,7 @@ MonoBehaviour:
       Data: Rooster
     - Name: $v
       Entry: 7
-      Data: 429|AssetData, Assembly-CSharp
+      Data: 430|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Rooster
@@ -8996,7 +9017,7 @@ MonoBehaviour:
       Data: Rhino
     - Name: $v
       Entry: 7
-      Data: 430|AssetData, Assembly-CSharp
+      Data: 431|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Rhino
@@ -9017,7 +9038,7 @@ MonoBehaviour:
       Data: Reindeer
     - Name: $v
       Entry: 7
-      Data: 431|AssetData, Assembly-CSharp
+      Data: 432|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Reindeer
@@ -9038,7 +9059,7 @@ MonoBehaviour:
       Data: RedPanda
     - Name: $v
       Entry: 7
-      Data: 432|AssetData, Assembly-CSharp
+      Data: 433|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: RedPanda
@@ -9059,7 +9080,7 @@ MonoBehaviour:
       Data: Rattlesnak
     - Name: $v
       Entry: 7
-      Data: 433|AssetData, Assembly-CSharp
+      Data: 434|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Rattlesnak
@@ -9080,7 +9101,7 @@ MonoBehaviour:
       Data: Raccoon
     - Name: $v
       Entry: 7
-      Data: 434|AssetData, Assembly-CSharp
+      Data: 435|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Raccoon
@@ -9101,7 +9122,7 @@ MonoBehaviour:
       Data: Rabbit
     - Name: $v
       Entry: 7
-      Data: 435|AssetData, Assembly-CSharp
+      Data: 436|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Rabbit
@@ -9122,7 +9143,7 @@ MonoBehaviour:
       Data: Quokka
     - Name: $v
       Entry: 7
-      Data: 436|AssetData, Assembly-CSharp
+      Data: 437|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Quokka
@@ -9143,7 +9164,7 @@ MonoBehaviour:
       Data: Python
     - Name: $v
       Entry: 7
-      Data: 437|AssetData, Assembly-CSharp
+      Data: 438|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Python
@@ -9164,7 +9185,7 @@ MonoBehaviour:
       Data: Puffin
     - Name: $v
       Entry: 7
-      Data: 438|AssetData, Assembly-CSharp
+      Data: 439|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Puffin
@@ -9185,7 +9206,7 @@ MonoBehaviour:
       Data: Pronghorn
     - Name: $v
       Entry: 7
-      Data: 439|AssetData, Assembly-CSharp
+      Data: 440|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Pronghorn
@@ -9206,7 +9227,7 @@ MonoBehaviour:
       Data: Possum
     - Name: $v
       Entry: 7
-      Data: 440|AssetData, Assembly-CSharp
+      Data: 441|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Possum
@@ -9227,7 +9248,7 @@ MonoBehaviour:
       Data: PolarBear
     - Name: $v
       Entry: 7
-      Data: 441|AssetData, Assembly-CSharp
+      Data: 442|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: PolarBear
@@ -9248,7 +9269,7 @@ MonoBehaviour:
       Data: Platypus
     - Name: $v
       Entry: 7
-      Data: 442|AssetData, Assembly-CSharp
+      Data: 443|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Platypus
@@ -9269,7 +9290,7 @@ MonoBehaviour:
       Data: Pigeon
     - Name: $v
       Entry: 7
-      Data: 443|AssetData, Assembly-CSharp
+      Data: 444|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Pigeon
@@ -9290,7 +9311,7 @@ MonoBehaviour:
       Data: Pig
     - Name: $v
       Entry: 7
-      Data: 444|AssetData, Assembly-CSharp
+      Data: 445|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Pig
@@ -9311,7 +9332,7 @@ MonoBehaviour:
       Data: Penguin
     - Name: $v
       Entry: 7
-      Data: 445|AssetData, Assembly-CSharp
+      Data: 446|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Penguin
@@ -9332,7 +9353,7 @@ MonoBehaviour:
       Data: Pelican
     - Name: $v
       Entry: 7
-      Data: 446|AssetData, Assembly-CSharp
+      Data: 447|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Pelican
@@ -9353,7 +9374,7 @@ MonoBehaviour:
       Data: Peacock
     - Name: $v
       Entry: 7
-      Data: 447|AssetData, Assembly-CSharp
+      Data: 448|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Peacock
@@ -9374,7 +9395,7 @@ MonoBehaviour:
       Data: Parrot
     - Name: $v
       Entry: 7
-      Data: 448|AssetData, Assembly-CSharp
+      Data: 449|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Parrot
@@ -9395,7 +9416,7 @@ MonoBehaviour:
       Data: Panda
     - Name: $v
       Entry: 7
-      Data: 449|AssetData, Assembly-CSharp
+      Data: 450|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Panda
@@ -9416,7 +9437,7 @@ MonoBehaviour:
       Data: Ox
     - Name: $v
       Entry: 7
-      Data: 450|AssetData, Assembly-CSharp
+      Data: 451|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Ox
@@ -9437,7 +9458,7 @@ MonoBehaviour:
       Data: Owl
     - Name: $v
       Entry: 7
-      Data: 451|AssetData, Assembly-CSharp
+      Data: 452|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Owl
@@ -9458,7 +9479,7 @@ MonoBehaviour:
       Data: Ostrich
     - Name: $v
       Entry: 7
-      Data: 452|AssetData, Assembly-CSharp
+      Data: 453|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Ostrich
@@ -9479,7 +9500,7 @@ MonoBehaviour:
       Data: Orca
     - Name: $v
       Entry: 7
-      Data: 453|AssetData, Assembly-CSharp
+      Data: 454|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Orca
@@ -9500,7 +9521,7 @@ MonoBehaviour:
       Data: Narwhal
     - Name: $v
       Entry: 7
-      Data: 454|AssetData, Assembly-CSharp
+      Data: 455|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Narwhal
@@ -9521,7 +9542,7 @@ MonoBehaviour:
       Data: Moose
     - Name: $v
       Entry: 7
-      Data: 455|AssetData, Assembly-CSharp
+      Data: 456|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Moose
@@ -9542,7 +9563,7 @@ MonoBehaviour:
       Data: Monkey
     - Name: $v
       Entry: 7
-      Data: 456|AssetData, Assembly-CSharp
+      Data: 457|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Monkey
@@ -9563,7 +9584,7 @@ MonoBehaviour:
       Data: Mole
     - Name: $v
       Entry: 7
-      Data: 457|AssetData, Assembly-CSharp
+      Data: 458|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mole
@@ -9584,7 +9605,7 @@ MonoBehaviour:
       Data: Mice
     - Name: $v
       Entry: 7
-      Data: 458|AssetData, Assembly-CSharp
+      Data: 459|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mice
@@ -9605,7 +9626,7 @@ MonoBehaviour:
       Data: Marten
     - Name: $v
       Entry: 7
-      Data: 459|AssetData, Assembly-CSharp
+      Data: 460|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Marten
@@ -9626,7 +9647,7 @@ MonoBehaviour:
       Data: Manatee
     - Name: $v
       Entry: 7
-      Data: 460|AssetData, Assembly-CSharp
+      Data: 461|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Manatee
@@ -9647,7 +9668,7 @@ MonoBehaviour:
       Data: Mallard
     - Name: $v
       Entry: 7
-      Data: 461|AssetData, Assembly-CSharp
+      Data: 462|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mallard
@@ -9668,7 +9689,7 @@ MonoBehaviour:
       Data: Lynx
     - Name: $v
       Entry: 7
-      Data: 462|AssetData, Assembly-CSharp
+      Data: 463|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lynx
@@ -9689,7 +9710,7 @@ MonoBehaviour:
       Data: Lobster
     - Name: $v
       Entry: 7
-      Data: 463|AssetData, Assembly-CSharp
+      Data: 464|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lobster
@@ -9710,7 +9731,7 @@ MonoBehaviour:
       Data: Llama
     - Name: $v
       Entry: 7
-      Data: 464|AssetData, Assembly-CSharp
+      Data: 465|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Llama
@@ -9731,7 +9752,7 @@ MonoBehaviour:
       Data: Lioness
     - Name: $v
       Entry: 7
-      Data: 465|AssetData, Assembly-CSharp
+      Data: 466|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lioness
@@ -9752,7 +9773,7 @@ MonoBehaviour:
       Data: Lion
     - Name: $v
       Entry: 7
-      Data: 466|AssetData, Assembly-CSharp
+      Data: 467|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lion
@@ -9773,7 +9794,7 @@ MonoBehaviour:
       Data: Lemur
     - Name: $v
       Entry: 7
-      Data: 467|AssetData, Assembly-CSharp
+      Data: 468|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lemur
@@ -9794,7 +9815,7 @@ MonoBehaviour:
       Data: Lamb
     - Name: $v
       Entry: 7
-      Data: 468|AssetData, Assembly-CSharp
+      Data: 469|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Lamb
@@ -9815,7 +9836,7 @@ MonoBehaviour:
       Data: Kookaburra
     - Name: $v
       Entry: 7
-      Data: 469|AssetData, Assembly-CSharp
+      Data: 470|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Kookaburra
@@ -9836,7 +9857,7 @@ MonoBehaviour:
       Data: Koala
     - Name: $v
       Entry: 7
-      Data: 470|AssetData, Assembly-CSharp
+      Data: 471|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Koala
@@ -9857,7 +9878,7 @@ MonoBehaviour:
       Data: Kingfisher
     - Name: $v
       Entry: 7
-      Data: 471|AssetData, Assembly-CSharp
+      Data: 472|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Kingfisher
@@ -9878,7 +9899,7 @@ MonoBehaviour:
       Data: Kangaroo
     - Name: $v
       Entry: 7
-      Data: 472|AssetData, Assembly-CSharp
+      Data: 473|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Kangaroo
@@ -9899,7 +9920,7 @@ MonoBehaviour:
       Data: Jackal
     - Name: $v
       Entry: 7
-      Data: 473|AssetData, Assembly-CSharp
+      Data: 474|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Jackal
@@ -9920,7 +9941,7 @@ MonoBehaviour:
       Data: Iguana
     - Name: $v
       Entry: 7
-      Data: 474|AssetData, Assembly-CSharp
+      Data: 475|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Iguana
@@ -9941,7 +9962,7 @@ MonoBehaviour:
       Data: Hyena
     - Name: $v
       Entry: 7
-      Data: 475|AssetData, Assembly-CSharp
+      Data: 476|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hyena
@@ -9962,7 +9983,7 @@ MonoBehaviour:
       Data: Husky
     - Name: $v
       Entry: 7
-      Data: 476|AssetData, Assembly-CSharp
+      Data: 477|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Husky
@@ -9983,7 +10004,7 @@ MonoBehaviour:
       Data: Horse
     - Name: $v
       Entry: 7
-      Data: 477|AssetData, Assembly-CSharp
+      Data: 478|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Horse
@@ -10004,7 +10025,7 @@ MonoBehaviour:
       Data: HornedLiza
     - Name: $v
       Entry: 7
-      Data: 478|AssetData, Assembly-CSharp
+      Data: 479|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: HornedLiza
@@ -10025,7 +10046,7 @@ MonoBehaviour:
       Data: Hornbill
     - Name: $v
       Entry: 7
-      Data: 479|AssetData, Assembly-CSharp
+      Data: 480|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hornbill
@@ -10046,7 +10067,7 @@ MonoBehaviour:
       Data: Hog
     - Name: $v
       Entry: 7
-      Data: 480|AssetData, Assembly-CSharp
+      Data: 481|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hog
@@ -10067,7 +10088,7 @@ MonoBehaviour:
       Data: Hippo
     - Name: $v
       Entry: 7
-      Data: 481|AssetData, Assembly-CSharp
+      Data: 482|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hippo
@@ -10088,7 +10109,7 @@ MonoBehaviour:
       Data: Hen
     - Name: $v
       Entry: 7
-      Data: 482|AssetData, Assembly-CSharp
+      Data: 483|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hen
@@ -10109,7 +10130,7 @@ MonoBehaviour:
       Data: Hedgehog
     - Name: $v
       Entry: 7
-      Data: 483|AssetData, Assembly-CSharp
+      Data: 484|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hedgehog
@@ -10130,7 +10151,7 @@ MonoBehaviour:
       Data: Hare
     - Name: $v
       Entry: 7
-      Data: 484|AssetData, Assembly-CSharp
+      Data: 485|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hare
@@ -10151,7 +10172,7 @@ MonoBehaviour:
       Data: Hamster
     - Name: $v
       Entry: 7
-      Data: 485|AssetData, Assembly-CSharp
+      Data: 486|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hamster
@@ -10172,7 +10193,7 @@ MonoBehaviour:
       Data: Gorilla
     - Name: $v
       Entry: 7
-      Data: 486|AssetData, Assembly-CSharp
+      Data: 487|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Gorilla
@@ -10193,7 +10214,7 @@ MonoBehaviour:
       Data: Goose
     - Name: $v
       Entry: 7
-      Data: 487|AssetData, Assembly-CSharp
+      Data: 488|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Goose
@@ -10214,7 +10235,7 @@ MonoBehaviour:
       Data: Goldfish
     - Name: $v
       Entry: 7
-      Data: 488|AssetData, Assembly-CSharp
+      Data: 489|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Goldfish
@@ -10235,7 +10256,7 @@ MonoBehaviour:
       Data: GoldenEagl
     - Name: $v
       Entry: 7
-      Data: 489|AssetData, Assembly-CSharp
+      Data: 490|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: GoldenEagl
@@ -10256,7 +10277,7 @@ MonoBehaviour:
       Data: Goat
     - Name: $v
       Entry: 7
-      Data: 490|AssetData, Assembly-CSharp
+      Data: 491|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Goat
@@ -10277,7 +10298,7 @@ MonoBehaviour:
       Data: Giraffe
     - Name: $v
       Entry: 7
-      Data: 491|AssetData, Assembly-CSharp
+      Data: 492|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Giraffe
@@ -10298,7 +10319,7 @@ MonoBehaviour:
       Data: GilaMonste
     - Name: $v
       Entry: 7
-      Data: 492|AssetData, Assembly-CSharp
+      Data: 493|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: GilaMonste
@@ -10319,7 +10340,7 @@ MonoBehaviour:
       Data: Gazelle
     - Name: $v
       Entry: 7
-      Data: 493|AssetData, Assembly-CSharp
+      Data: 494|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Gazelle
@@ -10340,7 +10361,7 @@ MonoBehaviour:
       Data: Frog
     - Name: $v
       Entry: 7
-      Data: 494|AssetData, Assembly-CSharp
+      Data: 495|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Frog
@@ -10361,7 +10382,7 @@ MonoBehaviour:
       Data: Fox
     - Name: $v
       Entry: 7
-      Data: 495|AssetData, Assembly-CSharp
+      Data: 496|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Fox
@@ -10382,7 +10403,7 @@ MonoBehaviour:
       Data: Flamingo
     - Name: $v
       Entry: 7
-      Data: 496|AssetData, Assembly-CSharp
+      Data: 497|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Flamingo
@@ -10403,7 +10424,7 @@ MonoBehaviour:
       Data: Ferret
     - Name: $v
       Entry: 7
-      Data: 497|AssetData, Assembly-CSharp
+      Data: 498|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Ferret
@@ -10424,7 +10445,7 @@ MonoBehaviour:
       Data: Emu
     - Name: $v
       Entry: 7
-      Data: 498|AssetData, Assembly-CSharp
+      Data: 499|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Emu
@@ -10445,7 +10466,7 @@ MonoBehaviour:
       Data: Elephant
     - Name: $v
       Entry: 7
-      Data: 499|AssetData, Assembly-CSharp
+      Data: 500|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Elephant
@@ -10466,7 +10487,7 @@ MonoBehaviour:
       Data: Eagle
     - Name: $v
       Entry: 7
-      Data: 500|AssetData, Assembly-CSharp
+      Data: 501|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Eagle
@@ -10487,7 +10508,7 @@ MonoBehaviour:
       Data: Duck
     - Name: $v
       Entry: 7
-      Data: 501|AssetData, Assembly-CSharp
+      Data: 502|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Duck
@@ -10508,7 +10529,7 @@ MonoBehaviour:
       Data: Dove
     - Name: $v
       Entry: 7
-      Data: 502|AssetData, Assembly-CSharp
+      Data: 503|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dove
@@ -10529,7 +10550,7 @@ MonoBehaviour:
       Data: Donkey
     - Name: $v
       Entry: 7
-      Data: 503|AssetData, Assembly-CSharp
+      Data: 504|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Donkey
@@ -10550,7 +10571,7 @@ MonoBehaviour:
       Data: Dolphin
     - Name: $v
       Entry: 7
-      Data: 504|AssetData, Assembly-CSharp
+      Data: 505|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dolphin
@@ -10571,7 +10592,7 @@ MonoBehaviour:
       Data: Dog
     - Name: $v
       Entry: 7
-      Data: 505|AssetData, Assembly-CSharp
+      Data: 506|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Dog
@@ -10592,7 +10613,7 @@ MonoBehaviour:
       Data: Deer
     - Name: $v
       Entry: 7
-      Data: 506|AssetData, Assembly-CSharp
+      Data: 507|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Deer
@@ -10613,7 +10634,7 @@ MonoBehaviour:
       Data: Crow
     - Name: $v
       Entry: 7
-      Data: 507|AssetData, Assembly-CSharp
+      Data: 508|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Crow
@@ -10634,7 +10655,7 @@ MonoBehaviour:
       Data: Crocodile
     - Name: $v
       Entry: 7
-      Data: 508|AssetData, Assembly-CSharp
+      Data: 509|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Crocodile
@@ -10655,7 +10676,7 @@ MonoBehaviour:
       Data: Crab
     - Name: $v
       Entry: 7
-      Data: 509|AssetData, Assembly-CSharp
+      Data: 510|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Crab
@@ -10676,7 +10697,7 @@ MonoBehaviour:
       Data: Coyote
     - Name: $v
       Entry: 7
-      Data: 510|AssetData, Assembly-CSharp
+      Data: 511|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Coyote
@@ -10697,7 +10718,7 @@ MonoBehaviour:
       Data: Cow
     - Name: $v
       Entry: 7
-      Data: 511|AssetData, Assembly-CSharp
+      Data: 512|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Cow
@@ -10718,7 +10739,7 @@ MonoBehaviour:
       Data: Cougar
     - Name: $v
       Entry: 7
-      Data: 512|AssetData, Assembly-CSharp
+      Data: 513|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Cougar
@@ -10739,7 +10760,7 @@ MonoBehaviour:
       Data: Cobra
     - Name: $v
       Entry: 7
-      Data: 513|AssetData, Assembly-CSharp
+      Data: 514|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Cobra
@@ -10760,7 +10781,7 @@ MonoBehaviour:
       Data: Clownfish
     - Name: $v
       Entry: 7
-      Data: 514|AssetData, Assembly-CSharp
+      Data: 515|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Clownfish
@@ -10781,7 +10802,7 @@ MonoBehaviour:
       Data: Chipmunk
     - Name: $v
       Entry: 7
-      Data: 515|AssetData, Assembly-CSharp
+      Data: 516|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Chipmunk
@@ -10802,7 +10823,7 @@ MonoBehaviour:
       Data: Chick
     - Name: $v
       Entry: 7
-      Data: 516|AssetData, Assembly-CSharp
+      Data: 517|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Chick
@@ -10823,7 +10844,7 @@ MonoBehaviour:
       Data: Cheetah
     - Name: $v
       Entry: 7
-      Data: 517|AssetData, Assembly-CSharp
+      Data: 518|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Cheetah
@@ -10844,7 +10865,7 @@ MonoBehaviour:
       Data: Chameleon
     - Name: $v
       Entry: 7
-      Data: 518|AssetData, Assembly-CSharp
+      Data: 519|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Chameleon
@@ -10865,7 +10886,7 @@ MonoBehaviour:
       Data: Cat
     - Name: $v
       Entry: 7
-      Data: 519|AssetData, Assembly-CSharp
+      Data: 520|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Cat
@@ -10886,7 +10907,7 @@ MonoBehaviour:
       Data: Carp
     - Name: $v
       Entry: 7
-      Data: 520|AssetData, Assembly-CSharp
+      Data: 521|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Carp
@@ -10907,7 +10928,7 @@ MonoBehaviour:
       Data: Camel
     - Name: $v
       Entry: 7
-      Data: 521|AssetData, Assembly-CSharp
+      Data: 522|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Camel
@@ -10928,7 +10949,7 @@ MonoBehaviour:
       Data: Bull
     - Name: $v
       Entry: 7
-      Data: 522|AssetData, Assembly-CSharp
+      Data: 523|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bull
@@ -10949,7 +10970,7 @@ MonoBehaviour:
       Data: Buffalo
     - Name: $v
       Entry: 7
-      Data: 523|AssetData, Assembly-CSharp
+      Data: 524|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Buffalo
@@ -10970,7 +10991,7 @@ MonoBehaviour:
       Data: Bison
     - Name: $v
       Entry: 7
-      Data: 524|AssetData, Assembly-CSharp
+      Data: 525|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bison
@@ -10991,7 +11012,7 @@ MonoBehaviour:
       Data: Bighorn
     - Name: $v
       Entry: 7
-      Data: 525|AssetData, Assembly-CSharp
+      Data: 526|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bighorn
@@ -11012,7 +11033,7 @@ MonoBehaviour:
       Data: Beluga
     - Name: $v
       Entry: 7
-      Data: 526|AssetData, Assembly-CSharp
+      Data: 527|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Beluga
@@ -11033,7 +11054,7 @@ MonoBehaviour:
       Data: Beaver
     - Name: $v
       Entry: 7
-      Data: 527|AssetData, Assembly-CSharp
+      Data: 528|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Beaver
@@ -11054,7 +11075,7 @@ MonoBehaviour:
       Data: Bear
     - Name: $v
       Entry: 7
-      Data: 528|AssetData, Assembly-CSharp
+      Data: 529|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bear
@@ -11075,7 +11096,7 @@ MonoBehaviour:
       Data: Bat
     - Name: $v
       Entry: 7
-      Data: 529|AssetData, Assembly-CSharp
+      Data: 530|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bat
@@ -11096,7 +11117,7 @@ MonoBehaviour:
       Data: Badger
     - Name: $v
       Entry: 7
-      Data: 530|AssetData, Assembly-CSharp
+      Data: 531|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Badger
@@ -11117,7 +11138,7 @@ MonoBehaviour:
       Data: Baboon
     - Name: $v
       Entry: 7
-      Data: 531|AssetData, Assembly-CSharp
+      Data: 532|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Baboon
@@ -11138,7 +11159,7 @@ MonoBehaviour:
       Data: Arowana
     - Name: $v
       Entry: 7
-      Data: 532|AssetData, Assembly-CSharp
+      Data: 533|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Arowana
@@ -11159,7 +11180,7 @@ MonoBehaviour:
       Data: Armadillo
     - Name: $v
       Entry: 7
-      Data: 533|AssetData, Assembly-CSharp
+      Data: 534|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Armadillo
@@ -11180,7 +11201,7 @@ MonoBehaviour:
       Data: ArcticFox
     - Name: $v
       Entry: 7
-      Data: 534|AssetData, Assembly-CSharp
+      Data: 535|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: ArcticFox
@@ -11201,7 +11222,7 @@ MonoBehaviour:
       Data: Antelope
     - Name: $v
       Entry: 7
-      Data: 535|AssetData, Assembly-CSharp
+      Data: 536|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Antelope
@@ -11222,7 +11243,7 @@ MonoBehaviour:
       Data: Alpaca
     - Name: $v
       Entry: 7
-      Data: 536|AssetData, Assembly-CSharp
+      Data: 537|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Alpaca
@@ -11243,7 +11264,7 @@ MonoBehaviour:
       Data: 
     - Name: WeaponAsset
       Entry: 7
-      Data: 537|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 538|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
@@ -11259,7 +11280,7 @@ MonoBehaviour:
       Data: Axe1H_Basic
     - Name: $v
       Entry: 7
-      Data: 538|AssetData, Assembly-CSharp
+      Data: 539|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe1H_Basic
@@ -11280,7 +11301,7 @@ MonoBehaviour:
       Data: Axe1H_Epic
     - Name: $v
       Entry: 7
-      Data: 539|AssetData, Assembly-CSharp
+      Data: 540|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe1H_Epic
@@ -11301,7 +11322,7 @@ MonoBehaviour:
       Data: Axe1H_Medium
     - Name: $v
       Entry: 7
-      Data: 540|AssetData, Assembly-CSharp
+      Data: 541|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe1H_Medium
@@ -11322,7 +11343,7 @@ MonoBehaviour:
       Data: Axe2H_Basic
     - Name: $v
       Entry: 7
-      Data: 541|AssetData, Assembly-CSharp
+      Data: 542|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe2H_Basic
@@ -11343,7 +11364,7 @@ MonoBehaviour:
       Data: Axe2H_Epic
     - Name: $v
       Entry: 7
-      Data: 542|AssetData, Assembly-CSharp
+      Data: 543|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe2H_Epic
@@ -11364,7 +11385,7 @@ MonoBehaviour:
       Data: Axe2H_Medium
     - Name: $v
       Entry: 7
-      Data: 543|AssetData, Assembly-CSharp
+      Data: 544|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Axe2H_Medium
@@ -11385,7 +11406,7 @@ MonoBehaviour:
       Data: AxeBasic1_2
     - Name: $v
       Entry: 7
-      Data: 544|AssetData, Assembly-CSharp
+      Data: 545|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: AxeBasic1_2
@@ -11406,7 +11427,7 @@ MonoBehaviour:
       Data: AxeBasic2_1
     - Name: $v
       Entry: 7
-      Data: 545|AssetData, Assembly-CSharp
+      Data: 546|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: AxeBasic2_1
@@ -11427,7 +11448,7 @@ MonoBehaviour:
       Data: AxeEvolving3_3_2
     - Name: $v
       Entry: 7
-      Data: 546|AssetData, Assembly-CSharp
+      Data: 547|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: AxeEvolving3_3_2
@@ -11448,7 +11469,7 @@ MonoBehaviour:
       Data: Bow_Basic
     - Name: $v
       Entry: 7
-      Data: 547|AssetData, Assembly-CSharp
+      Data: 548|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_Basic
@@ -11469,7 +11490,7 @@ MonoBehaviour:
       Data: Bow_Epic
     - Name: $v
       Entry: 7
-      Data: 548|AssetData, Assembly-CSharp
+      Data: 549|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_Epic
@@ -11490,7 +11511,7 @@ MonoBehaviour:
       Data: Bow_Medium
     - Name: $v
       Entry: 7
-      Data: 549|AssetData, Assembly-CSharp
+      Data: 550|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Bow_Medium
@@ -11511,7 +11532,7 @@ MonoBehaviour:
       Data: Hammer1_1_3
     - Name: $v
       Entry: 7
-      Data: 550|AssetData, Assembly-CSharp
+      Data: 551|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Hammer1_1_3
@@ -11532,7 +11553,7 @@ MonoBehaviour:
       Data: Mace1H_Basic
     - Name: $v
       Entry: 7
-      Data: 551|AssetData, Assembly-CSharp
+      Data: 552|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace1H_Basic
@@ -11553,7 +11574,7 @@ MonoBehaviour:
       Data: Mace1H_Epic
     - Name: $v
       Entry: 7
-      Data: 552|AssetData, Assembly-CSharp
+      Data: 553|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace1H_Epic
@@ -11574,7 +11595,7 @@ MonoBehaviour:
       Data: Mace1H_Medium
     - Name: $v
       Entry: 7
-      Data: 553|AssetData, Assembly-CSharp
+      Data: 554|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace1H_Medium
@@ -11595,7 +11616,7 @@ MonoBehaviour:
       Data: Mace2H_Basic
     - Name: $v
       Entry: 7
-      Data: 554|AssetData, Assembly-CSharp
+      Data: 555|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace2H_Basic
@@ -11616,7 +11637,7 @@ MonoBehaviour:
       Data: Mace2H_Epic
     - Name: $v
       Entry: 7
-      Data: 555|AssetData, Assembly-CSharp
+      Data: 556|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace2H_Epic
@@ -11637,7 +11658,7 @@ MonoBehaviour:
       Data: Mace2H_Medium
     - Name: $v
       Entry: 7
-      Data: 556|AssetData, Assembly-CSharp
+      Data: 557|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Mace2H_Medium
@@ -11658,7 +11679,7 @@ MonoBehaviour:
       Data: Wand_Basic
     - Name: $v
       Entry: 7
-      Data: 557|AssetData, Assembly-CSharp
+      Data: 558|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wand_Basic
@@ -11679,7 +11700,7 @@ MonoBehaviour:
       Data: Wand_Epic
     - Name: $v
       Entry: 7
-      Data: 558|AssetData, Assembly-CSharp
+      Data: 559|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wand_Epic
@@ -11700,7 +11721,7 @@ MonoBehaviour:
       Data: Wand_Medium
     - Name: $v
       Entry: 7
-      Data: 559|AssetData, Assembly-CSharp
+      Data: 560|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Wand_Medium
@@ -11721,7 +11742,7 @@ MonoBehaviour:
       Data: Staff2_2_6
     - Name: $v
       Entry: 7
-      Data: 560|AssetData, Assembly-CSharp
+      Data: 561|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff2_2_6
@@ -11742,7 +11763,7 @@ MonoBehaviour:
       Data: Staff4_1_1
     - Name: $v
       Entry: 7
-      Data: 561|AssetData, Assembly-CSharp
+      Data: 562|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff4_1_1
@@ -11763,7 +11784,7 @@ MonoBehaviour:
       Data: Staff5_1_1
     - Name: $v
       Entry: 7
-      Data: 562|AssetData, Assembly-CSharp
+      Data: 563|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff5_1_1
@@ -11784,7 +11805,7 @@ MonoBehaviour:
       Data: Staff_Basic
     - Name: $v
       Entry: 7
-      Data: 563|AssetData, Assembly-CSharp
+      Data: 564|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_Basic
@@ -11805,7 +11826,7 @@ MonoBehaviour:
       Data: Staff_Epic
     - Name: $v
       Entry: 7
-      Data: 564|AssetData, Assembly-CSharp
+      Data: 565|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_Epic
@@ -11826,7 +11847,7 @@ MonoBehaviour:
       Data: Staff_Medium
     - Name: $v
       Entry: 7
-      Data: 565|AssetData, Assembly-CSharp
+      Data: 566|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Staff_Medium
@@ -11847,7 +11868,7 @@ MonoBehaviour:
       Data: Sword1_1_3
     - Name: $v
       Entry: 7
-      Data: 566|AssetData, Assembly-CSharp
+      Data: 567|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword1_1_3
@@ -11868,7 +11889,7 @@ MonoBehaviour:
       Data: Sword1_Silver
     - Name: $v
       Entry: 7
-      Data: 567|AssetData, Assembly-CSharp
+      Data: 568|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword1_Silver
@@ -11889,7 +11910,7 @@ MonoBehaviour:
       Data: Sword2_3_3
     - Name: $v
       Entry: 7
-      Data: 568|AssetData, Assembly-CSharp
+      Data: 569|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword2_3_3
@@ -11910,7 +11931,7 @@ MonoBehaviour:
       Data: Sword2_Yellow
     - Name: $v
       Entry: 7
-      Data: 569|AssetData, Assembly-CSharp
+      Data: 570|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword2_Yellow
@@ -11931,7 +11952,7 @@ MonoBehaviour:
       Data: Sword3_1_3
     - Name: $v
       Entry: 7
-      Data: 570|AssetData, Assembly-CSharp
+      Data: 571|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword3_1_3
@@ -11952,7 +11973,7 @@ MonoBehaviour:
       Data: Sword3_Red
     - Name: $v
       Entry: 7
-      Data: 571|AssetData, Assembly-CSharp
+      Data: 572|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword3_Red
@@ -11973,7 +11994,7 @@ MonoBehaviour:
       Data: Sword4_Red
     - Name: $v
       Entry: 7
-      Data: 572|AssetData, Assembly-CSharp
+      Data: 573|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword4_Red
@@ -11994,7 +12015,7 @@ MonoBehaviour:
       Data: Sword5_3_2
     - Name: $v
       Entry: 7
-      Data: 573|AssetData, Assembly-CSharp
+      Data: 574|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword5_3_2
@@ -12015,7 +12036,7 @@ MonoBehaviour:
       Data: Sword5_Gold
     - Name: $v
       Entry: 7
-      Data: 574|AssetData, Assembly-CSharp
+      Data: 575|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword5_Gold
@@ -12036,7 +12057,7 @@ MonoBehaviour:
       Data: Sword6_Red
     - Name: $v
       Entry: 7
-      Data: 575|AssetData, Assembly-CSharp
+      Data: 576|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword6_Red
@@ -12057,7 +12078,7 @@ MonoBehaviour:
       Data: Sword7_Blue
     - Name: $v
       Entry: 7
-      Data: 576|AssetData, Assembly-CSharp
+      Data: 577|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword7_Blue
@@ -12078,7 +12099,7 @@ MonoBehaviour:
       Data: Sword8_Gold
     - Name: $v
       Entry: 7
-      Data: 577|AssetData, Assembly-CSharp
+      Data: 578|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword8_Gold
@@ -12099,7 +12120,7 @@ MonoBehaviour:
       Data: Sword9_Red
     - Name: $v
       Entry: 7
-      Data: 578|AssetData, Assembly-CSharp
+      Data: 579|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword9_Red
@@ -12120,7 +12141,7 @@ MonoBehaviour:
       Data: Sword10_Dark
     - Name: $v
       Entry: 7
-      Data: 579|AssetData, Assembly-CSharp
+      Data: 580|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword10_Dark
@@ -12141,7 +12162,7 @@ MonoBehaviour:
       Data: Sword12_Purple
     - Name: $v
       Entry: 7
-      Data: 580|AssetData, Assembly-CSharp
+      Data: 581|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword12_Purple
@@ -12162,7 +12183,7 @@ MonoBehaviour:
       Data: Sword13_Cyan
     - Name: $v
       Entry: 7
-      Data: 581|AssetData, Assembly-CSharp
+      Data: 582|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword13_Cyan
@@ -12183,7 +12204,7 @@ MonoBehaviour:
       Data: Sword14_Red
     - Name: $v
       Entry: 7
-      Data: 582|AssetData, Assembly-CSharp
+      Data: 583|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword14_Red
@@ -12204,7 +12225,7 @@ MonoBehaviour:
       Data: Sword15_Lava
     - Name: $v
       Entry: 7
-      Data: 583|AssetData, Assembly-CSharp
+      Data: 584|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
       Data: Sword15_Lava
@@ -12225,50 +12246,92 @@ MonoBehaviour:
       Data: 
     - Name: SpawnableAsset
       Entry: 7
-      Data: 584|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 585|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 4
     - Name: 
       Entry: 7
       Data: 
     - Name: $k
       Entry: 1
       Data: LassoArrow
-    - Name: $v
-      Entry: 7
-      Data: 585|AssetData, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: LassoArrow
-    - Name: path
-      Entry: 1
-      Data: 1234
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: VoidSphere
     - Name: $v
       Entry: 7
       Data: 586|AssetData, Assembly-CSharp
     - Name: name
       Entry: 1
+      Data: LassoArrow
+    - Name: path
+      Entry: 1
+      Data: 1234
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: VoidSphere
+    - Name: $v
+      Entry: 7
+      Data: 587|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
       Data: VoidSphere
     - Name: path
       Entry: 1
       Data: 1234
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: VirtualCamera
+    - Name: $v
+      Entry: 7
+      Data: 588|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: VirtualCamera
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/Virtual Camera.prefab
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tremors
+    - Name: $v
+      Entry: 7
+      Data: 589|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Tremors
+    - Name: path
+      Entry: 1
+      Data: Assets/Prefab/VFX/FX_Confetti_01.prefab
     - Name: 
       Entry: 8
       Data: 
@@ -12283,14 +12346,77 @@ MonoBehaviour:
       Data: 
     - Name: WeaponAnimationClipAsset
       Entry: 7
-      Data: 587|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 590|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9
       Data: 1
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blade
+    - Name: $v
+      Entry: 7
+      Data: 591|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Blade
+    - Name: path
+      Entry: 1
+      Data: Assets/Resource/Animator/AnimatorOverrideController/Blade.overrideController
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bow
+    - Name: $v
+      Entry: 7
+      Data: 592|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Bow
+    - Name: path
+      Entry: 1
+      Data: Assets/Resource/Animator/AnimatorOverrideController/Bow.overrideController
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Staff
+    - Name: $v
+      Entry: 7
+      Data: 593|AssetData, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Staff
+    - Name: path
+      Entry: 1
+      Data: Assets/Resource/Animator/AnimatorOverrideController/Staff.overrideController
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -12299,7 +12425,7 @@ MonoBehaviour:
       Data: 
     - Name: SkillAnimationClipAsset
       Entry: 7
-      Data: 588|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
+      Data: 594|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AssetData,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 9

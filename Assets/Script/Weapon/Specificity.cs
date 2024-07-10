@@ -1,28 +1,31 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 [Serializable]
 public class Specificity : Mediator
 {
+    [SerializeField]
     private List<ConditionEffectModule> _conditionEffectModules = new List<ConditionEffectModule>();
+    [TableList] 
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
     
-    public void InitData(SpecificityData archetypeData)
+    public void InitData(SpecificityData specificityData)
     {
-        if (archetypeData.recordDatas != null)
+        if (specificityData.recordDatas != null)
         {
-            foreach (var recordData in archetypeData.recordDatas)
+            foreach (var recordData in specificityData.recordDatas)
             {
                 RecordModule recordModule = new RecordModule();
                 recordModule.InitData(recordData, this);
                 _recordModules.Add(recordData.RecordName, recordModule);
             }
         }
-        if (archetypeData.conditionEffectDatas != null)
+        if (specificityData.conditionEffectDatas != null)
         {
-            foreach (var conditionEffectData in archetypeData.conditionEffectDatas)
+            foreach (var conditionEffectData in specificityData.conditionEffectDatas)
             {
                 ConditionEffectModule conditionEffectModule = new ConditionEffectModule();
                 conditionEffectModule.InitData(conditionEffectData, this);

@@ -1,12 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 [Serializable]
 public class Archetype : Mediator
 {
+    [SerializeField]
     private List<ConditionEffectModule> _conditionEffectModules = new List<ConditionEffectModule>();
+    [TableList] 
     private Dictionary<string, RecordModule> _recordModules = new Dictionary<string, RecordModule>();
 
     public void InitData(ArchetypeData archetypeData)

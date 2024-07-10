@@ -255,7 +255,19 @@ public class PlayerController : MonoBehaviour
     }
     public void OnAttack(InputAction.CallbackContext context)
     {
-        
+        if (context.started)
+        {
+            Animator.SetTrigger("IsAttack");
+            PlayerManager.Instance.HoldWeapon.ReceptionHandlerEvent(Trigger.HitEnemy);
+        }
+        else if (context.performed)
+        {
+            
+        }
+        else if (context.canceled)
+        {
+            
+        }
     }
     public void OnJump(InputAction.CallbackContext context)
     {
@@ -311,6 +323,7 @@ public class PlayerController : MonoBehaviour
             {
                 PlayerManager.Instance.SwapWeapon(WeaponIndexType.Secondary);
             }
+            PlayerManager.Instance.Player.WeaponHandler.SetActiveModel();
         }
     }
     #endregion

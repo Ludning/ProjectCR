@@ -50,48 +50,57 @@ public class EquipmentData
     #endregion
     
 
-    public void LoadData(List<string> dataList)
+    public void LoadData(Dictionary<int, Item> dataDictionary)
     {
-        string tempItemString = "(0|0|0|0)";
-        if(dataList.Count > 0)
-            MainWeapon.InitItemData(dataList[0]);
+        if (dataDictionary != null)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                switch (i)
+                {
+                    case 0:
+                        mainWeapon = dataDictionary.TryGetValue(i, out Item tempMainWeapon) ? tempMainWeapon : new Item();
+                        break;
+                    case 1:
+                        subWeapon = dataDictionary.TryGetValue(i, out Item TempSubWeapon) ? TempSubWeapon : new Item();
+                        break;
+                    case 2:
+                        armor = dataDictionary.TryGetValue(i, out Item tempArmor) ? tempArmor : new Item();
+                        break;
+                    case 3:
+                        accessories = dataDictionary.TryGetValue(i, out Item tempAccessories) ? tempAccessories : new Item();
+                        break;
+                }
+            }
+        }
         else
-            MainWeapon.InitItemData(tempItemString);
+        {
+            mainWeapon = new Item();
+            subWeapon = new Item();
+            armor = new Item();
+            accessories = new Item();
+        }
         
-        if(dataList.Count > 1)
-            SubWeapon.InitItemData(dataList[1]);
-        else
-            SubWeapon.InitItemData(tempItemString);
-        
-        if(dataList.Count > 2)
-            Armor.InitItemData(dataList[2]);
-        else
-            Armor.InitItemData(tempItemString);
-        
-        if(dataList.Count > 3)
-            Accessories.InitItemData(dataList[3]);
-        else
-            Accessories.InitItemData(tempItemString);
     }
 
-    public Item EquipItem(Item itemData, ItemSlotType slotType)
+    public Item EquipItem(Item itemData, EquipmentSlotType slotType)
     {
         Item prevItem = new Item();
         switch (slotType)
         {
-            case ItemSlotType.MainWeapon:
+            case EquipmentSlotType.MainWeapon:
                 if (mainWeapon.index != 0) prevItem = mainWeapon;
                 mainWeapon = itemData;
                 break;
-            case ItemSlotType.SubWeapon:
+            case EquipmentSlotType.SubWeapon:
                 if (subWeapon.index != 0) prevItem = subWeapon;
                 subWeapon = itemData;
                 break;
-            case ItemSlotType.Armor:
+            case EquipmentSlotType.Armor:
                 if (armor.index != 0) prevItem = armor;
                 armor = itemData;
                 break;
-            case ItemSlotType.Accessories:
+            case EquipmentSlotType.Accessories:
                 if (accessories.index != 0) prevItem = accessories;
                 accessories = itemData;
                 break;
@@ -100,17 +109,17 @@ public class EquipmentData
         return prevItem;
     }
 
-    public Item GetItemByType(ItemSlotType type)
+    public Item GetItemByType(EquipmentSlotType type)
     {
         switch (type)
         {
-            case ItemSlotType.MainWeapon:
+            case EquipmentSlotType.MainWeapon:
                 return MainWeapon;
-            case ItemSlotType.SubWeapon:
+            case EquipmentSlotType.SubWeapon:
                 return SubWeapon;
-            case ItemSlotType.Armor:
+            case EquipmentSlotType.Armor:
                 return Armor;
-            case ItemSlotType.Accessories:
+            case EquipmentSlotType.Accessories:
                 return Accessories;
         }
         return null;

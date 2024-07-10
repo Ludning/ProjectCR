@@ -37,7 +37,7 @@ public class ItemSlot : MonoBehaviour
         else if (_slotType == SlotType.Equipment)
         {
             EquipmentData equipmentData = PlayerManager.Instance.EquipmentDatas;
-            LoadSlotData(equipmentData.GetItemByType((ItemSlotType)_index).index);
+            LoadSlotData(equipmentData.GetItemByType((EquipmentSlotType)_index).index);
         }
     }
 

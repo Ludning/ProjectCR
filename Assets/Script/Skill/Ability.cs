@@ -47,6 +47,7 @@ public class Ability : Mediator
     {
         if (_recordModules.TryGetValue(name, out RecordModule recordModule))
         {
+            Debug.Log("AddRecordData");
             recordModule.RecordValue += value;
         }
     }

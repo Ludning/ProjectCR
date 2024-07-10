@@ -7,17 +7,18 @@ using Cysharp.Threading.Tasks;
 using Script.Util;
 using UnityEngine;
 
+[Serializable]
 public class RecordModule
 {
     private Mediator _mediator;
     
-    private string _recordName;
-    private int _recordValue;
-    private int _recordLimit;
-    private float _duration;
-    private int _recordResetValue;
-    private bool _noRecordDuration = false;
-    private bool _isRecordResetAll = false;
+    [SerializeField] private string _recordName;
+    [SerializeField] private int _recordValue;
+    [SerializeField] private int _recordLimit;
+    [SerializeField] private float _duration;
+    [SerializeField] private int _recordResetValue;
+    [SerializeField] private bool _noRecordDuration = false;
+    [SerializeField] private bool _isRecordResetAll = false;
 
     private bool isTaskRunning = false;
 
@@ -69,6 +70,7 @@ public class RecordModule
                     RecordValue = 0;
             }
 
+            Debug.Log("RecordUpdateDuration");
             Record_Message msg = new Record_Message()
             {
                 RecordName = _recordName,

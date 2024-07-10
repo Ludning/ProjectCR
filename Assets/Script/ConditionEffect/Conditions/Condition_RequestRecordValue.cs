@@ -47,7 +47,20 @@ public class Condition_RequestRecordValue : ConditionModule
         int data = DataRequest(_targetRecordName);
         if (data == int.MaxValue)
             return false;
-        
+
+        switch (_comparisonType)
+        {
+            case ComparisonType.More:
+                return (data >= _comparisonValue) ? true : false;
+            case ComparisonType.Over:
+                return (data > _comparisonValue) ? true : false;
+            case ComparisonType.Below:
+                return (data <= _comparisonValue) ? true : false;
+            case ComparisonType.Under:
+                return (data < _comparisonValue) ? true : false;
+            case ComparisonType.Same:
+                return (data == _comparisonValue) ? true : false;
+        }
         
         return true;
     }

@@ -12,8 +12,8 @@ public class WeaponHandler : MonoBehaviour
     [SerializeField, ReadOnly] private Transform LeftHand;
     [SerializeField, ReadOnly] private Transform RightHand;
     
-    [SerializeField, ReadOnly] GameObject PrimaryWeaponModel;
-    [SerializeField, ReadOnly] GameObject SubWeaponModel;
+    [SerializeField, ReadOnly] GameObject PrimaryWeaponModel = null;
+    [SerializeField, ReadOnly] GameObject SubWeaponModel = null;
 
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private GameObject _overrideProjectilePrefab = null;
@@ -51,26 +51,58 @@ public class WeaponHandler : MonoBehaviour
         }
     }
     #endregion
-    
+
+    public void SetActiveModel()
+    {
+        if(HoldWeaponModel!=null)
+            HoldWeaponModel.SetActive(true);
+        if(FreeWeaponModel!=null)
+            FreeWeaponModel.SetActive(false);
+        
+        switch (PlayerManager.Instance.CurrentWeaponIndex)
+        {
+            case WeaponIndexType.Primary:
+                OnInstallWeaponAnimation(PlayerManager.Instance.EquipmentDatas.MainWeapon);
+                break;
+            case WeaponIndexType.Secondary:
+                OnInstallWeaponAnimation(PlayerManager.Instance.EquipmentDatas.SubWeapon);
+                break;
+        }
+    }
     
     //무기를 인벤토리등에서 변경시
-    public void EquipmentIndexWeapon(Item item, ItemSlotType slotType)
+    public void EquipmentIndexWeapon(Item item, EquipmentSlotType slotType)
     {
         GameData data = DataManager.Instance.GetGameData();
         if (data.ItemData.TryGetValue(item.index, out ItemData itemData))
         {
+            if (itemData.index == 0)
+            {
+                switch (slotType)
+                {
+                    case EquipmentSlotType.MainWeapon:
+                        if(PrimaryWeaponModel != null)
+                            Destroy(PrimaryWeaponModel);
+                        break;
+                    case EquipmentSlotType.SubWeapon:
+                        if(SubWeaponModel != null)
+                            Destroy(SubWeaponModel);
+                        break;
+                }
+                return;
+            }
             GameObject weaponModelPrefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.WeaponAsset, itemData.prefabPathName);
             if (weaponModelPrefab == null)
                 return;
             GameObject weaponModel = Object.Instantiate(weaponModelPrefab, RightHand);
             switch (slotType)
             {
-                case ItemSlotType.MainWeapon:
+                case EquipmentSlotType.MainWeapon:
                     if(PrimaryWeaponModel != null)
                         Destroy(PrimaryWeaponModel);
                     PrimaryWeaponModel = weaponModel;
                     break;
-                case ItemSlotType.SubWeapon:
+                case EquipmentSlotType.SubWeapon:
                     if(SubWeaponModel != null)
                         Destroy(SubWeaponModel);
                     SubWeaponModel = weaponModel;
@@ -79,8 +111,20 @@ public class WeaponHandler : MonoBehaviour
         }
     }
     //무기 애니메이션 적용
-    private void OnInstallWeaponAnimation(Item item, ItemSlotType slotType)
+    private void OnInstallWeaponAnimation(Item item)
     {
+        if (item.index == 0)
+        {
+            
+        }
+        else
+        {
+            ItemData data = DataManager.Instance.GetGameData().ItemData[item.index];
+            
+            if(PlayerManager.Instance.Player != null)
+                PlayerManager.Instance.Player.animatorController.SetAnimationClipByWeaponType(StateType.Attack, data.weaponType);
+        }
+        
         //_animator = ;
         //animatorController.SetAnimationClipByWeaponType();
     }

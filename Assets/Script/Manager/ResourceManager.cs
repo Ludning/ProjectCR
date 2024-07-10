@@ -18,6 +18,8 @@ public class ResourceManager : SingleTon<ResourceManager>
     public T LoadResource<T>(AssetAddressType type, string addressKey)
     {
         string address = GetAddressFromDataManager(type, addressKey);
+        Debug.Log(type);
+        Debug.Log(addressKey);
         T resource = Addressables.LoadAssetAsync<T>(address).WaitForCompletion();
         if (resource == null)
             throw new System.NotImplementedException();

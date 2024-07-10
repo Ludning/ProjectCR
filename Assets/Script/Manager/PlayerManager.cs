@@ -1,7 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
+using Cysharp.Threading.Tasks;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
 public class PlayerManager : SingleTonMono<PlayerManager>
@@ -51,27 +55,53 @@ public class PlayerManager : SingleTonMono<PlayerManager>
     public InventoryData InventoryData => _inventoryData;
     public EquipmentData EquipmentDatas => _equipmentData;
     #endregion
+
+
+    public TMP_InputField InputField_Id;
+    public TMP_InputField InputField_Password;
     
-    
-    private void Awake()
+    public void OnClickLoginButton()
     {
-        LoadData();
+        Login(InputField_Id.text, InputField_Password.text).Forget();
+    }
+    public async UniTaskVoid Login(string identification, string password)
+    {
+        PlayerData playerData = await WepServerConnectionManager.Instance.RequestPlayerData(identification, password);
+        if (playerData == null)
+        {
+            return;
+        }
+        _identification = identification;
+        
+        Dictionary<int, Item> equipmentDictionary = await WepServerConnectionManager.Instance.RequestEquipmentData(identification);
+        
+        LoadData(playerData, equipmentDictionary);
     }
     
-    public void LoadData()
+    private void LoadData(PlayerData playerData, Dictionary<int, Item> equipmentDictionary)
     {
-        OnLoadPlayerData();
+        OnLoadPlayerData(playerData, equipmentDictionary);
+        
         if(_currentStats == null)
             _currentStats = new PlayerFinalStats();
         _currentStats.LoadData(_stats);
         _currentStats.InitPlayerStat();
 
-        
-        GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.CharacterAsset, "Character1");
+        Debug.Log(playerData.character);
+        GameObject prefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.CharacterAsset, playerData.character);
         GameObject playerObject = Instantiate(prefab);
         _player = playerObject.GetComponent<Player>();
         
         _player.OnLoadPlayer(_nickname, _stats.Level, _currentStats.Hp/(float)_currentStats.MaxHp);
+        
+        
+        GameObject vCamPrefab = ResourceManager.Instance.LoadResource<GameObject>(AssetAddressType.SpawnableAsset, "VirtualCamera");
+        GameObject vCam = Instantiate(vCamPrefab);
+        CinemachineVirtualCamera virtualCamera = vCam.GetComponent<CinemachineVirtualCamera>();
+        virtualCamera.Follow = playerObject.transform;
+        virtualCamera.LookAt = playerObject.transform;
+        
+        InitEquipmentData(_equipmentData);
     }
 
     public void OnDamage(int damageValue)
@@ -130,31 +160,18 @@ public class PlayerManager : SingleTonMono<PlayerManager>
 
 
     #region DataLoad
-    private void OnLoadPlayerData()
+    private void OnLoadPlayerData(PlayerData playerData, Dictionary<int, Item> equipmentDictionary)
     {
         _stats = new PlayerStats();
         _inventoryData = new InventoryData();
         _equipmentData = new EquipmentData();
-        _skillTreeData = new SkillTreeData();
+        //_skillTreeData = new SkillTreeData();
 
-        //네트워크에서 데이터를 가져와 초기화
-        //웹서버에 _identification 로 데이터를 받아옴
-        //TODO
-        TestPlayerData();
+        _nickname = playerData.nickname;
+        _stats.LoadPlayerStatsData(playerData.level);
+        _equipmentData.LoadData(equipmentDictionary);
+        //_skillTreeData.LoadData(playerData.ownedSkill_data, playerData.equipmentSkill_data);
 
-        InitEquipmentData(_equipmentData);
-    }
-    private void TestPlayerData()
-    {
-        //TODO
-        GameData gameData = DataManager.Instance.GetGameData();
-        PlayerData data = gameData.PlayerData["11"];//_identification];
-        
-        _nickname = data.nickname;
-        _stats.LoadPlayerStatsData(data, data.level);
-        _inventoryData.LoadData(data.inventory_data);
-        _equipmentData.LoadData(data.equipment_data);
-        _skillTreeData.LoadData(data.ownedSkill_data, data.equipmentSkill_data);
     }
     #endregion
     
@@ -209,43 +226,51 @@ public class PlayerManager : SingleTonMono<PlayerManager>
     }
     
     //장비 아이템 장착
-    public void SetEquipItem(Item item, ItemSlotType slotType)
+    public void SetEquipItem(Item item, EquipmentSlotType slotType)
     {
         _equipmentData.EquipItem(item, slotType);
         InstallEquipment(item, slotType);
     }
+
+    public async UniTask ReloadEquipment()
+    {
+        var data = await WepServerConnectionManager.Instance.RequestEquipmentData(_identification);
+        _equipmentData.LoadData(data);
+        InitEquipmentData(_equipmentData);
+    }
+
     //장비 데이터 초기화
     private void InitEquipmentData(EquipmentData data)
     {
-        InstallEquipment(data.MainWeapon, ItemSlotType.MainWeapon);
-        InstallEquipment(data.SubWeapon, ItemSlotType.SubWeapon);
-        InstallEquipment(data.Armor, ItemSlotType.Armor);
-        InstallEquipment(data.Accessories, ItemSlotType.Accessories);
+        InstallEquipment(data.MainWeapon, EquipmentSlotType.MainWeapon);
+        InstallEquipment(data.SubWeapon, EquipmentSlotType.SubWeapon);
+        InstallEquipment(data.Armor, EquipmentSlotType.Armor);
+        InstallEquipment(data.Accessories, EquipmentSlotType.Accessories);
     }
     //장비 활성화
-    private void InstallEquipment(Item item, ItemSlotType slotType)
+    private void InstallEquipment(Item item, EquipmentSlotType slotType)
     {
         switch (slotType)
         {
-            case ItemSlotType.MainWeapon:
+            case EquipmentSlotType.MainWeapon:
                 if (_primaryWeapon == null)
                     _primaryWeapon = new Equipment();
                 _primaryWeapon.UnInstall();
                 _primaryWeapon.Install(item);
                 break;
-            case ItemSlotType.SubWeapon:
+            case EquipmentSlotType.SubWeapon:
                 if (_subWeapon == null)
                     _subWeapon = new Equipment();
                 _subWeapon.UnInstall();
                 _subWeapon.Install(item);
                 break;
-            case ItemSlotType.Armor:
+            case EquipmentSlotType.Armor:
                 if (_armor == null)
                     _armor = new Equipment();
                 _armor.UnInstall();
                 _armor.Install(item);
                 break;
-            case ItemSlotType.Accessories:
+            case EquipmentSlotType.Accessories:
                 if (_accessories == null)
                     _accessories = new Equipment();
                 _accessories.UnInstall();

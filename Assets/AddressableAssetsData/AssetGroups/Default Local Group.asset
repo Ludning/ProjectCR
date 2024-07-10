@@ -2892,6 +2892,51 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62fa3d3a5f126e747b4c1e80467e21c3
+    m_Address: Assets/Prefab/Virtual Camera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5998bf319d17e584f83980fe31878f60
+    m_Address: Assets/Resource/Animation/Melee Warrior Animations/Animations/OneHanded/RightHand/1H-RH@Attack01.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e8eca5d455bead42afb720a6e1309c0
+    m_Address: Assets/Resource/Animation/Caster Mage Animations/Animations/Combat/Mage@Attack01.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0155645ad31e91478243f877e5da561
+    m_Address: Assets/Resource/Animation/Archer Animations/Animations/Combat/Archer@BowShot01.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e11d5abf0ab1aaf429e09aa637f0aad5
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Blade.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fd5585841d47f343b8dc49a91cb975e
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Bow.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e40fb6e9db0d344498076baf9c5f3dbe
+    m_Address: Assets/Resource/Animator/AnimatorOverrideController/Staff.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dc18f20454fb4746ae178eaf9e82e31
+    m_Address: Assets/Prefab/UI/GameScene/Element/Record.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef09e17c291aad94fb89e820c8c0d91c
+    m_Address: Assets/Prefab/VFX/FX_Confetti_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aec591e64c8d1764d82fade64fc165d9, type: 2}
   m_SchemaSet:

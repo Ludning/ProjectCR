@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -27,8 +28,15 @@ public class DroppableSlotUI : MonoBehaviour, IDropHandler
 			draggableItemUI.GetComponent<RectTransform>().position = rect.position;
 			ItemSlot.Item = draggableItemUI.GetComponent<ItemElement>();
 
-			WepServerConnectionManager.Instance.RequestItemSlotChange(prevSlot.SlotType, prevSlot.Index, ItemSlot.SlotType, ItemSlot.Index);
+			ReInstallData(prevSlot).Forget();
 		}
+	}
+
+	private async UniTask ReInstallData(ItemSlot prevSlot)
+	{
+		await WepServerConnectionManager.Instance.RequestItemSlotChange(PlayerManager.Instance.Identification, prevSlot.SlotType, prevSlot.Index, ItemSlot.SlotType, ItemSlot.Index);
+        await PlayerManager.Instance.ReloadEquipment();
+        PlayerManager.Instance.Player.OnLoadWeapon();
 	}
 }
 

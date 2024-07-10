@@ -11,21 +11,35 @@ public class InventoryData
     private int _inventorySize = 32;
     [SerializeField, ReadOnly]
     private Dictionary<int, Item> _itemDictionary = new Dictionary<int, Item>();
-    public Dictionary<int, Item> ItemDictionary => _itemDictionary;
-    public void LoadData(List<string> dataList)
+    public Dictionary<int, Item> ItemDictionary
     {
-        for (int i = 0; i < _inventorySize; i++)
+        get => _itemDictionary;
+        set
         {
-            if (dataList.Count <= i)
+            if (value != null)
             {
-                _itemDictionary[i] = new Item();
-                continue;
+                for (int i = 0; i < _inventorySize; i++)
+                {
+                    if (value.ContainsKey(i))
+                    {
+                        _itemDictionary[i] = value[i];
+                    }
+                    else
+                    {
+                        _itemDictionary[i] = new Item();
+                    }
+                }
             }
-
-            _itemDictionary[i] = new Item();
-            _itemDictionary[i].InitItemData(dataList[0]);
+            else
+            {
+                for (int i = 0; i < _inventorySize; i++)
+                {
+                    _itemDictionary[i] = new Item();
+                }
+            }
         }
     }
+
     public Item GetItemByType(int index)
     {
         return _itemDictionary.GetValueOrDefault(index);

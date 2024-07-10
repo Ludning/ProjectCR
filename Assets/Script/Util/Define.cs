@@ -30,9 +30,8 @@ public enum SlotType
     Inventory,
     Equipment,
 }
-public enum ItemSlotType
+public enum EquipmentSlotType
 {
-    None,
     MainWeapon,
     SubWeapon,
     Armor,
@@ -47,6 +46,7 @@ public enum ItemType
 }
 public enum EffectType
 {
+    AddRecordValue,
     SetRecordValue,
     IncreasedStat,
     SpawnObject,

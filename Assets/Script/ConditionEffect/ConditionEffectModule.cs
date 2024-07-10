@@ -1,18 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class ConditionEffectModule
 {
     private Mediator _mediator;
 
     //트리거 조건
+    [SerializeField]
     private Trigger _trigger;
 
     //컨디션 조건
+    [SerializeField]
     private List<ConditionModule> _conditionModules = new List<ConditionModule>();
 
     //효과
+    [SerializeField]
     private List<EffectModule> _effectModules = new List<EffectModule>();
 
 
@@ -68,6 +73,11 @@ public class ConditionEffectModule
 
     public void CheakTrigger(Trigger trigger)
     {
+        Debug.Log(trigger);
+        Debug.Log(_trigger);
+        Debug.Log(trigger & _trigger);
+        Debug.Log((trigger & _trigger) == _trigger);
+        Debug.Log(CheakCondition());
         if (((trigger & _trigger) == _trigger) && CheakCondition())
             InvokeEffect();
         else

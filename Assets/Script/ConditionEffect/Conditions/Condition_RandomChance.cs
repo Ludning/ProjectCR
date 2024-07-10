@@ -1,10 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
+[Serializable]
 public class Condition_RandomChance : ConditionModule
 {
+    [SerializeField]
     private int? _maxRange = null;
+    [SerializeField]
     private int? _chancePercent = null;
     public override void InitData(string conditionData, Mediator mediator)
     {

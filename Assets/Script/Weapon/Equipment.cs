@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class Equipment
 {
     [SerializeField, ReadOnly]
@@ -44,8 +45,8 @@ public class Equipment
 
     public void ReceptionHandlerEvent(Trigger trigger)
     {
-        _archetype.CheakTrigger(trigger);
-        _specificity.CheakTrigger(trigger);
+        _archetype?.CheakTrigger(trigger);
+        _specificity?.CheakTrigger(trigger);
     }
 
     #region WeaponLogic

@@ -80,29 +80,27 @@ public class PlayerStats : UnitStats
     }
     #endregion
 
-    public void LoadPlayerStatsData(PlayerData data, int level)
+    public void LoadPlayerStatsData(int level)
     {
         var levelStatDic = DataManager.Instance.GetGameData().LevelData;
 
-        if (levelStatDic.TryGetValue(data.level, out LevelData levelData) == false)
+        if (levelStatDic.TryGetValue(level, out LevelData levelData))
         {
-            levelData = levelStatDic[level];
+            Level = level;
+            MaxHp = levelData.maxHp;
+            Damage = levelData.damage;
+            Defense = levelData.defense;
+            ExpRequired = levelData.expRequired;
+        
+            MaxMp = 100;
+            Speed = 100;
+            CriticalChance = 30;
+            CriticalMultiplier = 150;
+            HpRegen = 0;
+            MpRegen = 0;
+        
+            Stagger = 100;
+            ProjectileSpeed = 100;
         }
-
-        Level = level;
-        MaxHp = levelData.maxHp;
-        Damage = levelData.damage;
-        Defense = levelData.defense;
-        ExpRequired = levelData.expRequired;
-        
-        MaxMp = 100;
-        Speed = 100;
-        CriticalChance = 30;
-        CriticalMultiplier = 150;
-        HpRegen = 0;
-        MpRegen = 0;
-        
-        Stagger = 100;
-        ProjectileSpeed = 100;
     }
 }

@@ -26,7 +26,6 @@ public class GameData : SerializedScriptableObject
     [TableList] public Dictionary<int, LevelData> LevelData;
     [TableList] public Dictionary<int, SkillData> SkillData;
     [TableList] public Dictionary<int, ItemData> ItemData;
-    [TableList] public Dictionary<string, PlayerData> PlayerData;
     [TableList] public Dictionary<string, MonsterData> MonsterData;
     [TableList] public Dictionary<int, ArchetypeData> ArchetypeData;
     [TableList] public Dictionary<int, SpecificityData> SpecificityData;

@@ -12,7 +12,7 @@ public class Player : MonoBehaviour, IDamageable
     
     [SerializeField] private Animator _animator;
     
-    [SerializeField] private AnimatorController animatorController;
+    public AnimatorController animatorController;
     [SerializeField] private PlayerInfoUIHandler playerInfoUIHandler;
     
     public WeaponHandler WeaponHandler;
@@ -52,6 +52,18 @@ public class Player : MonoBehaviour, IDamageable
             NickName = _nickName
         };
         MessageManager.Instance.InvokeCallback(msg);
+
+        OnLoadWeapon();
+    }
+
+    public void OnLoadWeapon()
+    {
+        var data = PlayerManager.Instance.EquipmentDatas;
+
+        WeaponHandler.EquipmentIndexWeapon(data.MainWeapon, EquipmentSlotType.MainWeapon);
+        WeaponHandler.EquipmentIndexWeapon(data.SubWeapon, EquipmentSlotType.SubWeapon);
+
+        WeaponHandler.SetActiveModel();
     }
 
     public void OnDamage(int damageValue)

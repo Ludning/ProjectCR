@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using UnityEngine;
 
+[Serializable]
 public abstract class EffectModule
 {
     public abstract void InitData(string effectData, Mediator mediator);

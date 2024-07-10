@@ -19,10 +19,10 @@ public class Equipment_View : ViewBase<Equipment_ViewModel, Equipment_Message>
     {
         if (e.PropertyName == "EquipmentData")
         {
-            _mainWeaponSlot.LoadData(SlotType.Equipment, 1);
-            _subWeaponSlot.LoadData(SlotType.Equipment, 2);
-            _armorSlot.LoadData(SlotType.Equipment, 3);
-            _accessoriesSlot.LoadData(SlotType.Equipment, 4);
+            _mainWeaponSlot.LoadData(SlotType.Equipment, 0);
+            _subWeaponSlot.LoadData(SlotType.Equipment, 1);
+            _armorSlot.LoadData(SlotType.Equipment, 2);
+            _accessoriesSlot.LoadData(SlotType.Equipment, 3);
         }
     }
     protected override void OnEnableExpansion()

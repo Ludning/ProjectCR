@@ -57,7 +57,7 @@ MonoBehaviour:
   _level: 0
   _hpRatio: 0
   _animator: {fileID: 4466773179763302881}
-  animatorController: {fileID: 0}
+  animatorController: {fileID: 3744420927662298067}
   playerInfoUIHandler: {fileID: 3126378817611722995}
   WeaponHandler: {fileID: 6204098839989553099}
 --- !u!114 &2588813663626555826
@@ -122,7 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841f4f3e11236644fb64a1e293390d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnitAnimator: {fileID: 4466773179763302881}
+  animator: {fileID: 4466773179763302881}
+  originalController: {fileID: 9100000, guid: d6c8429d5a329dd4fa63a4d5cc554fa1, type: 2}
   overrideController: {fileID: 0}
 --- !u!114 &6204098839989553099
 MonoBehaviour:
