@@ -19,7 +19,6 @@ public class AttackPattern : Action
     
     public override TaskStatus OnUpdate()
     {
-        Debug.Log($"공격패턴 시전! {attackPattern}");
         return TaskStatus.Success;
         return TaskStatus.Running;
     }

@@ -257,12 +257,22 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            Animator.SetTrigger("IsAttack");
-            PlayerManager.Instance.HoldWeapon.ReceptionHandlerEvent(Trigger.HitEnemy);
+            
         }
         else if (context.performed)
         {
-            
+            AnimatorStateInfo animatorStateInfo = Animator.GetCurrentAnimatorStateInfo(1);
+            if (animatorStateInfo.IsName("Attack") == true)
+                return;
+                
+            Animator.SetTrigger("IsAttack");
+            if(_animals.Count != 0)
+                PlayerManager.Instance.HoldWeapon.ReceptionHandlerEvent(Trigger.HitEnemy);
+            foreach (var animal in _animals)
+            {
+                Debug.Log("Hit");
+                animal.OnDamage(PlayerManager.Instance.GetDamage());
+            }
         }
         else if (context.canceled)
         {
@@ -327,5 +337,19 @@ public class PlayerController : MonoBehaviour
         }
     }
     #endregion
-    
+
+    private List<Animal> _animals = new List<Animal>();
+    private void OnTriggerEnter(Collider other)
+    {
+        Animal animal = other.GetComponent<Animal>();
+        if(animal!=null)
+            _animals.Add(animal);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Animal animal = other.GetComponent<Animal>();
+        if(animal!=null)
+            _animals.Remove(animal);
+    }
 }

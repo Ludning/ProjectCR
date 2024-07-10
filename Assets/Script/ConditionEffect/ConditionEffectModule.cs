@@ -60,6 +60,7 @@ public class ConditionEffectModule
                     "PushTarger" => new Effect_PushTarger(),
                     "SetDebuffTarget" => new Effect_SetDebuffTarget(),
                     "SetRecordValue" => new Effect_SetRecordValue(),
+                    "SetRecordValueByReference" => new Effect_SetRecordValueByReference(),
                     "SpawnObject" => new Effect_SpawnObject(),
                     _ => null
                 };

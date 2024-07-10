@@ -211,6 +211,9 @@ GameObject:
   - component: {fileID: 4039141539066896957}
   - component: {fileID: 6390696712332891434}
   - component: {fileID: 4320080850234171038}
+  - component: {fileID: 4064140503360877591}
+  - component: {fileID: 2035344661132711734}
+  - component: {fileID: 829826324950354361}
   m_Layer: 0
   m_Name: Alpaca
   m_TagString: Untagged
@@ -269,8 +272,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 656959eb4981ea346ba5bf66f50c8c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _monsterName: 
+  _stats:
+    _level: 0
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+  _currentStats:
+    _maxHp: 0
+    _damage: 0
+    _defense: 0
+    _speed: 0
+    _hp: 0
   DetectTarget: {fileID: 2096047779302566286}
   _animator: {fileID: 7745149345189837222}
+  bt: {fileID: 4039141539066896957}
 --- !u!114 &4039141539066896957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +376,92 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!54 &4064140503360877591
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745149345199213156}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2035344661132711734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745149345199213156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9562b8ee746e9904c8e9f676dcd77676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headUIInterval: 3
+  minScale: 0.5
+  maxScale: 3
+  minDistance: 5
+  maxDistance: 50
+--- !u!23 &829826324950354361
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745149345199213156}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7745149345199213158
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +472,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7745149345199380036}
   - component: {fileID: 7745149345185548134}
-  - component: {fileID: 5491170207791764183}
   m_Layer: 0
   m_Name: Alpaca_LOD1
   m_TagString: Untagged
@@ -455,23 +557,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0.0018298007, z: 0.015405156}
     m_Extent: {x: 0.006187957, y: 0.013432022, z: 0.015405154}
   m_DirtyAABB: 0
---- !u!114 &5491170207791764183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7745149345199213158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9562b8ee746e9904c8e9f676dcd77676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headUIInterval: 3
-  minScale: 0.5
-  maxScale: 3
-  minDistance: 5
-  maxDistance: 50
 --- !u!1 &7745149345199213160
 GameObject:
   m_ObjectHideFlags: 0

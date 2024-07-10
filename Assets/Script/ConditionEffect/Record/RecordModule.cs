@@ -31,6 +31,8 @@ public class RecordModule
             if (_recordValue != value)
             {
                 _recordValue = value;
+                if (_recordValue > _recordLimit)
+                    _recordValue = _recordLimit;
                 OnValueChange();
             }
         }
@@ -99,6 +101,13 @@ public class RecordModule
         }
         if (_noRecordDuration == true)
             return;
+        
+        Record_Message msg = new Record_Message()
+        {
+            RecordName = _recordName,
+            RecordValue = _recordValue,
+        };
+        MessageManager.Instance.InvokeCallback(msg);
         
         if(isTaskRunning == false)
             UpdateDuration();

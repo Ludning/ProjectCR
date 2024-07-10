@@ -51,6 +51,23 @@ public class PlayerManager : SingleTonMono<PlayerManager>
                 _player.Level = value;
         }
     }
+
+    public int GetDamage()
+    {
+        return _currentStats.Damage;
+    }
+    public string GetPlayerStatText()
+    {
+        return $"MaxHp : {_currentStats.MaxHp}" +
+               $"MaxMp : {_currentStats.MaxMp}" +
+               $"CriticalChance : {_currentStats.CriticalChance}" +
+               $"CriticalMultiplier : {_currentStats.CriticalMultiplier}" +
+               $"Stagger : {_currentStats.Stagger}" +
+               $"HpRegen : {_currentStats.HpRegen}" +
+               $"MpRegen : {_currentStats.MpRegen}" +
+               $"Damage : {_currentStats.Damage}" +
+               $"Speed : {_currentStats.Speed}";
+    }
     
     public InventoryData InventoryData => _inventoryData;
     public EquipmentData EquipmentDatas => _equipmentData;

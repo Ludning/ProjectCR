@@ -50,7 +50,6 @@ public class TrackingTarget : Action
             return TaskStatus.Success;
         }
 
-        Debug.Log("추적중");
         SetDestination(Target.Value.position);
         return TaskStatus.Running;
     }

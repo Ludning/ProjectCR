@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8063013725807695222}
   - component: {fileID: 3126378817611722995}
   - component: {fileID: 5846918398430572555}
+  - component: {fileID: 7292998445415227478}
   m_Layer: 7
   m_Name: Character1
   m_TagString: Untagged
@@ -123,8 +124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4466773179763302881}
-  originalController: {fileID: 9100000, guid: d6c8429d5a329dd4fa63a4d5cc554fa1, type: 2}
-  overrideController: {fileID: 0}
 --- !u!114 &6204098839989553099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +228,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &7292998445415227478
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325855717637870146}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 1, z: 0.8}
 --- !u!1001 &1589099441032636289
 PrefabInstance:
   m_ObjectHideFlags: 0

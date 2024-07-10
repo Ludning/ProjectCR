@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using BehaviorDesigner.Runtime;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
@@ -18,6 +19,8 @@ public class Animal : MonoBehaviour, IDamageable
     public DetectTarget DetectTarget;
 
     [SerializeField] private Animator _animator;
+
+    [SerializeField] private BehaviorTree bt;
 
     #region Monobehavior Function
     private void Awake()
@@ -48,6 +51,9 @@ public class Animal : MonoBehaviour, IDamageable
     public void OnDie()
     {
         Debug.Log($"으앙{gameObject.name}주금");
+        
+        var ownerStateVariable = (SharedUnitState)bt.GetVariable("OwnerState");
+        ownerStateVariable.Value = UnitState.Die;
     }
 
     #region Data
