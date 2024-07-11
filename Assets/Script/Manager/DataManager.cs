@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public class DataManager : SingleTon<DataManager>
 {
@@ -17,7 +18,7 @@ public class DataManager : SingleTon<DataManager>
         get
         {
             if (assetAddressData == null)
-                assetAddressData = AssetDatabase.LoadAssetAtPath<AssetAddressData>(addressAssetPath);
+                assetAddressData = Addressables.LoadAssetAsync<AssetAddressData>(addressAssetPath).WaitForCompletion();//AssetDatabase.LoadAssetAtPath<AssetAddressData>(addressAssetPath);
             return assetAddressData;
         }
     }
@@ -26,7 +27,7 @@ public class DataManager : SingleTon<DataManager>
         get
         {
             if (gameData == null)
-                gameData = AssetDatabase.LoadAssetAtPath<GameData>(dataAssetPath);
+                gameData = Addressables.LoadAssetAsync<GameData>(dataAssetPath).WaitForCompletion();//AssetDatabase.LoadAssetAtPath<GameData>(dataAssetPath);
             return gameData;
         }
     }

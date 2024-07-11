@@ -2937,6 +2937,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c58d9553b893f6248ae67d1658d087d4
+    m_Address: Assets/Resource/Data/GameData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55ceefc49ae10e41970339ac28887f2
+    m_Address: Assets/Resource/Data/AssetAddress.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aec591e64c8d1764d82fade64fc165d9, type: 2}
   m_SchemaSet:
