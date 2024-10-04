@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1189093748640499711}
   - component: {fileID: 1421603215494239900}
   m_Layer: 5
-  m_Name: ServerMember
+  m_Name: ServerLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 8477097231963350459}
   - component: {fileID: 3566108673078351188}
   - component: {fileID: 1551503514199917737}
+  - component: {fileID: -7281749745517728912}
   m_Layer: 5
   m_Name: ServerRoomPanel
   m_TagString: Untagged
@@ -213,6 +214,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-7281749745517728912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794193753573003740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912219eb726910a489a41287b3955041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundImage: {fileID: 1551503514199917737}
+  TMP_ServerName: {fileID: 5999019572968290911}
+  TMP_ServerOwner: {fileID: 4742444687117721257}
+  TMP_ServerLimit: {fileID: 1421603215494239900}
 --- !u!1 &8056266721194937817
 GameObject:
   m_ObjectHideFlags: 0

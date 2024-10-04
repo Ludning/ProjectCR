@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test/PlayerBattle.unity
     guid: 3462c65b4011b974fa78c1d7653bb1bc
+  - enabled: 1
+    path: Assets/Scenes/Offline.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Online.unity
+    guid: 588858b2f1eb4014cb08011c57dc5285
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 8b56d3bc24c3deb4e8db3d83512e89b6,
       type: 2}

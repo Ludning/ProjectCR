@@ -1,5 +1,12 @@
 using System;
 
+public enum DifficultyLevelType
+{
+    EASY,
+    NORMAL,
+    HARD,
+    HELL,
+}
 
 #region Weapon
 
